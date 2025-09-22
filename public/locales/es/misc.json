@@ -1,0 +1,38 @@
+{
+
+  "slogan": {
+    "main": "Un Corazón, Una Mano"
+  },
+  "footer": {
+    "mission": "Cultivando esperanza, nutriendo comunidades, creando futuros sostenibles.",
+    "rights": "Todos los derechos reservados.",
+    "links": "Enlaces Rápidos",
+    "contact": "Información de Contacto",
+    "newsletter": {
+      "title": "Suscripción al Boletín",
+      "subtitle": "Mantente informado sobre nuestras acciones e impacto más recientes",
+      "placeholder": "Ingresa tu correo electrónico",
+      "subscribe": "Suscribirse"
+    },
+    "success": "¡Gracias por suscribirte!",
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345"
+  },
+  "blog": {
+    "title": "Últimas Noticias",
+    "subtitle": "Mantente actualizado con nuestras últimas historias de impacto y noticias comunitarias",
+    "featured": "Historia Destacada",
+    "readFull": "Leer Historia Completa",
+    "readMore": "Leer Más",
+    "newsletter": {
+      "title": "Mantente Actualizado",
+      "subtitle": "Suscríbete a nuestro boletín para las últimas actualizaciones",
+      "placeholder": "Ingresa tu correo electrónico",
+      "subscribe": "Suscribirse"
+    }
+  },
+  "language": "es",
+  "lastUpdated": "2025-09-20T15:24:57.803Z"
+
+}

@@ -1,0 +1,13 @@
+{
+  "information": {
+    "featured": "Featured Content",
+    "readFull": "Read Full Article",
+    "readMore": "Read More",
+    "newsletter": {
+      "title": "Stay Informed",
+      "subtitle": "Get the latest updates and insights",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  }
+}

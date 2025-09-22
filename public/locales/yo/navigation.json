@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Ilé",
+    "about": {
+      "history": "Ìtàn",
+      "missions": "Àwọn Ète",
+      "organizations": "Àwọn Àjọ",
+      "regions": "Àwọn Àgbègbè",
+      "localGroups": "Àwọn Ẹgbẹ́ Àdúgbò",
+      "partnerNetworks": "Àwọn Nẹ́tíwọ̀ọ̀kì Ajọṣepọ̀",
+      "financialTransparency": "Ìṣípayá Ìṣòwò"
+    },
+    "aboutTitle": "Nípa",
+    "actions": "Àwọn Iṣẹ́ Wa",
+    "information": {
+      "title": "Ìròyìn",
+      "agenda": "Kàlẹ́ńdà",
+      "advertising": "Ìpolówó",
+      "resources": "Àwọn Ohun Àmúṣẹ",
+      "press": "Àgbègbè Tẹ",
+      "podcast": "Podcast",
+      "analysis": "Àyẹ̀wò",
+      "faq": "FAQ"
+    },
+    "informationTitle": "Ìròyìn",
+    "act": {
+      "title": "Gbé Ìgbésẹ̀",
+      "volunteering": "Iṣẹ́ Àyọ̀ọ̀fẹ́",
+      "campaigns": "Àwọn Ìpolongo Wa",
+      "training": "Ìdánilẹ́kọ̀ọ́",
+      "jobs": "Àwọn Àǹfààní Iṣẹ́",
+      "partners": "Àwọn Alájọṣepọ̀",
+      "legacy": "Ìní",
+      "lifeInsurance": "Ìdánilẹ́kọ̀ọ́ Ìlera Ayé",
+      "donation": "Ọrẹ"
+    },
+    "actTitle": "Gbé Ìgbésẹ̀",
+    "donate": "Ṣe Ọrẹ",
+    "search": "Ṣe Ìwádìí..."
+  },
+  "footer": {
+    "mission": "Tí ń gbin ìrètí, tí ń tọ́ àwọn agbègbè, tí ń ṣẹ̀dá ọjọ́ ọ̀la tí ń pẹ́ títí.",
+    "links": "Àwọn Ìtọ́ka Yíyára",
+    "contact": "Ìròyìn Àkànṣe",
+    "newsletter": {
+      "title": "Àṣẹ Ìbẹ̀rẹ̀ Ìwé Ìròyìn",
+      "subtitle": "Dúró ní ìmọ̀ nípa àwọn iṣẹ́ àti ipá wa tuntun",
+      "placeholder": "Àdírẹ́sì í-meèlì rẹ",
+      "subscribe": "Ṣe Àṣẹ Ìbẹ̀rẹ̀",
+      "success": "Ẹ ṣé fún yíyanṣẹ!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345",
+    "rights": "Gbogbo ẹ̀tọ́ ti pàmọ́."
+  }
+}

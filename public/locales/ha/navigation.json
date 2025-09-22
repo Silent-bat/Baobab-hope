@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Gida",
+    "about": {
+      "history": "Tarihi",
+      "missions": "Manufa",
+      "organizations": "Ƙungiyoyi",
+      "regions": "Yankuna",
+      "localGroups": "Ƙungiyoyin Gida",
+      "partnerNetworks": "Hanyoyin Abokan Hulɗa",
+      "financialTransparency": "Bayyana Kuɗi"
+    },
+    "aboutTitle": "Game da",
+    "actions": "Ayyukanmu",
+    "information": {
+      "title": "Bayani",
+      "agenda": "Kalanda",
+      "advertising": "Talla",
+      "resources": "Albarkatu",
+      "press": "Yankin Jarida",
+      "podcast": "Podcast",
+      "analysis": "Nazari",
+      "faq": "FAQ"
+    },
+    "informationTitle": "Bayani",
+    "act": {
+      "title": "Yi Aiki",
+      "volunteering": "Sa Kai",
+      "campaigns": "Yaƙin Neman Tallafi",
+      "training": "Horarwa",
+      "jobs": "Damarmakin Aiki",
+      "partners": "Abokan Hulɗa",
+      "legacy": "Gada",
+      "lifeInsurance": "Inshorar Rayuwa",
+      "donation": "Gudummawa"
+    },
+    "actTitle": "Yi Aiki",
+    "donate": "Ba da Gudummawa",
+    "search": "Bincika..."
+  },
+  "footer": {
+    "mission": "Haɓaka bege, haɓaka al'ummomi, samar da makoma mai dorewa.",
+    "links": "Hanyoyin Saurin",
+    "contact": "Bayanan Tuntuɓi",
+    "newsletter": {
+      "title": "Rijistar Wasiƙa",
+      "subtitle": "Tsaya da masaniya game da ayyukanmu da tasirinmu na baya-bayan nan",
+      "placeholder": "Adireshin imel ɗinku",
+      "subscribe": "Yi Rijista",
+      "success": "Na gode da yin rijista!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345",
+    "rights": "Duk haƙƙin mallaka sun kare."
+  }
+}

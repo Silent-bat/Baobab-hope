@@ -1,0 +1,257 @@
+{
+  "home": {
+    "title": "Inye Ike Site Na Mmụta",
+    "subtitle": "Iwulite Ọdịnihu Na-enwu Gbaa"
+  },
+  "environment": {
+    "title": "Ichebe Ụwa Anyị",
+    "subtitle": "Nchekwa Gburugburu Ebe Obibi",
+    "description": "Imekọ ihe omume na-adigide na mbọ nchekwa iji chebe usoro okike maka ọgbọ ndị na-abịa, ebe anyị na-enye obodo ndị obodo ike.",
+    "cta": "Chọpụta Mmetụta Anyị"
+  },
+  "healthcare": {
+    "title": "Nlekọta Ahụike Maka Mmadụ Niile",
+    "subtitle": "Ọdịmma Obodo",
+    "description": "Inye ọrụ ahụike dị mkpa na agụmakwụkwọ ahụike na obodo ndị na-enweghị ọrụ, na-ahụ na onye ọ bụla nwere ike ịnweta nlekọta ahụike dị mma.",
+    "cta": "Lee Ọrụ Ahụike"
+  },
+  "impact": {
+    "title": "Mmetụta Anyị Na-eto Eto",
+    "people": "Ndụ Agbanwere",
+    "countries": "Mba Erutela"
+  },
+  "stories": {
+    "title": "Akụkọ Mmetụta Anyị",
+    "subtitle": "Chọpụta ka anyị si emepụta mgbanwe na-adigide na obodo niile n'ụwa"
+  },
+  "cta": {
+    "title": "Ị Dị Njikere ỊKụ Mkpụrụ Nke Mgbanwe?",
+    "subtitle": "Soro ndị nnọchiteanya mgbanwe anyị na-eto eto wee nyere anyị aka ịzụlite olileanya na obodo ndị kacha chọọ ya. Ntinye aka ọ bụla, n'agbanyeghị nha ya, na-emepụta ebili mmiri nke mgbanwe dị mma.",
+    "learn": "Chọpụta Akụkọ Anyị"
+  },
+  "about": {
+    "title": "Maka BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Dị ka nnukwu osisi baobab, anyị kwenyere na mgbọrọgwụ miri emi, uto siri ike, na mmetụta na-adịgide adịgide."
+    },
+    "mission": {
+      "badge": "Ebumnuche Anyị",
+      "title": "Ọrụ Anyị",
+      "text": "Ịzụlite uto na-adigide na obodo site na mmụta, inye ike, na njikwa gburugburu ebe obibi, na-emepụta mgbanwe dị mma na-adịgide adịgide nke na-agụnye ọgbọ.",
+      "description": "Kemgbe e guzobere anyị na 2020, anyị ewepụtala onwe anyị iji mepụta ngwọta na-adigide nke na-edozi mgbọrọgwụ nke ịda ogbenye, enweghị nhatanha, na mmebi gburugburu ebe obibi."
+    },
+    "values": {
+      "badge": "Ihe Na-akpali Anyị",
+      "title": "Ụkpụrụ Ndị bụ Isi Anyị",
+      "subtitle": "Ụkpụrụ ndị bụ isi anyị na-eduzi mkpebi ọ bụla anyị na-eme na omume ọ bụla anyị na-eme na ọrụ nke ọrụ anyị.",
+      "community": "Obodo Mbụ",
+      "transparency": "Imegharị Anya",
+      "empowerment": "Inye Ike",
+      "growthDescription": "Anyị kwenyere na ịzụlite ngwọta na-adigide ogologo oge nke na-esiwanye ike ka oge na-aga, dị ka osisi baobab.",
+      "communityDescription": "Obodo dị n'etiti ihe niile anyị na-eme. Anyị na-ege ntị, na-amụ ihe, ma na-arụkọ ọrụ ọnụ iji mepụta mgbanwe nwere isi.",
+      "transparencyDescription": "Anyị na-edobe nghọta zuru oke na arụmọrụ anyị, ego anyị, na mmetụta anyị iji wulite ntụkwasị obi na-adịgide adịgide na ndị na-akwado anyị.",
+      "empowermentDescription": "Anyị na-enye ndị mmadụ n'otu n'otu na obodo ngwaọrụ, ihe ọmụma, na akụ na ụba ha chọrọ iji nwee ọganihu n'onwe ha."
+    },
+    "timeline": {
+      "badge": "Njem Anyị",
+      "title": "Na-eto Eto Kemgbe 2020",
+      "subtitle": "Site na mmalite anyị dị umeala n'obi ruo mmetụta zuru ụwa ọnụ, lee ka BAOBAB HOPE si eto ma gbanwee.",
+      "milestone1": {
+        "description": "Malitere na ọhụụ iji mepụta mgbanwe na-adigide"
+      },
+      "milestone2": {
+        "event": "Mmemme Mmụta Mbụ",
+        "description": "Malitere mmemme ịgụ akwụkwọ na obodo 3"
+      },
+      "milestone3": {
+        "event": "Elekwasị Anyụfe Gburugburu Ebe Obibi",
+        "description": "Gbasaa iji tinye ọrụ nchekwa na nkwado"
+      },
+      "milestone4": {
+        "event": "Atụmatụ Ahụike",
+        "description": "Webatara ụlọọgwụ na-agagharị agagharị na agụmakwụkwọ ahụike"
+      },
+      "milestone5": {
+        "event": "Mgbasawanye Ụwa Niile",
+        "description": "Na-arụ ọrụ ugbu a na mba 18 na kọntinent 4"
+      }
+    },
+    "impact": {
+      "title": "Mmetụta Anyị Na-eto Eto",
+      "subtitle": "Ọnụọgụ na-akọ akụkọ nke ndụ agbanwere na obodo enyere ike.",
+      "livesTransformed": "Ndụ Agbanwere",
+      "activeProjects": "Ọrụ Na-arụ Ọrụ",
+      "countriesReached": "Mba Erutela",
+      "volunteers": "Ndị ọrụ afọ ofufo"
+    },
+    "team": {
+      "badge": "Zute Ndị Otú Anyị",
+      "title": "Ndị Nọ N'azụ Ọrụ",
+      "subtitle": "Zute ndị mmadụ raara onwe ha nye na-edu nzukọ anyị ma na-akwali ọrụ anyị n'ihu.",
+      "member1": {},
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Onye nduzi mmemme",
+        "bio": "Ọkachamara mmụta na-elekwasị anya na mmemme mmụta nke obodo na-edu"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Onye njikwa ọrụ",
+        "bio": "Onye nlekọta ahụike nwere mmasị na nlekọta ahụike enwere ike ịnweta"
+      }
+    },
+    "history": {
+      "title": "Akụkọ Ihe Mere Eme Anyị",
+      "subtitle": "Njem BAOBAB HOPE site na echiche dị nta ruo mmegharị ụwa niile",
+      "founding": {
+        "title": "Mmalite nke Olileanya",
+        "description": "E guzobere BAOBAB HOPE na 2020 na ọhụụ dị mfe mana dị ike: imepụta mgbanwe na-adigide na obodo niile n'ụwa."
+      },
+      "growth": {
+        "title": "Na-agbanye Mgbọrọgwụ",
+        "description": "Site na mmalite anyị dị umeala n'obi, anyị etoola iji jee ozi obodo na mba 18, na-anọgide na-eguzosi ike n'ihe na ụkpụrụ ndị bụ isi anyị."
+      },
+      "impact": {
+        "title": "Na-emepụta Mmetụta",
+        "description": "Taa, anyị agbanweela ihe karịrị ndụ 75,000 site na mmemme mmụta, ahụike, na gburugburu ebe obibi anyị."
+      },
+      "cta": {
+        "title": "Bụrụ Akụkụ nke Akụkọ Ihe Mere Eme Anyị",
+        "subtitle": "Soro puku kwuru puku ndị ọrụ afọ ofufo na ndị na-akwado na-enyere anyị aka ide akụkụ na-esote nke olileanya."
+      }
+    }
+  },
+  "projects": {
+    "title": "Ọrụ Anyị",
+    "subtitle": "Chọpụta atụmatụ mgbanwe na-emepụta mgbanwe na-adigide na obodo niile n'ụwa.",
+    "education": {
+      "title": "Mmụta Na Ịgụ Akwụkwọ",
+      "description": "Iwulite ntọala mmụta na-enye obodo ike ịga nke ọma na ito eto n'ụzọ na-adigide."
+    },
+    "environment": {
+      "title": "Nchekwa Gburugburu Ebe Obibi",
+      "description": "Ichebe na iweghachi usoro okike ebe anyị na-akụziri obodo ndị obodo omume na-adigide."
+    },
+    "healthcare": {
+      "title": "Ahụike Obodo",
+      "description": "Inye ọrụ ahụike dị mkpa na agụmakwụkwọ ahụike na obodo ndị na-enweghị ọrụ."
+    },
+    "water": {
+      "title": "Ịnweta Mmiri Dị Ọcha",
+      "description": "Iwulite usoro mmiri na-adigide na ịkụziri omume nchekwa mmiri."
+    },
+    "view": "Lee Nkọwa",
+    "learn": "Mụtakwuo",
+    "explore": "Nyochaa Ọrụ",
+    "impact": {
+      "title": "Mmetụta Anyị",
+      "subtitle": "Lee ọdịiche anyị na-emekọ ihe ọnụ"
+    },
+    "cta": {
+      "title": "Soro Ọrụ Anyị",
+      "subtitle": "Ntinye aka ọ bụla na-eme ihe dị iche",
+      "support": "Kwado Ọrụ Anyị",
+      "involved": "Tinye Aka"
+    }
+  },
+  "blog": {
+    "title": "Nọgide Na-emelite",
+    "subtitle": "Debanye aha na akwụkwọ ozi anyị maka mmelite kacha ọhụrụ"
+  },
+  "information": {
+    "title": "Ebe Nchekwa Ozi",
+    "subtitle": "Nweta akụrụngwa, akụkọ, na ozi gbasara ọrụ na mmetụta anyị",
+    "featured": "Ihe Ndị A Họpụtara",
+    "readFull": "Gụọ Akụkọ Zuru Ezu",
+    "readMore": "Gụọkwuo",
+    "newsletter": {
+      "title": "Nọgide Na-ama Ihe",
+      "subtitle": "Nweta mmelite na ozi kacha ọhụrụ",
+      "placeholder": "Tinye email gị",
+      "subscribe": "Debanye Aha"
+    }
+  },
+  "contact": {
+    "title": "Kpọtụrụ Anyị",
+    "subtitle": "Kpọtụrụ anyị. Anyị ga-anụ ụtọ ịnụ site n'aka gị.",
+    "hero": {
+      "subtitle": "Anyị nọ ebe a iji nyere aka na ịza ajụjụ ọ bụla ị nwere ike inwe"
+    },
+    "name": "Aha Zuru Ezu",
+    "subject": "Isiokwu",
+    "message": "Ozi",
+    "send": "Zipu Ozi"
+  },
+  "info": {
+    "title": "Ozi Kpọtụrụ",
+    "email": {
+      "title": "Email"
+    },
+    "phone": {
+      "title": "Ekwentị"
+    },
+    "address": {
+      "title": "Adreesị"
+    },
+    "hours": {
+      "title": "Oge Ọrụ",
+      "monday": "Mọnde - Fraịde: 9:00 - 18:00",
+      "saturday": "Satọde: 10:00 - 16:00",
+      "sunday": "Sọnde: Emechiri"
+    }
+  },
+  "help": {
+    "title": "Kedu Ka Anyị Ga-esi Nyere Gị Aka?",
+    "volunteer": {
+      "title": "Bụrụ Onye Ọrụ Afọ Ofufo",
+      "description": "Soro obodo ndị ọrụ afọ ofufo anyị na-emepụta ihe dị iche"
+    },
+    "partner": {
+      "title": "Ohere Mmekọrịta",
+      "description": "Chọpụta ụzọ iji soro anyị rụkọọ ọrụ maka mmetụta ka ukwuu",
+      "button": "Malite"
+    }
+  },
+  "donate": {
+    "title": "Nye Onwunwe",
+    "subtitle": "Nkwado gị na-enyere anyị aka imepụta mgbanwe na-adigide na obodo niile n'ụwa",
+    "hero": {
+      "subtitle": "Ntinye aka ọ bụla, n'agbanyeghị nha ya, na-emepụta mmetụta n'ezie"
+    },
+    "amount": "Họrọ Ego",
+    "custom": "Ego Ahaziri Ahazi",
+    "customPlaceholder": "Tinye ego",
+    "monthly": "Mee ka nke a bụrụ onyinye kwa ọnwa",
+    "form": {
+      "firstName": "Aha Mbụ",
+      "lastName": "Aha Ikpeazụ",
+      "paymentMethod": "Usoro Ịkwụ Ụgwọ",
+      "creditCard": "Kaadị Ebe E Si Nweta Ego"
+    },
+    "submit": "Mezie Onyinye",
+    "secure": "Nye onyinye echekwara site na Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Mmetụta Gị",
+      "25Description": "Na-enye ihe akwụkwọ maka ụmụaka 5",
+      "50Description": "Na-akwado mmiri dị ọcha otu izu maka otu ezinụlọ",
+      "100Description": "Na-akwado ọrụ ahụike otu ọnwa",
+      "250Description": "Na-akwado agụmakwụkwọ nwatakịrị maka otu semester"
+    },
+    "why": {
+      "title": "Gịnị Kpatara Ịnye Onyinye Na BAOBAB HOPE?",
+      "item1": "Ngọta 100% na otu esi eji ego",
+      "item2": "Mmetụta kpọmkwem na obodo niile n'ụwa",
+      "item3": "Ngwọta na-adigide na-emepụta mgbanwe na-adigide",
+      "item4": "Mmelite oge niile gbasara mmetụta nke onyinye gị"
+    },
+    "alert": {
+      "processing": "Na-edozi onyinye gị nke ${amount}${monthly}..."
+    }
+  },
+  "language": "ig",
+  "lastUpdated": "2025-09-21T21:56:29.034Z"
+}

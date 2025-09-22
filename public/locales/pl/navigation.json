@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Strona Główna",
+    "about": {
+      "history": "Historia",
+      "missions": "Misje",
+      "organizations": "Organizacje",
+      "regions": "Regiony",
+      "localGroups": "Lokalne Grupy",
+      "partnerNetworks": "Sieci Partnerskie",
+      "financialTransparency": "Przejrzystość Finansowa"
+    },
+    "aboutTitle": "O Nas",
+    "actions": "Nasze Działania",
+    "information": {
+      "title": "Informacje",
+      "agenda": "Kalendarz",
+      "advertising": "Reklama",
+      "resources": "Zasoby",
+      "press": "Strefa Prasowa",
+      "podcast": "Podcast",
+      "analysis": "Analiza",
+      "faq": "FAQ"
+    },
+    "informationTitle": "Informacje",
+    "act": {
+      "title": "Działaj",
+      "volunteering": "Wolontariat",
+      "campaigns": "Nasze Kampanie",
+      "training": "Szkolenia",
+      "jobs": "Oferty Pracy",
+      "partners": "Partnerzy",
+      "legacy": "Dziedzictwo",
+      "lifeInsurance": "Ubezpieczenie na Życie",
+      "donation": "Darowizna"
+    },
+    "actTitle": "Działaj",
+    "donate": "Przekaż Darowiznę",
+    "search": "Szukaj..."
+  },
+  "footer": {
+    "mission": "Rozwój nadziei, pielęgnowanie społeczności, tworzenie zrównoważonych przyszłości.",
+    "links": "Szybkie Linki",
+    "contact": "Informacje Kontaktowe",
+    "newsletter": {
+      "title": "Subskrypcja Newslettera",
+      "subtitle": "Bądź informowany o naszych najnowszych działaniach i wpływie",
+      "placeholder": "Twój adres e-mail",
+      "subscribe": "Zapisz się",
+      "success": "Dziękujemy za zapisanie się!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Ulica Nadziei, Miasto, Stan 12345",
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

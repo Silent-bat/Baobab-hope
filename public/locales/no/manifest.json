@@ -1,0 +1,20 @@
+{
+  "language": "no",
+  "name": "Norwegian",
+  "nativeName": "Norsk",
+  "direction": "ltr",
+  "region": "Europe",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-20T15:24:58.673Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc"
+  ],
+  "totalKeys": 96,
+  "completionRate": 0.1,
+  "status": "initial"
+}

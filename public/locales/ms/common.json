@@ -1,0 +1,70 @@
+{
+  "slogan": {
+    "main": "Satu Hati, Satu Tangan"
+  },
+  "common": {
+    "loading": "Memuatkan...",
+    "error": "Ralat berlaku",
+    "backTop": "Kembali ke Atas",
+    "share": "Kongsi",
+    "search": "Cari",
+    "menu": "Menu",
+    "close": "Tutup",
+    "open": "Buka",
+    "learnMore": "Ketahui Lebih Lanjut",
+    "getStarted": "Mulakan",
+    "joinUs": "Sertai Kami",
+    "contactUs": "Hubungi Kami",
+    "followUs": "Ikuti Kami",
+    "subscribe": "Langgan",
+    "thankYou": "Terima Kasih",
+    "success": {
+      "rate": "Kadar Kejayaan"
+    },
+    "apply": "Mohon",
+    "submit": "Hantar",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "download": "Muat Turun",
+    "required": "Diperlukan",
+    "yes": "Ya",
+    "no": "Tidak",
+    "started": "Dimulakan",
+    "people": {
+      "reached": "Orang Yang Dicapai"
+    },
+    "active": {
+      "projects": "Projek Aktif"
+    },
+    "countries": "Negara",
+    "successRate": "Kadar Kejayaan"
+  },
+  "accessibility": {
+    "languageChanged": "Bahasa ditukar kepada {{language}",
+    "languageSelector": "Pilih bahasa",
+    "currentLanguage": "Bahasa semasa: {{language}",
+    "availableLanguages": "Bahasa yang tersedia",
+    "searchLanguages": "Cari bahasa",
+    "languageOptions": "Gunakan butang anak panah untuk navigasi, Enter untuk pilih, Escape untuk tutup",
+    "skipToContent": "Langkau ke kandungan utama",
+    "skipToNavigation": "Langkau ke navigasi",
+    "mainContent": "Kandungan utama",
+    "navigation": "Navigasi",
+    "languageMenu": "Menu bahasa",
+    "closeLanguageMenu": "Tutup menu bahasa",
+    "openLanguageMenu": "Buka menu bahasa"
+  },
+  "language": "ms",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-21T13:02:35.000Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}

@@ -1,0 +1,68 @@
+{
+  "slogan": {
+    "main": "Un Corazón, Una Mano"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "backTop": "Volver Arriba",
+    "share": "Compartir",
+    "search": "Buscar",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "open": "Abrir",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "joinUs": "Únete a Nosotros",
+    "contactUs": "Contáctanos",
+    "followUs": "Síguenos",
+    "subscribe": "Suscribirse",
+    "thankYou": "Gracias",
+    "success": "Éxito",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "download": "Descargar",
+    "required": "Requerido",
+    "yes": "Sí",
+    "no": "No",
+    "started": "Iniciado",
+    "people": {
+      "reached": "Personas Alcanzadas"
+    },
+    "active": {
+      "projects": "Proyectos Activos"
+    },
+    "countries": "Países",
+    "successRate": "Tasa de Éxito"
+  },
+  "accessibility": {
+    "languageChanged": "Idioma cambiado a {{language}",
+    "languageSelector": "Seleccionar idioma",
+    "currentLanguage": "Idioma actual: {{language}",
+    "availableLanguages": "Idiomas disponibles",
+    "searchLanguages": "Buscar idiomas",
+    "languageOptions": "Use las teclas de flecha para navegar, Enter para seleccionar, Escape para cerrar",
+    "skipToContent": "Saltar al contenido principal",
+    "skipToNavigation": "Saltar a la navegación",
+    "mainContent": "Contenido principal",
+    "navigation": "Navegación",
+    "languageMenu": "Menú de idiomas",
+    "closeLanguageMenu": "Cerrar menú de idiomas",
+    "openLanguageMenu": "Abrir menú de idiomas"
+  },
+  "language": "es",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-20T15:24:57.793Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}

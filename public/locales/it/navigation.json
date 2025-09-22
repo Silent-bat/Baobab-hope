@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": {
+      "history": "Storia",
+      "missions": "Missioni",
+      "organizations": "Organizzazioni",
+      "regions": "Regioni",
+      "localGroups": "Gruppi Locali",
+      "partnerNetworks": "Reti Partner",
+      "financialTransparency": "Trasparenza Finanziaria"
+    },
+    "aboutTitle": "Chi siamo",
+    "actions": "Le nostre azioni",
+    "information": {
+      "title": "Informazioni",
+      "agenda": "Calendario",
+      "advertising": "Pubblicità",
+      "resources": "Risorse",
+      "press": "Area Stampa",
+      "podcast": "Podcast",
+      "analysis": "Analisi",
+      "faq": "FAQ"
+    },
+    "informationTitle": "Informazioni",
+    "act": {
+      "title": "Agire",
+      "volunteering": "Volontariato",
+      "campaigns": "Le nostre campagne",
+      "training": "Formazione",
+      "jobs": "Offerte di lavoro",
+      "partners": "Partner",
+      "legacy": "Eredità",
+      "lifeInsurance": "Assicurazione vita",
+      "donation": "Donazione"
+    },
+    "actTitle": "Agire",
+    "donate": "Dona",
+    "search": "Cerca..."
+  },
+  "footer": {
+    "mission": "Coltivare la speranza, nutrire le comunità, creare futuri sostenibili.",
+    "links": "Link Rapidi",
+    "contact": "Informazioni di Contatto",
+    "newsletter": {
+      "title": "Iscrizione Newsletter",
+      "subtitle": "Rimani informato sulle nostre ultime azioni e impatto",
+      "placeholder": "Il tuo indirizzo email",
+      "subscribe": "Iscriviti",
+      "success": "Grazie per esserti iscritto!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345",
+    "rights": "Tutti i diritti riservati."
+  },
+  "language": "it",
+  "lastUpdated": "2025-09-21T12:09:00.000Z"
+}

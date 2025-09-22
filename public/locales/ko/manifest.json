@@ -1,0 +1,21 @@
+{
+  "language": "ko",
+  "name": "Korean",
+  "nativeName": "한국어",
+  "direction": "ltr",
+  "region": "Asia",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-21T12:33:10.000Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326,
+  "completionRate": 1.0,
+  "status": "completed"
+}

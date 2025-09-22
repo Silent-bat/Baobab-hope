@@ -1,0 +1,70 @@
+{
+  "slogan": {
+    "main": "قلب واحد، يد واحدة"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "menu": "القائمة",
+    "close": "إغلاق",
+    "search": "بحث",
+    "error": "حدث خطأ",
+    "backTop": "العودة إلى الأعلى",
+    "share": "مشاركة",
+    "open": "فتح",
+    "learnMore": "اعرف المزيد",
+    "getStarted": "ابدأ الآن",
+    "joinUs": "انضم إلينا",
+    "contactUs": "اتصل بنا",
+    "followUs": "تابعنا",
+    "subscribe": "اشترك",
+    "thankYou": "شكراً لك",
+    "success": {
+      "rate": "معدل النجاح"
+    },
+    "apply": "تقدم",
+    "submit": "إرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "download": "تحميل",
+    "required": "مطلوب",
+    "yes": "نعم",
+    "no": "لا",
+    "started": "بدأ",
+    "people": {
+      "reached": "الأشخاص المستفيدون"
+    },
+    "active": {
+      "projects": "المشاريع النشطة"
+    },
+    "countries": "الدول",
+    "successRate": "معدل النجاح"
+  },
+  "accessibility": {
+    "languageChanged": "تم تغيير اللغة إلى {{language}",
+    "languageSelector": "اختر اللغة",
+    "currentLanguage": "اللغة الحالية: {{language}",
+    "availableLanguages": "اللغات المتاحة",
+    "searchLanguages": "البحث في اللغات",
+    "languageOptions": "استخدم مفاتيح الأسهم للتنقل، Enter للاختيار، Escape للإغلاق",
+    "skipToContent": "تخطي إلى المحتوى الرئيسي",
+    "skipToNavigation": "تخطي إلى التنقل",
+    "mainContent": "المحتوى الرئيسي",
+    "navigation": "التنقل",
+    "languageMenu": "قائمة اللغة",
+    "closeLanguageMenu": "إغلاق قائمة اللغة",
+    "openLanguageMenu": "فتح قائمة اللغة"
+  },
+  "language": "ar",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-20T15:24:57.546Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}

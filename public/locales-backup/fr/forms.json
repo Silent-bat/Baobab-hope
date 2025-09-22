@@ -1,0 +1,15 @@
+{
+  "information": {
+    "title": "Centre d'Information",
+    "subtitle": "Accédez aux ressources, nouvelles et perspectives sur notre travail et impact",
+    "featured": "Contenu en Vedette",
+    "readFull": "Lire l'Article Complet",
+    "readMore": "Lire Plus",
+    "newsletter": {
+      "title": "Rester Informé",
+      "subtitle": "Obtenez les dernières mises à jour et perspectives",
+      "placeholder": "Entrez votre email",
+      "subscribe": "S'Abonner"
+    }
+  }
+}

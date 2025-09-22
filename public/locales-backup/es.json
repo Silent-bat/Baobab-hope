@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "actions": "Nuestras Acciones",
+    "information": "Información",
+    "act": "Actuar",
+    "contact": "Contacto",
+    "donate": "Donar",
+    "search": "Buscar...",
+    "about": {
+      "history": "Historia",
+      "missions": "Misiones",
+      "organizations": "Organizaciones",
+      "regions": "Regiones",
+      "localGroups": "Grupos Locales",
+      "partnerNetworks": "Redes de Socios",
+      "financialTransparency": "Transparencia Financiera"
+    },
+    "information": {
+      "agenda": "Agenda",
+      "advertising": "Publicidad",
+      "resources": "Recursos",
+      "press": "Área de Prensa",
+      "podcast": "Podcast",
+      "analysis": "Análisis",
+      "faq": "Preguntas Frecuentes"
+    },
+    "act": {
+      "volunteering": "Voluntariado",
+      "campaigns": "Nuestras Campañas",
+      "training": "Formación",
+      "jobs": "Ofertas de Trabajo",
+      "partners": "Socios",
+      "legacy": "Legado",
+      "lifeInsurance": "Seguro de Vida",
+      "donation": "Donación"
+    }
+  },
+  "slogan": {
+    "main": "Un Corazón, Una Mano"
+  },
+  "home": {
+    "hero": {
+      "title": "Empoderando Comunidades, Cultivando Futuros",
+      "subtitle": "Como el poderoso árbol baobab, plantamos semillas de esperanza que crecen en cambios duraderos en comunidades de todo el mundo.",
+      "donate": "Donar Ahora",
+      "learn": "Saber Más"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "backTop": "Volver Arriba",
+    "learnMore": "Saber Más",
+    "getStarted": "Comenzar",
+    "contactUs": "Contáctanos"
+  }
+}

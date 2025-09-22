@@ -1,0 +1,257 @@
+{
+  "home": {
+    "title": "Capacitando Através da Educação",
+    "subtitle": "Construindo Futuros Mais Brilhantes"
+  },
+  "environment": {
+    "title": "Protegendo Nosso Planeta",
+    "subtitle": "Conservação Ambiental",
+    "description": "Implementando práticas sustentáveis e esforços de conservação para preservar ecossistemas para futuras gerações enquanto capacitamos comunidades locais.",
+    "cta": "Conheça Nosso Impacto"
+  },
+  "healthcare": {
+    "title": "Cuidados de Saúde para Todos",
+    "subtitle": "Bem-estar Comunitário",
+    "description": "Fornecendo serviços de saúde essenciais e educação sanitária a comunidades carentes, garantindo que todos tenham acesso a cuidados de saúde de qualidade.",
+    "cta": "Ver Projetos de Saúde"
+  },
+  "impact": {
+    "title": "Nosso Impacto Crescente",
+    "people": "Vidas Transformadas",
+    "countries": "Países Alcançados"
+  },
+  "stories": {
+    "title": "Nossas Histórias de Impacto",
+    "subtitle": "Descubra como estamos criando mudanças sustentáveis em comunidades ao redor do mundo"
+  },
+  "cta": {
+    "title": "Pronto para Plantar Sementes de Mudança?",
+    "subtitle": "Junte-se à nossa crescente comunidade de agentes de mudança e ajude-nos a nutrir a esperança nas comunidades que mais precisam. Cada contribuição, independentemente do tamanho, cria ondas de mudança positiva.",
+    "learn": "Conheça Nossa História"
+  },
+  "about": {
+    "title": "Sobre BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Como a poderosa árvore baobá, acreditamos em raízes profundas, crescimento forte e impacto duradouro."
+    },
+    "mission": {
+      "badge": "Nosso Propósito",
+      "title": "Nossa Missão",
+      "text": "Nutrir o crescimento sustentável nas comunidades através da educação, capacitação e gestão ambiental, criando mudanças positivas duradouras que abrangem gerações.",
+      "description": "Desde nossa fundação em 2020, nos comprometemos a criar soluções sustentáveis que abordam as causas raiz da pobreza, desigualdade e degradação ambiental."
+    },
+    "values": {
+      "badge": "O Que Nos Move",
+      "title": "Nossos Valores Principais",
+      "subtitle": "Nossos valores principais guiam cada decisão que tomamos e cada ação que realizamos a serviço de nossa missão.",
+      "community": "Comunidade Primeiro",
+      "transparency": "Transparência",
+      "empowerment": "Capacitação",
+      "growthDescription": "Acreditamos em nutrir soluções sustentáveis de longo prazo que se fortalecem com o tempo, assim como a árvore baobá.",
+      "communityDescription": "As comunidades estão no coração de tudo o que fazemos. Ouvimos, aprendemos e trabalhamos juntos para criar mudanças significativas.",
+      "transparencyDescription": "Mantemos transparência completa em nossas operações, finanças e impacto para construir confiança duradoura com nossos apoiadores.",
+      "empowermentDescription": "Capacitamos indivíduos e comunidades com as ferramentas, conhecimentos e recursos necessários para prosperarem de forma independente."
+    },
+    "timeline": {
+      "badge": "Nossa Jornada",
+      "title": "Crescendo Juntos Desde 2020",
+      "subtitle": "Desde nossos humildes começos até o impacto global, veja como BAOBAB HOPE cresceu e evoluiu.",
+      "milestone1": {
+        "description": "Começou com uma visão para criar mudanças sustentáveis"
+      },
+      "milestone2": {
+        "event": "Primeiro Programa Educacional",
+        "description": "Lançou iniciativas de alfabetização em 3 comunidades"
+      },
+      "milestone3": {
+        "event": "Foco Ambiental",
+        "description": "Expandiu para incluir projetos de conservação e sustentabilidade"
+      },
+      "milestone4": {
+        "event": "Iniciativa de Saúde",
+        "description": "Introduziu clínicas médicas móveis e educação sanitária"
+      },
+      "milestone5": {
+        "event": "Expansão Global",
+        "description": "Agora opera em 18 países em 4 continentes"
+      }
+    },
+    "impact": {
+      "title": "Nosso Impacto Crescente",
+      "subtitle": "Números que contam a história de vidas transformadas e comunidades capacitadas.",
+      "livesTransformed": "Vidas Transformadas",
+      "activeProjects": "Projetos Ativos",
+      "countriesReached": "Países Alcançados",
+      "volunteers": "Voluntários"
+    },
+    "team": {
+      "badge": "Conheça Nossa Equipe",
+      "title": "As Pessoas Por Trás da Missão",
+      "subtitle": "Conheça os indivíduos dedicados que lideram nossa organização e impulsionam nossa missão adiante.",
+      "member1": {},
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Diretor de Programas",
+        "bio": "Especialista em educação focado em iniciativas de aprendizado impulsionadas pela comunidade"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Gerente de Operações",
+        "bio": "Administradora de saúde apaixonada por cuidados médicos acessíveis"
+      }
+    },
+    "history": {
+      "title": "Nossa História",
+      "subtitle": "A jornada da BAOBAB HOPE de uma pequena ideia para um movimento global",
+      "founding": {
+        "title": "O Começo da Esperança",
+        "description": "BAOBAB HOPE foi fundada em 2020 com uma visão simples mas poderosa: criar mudanças sustentáveis em comunidades ao redor do mundo."
+      },
+      "growth": {
+        "title": "Criando Raízes",
+        "description": "Desde nossos humildes começos, crescemos para servir comunidades em 18 países, sempre permanecendo fiéis aos nossos valores principais."
+      },
+      "impact": {
+        "title": "Gerando Impacto",
+        "description": "Hoje, transformamos mais de 75.000 vidas através de nossos programas de educação, saúde e meio ambiente."
+      },
+      "cta": {
+        "title": "Seja Parte de Nossa História",
+        "subtitle": "Junte-se a milhares de voluntários e apoiadores que nos ajudam a escrever o próximo capítulo de esperança."
+      }
+    }
+  },
+  "projects": {
+    "title": "Nossas Ações",
+    "subtitle": "Descubra as iniciativas transformadoras que criam mudanças duradouras em comunidades ao redor do mundo.",
+    "education": {
+      "title": "Educação e Alfabetização",
+      "description": "Construindo bases educacionais que capacitam as comunidades a prosperarem e crescerem de forma sustentável."
+    },
+    "environment": {
+      "title": "Conservação Ambiental",
+      "description": "Protegendo e restaurando ecossistemas enquanto ensinamos práticas sustentáveis às comunidades locais."
+    },
+    "healthcare": {
+      "title": "Saúde Comunitária",
+      "description": "Fornecendo serviços de saúde essenciais e educação sanitária a comunidades carentes."
+    },
+    "water": {
+      "title": "Acesso à Água Limpa",
+      "description": "Construindo sistemas de água sustentáveis e ensinando práticas de conservação da água."
+    },
+    "view": "Ver Detalhes",
+    "learn": "Saber Mais",
+    "explore": "Explorar Projeto",
+    "impact": {
+      "title": "Nosso Impacto",
+      "subtitle": "Veja a diferença que estamos fazendo juntos"
+    },
+    "cta": {
+      "title": "Junte-se à Nossa Missão",
+      "subtitle": "Cada contribuição faz a diferença",
+      "support": "Apoie Nosso Trabalho",
+      "involved": "Envolva-se"
+    }
+  },
+  "blog": {
+    "title": "Mantenha-se Atualizado",
+    "subtitle": "Assine nossa newsletter para as últimas atualizações"
+  },
+  "information": {
+    "title": "Centro de Informação",
+    "subtitle": "Acesse recursos, notícias e informações sobre nosso trabalho e impacto",
+    "featured": "Conteúdo em Destaque",
+    "readFull": "Ler Artigo Completo",
+    "readMore": "Ler Mais",
+    "newsletter": {
+      "title": "Mantenha-se Informado",
+      "subtitle": "Obtenha as últimas atualizações e informações",
+      "placeholder": "Digite seu email",
+      "subscribe": "Assinar"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Entre em contato conosco. Adoraríamos ouvir de você.",
+    "hero": {
+      "subtitle": "Estamos aqui para ajudar e responder qualquer pergunta que você possa ter"
+    },
+    "name": "Nome Completo",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send": "Enviar Mensagem"
+  },
+  "info": {
+    "title": "Informações de Contato",
+    "email": {
+      "title": "Email"
+    },
+    "phone": {
+      "title": "Telefone"
+    },
+    "address": {
+      "title": "Endereço"
+    },
+    "hours": {
+      "title": "Horário de Funcionamento",
+      "monday": "Segunda - Sexta: 9:00 - 18:00",
+      "saturday": "Sábado: 10:00 - 16:00",
+      "sunday": "Domingo: Fechado"
+    }
+  },
+  "help": {
+    "title": "Como Podemos Ajudar?",
+    "volunteer": {
+      "title": "Torne-se Voluntário",
+      "description": "Junte-se à nossa comunidade de voluntários que fazem a diferença"
+    },
+    "partner": {
+      "title": "Oportunidades de Parceria",
+      "description": "Explore formas de se associar conosco para maior impacto",
+      "button": "Começar"
+    }
+  },
+  "donate": {
+    "title": "Fazer Doação",
+    "subtitle": "Seu apoio nos ajuda a criar mudanças duradouras em comunidades ao redor do mundo",
+    "hero": {
+      "subtitle": "Cada doação, independentemente do tamanho, faz uma diferença real"
+    },
+    "amount": "Escolher Valor",
+    "custom": "Valor Personalizado",
+    "customPlaceholder": "Digite o valor",
+    "monthly": "Tornar esta uma doação mensal",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "paymentMethod": "Método de Pagamento",
+      "creditCard": "Cartão de Crédito"
+    },
+    "submit": "Concluir Doação",
+    "secure": "Doação segura através do Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Seu Impacto",
+      "25Description": "Fornece suprimentos escolares para 5 crianças",
+      "50Description": "Financia uma semana de água limpa para uma família",
+      "100Description": "Apoia um mês de serviços médicos",
+      "250Description": "Patrocina a educação de uma criança por um semestre"
+    },
+    "why": {
+      "title": "Por Que Doar para BAOBAB HOPE?",
+      "item1": "100% de transparência em como os fundos são utilizados",
+      "item2": "Impacto direto em comunidades ao redor do mundo",
+      "item3": "Soluções sustentáveis que criam mudanças duradouras",
+      "item4": "Atualizações regulares sobre o impacto de sua doação"
+    },
+    "alert": {
+      "processing": "Processando sua doação de ${amount} ${monthly}..."
+    }
+  },
+  "language": "pt",
+  "lastUpdated": "2025-09-21T21:42:11.092Z"
+}

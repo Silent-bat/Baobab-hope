@@ -1,0 +1,13 @@
+{
+  "information": {
+    "featured": "Nội Dung Nổi Bật",
+    "readFull": "Đọc Bài Viết Đầy Đủ",
+    "readMore": "Đọc Thêm",
+    "newsletter": {
+      "title": "Giữ Thông Tin",
+      "subtitle": "Nhận các cập nhật và thông tin chi tiết mới nhất",
+      "placeholder": "Nhập địa chỉ email của bạn",
+      "subscribe": "Đăng Ký"
+    }
+  }
+}

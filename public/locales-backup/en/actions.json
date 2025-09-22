@@ -1,0 +1,43 @@
+{
+  "projects": {
+    "title": "Our Actions",
+    "subtitle": "Discover the transformative initiatives creating lasting change in communities worldwide.",
+    "education": {
+      "title": "Education & Literacy",
+      "description": "Building educational foundations that empower communities to thrive and grow sustainably."
+    },
+    "environment": {
+      "title": "Environmental Conservation",
+      "description": "Protecting and restoring ecosystems while teaching sustainable practices to local communities."
+    },
+    "healthcare": {
+      "title": "Community Health",
+      "description": "Providing essential healthcare services and health education to underserved communities."
+    },
+    "water": {
+      "title": "Clean Water Access",
+      "description": "Building sustainable water systems and teaching water conservation practices."
+    },
+    "support": "Support This Project",
+    "view": "View Details",
+    "learn": "Learn More",
+    "explore": "Explore Project",
+    "impact": {
+      "title": "Our Impact",
+      "subtitle": "See the difference we're making together"
+    },
+    "cta": {
+      "title": "Join Our Mission",
+      "subtitle": "Every contribution makes a difference",
+      "support": "Support Our Work",
+      "involved": "Get Involved"
+    }
+  },
+  "project": {
+    "progress": "Progress",
+    "raised": "Raised",
+    "goal": "Goal",
+    "beneficiaries": "Beneficiaries",
+    "achievements": "Key Achievements"
+  }
+}

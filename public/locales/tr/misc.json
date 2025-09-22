@@ -1,0 +1,34 @@
+{
+  "slogan": {
+    "main": "Tek Yürek, Tek El"
+  },
+  "blog": {
+    "featured": "Öne Çıkan Hikaye",
+    "readFull": "Tam Hikayeyi Oku",
+    "readMore": "Daha Fazla Oku",
+    "newsletter": {
+      "title": "Güncel Kalın",
+      "subtitle": "En son güncellemeler için bültenimize abone olun",
+      "placeholder": "E-posta adresiniz",
+      "subscribe": "Abone Ol"
+    }
+  },
+  "footer": {
+    "mission": "Umut büyütmek, toplulukları beslemek, sürdürülebilir gelecekler yaratmak.",
+    "links": "Hızlı Bağlantılar",
+    "contact": "İletişim Bilgileri",
+    "newsletter": {
+      "title": "Bülten Aboneliği",
+      "subtitle": "En son eylemlerimiz ve etkimiz hakkında bilgi alın",
+      "placeholder": "E-posta adresiniz",
+      "subscribe": "Abone Ol"
+    },
+    "success": "Abone olduğunuz için teşekkürler!",
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Umut Sokak, Şehir, Eyalet 12345",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "language": "tr",
+  "lastUpdated": "2025-09-21T12:01:30.000Z"
+}

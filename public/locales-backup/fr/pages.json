@@ -1,0 +1,229 @@
+{
+  "home": {
+    "hero": {
+      "title": "Autonomiser les Communautés, Cultiver l'Avenir",
+      "subtitle": "Comme le puissant baobab, nous plantons des graines d'espoir qui deviennent des changements durables dans les communautés du monde entier.",
+      "donate": "Faire un Don",
+      "learn": "En Savoir Plus",
+      "education": {
+        "title": "Autonomiser par l'Éducation",
+        "subtitle": "Construire des Avenirs Plus Brillants",
+        "description": "Soutenir les programmes d'alphabétisation et les initiatives éducatives qui transforment les communautés et créent des opportunités durables de croissance.",
+        "cta": "Explorer les Projets Éducatifs"
+      },
+      "environment": {
+        "title": "Protéger Notre Planète",
+        "subtitle": "Conservation Environnementale",
+        "description": "Mettre en œuvre des pratiques durables et des efforts de conservation pour préserver les écosystèmes pour les générations futures tout en autonomisant les communautés locales.",
+        "cta": "Découvrir Notre Impact"
+      },
+      "healthcare": {
+        "title": "Soins de Santé pour Tous",
+        "subtitle": "Bien-être Communautaire",
+        "description": "Fournir des services de santé essentiels et une éducation sanitaire aux communautés mal desservies, en veillant à ce que chacun ait accès à des soins médicaux de qualité.",
+        "cta": "Voir les Projets de Santé"
+      }
+    },
+    "impact": {
+      "title": "Notre Impact Croissant",
+      "people": "Vies Transformées",
+      "projects": "Projets Actifs",
+      "countries": "Pays Atteints",
+      "volunteers": "Bénévoles"
+    },
+    "stories": {
+      "title": "Nos Histoires d'Impact",
+      "subtitle": "Découvrez comment nous créons un changement durable dans les communautés du monde entier"
+    },
+    "cta": {
+      "title": "Prêt à Planter des Graines de Changement?",
+      "subtitle": "Rejoignez notre communauté croissante de créateurs de changement et aidez-nous à nourrir l'espoir dans les communautés qui en ont le plus besoin. Chaque contribution, quelle que soit sa taille, crée des ondulations de changement positif.",
+      "learn": "Découvrir Notre Histoire"
+    }
+  },
+  "about": {
+    "title": "À Propos de BAOBAB HOPE",
+    "hero": {
+      "badge": "Notre Histoire",
+      "subtitle": "Comme le puissant baobab, nous croyons aux racines profondes, à la croissance forte et à l'impact durable."
+    },
+    "mission": {
+      "badge": "Notre Objectif",
+      "title": "Notre Mission",
+      "text": "Nourrir la croissance durable dans les communautés grâce à l'éducation, l'autonomisation et la gestion environnementale, créant un changement positif durable qui s'étend sur les générations.",
+      "description": "Depuis notre fondation en 2020, nous nous sommes engagés à créer des solutions durables qui s'attaquent aux causes profondes de la pauvreté, de l'inégalité et de la dégradation environnementale."
+    },
+    "values": {
+      "badge": "Ce qui nous Motive",
+      "title": "Nos Valeurs Fondamentales",
+      "subtitle": "Nos valeurs fondamentales guident chaque décision que nous prenons et chaque action que nous entreprenons au service de notre mission.",
+      "growth": "Croissance Durable",
+      "community": "Communauté d'Abord",
+      "transparency": "Transparence",
+      "empowerment": "Autonomisation",
+      "growthDescription": "Nous croyons à nourrir des solutions durables à long terme qui deviennent plus fortes avec le temps, tout comme le baobab.",
+      "communityDescription": "Les communautés sont au cœur de tout ce que nous faisons. Nous écoutons, apprenons et travaillons ensemble pour créer un changement significatif.",
+      "transparencyDescription": "Nous maintenons une transparence complète dans nos opérations, finances et impact pour construire une confiance durable avec nos supporters.",
+      "empowermentDescription": "Nous autonomisons les individus et les communautés avec les outils, connaissances et ressources dont ils ont besoin pour prospérer de manière indépendante."
+    },
+    "timeline": {
+      "badge": "Notre Parcours",
+      "title": "Grandir Ensemble Depuis 2020",
+      "subtitle": "Des débuts modestes à l'impact mondial, voyez comment BAOBAB HOPE a grandi et évolué.",
+      "milestone1": {
+        "event": "Fondation de BAOBAB HOPE",
+        "description": "Commencé avec une vision de créer un changement durable"
+      },
+      "milestone2": {
+        "event": "Premier Programme Éducatif",
+        "description": "Lancé des initiatives d'alphabétisation dans 3 communautés"
+      },
+      "milestone3": {
+        "event": "Focus Environnemental",
+        "description": "Étendu pour inclure des projets de conservation et de durabilité"
+      },
+      "milestone4": {
+        "event": "Initiative de Santé",
+        "description": "Introduit des cliniques mobiles et l'éducation sanitaire"
+      },
+      "milestone5": {
+        "event": "Expansion Mondiale",
+        "description": "Maintenant opérant dans 18 pays sur 4 continents"
+      }
+    },
+    "impact": {
+      "title": "Notre Impact Croissant",
+      "subtitle": "Des chiffres qui racontent l'histoire de vies transformées et de communautés autonomisées.",
+      "livesTransformed": "Vies Transformées",
+      "activeProjects": "Projets Actifs",
+      "countriesReached": "Pays Atteints",
+      "volunteers": "Bénévoles"
+    },
+    "team": {
+      "badge": "Rencontrez Notre Équipe",
+      "title": "Les Personnes Derrière la Mission",
+      "subtitle": "Rencontrez les individus dévoués qui dirigent notre organisation et font avancer notre mission.",
+      "member1": {
+        "name": "Dr. Amara Okafor",
+        "role": "Directrice Exécutive",
+        "bio": "Scientifique environnementale avec 15+ ans en développement durable"
+      },
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Directeur de Programme",
+        "bio": "Spécialiste en éducation axé sur les initiatives d'apprentissage communautaire"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Gestionnaire des Opérations",
+        "bio": "Administratrice de santé passionnée par les soins médicaux accessibles"
+      }
+    },
+    "history": {
+      "title": "Notre Histoire",
+      "subtitle": "Le parcours de BAOBAB HOPE d'une petite idée à un mouvement mondial",
+      "founding": {
+        "title": "Le Commencement de l'Espoir",
+        "description": "BAOBAB HOPE a été fondé en 2020 avec une vision simple mais puissante : créer un changement durable dans les communautés du monde entier."
+      },
+      "growth": {
+        "title": "Enraciner la Croissance",
+        "description": "De nos débuts modestes, nous avons grandi pour servir des communautés dans 18 pays, restant toujours fidèles à nos valeurs fondamentales."
+      },
+      "impact": {
+        "title": "Créer l'Impact",
+        "description": "Aujourd'hui, nous avons transformé plus de 75 000 vies grâce à nos programmes d'éducation, de santé et d'environnement."
+      },
+      "cta": {
+        "title": "Faites Partie de Notre Histoire",
+        "subtitle": "Rejoignez des milliers de bénévoles et de supporters qui nous aident à écrire le prochain chapitre de l'espoir."
+      }
+    }
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Contactez-nous. Nous aimerions avoir de vos nouvelles.",
+    "hero": {
+      "subtitle": "Nous sommes là pour aider et répondre à toutes vos questions"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le Message"
+    },
+    "info": {
+      "title": "Informations de Contact",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Téléphone"
+      },
+      "address": {
+        "title": "Adresse"
+      },
+      "hours": {
+        "title": "Heures de Bureau",
+        "monday": "Lundi - Vendredi: 9h00 - 18h00",
+        "saturday": "Samedi: 10h00 - 16h00",
+        "sunday": "Dimanche: Fermé"
+      }
+    },
+    "help": {
+      "title": "Comment Pouvons-nous Aider?",
+      "volunteer": {
+        "title": "Devenir Bénévole",
+        "description": "Rejoignez notre communauté de bénévoles qui font la différence",
+        "button": "En Savoir Plus"
+      },
+      "partner": {
+        "title": "Opportunités de Partenariat",
+        "description": "Explorez les moyens de vous associer à nous pour un plus grand impact",
+        "button": "Commencer"
+      }
+    }
+  },
+  "donate": {
+    "title": "Faire un Don",
+    "subtitle": "Votre soutien nous aide à créer un changement durable dans les communautés du monde entier",
+    "hero": {
+      "subtitle": "Chaque don, quelle que soit sa taille, fait une vraie différence"
+    },
+    "amount": "Choisir le Montant",
+    "custom": "Montant Personnalisé",
+    "customPlaceholder": "Entrer le montant",
+    "monthly": "Faire de ceci un don mensuel",
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom de Famille",
+      "paymentMethod": "Méthode de Paiement",
+      "creditCard": "Carte de Crédit"
+    },
+    "submit": "Finaliser le Don",
+    "secure": "Don sécurisé alimenté par Stripe",
+    "impact": {
+      "25": "25€",
+      "50": "50€",
+      "100": "100€",
+      "250": "250€",
+      "title": "Votre Impact",
+      "25Description": "Fournit des fournitures scolaires pour 5 enfants",
+      "50Description": "Finance une semaine d'eau propre pour une famille",
+      "100Description": "Soutient un mois de services de santé",
+      "250Description": "Parraine l'éducation d'un enfant pour un semestre"
+    },
+    "why": {
+      "title": "Pourquoi Donner à BAOBAB HOPE?",
+      "item1": "100% de transparence dans l'utilisation des fonds",
+      "item2": "Impact direct dans les communautés du monde entier",
+      "item3": "Solutions durables qui créent un changement durable",
+      "item4": "Mises à jour régulières sur l'impact de votre don"
+    },
+    "alert": {
+      "processing": "Traitement de votre don de ${amount} ${monthly}..."
+    }
+  }
+}

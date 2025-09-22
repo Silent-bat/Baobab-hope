@@ -1,0 +1,264 @@
+{
+
+  "home": {
+        "title": "Ukunika Amandla Ngemfundo",
+        "subtitle": "Ukwakha Ikusasa Eliqhakazile",
+      },
+        "title": "Ukuvikela Iplanethi Yethu",
+        "subtitle": "Ukulondolozwa Kwemvelo",
+        "description": "Ukusebenzisa izindlela ezisimeme kanye nemizamo yokulondolozwa ukuze kugcinwe imvelo yezizukulwane ezizayo kuyilapho kunika imiphakathi yasendaweni amandla.",
+        "cta": "Funda Ngomthelela Wethu"
+      },
+        "title": "Ezempilo Zabo Bonke",
+        "subtitle": "Inhlalakahle Yomphakathi",
+        "description": "Ukuhlinzeka ngezinsizakalo zezempilo ezibalulekile kanye nemfundo yezempilo emiphakathini engakasekelwa, ukuqinisekisa ukuthi wonke umuntu unokufinyelela ekunakekelweni kwezempilo okusezingeni eliphezulu.",
+        "cta": "Buka Amaphrojekthi Ezempilo"
+      }
+    },
+      "title": "Umthelela Wethu Okhulayo",
+      "people": "Izimpilo Eziguquliwe",
+      "countries": "Amazwe Afiwe",
+    },
+    "stories": {
+      "title": "Izindaba Zomthelela Wethu",
+      "subtitle": "Thola ukuthi sidala kanjani ushintsho oluhlala njalo emiphakathini yonke emhlabeni"
+    },
+    "cta": {
+      "title": "Ukulungele Ukutshala Imbewu Yoshintsho?",
+      "subtitle": "Joyina umphakathi wethu okhulayo wabashintshi futhi usisize sikhulise ithemba emiphakathini edinga kakhulu. Wonke umnikelo, noma ngabe mncane kangakanani, udala amagagasi oshintsho oluhle.",
+      "learn": "Funda Indaba Yethu"
+    }
+  },
+  "about": {
+    "title": "Mayelana Ne-BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Njengesihlahla se-baobab esinamandla, sikholelwa ezimpandeni ezijulile, ukukhula okuqinile, kanye nomthelela ohlala njalo."
+    },
+    "mission": {
+      "badge": "Injongo Yethu",
+      "title": "Umsebenzi Wethu",
+      "text": "Ukunakekela ukukhula okusimeme emiphakathini ngemfundo, ukunika amandla, kanye nokunakekelwa kwemvelo, ukudala ushintsho oluhle oluhlala njalo oluthinta izizukulwane.",
+      "description": "Kusukela sasekelwa ngo-2020, sizibophezele ekudaleni izixazululo ezisimeme ezibhekana nezimbangela eziyisisekelo zobumpofu, ukungalingani, kanye nokucekelwa phansi kwemvelo."
+    },
+    "values": {
+      "badge": "Yini Esishukumisayo",
+      "title": "Izindinganiso Zethu Eziyisisekelo",
+      "subtitle": "Izindinganiso zethu eziyisisekelo ziqondisa zonke izinqumo esizenzayo kanye nazo zonke izenzo esizenzayo enkonzweni yomsebenzi wethu.",
+      "community": "Umphakathi Kuqala",
+      "transparency": "Ukungafihli Lutho",
+      "empowerment": "Ukunika Amandla",
+      "growthDescription": "Sikholelwa ekunakekeleni izixazululo zesikhathi eside, ezisimeme ezikhula zibe namandla ngokuhamba kwesikhathi, njengesihlahla se-baobab.",
+      "communityDescription": "Imiphakathi isenhliziyweni yakho konke esikwenzayo. Siphulaphula, sifunda, futhi sisebenza ndawonye ukuze sidale ushintsho olunengqondo.",
+      "transparencyDescription": "Sigcina ukungafihli lutho okuphelele emisebenzini yethu, ezezimali, kanye nomthelela wethu ukuze sakhe ukwethembana okuhlala njalo nabasekeli bethu.",
+      "empowermentDescription": "Sinika abantu ngabanye nemiphakathi amandla ngamathuluzi, ulwazi, kanye nezinsiza abazidingayo ukuze baphumelele ngokuzimela."
+    },
+    "timeline": {
+      "badge": "Uhambo Lwethu",
+      "title": "Sikhula Ndawonye Kusukela Ngo-2020",
+      "subtitle": "Kusukela ekuqaleni okunokuthobeka kuya emthelela womhlaba wonke, bona ukuthi i-BAOBAB HOPE ikhule kanjani futhi yashintsha kanjani.",
+      "milestone1": {
+        "description": "Yaqala ngombono wokudala ushintsho oluhlala njalo"
+      },
+      "milestone2": {
+        "event": "Uhlelo Lwemfundo Lokuqala",
+        "description": "Yethula izinhlelo zokufunda nokubhala emiphakathini emi-3"
+      },
+      "milestone3": {
+        "event": "Ukugxila Kwezemvelo",
+        "description": "Yandiswa ukuze ifake amaphrojekthi okulondolozwa nokusimama"
+      },
+      "milestone4": {
+        "event": "Uhlelo Lwezempilo",
+        "description": "Yethula imitholampilo yezempilo ehambayo kanye nemfundo yezempilo"
+      },
+      "milestone5": {
+        "event": "Ukwanda Komhlaba Wonke",
+        "description": "Manje isebenza emazweni ayi-18 ezwekazini ezine"
+      }
+    },
+    "impact": {
+      "title": "Umthelela Wethu Okhulayo",
+      "subtitle": "Izinombolo ezixoxa indaba yezimpilo eziguquliwe nemiphakathi enikezwe amandla.",
+      "livesTransformed": "Izimpilo Eziguquliwe",
+      "activeProjects": "Amaphrojekthi Asebenzayo",
+      "countriesReached": "Amazwe Afiwe",
+      "volunteers": "Amavolontiya"
+    },
+    "team": {
+      "badge": "Hlangana Nethimba Lethu",
+      "title": "Abantu Abangemuva Komsebenzi",
+      "subtitle": "Hlangana nabantu abazinikele abahola inhlangano yethu futhi baqhuba umsebenzi wethu phambili.",
+      "member1": {
+      },
+      "member2": {
+        "name": "UJean-Baptiste Dubois",
+        "role": "Umqondisi Wohlelo",
+        "bio": "Uchwepheshe wezemfundo ogxile ezinhlelweni zokufunda eziqhutshwa ngumphakathi"
+      },
+      "member3": {
+        "name": "USarah Chen",
+        "role": "Umphathi Wezokusebenza",
+        "bio": "Umphathi wezempilo othanda ukunakekelwa kwezempilo okufinyeleleka kalula"
+      }
+    },
+    "history": {
+      "title": "Umlando Wethu",
+      "subtitle": "Uhambo lwe-BAOBAB HOPE kusukela embonweni omncane kuya enhlanganweni yomhlaba wonke",
+      "founding": {
+        "title": "Ukuqala Kwethemba",
+        "description": "I-BAOBAB HOPE yasungulwa ngo-2020 ngombono olula kodwa onamandla: ukudala ushintsho oluhlala njalo emiphakathini yonke emhlabeni."
+      },
+      "growth": {
+        "title": "Ukukhula Kwezimpande",
+        "description": "Kusukela ekuqaleni kwethu okunokuthobeka, sikhule ukuze sikhonze imiphakathi emazweni ayi-18, sihlala sihlala sithembekile ezindinganisweni zethu eziyisisekelo."
+      },
+      "impact": {
+        "title": "Ukwenza Umthelela",
+        "description": "Namuhla, siguqule izimpilo ezingaphezu kuka-75,000 ngokusebenzisa izinhlelo zethu zemfundo, ezempilo, kanye nezokongiwa kwemvelo."
+      },
+      "cta": {
+        "title": "Yiba Ingxenye Yendaba Yethu",
+        "subtitle": "Joyina izinkulungwane zamavolontiya nabasekeli abasisiza ukubhala isahluko esilandelayo sethemba."
+      }
+    }
+  },
+  "projects": {
+    "title": "Izenzo Zethu",
+    "subtitle": "Thola izinhlelo eziguqukayo ezidala ushintsho oluhlala njalo emiphakathini yonke emhlabeni.",
+    "education": {
+      "title": "Imfundo Nokufunda",
+      "description": "Ukwakha izisekelo zemfundo ezinika imiphakathi amandla ukuze ziphumelele futhi zikhule ngendlela esimeme."
+    },
+    "environment": {
+      "title": "Ukulondolozwa Kwemvelo",
+      "description": "Ukuvikela nokubuyisela imvelo kuyilapho kufundiswa imiphakathi yasendaweni izindlela ezisimeme."
+    },
+    "healthcare": {
+      "title": "Ezempilo Zomphakathi",
+      "description": "Ukuhlinzeka ngezinsizakalo zezempilo ezibalulekile kanye nemfundo yezempilo emiphakathini engakasekelwa."
+    },
+    "water": {
+      "title": "Ukufinyelela Amanzi Ahlanzekile",
+      "description": "Ukwakha izinhlelo zamanzi ezisimeme nokufundisa ukongiwa kwamanzi."
+    },
+    "view": "Buka Imininingwane",
+    "learn": "Funda Okuningi",
+    "explore": "Hlola Iphrojekthi",
+    "impact": {
+      "title": "Umthelela Wethu",
+      "subtitle": "Bona umehluko esiwenzayo ndawonye"
+    },
+    "cta": {
+      "title": "Joyina Umsebenzi Wethu",
+      "subtitle": "Wonke umnikelo wenza umehluko",
+      "support": "Sekela Umsebenzi Wethu",
+      "involved": "Zibandakanye"
+    }
+  },
+  "blog": {
+    "title": "Izindaba Zakamuva",
+    "subtitle": "Hlala unolwazi ngezindaba zethu zakamuva zomthelela kanye nezindaba zomphakathi",
+      "title": "Hlala Unolwazi",
+      "subtitle": "Bhalisela incwadi yethu yezindaba ukuze uthole izibuyekezo zakamuva",
+    }
+  },
+  "information": {
+    "title": "Indawo Yolwazi",
+    "subtitle": "Finyelela izinsiza, izindaba, kanye nemininingo mayelana nomsebenzi wethu nomthelela wethu",
+    "featured": "Okuqukethwe Okukhethiwe",
+    "readFull": "Funda Indatshana Egcwele",
+    "readMore": "Funda Okuningi",
+    "newsletter": {
+      "title": "Hlala Unolwazi",
+      "subtitle": "Thola izibuyekezo nemininingo yakamuva",
+      "placeholder": "Faka i-imeyili yakho",
+      "subscribe": "Bhalisela"
+    }
+  },
+  "contact": {
+    "title": "Xhumana Nathi",
+    "subtitle": "Xhumana nathi. Singathanda ukuzwa kuwe.",
+    "hero": {
+      "subtitle": "Sikhona ukusiza nokuphendula noma yimiphi imibuzo ongaba nayo"
+    },
+      "title": "Sithumelele Umlayezo",
+      "name": "Igama Eliphelele",
+      "subject": "Isihloko",
+      "message": "Umlayezo",
+      "send": "Thumela Umlayezo"
+    },
+    "info": {
+      "title": "Ulwazi Lokuxhumana",
+      "email": {
+        "title": "I-imeyili"
+      },
+      "phone": {
+        "title": "Ucingo"
+      },
+      "address": {
+        "title": "Ikheli"
+      },
+      "hours": {
+        "title": "Amahora Ehhovisi",
+        "monday": "UMsombuluko - NgoLwesihlanu: 9:00 AM - 6:00 PM",
+        "saturday": "UMgqibelo: 10:00 AM - 4:00 PM",
+        "sunday": "ISonto: Kuvaliwe"
+      }
+    },
+    "help": {
+      "title": "Singakusiza Kanjani?",
+      "volunteer": {
+        "title": "Yiba Ivolontiya",
+        "description": "Joyina umphakathi wethu wamavolontiya enza umehluko",
+      },
+      "partner": {
+        "title": "Amathuba Obambiswano",
+        "description": "Hlola izindlela zokubambisana nathi ukuze uthole umthelela omkhulu",
+        "button": "Qala"
+      }
+    }
+  },
+  "donate": {
+    "title": "Nikela",
+    "subtitle": "Ukwesekwa kwakho kusisiza sidale ushintsho oluhlala njalo emiphakathini yonke emhlabeni",
+    "hero": {
+      "subtitle": "Wonke umnikelo, noma ngabe mncane kangakanani, wenza umehluko wangempela"
+    },
+    "amount": "Khetha Inani",
+    "custom": "Inani Elenziwe Ngokwezifiso",
+    "customPlaceholder": "Faka inani",
+    "monthly": "Yenza lokhu kube umnikelo wanyanga zonke",
+    "form": {
+      "firstName": "Igama Lokuqala",
+      "lastName": "Isibongo",
+      "paymentMethod": "Indlela Yokukhokha",
+      "creditCard": "Ikhadi Lesikweletu"
+    },
+    "submit": "Qedela Umnikelo",
+    "secure": "Umnikelo ovikelekile osekelwa yi-Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Umthelela Wakho",
+      "25Description": "Uhlinzeka ngezinto zokufunda zesikole ezinganeni ezi-5",
+      "50Description": "Uxhasa iviki lamanzi ahlanzekile emndenini",
+      "100Description": "Usekela inyanga yezinsizakalo zezempilo",
+      "250Description": "Uxhasa imfundo yengane isemester"
+    },
+    "why": {
+      "title": "Kungani Unikela Ku-BAOBAB HOPE?",
+      "item1": "Ukungafihli lutho okungu-100% endleleni imali esetshenziswa ngayo",
+      "item2": "Umthelela oqondile emiphakathini yonke emhlabeni",
+      "item3": "Izixazululo ezisimeme ezidala ushintsho oluhlala njalo",
+      "item4": "Izibuyekezo ezivamile ngomthelela womnikelo wakho"
+    },
+    "alert": {
+      "processing": "Kucutshungulwa umnikelo wakho ${amount} ${monthly}..."
+    }
+  },
+  "language": "zu",
+  "lastUpdated": "2025-09-20T15:24:59.521Z"
+
+}

@@ -1,0 +1,43 @@
+{
+  "projects": {
+    "title": "Nos Actions",
+    "subtitle": "Découvrez les initiatives transformatrices créant un changement durable dans les communautés du monde entier.",
+    "education": {
+      "title": "Éducation et Alphabétisation",
+      "description": "Construire des fondations éducatives qui permettent aux communautés de prospérer et de croître durablement."
+    },
+    "environment": {
+      "title": "Conservation Environnementale",
+      "description": "Protéger et restaurer les écosystèmes tout en enseignant des pratiques durables aux communautés locales."
+    },
+    "healthcare": {
+      "title": "Santé Communautaire",
+      "description": "Fournir des services de santé essentiels et une éducation sanitaire aux communautés mal desservies."
+    },
+    "water": {
+      "title": "Accès à l'Eau Propre",
+      "description": "Construire des systèmes d'eau durables et enseigner les pratiques de conservation de l'eau."
+    },
+    "support": "Soutenir ce Projet",
+    "view": "Voir les Détails",
+    "learn": "En Savoir Plus",
+    "explore": "Explorer le Projet",
+    "impact": {
+      "title": "Notre Impact",
+      "subtitle": "Voyez la différence que nous faisons ensemble"
+    },
+    "cta": {
+      "title": "Rejoignez Notre Mission",
+      "subtitle": "Chaque contribution fait une différence",
+      "support": "Soutenir Notre Travail",
+      "involved": "S'Impliquer"
+    }
+  },
+  "project": {
+    "progress": "Progrès",
+    "raised": "Collecté",
+    "goal": "Objectif",
+    "beneficiaries": "Bénéficiaires",
+    "achievements": "Réalisations Clés"
+  }
+}

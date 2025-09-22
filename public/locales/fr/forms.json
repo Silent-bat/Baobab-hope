@@ -1,0 +1,15 @@
+{
+  "information": {
+    "featured": "Contenu en Vedette",
+    "readFull": "Lire l'Article Complet",
+    "readMore": "Lire Plus",
+    "newsletter": {
+      "title": "Rester Informé",
+      "subtitle": "Obtenez les dernières mises à jour et perspectives",
+      "placeholder": "Entrez votre email",
+      "subscribe": "S'Abonner"
+    }
+  },
+  "language": "fr",
+  "lastUpdated": "2025-09-20T15:24:58.184Z"
+}

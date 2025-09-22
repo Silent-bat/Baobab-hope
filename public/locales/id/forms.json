@@ -1,0 +1,13 @@
+{
+  "information": {
+    "featured": "Konten Unggulan",
+    "readFull": "Baca Artikel Lengkap",
+    "readMore": "Baca Selengkapnya",
+    "newsletter": {
+      "title": "Tetap Terinformasi",
+      "subtitle": "Dapatkan update dan wawasan terbaru",
+      "placeholder": "Masukkan alamat email Anda",
+      "subscribe": "Berlangganan"
+    }
+  }
+}

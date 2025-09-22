@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over Ons",
+    "actions": "Onze Acties",
+    "information": "Informatie",
+    "act": "Actie",
+    "donate": "Doneren",
+    "search": "Zoeken...",
+    "aboutTitle": "Over Ons",
+    "informationTitle": "Informatie",
+    "actTitle": "Neem Actie"
+  },
+  "footer": {
+    "mission": "Hoop doen groeien, gemeenschappen koesteren, duurzame toekomsten creëren.",
+    "links": "Snelle Links",
+    "contact": "Contactinformatie",
+    "newsletter": {
+      "title": "Nieuwsbrief Abonnement",
+      "subtitle": "Blijf op de hoogte van onze nieuwste acties en impact",
+      "placeholder": "Je email adres",
+      "subscribe": "Abonneren",
+      "success": "Bedankt voor het abonneren!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "language": "nl",
+  "lastUpdated": "2025-09-21T12:25:20.000Z"
+}

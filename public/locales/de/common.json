@@ -1,0 +1,68 @@
+{
+  "slogan": {
+    "main": "Ein Herz, Eine Hand"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Ein Fehler ist aufgetreten",
+    "backTop": "Nach oben",
+    "share": "Teilen",
+    "search": "Suchen",
+    "menu": "Menü",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "joinUs": "Mach mit",
+    "contactUs": "Kontaktiere uns",
+    "followUs": "Folge uns",
+    "subscribe": "Abonnieren",
+    "thankYou": "Danke",
+    "success": "Erfolg",
+    "apply": "Bewerben",
+    "submit": "Senden",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "download": "Herunterladen",
+    "required": "Erforderlich",
+    "yes": "Ja",
+    "no": "Nein",
+    "started": "Gestartet",
+    "people": {
+      "reached": "Erreichte Menschen"
+    },
+    "active": {
+      "projects": "Aktive Projekte"
+    },
+    "countries": "Länder",
+    "successRate": "Erfolgsrate"
+  },
+  "accessibility": {
+    "languageChanged": "Language changed to {{language}",
+    "languageSelector": "Select language",
+    "currentLanguage": "Current language: {{language}",
+    "availableLanguages": "Available languages",
+    "searchLanguages": "Search languages",
+    "languageOptions": "Use arrow keys to navigate, Enter to select, Escape to close",
+    "skipToContent": "Skip to main content",
+    "skipToNavigation": "Skip to navigation",
+    "mainContent": "Main content",
+    "navigation": "Navigation",
+    "languageMenu": "Language menu",
+    "closeLanguageMenu": "Close language menu",
+    "openLanguageMenu": "Open language menu"
+  },
+  "language": "de",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-20T15:24:57.761Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}

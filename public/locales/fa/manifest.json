@@ -1,0 +1,20 @@
+{
+  "language": "fa",
+  "name": "Persian",
+  "nativeName": "فارسی",
+  "direction": "rtl",
+  "region": "Asia",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-20T15:24:57.853Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc"
+  ],
+  "totalKeys": 96,
+  "completionRate": 0.1,
+  "status": "initial"
+}

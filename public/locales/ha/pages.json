@@ -1,0 +1,257 @@
+{
+  "home": {
+    "title": "Ba da Ƙarfi Ta Hanyar Ilimi",
+    "subtitle": "Gina Makoma Mafi Kyau"
+  },
+  "environment": {
+    "title": "Kare Duniyarmu",
+    "subtitle": "Kiyaye Muhalli",
+    "description": "Aiwa ayyuka masu dorewa da ƙoƙarin kiyayewa don kare tsarin halittu ga tsararraki masu zuwa yayin da muke ƙarfafa al'ummomin gida.",
+    "cta": "Gano Tasirinmu"
+  },
+  "healthcare": {
+    "title": "Kula da Lafiya ga Kowa",
+    "subtitle": "Jin Dadin Al'umma",
+    "description": "Bayar da ayyukan kiwon lafiya masu mahimmanci da ilimin lafiya ga al'ummomin da ba su da isasshen sabis, tabbatar da kowa yana samun damar kulawa da lafiya mai inganci.",
+    "cta": "Duba Ayyukan Lafiya"
+  },
+  "impact": {
+    "title": "Tasirinmu Mai Girma",
+    "people": "Rayuwar Da Ta Canza",
+    "countries": "Ƙasashen Da Muka Kai"
+  },
+  "stories": {
+    "title": "Labarun Tasirinmu",
+    "subtitle": "Gano yadda muke haifar da canje-canje masu dorewa a cikin al'ummomi a duk faɗin duniya"
+  },
+  "cta": {
+    "title": "Kuna Shirye Ku Shuka Tsaba na Canji?",
+    "subtitle": "Ku shiga cikin al'ummarmu mai girma na wakilan canji kuma ku taimake mu wajen kula da bege a cikin al'ummomin da suka fi bukata. Kowane gudummawa, ko kaɗan, yana haifar da raƙuman canji mai kyau.",
+    "learn": "Gano Labarinmu"
+  },
+  "about": {
+    "title": "Game da BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Kamar itacen baobab mai ƙarfi, mun gaskata da saiwa mai zurfi, girma mai ƙarfi, da tasiri mai dorewa."
+    },
+    "mission": {
+      "badge": "Manufarmu",
+      "title": "Manufarmu",
+      "text": "Kulawa da girma mai dorewa a cikin al'ummomi ta hanyar ilimi, ƙarfafawa, da kula da muhalli, ƙirƙirar canje-canje mai kyau mai dorewa wanda ya shafi tsararraki.",
+      "description": "Tun lokacin da aka kafa mu a cikin 2020, mun sadaukar da kanmu don ƙirƙirar hanyoyin magance masu dorewa waɗanda ke magance tushen talauci, rashin daidaito, da lalacewar muhalli."
+    },
+    "values": {
+      "badge": "Abin da ke motsa mu",
+      "title": "Ƙimarmu ta Asali",
+      "subtitle": "Ƙimarmu ta asali tana jagorantar kowane yanke shawara da muke yi da kowane aiki da muke yi a hidimar manufarmu.",
+      "community": "Al'umma Na Farko",
+      "transparency": "Bayyana Gaskiya",
+      "empowerment": "Ba da Ƙarfi",
+      "growthDescription": "Mun gaskata da kulawa da hanyoyin magance masu dorewa na dogon lokaci waɗanda ke ƙara ƙarfi yayin da lokaci ke wucewa, kamar itacen baobab.",
+      "communityDescription": "Al'ummomi suna tsakiyar duk abin da muke yi. Muna saurare, muna koyo, kuma muna aiki tare don ƙirƙirar canje-canje masu ma'ana.",
+      "transparencyDescription": "Muna kula da bayyana gaskiya cikakke a cikin ayyukanmu, kuɗinmu, da tasirinmu don gina amincewa mai dorewa tare da magoya bayanmu.",
+      "empowermentDescription": "Muna ƙarfafa mutane da al'ummomi da kayan aiki, ilimi, da albarkatu da suke buƙata don bunƙasa cikin 'yanci."
+    },
+    "timeline": {
+      "badge": "Tafiyarmu",
+      "title": "Girma Tare Da Mu Tun 2020",
+      "subtitle": "Daga farkonmu mai tawali'u zuwa tasiri na duniya, duba yadda BAOBAB HOPE ya girma kuma ya canza.",
+      "milestone1": {
+        "description": "Farko da hangen nesa don ƙirƙirar canje-canje masu dorewa"
+      },
+      "milestone2": {
+        "event": "Shirye-shiryen Ilimi na Farko",
+        "description": "Ya ƙaddamar da yunƙurin karatu a cikin al'ummomi 3"
+      },
+      "milestone3": {
+        "event": "Mayar da Hankali Kan Muhalli",
+        "description": "Ya faɗaɗa don haɗawa da ayyukan kiyayewa da dorewa"
+      },
+      "milestone4": {
+        "event": "Yunƙurin Lafiya",
+        "description": "Ya gabatar da asibitoci masu motsi da ilimin lafiya"
+      },
+      "milestone5": {
+        "event": "Faɗaɗa Duniya",
+        "description": "Yanzu yana aiki a cikin ƙasashe 18 a kan nahiyoyi 4"
+      }
+    },
+    "impact": {
+      "title": "Tasirinmu Mai Girma",
+      "subtitle": "Lambobi da ke ba da labarin rayuwar da ta canza da al'ummomin da aka ƙarfafa.",
+      "livesTransformed": "Rayuwar Da Ta Canza",
+      "activeProjects": "Ayyuka Masu Aiki",
+      "countriesReached": "Ƙasashen Da Muka Kai",
+      "volunteers": "Masu Sa Kai"
+    },
+    "team": {
+      "badge": "Haɗu da Ƙungiyarmu",
+      "title": "Mutane A Bayan Manufa",
+      "subtitle": "Haɗu da mutane masu sadaukarwa waɗanda ke jagorantar ƙungiyarmu kuma suna tura manufarmu gaba.",
+      "member1": {},
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Daraktan Shirye-shirye",
+        "bio": "Ƙwararre a fannin ilimi mai mai da hankali kan yunƙurin koyo na al'umma"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Manajan Ayyuka",
+        "bio": "Mai kula da lafiya mai sha'awar kulawa da lafiya mai sauƙi"
+      }
+    },
+    "history": {
+      "title": "Tarihinmu",
+      "subtitle": "Tafiyar BAOBAB HOPE daga ra'ayi ƙarami zuwa motsi na duniya",
+      "founding": {
+        "title": "Farkon Fata",
+        "description": "An kafa BAOBAB HOPE a cikin 2020 tare da hangen nesa mai sauƙi amma mai ƙarfi: ƙirƙirar canje-canje masu dorewa a cikin al'ummomi a duk faɗin duniya."
+      },
+      "growth": {
+        "title": "Yin Tushen",
+        "description": "Daga farkonmu mai tawali'u, mun girma don yin hidima ga al'ummomi a cikin ƙasashe 18, koyaushe muna tsayawa daidai da ƙimarmu ta asali."
+      },
+      "impact": {
+        "title": "Haifar da Tasiri",
+        "description": "Yau, mun canza rayuwar sama da 75,000 ta hanyar shirye-shiryen ilimi, lafiya, da muhalli."
+      },
+      "cta": {
+        "title": "Ku Zama Wani Bangare na Tarihinmu",
+        "subtitle": "Ku shiga cikin dubban masu sa kai da magoya baya waɗanda ke taimaka mana rubuta bab na gaba na fata."
+      }
+    }
+  },
+  "projects": {
+    "title": "Ayyukanmu",
+    "subtitle": "Gano yunƙuran canji waɗanda ke haifar da canje-canje masu dorewa a cikin al'ummomi a duk faɗin duniya.",
+    "education": {
+      "title": "Ilimi Da Karatu",
+      "description": "Gina tushen ilimi waɗanda ke ƙarfafa al'ummomi don bunƙasa da girma cikin hanyar dorewa."
+    },
+    "environment": {
+      "title": "Kiyaye Muhalli",
+      "description": "Kare da maido da tsarin halittu yayin da muke koyar da ayyuka masu dorewa ga al'ummomin gida."
+    },
+    "healthcare": {
+      "title": "Lafiyar Al'umma",
+      "description": "Bayar da ayyukan kiwon lafiya masu mahimmanci da ilimin lafiya ga al'ummomin da ba su da isasshen sabis."
+    },
+    "water": {
+      "title": "Samun Ruwa Mai Tsafta",
+      "description": "Gina tsarin ruwa mai dorewa da koyar da ayyukan kiyaye ruwa."
+    },
+    "view": "Duba Cikakkun Bayanai",
+    "learn": "Koyi Ƙari",
+    "explore": "Bincika Aiki",
+    "impact": {
+      "title": "Tasirinmu",
+      "subtitle": "Duba bambanci da muke yi tare"
+    },
+    "cta": {
+      "title": "Ku Shiga Manufarmu",
+      "subtitle": "Kowane gudummawa yana yin bambanci",
+      "support": "Goena Ayyukanmu",
+      "involved": "Ku Shiga"
+    }
+  },
+  "blog": {
+    "title": "Ci Gaba da Sabuntawa",
+    "subtitle": "Yi rijista ga wasiƙarmu don samun sabuntawa na baya-bayan nan"
+  },
+  "information": {
+    "title": "Cibiyar Bayanai",
+    "subtitle": "Samu damar albarkatu, labarai, da bayanai game da ayyuka da tasirinmu",
+    "featured": "Abubuwan da aka Zaɓa",
+    "readFull": "Karanta Cikakkiyar Labari",
+    "readMore": "Karanta Ƙari",
+    "newsletter": {
+      "title": "Ci Gaba da Sanin",
+      "subtitle": "Samu sabuntawa da bayanai na baya-bayan nan",
+      "placeholder": "Shigar da imel ɗin ku",
+      "subscribe": "Yi Rijista"
+    }
+  },
+  "contact": {
+    "title": "Tuntube Mu",
+    "subtitle": "Tuntube mu. Muna farin cikin jin daga gare ku.",
+    "hero": {
+      "subtitle": "Muna nan don taimakawa da amsa kowace tambaya da kuke iya samu"
+    },
+    "name": "Cikakken Suna",
+    "subject": "Batun",
+    "message": "Sako",
+    "send": "Aika Sako"
+  },
+  "info": {
+    "title": "Bayanin Tuntuɓi",
+    "email": {
+      "title": "Imel"
+    },
+    "phone": {
+      "title": "Wayar"
+    },
+    "address": {
+      "title": "Adireshi"
+    },
+    "hours": {
+      "title": "Lokacin Aiki",
+      "monday": "Litinin - Juma'a: 9:00 - 18:00",
+      "saturday": "Asabar: 10:00 - 16:00",
+      "sunday": "Lahadi: A rufe"
+    }
+  },
+  "help": {
+    "title": "Ta Yaya Zamu Iya Taimaka?",
+    "volunteer": {
+      "title": "Zama Mai Sa Kai",
+      "description": "Ku shiga cikin al'ummarmu na masu sa kai waɗanda ke yin bambanci"
+    },
+    "partner": {
+      "title": "Damarmakin Haɗin Kai",
+      "description": "Gano hanyoyin haɗin kai tare da mu don tasiri mafi girma",
+      "button": "Fara"
+    }
+  },
+  "donate": {
+    "title": "Bayar da Gudummawa",
+    "subtitle": "Tallafin ku yana taimaka mana wajen ƙirƙirar canje-canje masu dorewa a cikin al'ummomi a duk faɗin duniya",
+    "hero": {
+      "subtitle": "Kowane gudummawa, ko kaɗan, yana haifar da tasiri na gaske"
+    },
+    "amount": "Zaɓi Adadi",
+    "custom": "Adadi na Musamman",
+    "customPlaceholder": "Shigar da adadi",
+    "monthly": "Yi wannan ya zama gudummawa na kowane wata",
+    "form": {
+      "firstName": "Sunan Farko",
+      "lastName": "Sunan Ƙarshe",
+      "paymentMethod": "Hanyar Biya",
+      "creditCard": "Katin Kiredit"
+    },
+    "submit": "Kammala Gudummawa",
+    "secure": "Gudummawa mai aminci ta hanyar Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Tasirinku",
+      "25Description": "Yana ba da kayan aikin makaranta ga yara 5",
+      "50Description": "Yana ba da tallafi ga ruwa mai tsafta na mako ɗaya ga iyali ɗaya",
+      "100Description": "Yana goyan bayan sabis na likita na wata ɗaya",
+      "250Description": "Yana ba da tallafi ga ilimin yaro na semester ɗaya"
+    },
+    "why": {
+      "title": "Me Ya Sa Za Ku Bayar da Gudummawa ga BAOBAB HOPE?",
+      "item1": "Bayyana gaskiya 100% a cikin yadda ake amfani da kuɗi",
+      "item2": "Tasiri kai tsaye a cikin al'ummomi a duk faɗin duniya",
+      "item3": "Hanyoyin magance masu dorewa waɗanda ke ƙirƙirar canje-canje masu dorewa",
+      "item4": "Sabuntawa na yau da kullum game da tasirin gudummawarku"
+    },
+    "alert": {
+      "processing": "Ana sarrafa gudummawarku na ${amount}${monthly}..."
+    }
+  },
+  "language": "ha",
+  "lastUpdated": "2025-09-21T21:59:21.023Z"
+}

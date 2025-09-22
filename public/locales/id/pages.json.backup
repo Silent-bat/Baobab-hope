@@ -1,0 +1,264 @@
+{
+
+  "home": {
+        "title": "Pemberdayaan Melalui Pendidikan",
+        "subtitle": "Membangun Masa Depan Yang Cerah"
+      },
+      "environment": {
+        "title": "Melindungi Planet Kita",
+        "subtitle": "Konservasi Lingkungan",
+        "description": "Menerapkan praktik berkelanjutan dan upaya konservasi untuk melestarikan ekosistem bagi generasi mendatang sambil memberdayakan komunitas lokal.",
+        "cta": "Pelajari Tentang Dampak Kami"
+      },
+        "title": "Perawatan Kesehatan Untuk Semua",
+        "subtitle": "Kesehatan Komunitas",
+        "description": "Menyediakan layanan perawatan kesehatan penting dan pendidikan kesehatan kepada komunitas yang kurang terlayani, memastikan semua orang memiliki akses ke perawatan medis berkualitas.",
+        "cta": "Lihat Proyek Kesehatan"
+      }
+    },
+    "impact": {
+      "title": "Dampak Yang Berkembang Kami",
+      "people": "Kehidupan Yang Berubah",
+      "countries": "Negara Yang Dicapai",
+    },
+    "stories": {
+      "title": "Kisah Dampak Kami",
+      "subtitle": "Temukan bagaimana kami menciptakan perubahan berkelanjutan di komunitas di seluruh dunia"
+    },
+    "cta": {
+      "title": "Siap Menanam Benih Perubahan?",
+      "subtitle": "Bergabunglah dengan komunitas pencipta perubahan yang berkembang kami dan bantu kami memelihara harapan di komunitas yang paling membutuhkannya. Setiap kontribusi, sekecil apa pun, menciptakan gelombang perubahan positif.",
+      "learn": "Pelajari Kisah Kami"
+    }
+  },
+  "about": {
+    "title": "TENTANG BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Seperti pohon baobab yang perkasa, kami percaya pada akar yang dalam, pertumbuhan yang kuat, dan dampak yang berkelanjutan."
+    },
+    "mission": {
+      "badge": "Tujuan Kami",
+      "title": "Misi Kami",
+      "text": "Memelihara pertumbuhan berkelanjutan di komunitas melalui pendidikan, pemberdayaan, dan pengelolaan lingkungan, menciptakan perubahan positif berkelanjutan yang melintasi generasi.",
+      "description": "Sejak didirikan pada tahun 2020, kami berkomitmen untuk menciptakan solusi berkelanjutan yang mengatasi akar penyebab kemiskinan, ketidaksetaraan, dan degradasi lingkungan."
+    },
+    "values": {
+      "badge": "Yang Mendorong Kami",
+      "title": "Nilai-Nilai Inti Kami",
+      "subtitle": "Nilai-nilai inti kami memandu setiap keputusan yang kami buat dan setiap tindakan yang kami lakukan dalam pelayanan misi kami.",
+      "community": "Komunitas Terlebih Dahulu",
+      "transparency": "Transparansi",
+      "empowerment": "Pemberdayaan",
+      "growthDescription": "Kami percaya dalam memelihara solusi jangka panjang berkelanjutan yang menjadi lebih kuat seiring waktu, seperti pohon baobab.",
+      "communityDescription": "Komunitas adalah inti dari segala yang kami lakukan. Kami mendengarkan, belajar, dan bekerja sama untuk menciptakan perubahan yang bermakna.",
+      "transparencyDescription": "Kami menjaga transparansi penuh dalam operasi, keuangan, dan dampak kami untuk membangun kepercayaan berkelanjutan dengan pendukung kami.",
+      "empowermentDescription": "Kami memberdayakan individu dan komunitas dengan alat, pengetahuan, dan sumber daya yang mereka butuhkan untuk berkembang secara mandiri."
+    },
+    "timeline": {
+      "badge": "Perjalanan Kami",
+      "title": "Berkembang Bersama Sejak 2020",
+      "subtitle": "Dari awal yang sederhana hingga dampak global, lihat bagaimana BAOBAB HOPE telah berkembang dan berevolusi.",
+      "milestone1": {
+        "description": "Dimulai dengan visi menciptakan perubahan berkelanjutan"
+      },
+      "milestone2": {
+        "event": "Program Pendidikan Pertama",
+        "description": "Meluncurkan inisiatif literasi di 3 komunitas"
+      },
+      "milestone3": {
+        "event": "Fokus Lingkungan",
+        "description": "Diperluas untuk mencakup proyek konservasi dan keberlanjutan"
+      },
+      "milestone4": {
+        "event": "Inisiatif Kesehatan",
+        "description": "Memperkenalkan klinik kesehatan bergerak dan pendidikan kesehatan"
+      },
+      "milestone5": {
+        "event": "Ekspansi Global",
+        "description": "Sekarang beroperasi di 18 negara di 4 benua"
+      }
+    }
+    "impact": {
+      "title": "Dampak Yang Berkembang Kami",
+      "subtitle": "Angka yang menceritakan kisah kehidupan yang berubah dan komunitas yang diberdayakan.",
+      "livesTransformed": "Kehidupan Yang Berubah",
+      "activeProjects": "Proyek Aktif",
+      "countriesReached": "Negara Yang Dicapai",
+      "volunteers": "Relawan"
+    },
+    "team": {
+      "badge": "Temui Tim Kami",
+      "title": "Orang-Orang Di Balik Misi",
+      "subtitle": "Temui individu-individu yang berdedikasi yang memimpin organisasi kami dan mendorong misi kami maju.",
+      "member1": {
+      },
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Direktur Program",
+        "bio": "Spesialis pendidikan yang fokus pada inisiatif pembelajaran berbasis komunitas"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Manajer Operasi",
+        "bio": "Administrator kesehatan yang bersemangat tentang perawatan medis yang mudah diakses"
+      }
+    },
+    "history": {
+      "title": "Sejarah Kami",
+      "subtitle": "Perjalanan BAOBAB HOPE dari ide kecil menjadi gerakan global",
+      "founding": {
+        "title": "Awal Harapan",
+        "description": "BAOBAB HOPE didirikan pada tahun 2020 dengan visi sederhana namun kuat: menciptakan perubahan berkelanjutan di komunitas di seluruh dunia."
+      },
+      "growth": {
+        "title": "Pertumbuhan Akar",
+        "description": "Dari awal yang sederhana, kami telah berkembang untuk melayani komunitas di 18 negara, selalu setia pada nilai-nilai inti kami."
+      },
+      "impact": {
+        "title": "Menciptakan Dampak",
+        "description": "Hari ini, kami telah mengubah lebih dari 75.000 kehidupan melalui program pendidikan, kesehatan, dan lingkungan kami."
+      },
+      "cta": {
+        "title": "Jadilah Bagian Dari Kisah Kami",
+        "subtitle": "Bergabunglah dengan ribuan relawan dan pendukung yang membantu kami menulis babak berikutnya dari harapan."
+      }
+    }
+  },
+  "projects": {
+    "title": "Tindakan Kami",
+    "subtitle": "Temukan inisiatif transformatif yang menciptakan perubahan berkelanjutan di komunitas di seluruh dunia.",
+    "education": {
+      "title": "Pendidikan & Literasi",
+      "description": "Membangun fondasi pendidikan yang memungkinkan komunitas berkembang dan tumbuh secara berkelanjutan."
+    },
+    "environment": {
+      "title": "Konservasi Lingkungan",
+      "description": "Melindungi dan memulihkan ekosistem sambil mengajarkan praktik berkelanjutan kepada komunitas lokal."
+    },
+    "healthcare": {
+      "title": "Kesehatan Komunitas",
+      "description": "Menyediakan layanan perawatan kesehatan penting dan pendidikan kesehatan kepada komunitas yang kurang terlayani."
+    },
+    "water": {
+      "title": "Akses Air Bersih",
+      "description": "Membangun sistem air berkelanjutan dan mengajarkan praktik konservasi air."
+    },
+    "view": "Lihat Detail",
+    "learn": "Pelajari Lebih Lanjut",
+    "explore": "Jelajahi Proyek",
+    "impact": {
+      "title": "Dampak Kami",
+      "subtitle": "Lihat perbedaan yang kami buat bersama"
+    },
+    "cta": {
+      "title": "Bergabunglah Dengan Misi Kami",
+      "subtitle": "Setiap kontribusi membuat perbedaan",
+      "support": "Dukung Pekerjaan Kami",
+      "involved": "Terlibat"
+    }
+  },
+  "blog": {
+    "title": "Berita Terbaru",
+    "subtitle": "Tetap update dengan kisah dampak dan berita komunitas terbaru kami",
+      "title": "Tetap Update",
+      "subtitle": "Berlangganan newsletter kami untuk update terbaru",
+    }
+  },
+  "information": {
+    "title": "Pusat Informasi",
+    "subtitle": "Akses sumber daya, berita, dan wawasan tentang pekerjaan dan dampak kami",
+    "featured": "Konten Unggulan",
+    "readFull": "Baca Artikel Lengkap",
+    "readMore": "Baca Selengkapnya",
+    "newsletter": {
+      "title": "Tetap Terinformasi",
+      "subtitle": "Dapatkan update dan wawasan terbaru",
+      "placeholder": "Masukkan alamat email Anda",
+      "subscribe": "Berlangganan"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Hubungi kami. Kami senang mendengar dari Anda.",
+    "hero": {
+      "subtitle": "Kami di sini untuk membantu dan menjawab pertanyaan apa pun yang mungkin Anda miliki"
+    },
+      "title": "Kirim Pesan Kepada Kami",
+      "name": "Nama Lengkap",
+      "subject": "Subjek",
+      "message": "Pesan",
+      "send": "Kirim Pesan"
+    },
+    "info": {
+      "title": "Informasi Kontak",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Telepon"
+      },
+      "address": {
+        "title": "Alamat"
+      },
+      "hours": {
+        "title": "Jam Kerja",
+        "monday": "Senin - Jumat: 09:00 - 18:00",
+        "saturday": "Sabtu: 10:00 - 16:00",
+        "sunday": "Minggu: Tutup"
+      }
+    },
+    "help": {
+      "title": "Bagaimana Kami Dapat Membantu?",
+      "volunteer": {
+        "title": "Menjadi Relawan",
+        "description": "Bergabunglah dengan komunitas relawan yang membuat perbedaan",
+      },
+      "partner": {
+        "title": "Peluang Kemitraan",
+        "description": "Jelajahi cara bermitra dengan kami untuk dampak yang lebih besar",
+        "button": "Mulai"
+      }
+    }
+  },
+  "donate": {
+    "title": "Donasi",
+    "subtitle": "Dukungan Anda membantu kami menciptakan perubahan berkelanjutan di komunitas di seluruh dunia",
+    "hero": {
+      "subtitle": "Setiap donasi, sekecil apa pun, membuat perbedaan nyata"
+    },
+    "amount": "Pilih Jumlah",
+    "custom": "Jumlah Kustom",
+    "customPlaceholder": "Masukkan jumlah",
+    "monthly": "Jadikan ini donasi bulanan",
+    "form": {
+      "firstName": "Nama Depan",
+      "lastName": "Nama Belakang",
+      "paymentMethod": "Metode Pembayaran",
+      "creditCard": "Kartu Kredit"
+    },
+    "submit": "Selesaikan Donasi",
+    "secure": "Donasi aman didukung oleh Stripe",
+    "impact": {
+      "25": "25$",
+      "50": "50$",
+      "100": "100$",
+      "250": "250$",
+      "title": "Dampak Anda",
+      "25Description": "Menyediakan perlengkapan sekolah untuk 5 anak",
+      "50Description": "Mendukung air bersih selama seminggu untuk satu keluarga",
+      "100Description": "Mendukung layanan kesehatan selama sebulan",
+      "250Description": "Mensponsori pendidikan anak selama satu semester"
+    },
+    "why": {
+      "title": "Mengapa Donasi ke BAOBAB HOPE?",
+      "item1": "Transparansi 100% dalam penggunaan dana",
+      "item2": "Dampak langsung di komunitas di seluruh dunia",
+      "item3": "Solusi berkelanjutan yang menciptakan perubahan berkelanjutan",
+      "item4": "Update rutin tentang dampak donasi Anda"
+    },
+    "alert": {
+      "processing": "Memproses donasi ${amount} ${monthly} Anda..."
+    }
+  }
+
+}

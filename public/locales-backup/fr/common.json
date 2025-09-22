@@ -1,0 +1,53 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "backTop": "Retour en Haut",
+    "share": "Partager",
+    "search": "Rechercher",
+    "menu": "Menu",
+    "close": "Fermer",
+    "open": "Ouvrir",
+    "learnMore": "En Savoir Plus",
+    "getStarted": "Commencer",
+    "joinUs": "Rejoignez-Nous",
+    "contactUs": "Contactez-Nous",
+    "followUs": "Suivez-Nous",
+    "subscribe": "S'Abonner",
+    "thankYou": "Merci",
+    "success": {
+      "rate": "Taux de Réussite"
+    },
+    "apply": "Postuler",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "save": "Sauvegarder",
+    "download": "Télécharger",
+    "required": "Requis",
+    "yes": "Oui",
+    "no": "Non",
+    "started": "Commencé",
+    "people": {
+      "reached": "Personnes Atteintes"
+    },
+    "active": {
+      "projects": "Projets Actifs"
+    },
+    "countries": "Pays"
+  },
+  "accessibility": {
+    "languageChanged": "Langue changée vers {{language}}",
+    "languageSelector": "Sélectionner la langue",
+    "currentLanguage": "Langue actuelle : {{language}}",
+    "availableLanguages": "Langues disponibles",
+    "searchLanguages": "Rechercher des langues",
+    "languageOptions": "Utilisez les flèches pour naviguer, Entrée pour sélectionner, Échap pour fermer",
+    "skipToContent": "Aller au contenu principal",
+    "skipToNavigation": "Aller à la navigation",
+    "mainContent": "Contenu principal",
+    "navigation": "Navigation",
+    "languageMenu": "Menu des langues",
+    "closeLanguageMenu": "Fermer le menu des langues",
+    "openLanguageMenu": "Ouvrir le menu des langues"
+  }
+}

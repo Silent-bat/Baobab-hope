@@ -1,0 +1,257 @@
+{
+  "home": {
+    "title": "Ermächtigung durch Bildung",
+    "subtitle": "Heller Zukunft aufbauen"
+  },
+  "environment": {
+    "title": "Schutz unseres Planeten",
+    "subtitle": "Umweltschutz",
+    "description": "Implementierung nachhaltiger Praktiken und Erhaltungsbemühungen zum Schutz von Ökosystemen für zukünftige Generationen und gleichzeitige Stärkung lokaler Gemeinschaften.",
+    "cta": "Erfahren Sie von unserer Wirkung"
+  },
+  "healthcare": {
+    "title": "Gesundheitsversorgung für alle",
+    "subtitle": "Gemeinschaftliches Wohlbefinden",
+    "description": "Bereitstellung wesentlicher Gesundheitsdienste und Gesundheitserziehung für unterversorgte Gemeinschaften und Gewährleistung des Zugangs zu hochwertiger Gesundheitsversorgung für alle.",
+    "cta": "Gesundheitsprojekte ansehen"
+  },
+  "impact": {
+    "title": "Unsere wachsende Wirkung",
+    "people": "Verwandelte Leben",
+    "countries": "Erreichte Länder"
+  },
+  "stories": {
+    "title": "Unsere Wirkungsgeschichten",
+    "subtitle": "Entdecken Sie, wie wir nachhaltige Veränderungen in Gemeinschaften weltweit schaffen"
+  },
+  "cta": {
+    "title": "Bereit, Samen des Wandels zu pflanzen?",
+    "subtitle": "Treten Sie unserer wachsenden Gemeinschaft von Veränderungsakteuren bei und helfen Sie uns, Hoffnung in den Gemeinschaften zu nähren, die sie am meisten brauchen. Jeder Beitrag, unabhängig von seiner Größe, schafft Wellen positiver Veränderungen.",
+    "learn": "Erfahren Sie unsere Geschichte"
+  },
+  "about": {
+    "title": "Über BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Wie der mächtige Baobab-Baum glauben wir an tiefe Wurzeln, starkes Wachstum und dauerhafte Wirkung."
+    },
+    "mission": {
+      "badge": "Unser Zweck",
+      "title": "Unsere Mission",
+      "text": "Nachhaltiges Wachstum in Gemeinschaften durch Bildung, Stärkung und Umweltmanagement fördern und dauerhafte positive Veränderungen schaffen, die Generationen umspannen.",
+      "description": "Seit unserer Gründung im Jahr 2020 haben wir uns verpflichtet, nachhaltige Lösungen zu schaffen, die die Grundursachen von Armut, Ungleichheit und Umweltzerstörung angehen."
+    },
+    "values": {
+      "badge": "Was uns antreibt",
+      "title": "Unsere Kernwerte",
+      "subtitle": "Unsere Kernwerte leiten jede Entscheidung, die wir treffen, und jede Handlung, die wir im Dienste unserer Mission ausführen.",
+      "community": "Gemeinschaft zuerst",
+      "transparency": "Transparenz",
+      "empowerment": "Stärkung",
+      "growthDescription": "Wir glauben an die Förderung langfristiger nachhaltiger Lösungen, die im Laufe der Zeit stärker werden, wie der Baobab-Baum.",
+      "communityDescription": "Gemeinschaften stehen im Mittelpunkt alles, was wir tun. Wir hören zu, lernen und arbeiten zusammen, um bedeutende Veränderungen zu schaffen.",
+      "transparencyDescription": "Wir wahren vollständige Transparenz in unseren Operationen, Finanzen und unserer Wirkung, um dauerhaftes Vertrauen mit unseren Unterstützern aufzubauen.",
+      "empowermentDescription": "Wir stärken Einzelpersonen und Gemeinschaften mit den Werkzeugen, dem Wissen und den Ressourcen, die sie für unabhängiges Gedeihen benötigen."
+    },
+    "timeline": {
+      "badge": "Unsere Reise",
+      "title": "Gemeinsam wachsen seit 2020",
+      "subtitle": "Von unseren bescheidenen Anfängen bis zur globalen Wirkung, sehen Sie, wie BAOBAB HOPE gewachsen und sich entwickelt hat.",
+      "milestone1": {
+        "description": "Begann mit einer Vision, nachhaltige Veränderungen zu schaffen"
+      },
+      "milestone2": {
+        "event": "Erstes Bildungsprogramm",
+        "description": "Startete Alphabetisierungsinitiativen in 3 Gemeinschaften"
+      },
+      "milestone3": {
+        "event": "Umweltfokus",
+        "description": "Erweiterte um Erhaltungs- und Nachhaltigkeitsprojekte"
+      },
+      "milestone4": {
+        "event": "Gesundheitsinitiative",
+        "description": "Einführung mobiler Kliniken und Gesundheitserziehung"
+      },
+      "milestone5": {
+        "event": "Globale Expansion",
+        "description": "Operiert jetzt in 18 Ländern auf 4 Kontinenten"
+      }
+    },
+    "impact": {
+      "title": "Unsere wachsende Wirkung",
+      "subtitle": "Zahlen, die die Geschichte verwandelter Leben und gestärkter Gemeinschaften erzählen.",
+      "livesTransformed": "Verwandelte Leben",
+      "activeProjects": "Aktive Projekte",
+      "countriesReached": "Erreichte Länder",
+      "volunteers": "Freiwillige"
+    },
+    "team": {
+      "badge": "Lernen Sie unser Team kennen",
+      "title": "Die Menschen hinter der Mission",
+      "subtitle": "Lernen Sie die engagierten Menschen kennen, die unsere Organisation leiten und unsere Mission vorantreiben.",
+      "member1": {},
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Programmdirektor",
+        "bio": "Bildungsspezialist mit Fokus auf gemeinschaftsgetriebenen Lerninitiativen"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Betriebsleiter",
+        "bio": "Gesundheitsverwalter mit Leidenschaft für zugängliche medizinische Versorgung"
+      }
+    },
+    "history": {
+      "title": "Unsere Geschichte",
+      "subtitle": "Die Reise von BAOBAB HOPE von einer kleinen Idee zu einer globalen Bewegung",
+      "founding": {
+        "title": "Der Anfang der Hoffnung",
+        "description": "BAOBAB HOPE wurde 2020 mit einer einfachen, aber kraftvollen Vision gegründet: nachhaltige Veränderungen in Gemeinschaften weltweit zu schaffen."
+      },
+      "growth": {
+        "title": "Wurzeln schlagen",
+        "description": "Von unseren bescheidenen Anfängen sind wir gewachsen, um Gemeinschaften in 18 Ländern zu dienen, immer treu unseren Kernwerten."
+      },
+      "impact": {
+        "title": "Wirkung erzielen",
+        "description": "Heute haben wir über 75.000 Leben durch unsere Programme in Bildung, Gesundheit und Umwelt verändert."
+      },
+      "cta": {
+        "title": "Werden Sie Teil unserer Geschichte",
+        "subtitle": "Treten Sie Tausenden von Freiwilligen und Unterstützern bei, die uns helfen, das nächste Kapitel der Hoffnung zu schreiben."
+      }
+    }
+  },
+  "projects": {
+    "title": "Unsere Aktionen",
+    "subtitle": "Entdecken Sie die transformativen Initiativen, die dauerhafte Veränderungen in Gemeinschaften weltweit schaffen.",
+    "education": {
+      "title": "Bildung und Alphabetisierung",
+      "description": "Aufbau von Bildungsgrundlagen, die Gemeinschaften für nachhaltiges Gedeihen und Wachstum stärken."
+    },
+    "environment": {
+      "title": "Umweltschutz",
+      "description": "Schutz und Wiederherstellung von Ökosystemen und gleichzeitige Lehre nachhaltiger Praktiken an lokale Gemeinschaften."
+    },
+    "healthcare": {
+      "title": "Gemeindliche Gesundheit",
+      "description": "Bereitstellung wesentlicher Gesundheitsdienste und Gesundheitserziehung für unterversorgte Gemeinschaften."
+    },
+    "water": {
+      "title": "Zugang zu sauberem Wasser",
+      "description": "Aufbau nachhaltiger Wassersysteme und Lehre von Wasserschutzpraktiken."
+    },
+    "view": "Details ansehen",
+    "learn": "Mehr erfahren",
+    "explore": "Projekt erkunden",
+    "impact": {
+      "title": "Unsere Wirkung",
+      "subtitle": "Sehen Sie den Unterschied, den wir gemeinsam machen"
+    },
+    "cta": {
+      "title": "Treten Sie unserer Mission bei",
+      "subtitle": "Jeder Beitrag macht einen Unterschied",
+      "support": "Unsere Arbeit unterstützen",
+      "involved": "Sich engagieren"
+    }
+  },
+  "blog": {
+    "title": "Bleiben Sie auf dem Laufenden",
+    "subtitle": "Abonnieren Sie unseren Newsletter für die neuesten Updates"
+  },
+  "information": {
+    "title": "Informationszentrum",
+    "subtitle": "Greifen Sie auf Ressourcen, Nachrichten und Informationen über unsere Arbeit und Wirkung zu",
+    "featured": "Ausgewählte Inhalte",
+    "readFull": "Vollständigen Artikel lesen",
+    "readMore": "Mehr lesen",
+    "newsletter": {
+      "title": "Bleiben Sie informiert",
+      "subtitle": "Erhalten Sie die neuesten Updates und Informationen",
+      "placeholder": "Geben Sie Ihre E-Mail ein",
+      "subscribe": "Abonnieren"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Kontaktieren Sie uns. Wir freuen uns, von Ihnen zu hören.",
+    "hero": {
+      "subtitle": "Wir sind hier, um zu helfen und alle Fragen zu beantworten, die Sie haben könnten"
+    },
+    "name": "Vollständiger Name",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht senden"
+  },
+  "info": {
+    "title": "Kontaktinformationen",
+    "email": {
+      "title": "E-Mail"
+    },
+    "phone": {
+      "title": "Telefon"
+    },
+    "address": {
+      "title": "Adresse"
+    },
+    "hours": {
+      "title": "Öffnungszeiten",
+      "monday": "Montag - Freitag: 9:00 - 18:00",
+      "saturday": "Samstag: 10:00 - 16:00",
+      "sunday": "Sonntag: Geschlossen"
+    }
+  },
+  "help": {
+    "title": "Wie können wir helfen?",
+    "volunteer": {
+      "title": "Freiwilliger werden",
+      "description": "Treten Sie unserer Gemeinschaft von Freiwilligen bei, die einen Unterschied machen"
+    },
+    "partner": {
+      "title": "Partnerschaftsmöglichkeiten",
+      "description": "Entdecken Sie Möglichkeiten, mit uns für größere Wirkung zu partnern",
+      "button": "Beginnen"
+    }
+  },
+  "donate": {
+    "title": "Spenden",
+    "subtitle": "Ihre Unterstützung hilft uns, dauerhafte Veränderungen in Gemeinschaften weltweit zu schaffen",
+    "hero": {
+      "subtitle": "Jede Spende, unabhängig von ihrer Größe, schafft echte Wirkung"
+    },
+    "amount": "Betrag wählen",
+    "custom": "Benutzerdefinierter Betrag",
+    "customPlaceholder": "Betrag eingeben",
+    "monthly": "Diese zu einer monatlichen Spende machen",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "paymentMethod": "Zahlungsmethode",
+      "creditCard": "Kreditkarte"
+    },
+    "submit": "Spende abschließen",
+    "secure": "Sichere Spende über Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Ihre Wirkung",
+      "25Description": "Bietet Schulmaterialien für 5 Kinder",
+      "50Description": "Finanziert eine Woche sauberes Wasser für eine Familie",
+      "100Description": "Unterstützt einen Monat medizinischer Dienste",
+      "250Description": "Sponsert die Bildung eines Kindes für ein Semester"
+    },
+    "why": {
+      "title": "Warum an BAOBAB HOPE spenden?",
+      "item1": "100% Transparenz bei der Verwendung der Mittel",
+      "item2": "Direkte Wirkung in Gemeinschaften weltweit",
+      "item3": "Nachhaltige Lösungen, die dauerhafte Veränderungen schaffen",
+      "item4": "Regelmäßige Updates über die Wirkung Ihrer Spende"
+    },
+    "alert": {
+      "processing": "Verarbeitung Ihrer Spende von ${amount} ${monthly}..."
+    }
+  },
+  "language": "de",
+  "lastUpdated": "2025-09-21T21:43:38.226Z"
+}

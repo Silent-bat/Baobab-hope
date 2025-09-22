@@ -1,0 +1,30 @@
+{
+  "slogan": {
+    "main": "One Heart, One Hand"
+  },
+  "blog": {
+    "featured": "Featured Story",
+    "readFull": "Read Full Story",
+    "readMore": "Read More",
+    "title": "Stay Updated",
+    "subtitle": "Subscribe to our newsletter for the latest updates"
+  },
+  "footer": {
+    "mission": "Growing hope, nurturing communities, creating sustainable futures.",
+    "links": "Quick Links",
+    "contact": "Contact Info",
+    "newsletter": {
+      "title": "Newsletter Subscription",
+      "subtitle": "Stay informed about our latest actions and impact",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe",
+      "success": "Thank you for subscribing!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345",
+    "rights": "All rights reserved."
+  },
+  "language": "et",
+  "lastUpdated": "2025-09-20T15:24:57.827Z"
+}

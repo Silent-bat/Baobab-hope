@@ -1,0 +1,70 @@
+{
+  "slogan": {
+    "main": "Ọkàn Kan, Ọwọ́ Kan"
+  },
+  "common": {
+    "loading": "Tí ń Gbé...",
+    "error": "Àṣìṣe kan wáyé",
+    "backTop": "Padà Sí Òkè",
+    "share": "Pín",
+    "search": "Ṣe Ìwádìí",
+    "menu": "Àkósílẹ̀",
+    "close": "Ti",
+    "open": "Ṣí",
+    "learnMore": "Kẹ́kọ̀ọ́ Síwájú",
+    "getStarted": "Bẹ̀rẹ̀",
+    "joinUs": "Darapọ̀ Mọ́ Wa",
+    "contactUs": "Kàn Wá",
+    "followUs": "Tẹ̀lé Wa",
+    "subscribe": "Ṣe Àṣẹ Ìbẹ̀rẹ̀",
+    "thankYou": "Ẹ Ṣé",
+    "success": {
+      "rate": "Òṣùwọ̀n Àṣeyọrí"
+    },
+    "apply": "Lo",
+    "submit": "Fi Ránṣẹ́",
+    "cancel": "Fagilé",
+    "save": "Fi Pamọ́",
+    "download": "Ṣe Ìgbàsílẹ̀",
+    "required": "Ó Ṣe Dandan",
+    "yes": "Bẹ́ẹ̀ni",
+    "no": "Rárá",
+    "started": "Ti Bẹ̀rẹ̀",
+    "people": {
+      "reached": "Àwọn Ènìyàn Tí A Dé"
+    },
+    "active": {
+      "projects": "Àwọn Iṣẹ́ Tí ń Ṣiṣẹ́"
+    },
+    "countries": "Àwọn Orílẹ̀-Èdè",
+    "successRate": "Òṣùwọ̀n Àṣeyọrí"
+  },
+  "accessibility": {
+    "languageChanged": "Èdè ti yípadà sí {{language}",
+    "languageSelector": "Yan èdè",
+    "currentLanguage": "Èdè ìsinsìnyí: {{language}",
+    "availableLanguages": "Àwọn èdè tó wà",
+    "searchLanguages": "Ṣe ìwádìí àwọn èdè",
+    "languageOptions": "Lo àwọn bọtini ìtọ́ka láti ṣe ìtòlẹ́sẹẹsẹ, Tẹ sílẹ̀ láti yan, Escape láti ti",
+    "skipToContent": "Fò sí àkóónú àkọ́kọ́",
+    "skipToNavigation": "Fò sí ìtòlẹ́sẹẹsẹ",
+    "mainContent": "Àkóónú àkọ́kọ́",
+    "navigation": "Ìtòlẹ́sẹẹsẹ",
+    "languageMenu": "Àkósílẹ̀ èdè",
+    "closeLanguageMenu": "Ti àkósílẹ̀ èdè",
+    "openLanguageMenu": "Ṣí àkósílẹ̀ èdè"
+  },
+  "language": "yo",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-21T15:03:23.518Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}

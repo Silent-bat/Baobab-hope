@@ -1,0 +1,21 @@
+{
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": "Por favor ingresa una dirección de correo electrónico válida",
+    "minLength": "La longitud mínima es de {{min}} caracteres",
+    "maxLength": "La longitud máxima es de {{max}} caracteres"
+  },
+  "information": {
+    "featured": "Contenido Destacado",
+    "readFull": "Leer Artículo Completo",
+    "readMore": "Leer Más",
+    "newsletter": {
+      "title": "Mantente Informado",
+      "subtitle": "Obtén las últimas actualizaciones e información",
+      "placeholder": "Ingresa tu correo electrónico",
+      "subscribe": "Suscribirse"
+    }
+  },
+  "language": "es",
+  "lastUpdated": "2025-09-20T15:24:57.801Z"
+}

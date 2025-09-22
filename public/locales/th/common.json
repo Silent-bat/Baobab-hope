@@ -1,0 +1,70 @@
+{
+  "slogan": {
+    "main": "หัวใจดวงเดียว มือข้างเดียว"
+  },
+  "common": {
+    "loading": "กำลังโหลด...",
+    "error": "เกิดข้อผิดพลาด",
+    "backTop": "กลับไปด้านบน",
+    "share": "แชร์",
+    "search": "ค้นหา",
+    "menu": "เมนู",
+    "close": "ปิด",
+    "open": "เปิด",
+    "learnMore": "เรียนรู้เพิ่มเติม",
+    "getStarted": "เริ่มต้น",
+    "joinUs": "เข้าร่วมกับเรา",
+    "contactUs": "ติดต่อเรา",
+    "followUs": "ติดตามเรา",
+    "subscribe": "สมัครรับข้อมูล",
+    "thankYou": "ขอบคุณ",
+    "success": {
+      "rate": "อัตราความสำเร็จ"
+    },
+    "apply": "สมัคร",
+    "submit": "ส่ง",
+    "cancel": "ยกเลิก",
+    "save": "บันทึก",
+    "download": "ดาวน์โหลด",
+    "required": "จำเป็น",
+    "yes": "ใช่",
+    "no": "ไม่",
+    "started": "เริ่มแล้ว",
+    "people": {
+      "reached": "ผู้คนที่เข้าถึง"
+    },
+    "active": {
+      "projects": "โครงการที่ดำเนินอยู่"
+    },
+    "countries": "ประเทศ",
+    "successRate": "อัตราความสำเร็จ"
+  },
+  "accessibility": {
+    "languageChanged": "เปลี่ยนภาษาเป็น {{language} แล้ว",
+    "languageSelector": "เลือกภาษา",
+    "currentLanguage": "ภาษาปัจจุบัน: {{language}",
+    "availableLanguages": "ภาษาที่มี",
+    "searchLanguages": "ค้นหาภาษา",
+    "languageOptions": "ใช้ปุ่มลูกศรเพื่อนำทาง Enter เพื่อเลือก Escape เพื่อปิด",
+    "skipToContent": "ข้ามไปยังเนื้อหาหลัก",
+    "skipToNavigation": "ข้ามไปยังการนำทาง",
+    "mainContent": "เนื้อหาหลัก",
+    "navigation": "การนำทาง",
+    "languageMenu": "เมนูภาษา",
+    "closeLanguageMenu": "ปิดเมนูภาษา",
+    "openLanguageMenu": "เปิดเมนูภาษา"
+  },
+  "language": "th",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-21T12:54:30.000Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}

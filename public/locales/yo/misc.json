@@ -1,0 +1,35 @@
+{
+
+  "slogan": {
+    "main": "Ọkàn Kan, Ọwọ́ Kan"
+  },
+  "blog": {
+    "featured": "Itàn Àkànṣe",
+    "readFull": "Ka Ìtàn Kíkún",
+    "readMore": "Ka Síwájú",
+    "newsletter": {
+      "title": "Dúró Déédé",
+      "subtitle": "Ṣe àṣẹ ìbẹ̀rẹ̀ sí ìwé ìròyìn wa fún àwọn ìmúdójúìwọ̀n tuntun",
+      "placeholder": "Àdírẹ́sì í-meèlì rẹ",
+      "subscribe": "Ṣe Àṣẹ Ìbẹ̀rẹ̀"
+    }
+  },
+  "footer": {
+    "mission": "Tí ń gbin ìrètí, tí ń tọ́ àwọn agbègbè, tí ń ṣẹ̀dá ọjọ́ ọ̀la tí ń pẹ́ títí.",
+    "links": "Àwọn Ìtọ́ka Yíyára",
+    "contact": "Ìròyìn Àkànṣe",
+    "newsletter": {
+      "title": "Àṣẹ Ìbẹ̀rẹ̀ Ìwé Ìròyìn",
+      "subtitle": "Dúró ní ìmọ̀ nípa àwọn iṣẹ́ àti ipá wa tuntun",
+      "placeholder": "Àdírẹ́sì í-meèlì rẹ",
+      "subscribe": "Ṣe Àṣẹ Ìbẹ̀rẹ̀"
+    },
+    "success": "Ẹ ṣé fún yíyanṣẹ!",
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345",
+    "rights": "Gbogbo ẹ̀tọ́ ti pàmọ́."
+  },
+  "language": "yo",
+  "lastUpdated": "2025-09-21T12:01:30.000Z"
+}

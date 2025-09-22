@@ -1,0 +1,264 @@
+{
+
+  "home": {
+        "title": "Eğitim Yoluyla Güçlendirme",
+        "subtitle": "Daha Parlak Gelecekler İnşa Etmek"
+      },
+      "environment": {
+        "title": "Gezegenimizi Korumak",
+        "subtitle": "Çevre Koruma",
+        "description": "Gelecek nesiller için ekosistemleri korurken yerel toplulukları güçlendiren sürdürülebilir uygulamalar ve koruma çabalarını uyguluyoruz.",
+        "cta": "Etkimiz Hakkında Bilgi Edinin"
+      },
+        "title": "Herkes İçin Sağlık Hizmeti",
+        "subtitle": "Topluluk Sağlığı",
+        "description": "Yetersiz hizmet alan topluluklara temel sağlık hizmetleri ve sağlık eğitimi sağlayarak herkesin kaliteli tıbbi bakıma erişmesini sağlıyoruz.",
+        "cta": "Sağlık Projelerini Görüntüle"
+      }
+    },
+    "impact": {
+      "title": "Büyüyen Etkimiz",
+      "people": "Dönüştürülen Yaşamlar",
+      "countries": "Ulaşılan Ülkeler",
+    },
+    "stories": {
+      "title": "Etkimiz Hikayeleri",
+      "subtitle": "Dünya çapındaki topluluklarda sürdürülebilir değişim yaratma yöntemimizi keşfedin"
+    },
+    "cta": {
+      "title": "Değişim Tohumları Eklemeye Hazır mısınız?",
+      "subtitle": "Değişim yaratıcıları topluluğumuza katılın ve en çok ihtiyaç duyan topluluklarda umudu beslememize yardımcı olun. Her katkı, ne kadar küçük olursa olsun, olumlu değişim dalgaları yaratır.",
+      "learn": "Hikayemizi Öğrenin"
+    }
+  },
+  "about": {
+    "title": "BAOBAB HOPE Hakkında",
+    "hero": {
+      "subtitle": "Güçlü baobab ağacı gibi, derin köklere, güçlü büyümeye ve kalıcı etkiye inanıyoruz."
+    },
+    "mission": {
+      "badge": "Amacımız",
+      "title": "Misyonumuz",
+      "text": "Eğitim, güçlendirme ve çevre yönetimi yoluyla topluluklarda sürdürülebilir büyümeyi beslemek, nesiller boyu uzanan olumlu değişim yaratmak.",
+      "description": "2020 yılındaki kuruluşumuzdan bu yana, yoksulluk, eşitsizlik ve çevre bozulmasının temel nedenlerini ele alan sürdürülebilir çözümler yaratmaya kendimizi adadık."
+    },
+    "values": {
+      "badge": "Bizi Harekete Geçirenler",
+      "title": "Temel Değerlerimiz",
+      "subtitle": "Temel değerlerimiz, misyonumuz hizmetinde aldığımız her kararı ve yaptığımız her eylemi yönlendirir.",
+      "community": "Topluluk Öncelikli",
+      "transparency": "Şeffaflık",
+      "empowerment": "Güçlendirme",
+      "growthDescription": "Baobab ağacı gibi, zamanla daha güçlü hale gelen uzun vadeli, sürdürülebilir çözümler yetiştirmeye inanıyoruz.",
+      "communityDescription": "Topluluklar yaptığımız her şeyin merkezindedir. Dinleriz, öğreniriz ve birlikte çalışarak anlamlı değişim yaratırız.",
+      "transparencyDescription": "Destekçilerimizle kalıcı güven oluşturmak için operasyonlarımızda, finansal durumumuzda ve etkimizde tam şeffaflık sağlıyoruz.",
+      "empowermentDescription": "Bireylere ve topluluklara bağımsız olarak gelişmeleri için ihtiyaç duydukları araçları, bilgiyi ve kaynakları sağlıyoruz."
+    },
+    "timeline": {
+      "badge": "Yolculuğumuz",
+      "title": "2020'den Beri Birlikte Büyümek",
+      "subtitle": "Mütevazı başlangıçlardan küresel etkiye, BAOBAB HOPE'un nasıl büyüdüğünü ve geliştiğini görün.",
+      "milestone1": {
+        "description": "Sürdürülebilir değişim yaratma vizyonuyla başladı"
+      },
+      "milestone2": {
+        "event": "İlk Eğitim Programı",
+        "description": "3 toplulukta okuryazarlık girişimlerini başlattı"
+      },
+      "milestone3": {
+        "event": "Çevre Odaklı",
+        "description": "Koruma ve sürdürülebilirlik projelerini içerecek şekilde genişletildi"
+      },
+      "milestone4": {
+        "event": "Sağlık Girişimi",
+        "description": "Mobil sağlık klinikleri ve sağlık eğitimi tanıtıldı"
+      },
+      "milestone5": {
+        "event": "Küresel Genişleme",
+        "description": "Şu anda 4 kıtada 18 ülkede faaliyet gösteriyor"
+      }
+    }
+    "impact": {
+      "title": "Büyüyen Etkimiz",
+      "subtitle": "Dönüştürülen yaşamların ve güçlendirilen toplulukların hikayesini anlatan sayılar.",
+      "livesTransformed": "Dönüştürülen Yaşamlar",
+      "activeProjects": "Aktif Projeler",
+      "countriesReached": "Ulaşılan Ülkeler",
+      "volunteers": "Gönüllüler"
+    },
+    "team": {
+      "badge": "Ekibimizle Tanışın",
+      "title": "Misyonun Arkasındaki İnsanlar",
+      "subtitle": "Kuruluşumuzu yöneten ve misyonumuzu ileriye taşıyan özverili bireylerle tanışın.",
+      "member1": {
+      },
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Program Direktörü",
+        "bio": "Topluluk odaklı öğrenme girişimlerine odaklanan eğitim uzmanı"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Operasyon Müdürü",
+        "bio": "Erişilebilir tıbbi bakıma tutkuyla bağlı sağlık yöneticisi"
+      }
+    },
+    "history": {
+      "title": "Tarihimiz",
+      "subtitle": "Küçük bir fikirden küresel harekete uzanan BAOBAB HOPE yolculuğu",
+      "founding": {
+        "title": "Umut Başlangıcı",
+        "description": "BAOBAB HOPE, dünya çapındaki topluluklarda sürdürülebilir değişim yaratma vizyonuyla 2020 yılında kuruldu."
+      },
+      "growth": {
+        "title": "Kökler Büyütmek",
+        "description": "Mütevazı başlangıçlarımızdan, 18 ülkedeki topluluklara hizmet verecek şekilde büyüdük, her zaman temel değerlerimize sadık kaldık."
+      },
+      "impact": {
+        "title": "Etkileşim Yaratmak",
+        "description": "Bugün, eğitim, sağlık ve çevre programlarımızla 75.000'den fazla hayatı dönüştürdük."
+      },
+      "cta": {
+        "title": "Hikayemizin Bir Parçası Olun",
+        "subtitle": "Umutun bir sonraki bölümünü birlikte yazmamıza yardımcı olan binlerce gönüllü ve destekçiye katılın."
+      }
+    }
+  },
+  "projects": {
+    "title": "Eylemlerimiz",
+    "subtitle": "Dünya çapındaki topluluklarda kalıcı değişim yaratan dönüştürücü girişimlerle tanışın.",
+    "education": {
+      "title": "Eğitim ve Okuryazarlık",
+      "description": "Toplulukların sürdürülebilir şekilde gelişip büyüyebilmeleri için eğitim temellerini inşa ediyoruz."
+    },
+    "environment": {
+      "title": "Çevre Koruma",
+      "description": "Yerel topluluklara sürdürülebilir uygulamaları öğretirken ekosistemleri koruyor ve restore ediyoruz."
+    },
+    "healthcare": {
+      "title": "Topluluk Sağlığı",
+      "description": "Yetersiz hizmet alan topluluklara temel sağlık hizmetleri ve sağlık eğitimi sağlıyoruz."
+    },
+    "water": {
+      "title": "Temiz Su Erişimi",
+      "description": "Sürdürülebilir su sistemleri kuruyor ve su koruma uygulamalarını öğretiyoruz."
+    },
+    "view": "Detayları Görüntüle",
+    "learn": "Daha Fazla Bilgi",
+    "explore": "Projeyi Keşfedin",
+    "impact": {
+      "title": "Etkimiz",
+      "subtitle": "Birlikte yarattığımız farkı görün"
+    },
+    "cta": {
+      "title": "Misyonumuza Katılın",
+      "subtitle": "Her katkı bir fark yaratır",
+      "support": "Çalışmamızı Destekleyin",
+      "involved": "Katılın"
+    }
+  },
+  "blog": {
+    "title": "Son Haberler",
+    "subtitle": "En son etki hikayelerimiz ve topluluk haberlerimizle güncel kalın",
+      "title": "Güncel Kalın",
+      "subtitle": "En son güncellemeler için bültenimize abone olun",
+    }
+  },
+  "information": {
+    "title": "Bilgi Merkezi",
+    "subtitle": "Çalışmamız ve etkimiz hakkında kaynaklara, haberlere ve içgörülere erişin",
+    "featured": "Öne Çıkan İçerik",
+    "readFull": "Tam Makaleyi Oku",
+    "readMore": "Daha Fazla Oku",
+    "newsletter": {
+      "title": "Bilgili Kalın",
+      "subtitle": "En son güncellemeleri ve içgörüleri alın",
+      "placeholder": "E-posta adresinizi girin",
+      "subscribe": "Abone Ol"
+    }
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Bize ulaşın. Sizinle tanışmak isteriz.",
+    "hero": {
+      "subtitle": "Yardımcı olmaya ve aklınıza takılan sorulara cevap vermeye hazırız"
+    },
+      "title": "Bize Mesaj Gönderin",
+      "name": "Ad Soyad",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "send": "Mesaj Gönder"
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "email": {
+        "title": "E-posta"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "address": {
+        "title": "Adres"
+      },
+      "hours": {
+        "title": "Çalışma Saatleri",
+        "monday": "Pazartesi - Cuma: 09:00 - 18:00",
+        "saturday": "Cumartesi: 10:00 - 16:00",
+        "sunday": "Pazar: Kapalı"
+      }
+    },
+    "help": {
+      "title": "Size Nasıl Yardımcı Olabiliriz?",
+      "volunteer": {
+        "title": "Gönüllü Olun",
+        "description": "Fark yaratan gönüllüler topluluğumuza katılın",
+      },
+      "partner": {
+        "title": "Ortaklık Fırsatları",
+        "description": "Daha büyük etki için bizimle ortak olma yollarını keşfedin",
+        "button": "Başlayın"
+      }
+    }
+  },
+  "donate": {
+    "title": "Bağış Yapın",
+    "subtitle": "Desteğiniz dünya çapındaki topluluklarda kalıcı değişim yaratmamıza yardımcı oluyor",
+    "hero": {
+      "subtitle": "Ne kadar küçük olursa olsun, her bağış gerçek bir fark yaratır"
+    },
+    "amount": "Tutar Seçin",
+    "custom": "Özel Tutar",
+    "customPlaceholder": "Tutar girin",
+    "monthly": "Bunu aylık bağış yapın",
+    "form": {
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "paymentMethod": "Ödeme Yöntemi",
+      "creditCard": "Kredi Kartı"
+    },
+    "submit": "Bağışı Tamamlayın",
+    "secure": "Stripe ile güvenli bağış",
+    "impact": {
+      "25": "25$",
+      "50": "50$",
+      "100": "100$",
+      "250": "250$",
+      "title": "Etkimiz",
+      "25Description": "5 çocuğa okul malzemesi sağlar",
+      "50Description": "Bir aileye bir hafta temiz su sağlar",
+      "100Description": "Bir ay sağlık hizmetleri desteği sağlar",
+      "250Description": "Bir çocuğun bir dönemlik eğitimini destekler"
+    },
+    "why": {
+      "title": "BAOBAB HOPE'a Neden Bağış Yapmalısınız?",
+      "item1": "Fonların kullanımında %100 şeffaflık",
+      "item2": "Dünya çapındaki topluluklarda doğrudan etki",
+      "item3": "Kalıcı değişim yaratan sürdürülebilir çözümler",
+      "item4": "Bağışınızın etkisi hakkında düzenli güncellemeler"
+    },
+    "alert": {
+      "processing": "${amount} ${monthly} bağışınız işleniyor..."
+    }
+  }
+
+}

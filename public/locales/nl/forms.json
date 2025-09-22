@@ -1,0 +1,21 @@
+{
+  "validation": {
+    "required": "Dit veld is verplicht",
+    "email": "Voer een geldig email adres in",
+    "minLength": "Minimale lengte is {{min}} karakters",
+    "maxLength": "Maximale lengte is {{max}} karakters"
+  },
+  "information": {
+    "featured": "Uitgelichte Inhoud",
+    "readFull": "Lees Volledig Artikel",
+    "readMore": "Lees Meer",
+    "newsletter": {
+      "title": "Blijf Geïnformeerd",
+      "subtitle": "Ontvang de nieuwste updates en inzichten",
+      "placeholder": "Voer je email in",
+      "subscribe": "Abonneren"
+    }
+  },
+  "language": "nl",
+  "lastUpdated": "2025-09-21T12:26:00.000Z"
+}

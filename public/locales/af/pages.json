@@ -1,0 +1,264 @@
+{
+
+  "home": {
+        "title": "Bemagtiging Deur Onderwys",
+        "subtitle": "Bou Helder Toekoms",
+      },
+        "title": "Beskerming van Ons Planeet",
+        "subtitle": "Omgewingsbewaring",
+        "description": "Implementering van volhoubare praktyke en bewaringsinspanning om ekosisteme vir toekomstige geslagte te bewaar terwyl plaaslike gemeenskappe bemagtig word.",
+        "cta": "Leer Oor Ons Impak"
+      },
+        "title": "Gesondheidsorg vir Almal",
+        "subtitle": "Gemeenskapswelstand",
+        "description": "Voorsiening van noodsaaklike gesondheidsdienste en gesondheidsopvoeding aan onderbediende gemeenskappe, om te verseker dat almal toegang het tot kwaliteit mediese sorg.",
+        "cta": "Bekyk Gesondheidsprojekte"
+      }
+    },
+      "title": "Ons Groeiende Impak",
+      "people": "Lewens Getransformeer",
+      "countries": "Lande Bereik",
+    },
+    "stories": {
+      "title": "Ons Impakstories",
+      "subtitle": "Ontdek hoe ons volhoubare verandering in gemeenskappe wêreldwyd skep"
+    },
+    "cta": {
+      "title": "Gereed om Sade van Verandering te Plant?",
+      "subtitle": "Sluit aan by ons groeiende gemeenskap van veranderingsmakers en help ons om hoop in gemeenskappe wat dit die nodigste het, te koester. Elke bydrae, ongeag die grootte, skep rimpels van positiewe verandering.",
+      "learn": "Leer Ons Storie"
+    }
+  },
+  "about": {
+    "title": "Oor BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Soos die magtige kremetartboom, glo ons in diep wortels, sterk groei en blywende impak."
+    },
+    "mission": {
+      "badge": "Ons Doel",
+      "title": "Ons Missie",
+      "text": "Om volhoubare groei in gemeenskappe deur onderwys, bemagtiging en omgewingsbestuur te koester, wat blywende positiewe verandering skep wat oor geslagte strek.",
+      "description": "Sedert ons stigting in 2020, is ons daartoe verbind om volhoubare oplossings te skep wat die grondoorake van armoede, ongelykheid en omgewingsdegradasie aanspreek."
+    },
+    "values": {
+      "badge": "Wat Ons Dryf",
+      "title": "Ons Kernwaardes",
+      "subtitle": "Ons kernwaardes lei elke besluit wat ons neem en elke aksie wat ons in diens van ons missie doen.",
+      "community": "Gemeenskap Eerste",
+      "transparency": "Deursigtigheid",
+      "empowerment": "Bemagtiging",
+      "growthDescription": "Ons glo in die koestering van langtermyn, volhoubare oplossings wat sterker oor tyd groei, net soos die kremetartboom.",
+      "communityDescription": "Gemeenskappe is in die hart van alles wat ons doen. Ons luister, leer en werk saam om betekenisvolle verandering te skep.",
+      "transparencyDescription": "Ons handhaaf volledige deursigtigheid in ons bedrywighede, finansies en impak om blywende vertroue met ons ondersteuners te bou.",
+      "empowermentDescription": "Ons bemagtig individue en gemeenskappe met die gereedskap, kennis en hulpbronne wat hulle nodig het om onafhanklik te floreer."
+    },
+    "timeline": {
+      "badge": "Ons Reis",
+      "title": "Saam Groei Sedert 2020",
+      "subtitle": "Van nederige beginne tot globale impak, sien hoe BAOBAB HOPE gegroei en ontwikkel het.",
+      "milestone1": {
+        "description": "Begin met 'n visie om volhoubare verandering te skep"
+      },
+      "milestone2": {
+        "event": "Eerste Onderwysprogram",
+        "description": "Geletterdheidsinisiatiewe in 3 gemeenskappe geloods"
+      },
+      "milestone3": {
+        "event": "Omgewingsfokus",
+        "description": "Uitgebrei om bewarings- en volhoubaarheidsprojekte in te sluit"
+      },
+      "milestone4": {
+        "event": "Gesondheidsinisiatief",
+        "description": "Mobiele gesondheidsklinieke en gesondheidsopvoeding ingestel"
+      },
+      "milestone5": {
+        "event": "Globale Uitbreiding",
+        "description": "Nou werksaam in 18 lande oor 4 kontinente"
+      }
+    },
+    "impact": {
+      "title": "Ons Groeiende Impak",
+      "subtitle": "Syfers wat die storie vertel van lewens wat getransformeer is en gemeenskappe wat bemagtig is.",
+      "livesTransformed": "Lewens Getransformeer",
+      "activeProjects": "Aktiewe Projekte",
+      "countriesReached": "Lande Bereik",
+      "volunteers": "Vrywilligers"
+    },
+    "team": {
+      "badge": "Ontmoet Ons Span",
+      "title": "Die Mense Agter die Missie",
+      "subtitle": "Ontmoet die toegewyde individue wat ons organisasie lei en ons missie vorentoe dryf.",
+      "member1": {
+      },
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Programdirekteur",
+        "bio": "Onderwysspesialis gefokus op gemeenskapsgedrewe leerinisiatiewe"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Bedryfsbestuurder",
+        "bio": "Gesondheidsadministrateur passievol oor toeganklike mediese sorg"
+      }
+    },
+    "history": {
+      "title": "Ons Geskiedenis",
+      "subtitle": "Die reis van BAOBAB HOPE van 'n klein idee tot 'n globale beweging",
+      "founding": {
+        "title": "Die Begin van Hoop",
+        "description": "BAOBAB HOPE is in 2020 gestig met 'n eenvoudige dog kragtige visie: om volhoubare verandering in gemeenskappe wêreldwyd te skep."
+      },
+      "growth": {
+        "title": "Groeiende Wortels",
+        "description": "Van ons nederige beginne af het ons gegroei om gemeenskappe oor 18 lande te bedien, altyd getrou aan ons kernwaardes."
+      },
+      "impact": {
+        "title": "Impak Maak",
+        "description": "Vandag het ons meer as 75,000 lewens deur ons onderwys-, gesondheidsorg- en omgewingsprogramme getransformeer."
+      },
+      "cta": {
+        "title": "Wees Deel van Ons Storie",
+        "subtitle": "Sluit aan by duisende vrywilligers en ondersteuners wat ons help om die volgende hoofstuk van hoop te skryf."
+      }
+    }
+  },
+  "projects": {
+    "title": "Ons Aksies",
+    "subtitle": "Ontdek die transformerende inisiatiewe wat blywende verandering in gemeenskappe wêreldwyd skep.",
+    "education": {
+      "title": "Onderwys & Geletterdheid",
+      "description": "Bou opvoedkundige fondamente wat gemeenskappe bemagtig om volhoubaar te floreer en te groei."
+    },
+    "environment": {
+      "title": "Omgewingsbewaring",
+      "description": "Beskerming en herstel van ekosisteme terwyl volhoubare praktyke aan plaaslike gemeenskappe geleer word."
+    },
+    "healthcare": {
+      "title": "Gemeenskapsgesondheid",
+      "description": "Voorsiening van noodsaaklike gesondheidsdienste en gesondheidsopvoeding aan onderbediende gemeenskappe."
+    },
+    "water": {
+      "title": "Skone Watertoegang",
+      "description": "Bou volhoubare watersisteme en leer waterbewaringspraktyke."
+    },
+    "view": "Bekyk Besonderhede",
+    "learn": "Leer Meer",
+    "explore": "Verken Projek",
+    "impact": {
+      "title": "Ons Impak",
+      "subtitle": "Sien die verskil wat ons saam maak"
+    },
+    "cta": {
+      "title": "Sluit Aan by Ons Missie",
+      "subtitle": "Elke bydrae maak 'n verskil",
+      "support": "Ondersteun Ons Werk",
+      "involved": "Raak Betrokke"
+    }
+  },
+  "blog": {
+    "title": "Nuutste Nuus",
+    "subtitle": "Bly op hoogte met ons nuutste impakstories en gemeenskapsnuus",
+      "title": "Bly Op Datum",
+      "subtitle": "Teken in op ons nuusbrief vir die nuutste opdaterings",
+    }
+  },
+  "information": {
+    "title": "Inligtingsentrum",
+    "subtitle": "Toegang tot hulpbronne, nuus en insigte oor ons werk en impak",
+    "featured": "Uitgeligte Inhoud",
+    "readFull": "Lees Volledige Artikel",
+    "readMore": "Lees Meer",
+    "newsletter": {
+      "title": "Bly Ingelig",
+      "subtitle": "Kry die nuutste opdaterings en insigte",
+      "placeholder": "Voer jou e-pos in",
+      "subscribe": "Teken In"
+    }
+  },
+  "contact": {
+    "title": "Kontak Ons",
+    "subtitle": "Kom in kontak met ons. Ons sal graag van jou wil hoor.",
+    "hero": {
+      "subtitle": "Ons is hier om te help en enige vrae wat jy mag hê te beantwoord"
+    },
+      "title": "Stuur vir Ons 'n Boodskap",
+      "name": "Volle Naam",
+      "subject": "Onderwerp",
+      "message": "Boodskap",
+      "send": "Stuur Boodskap"
+    },
+    "info": {
+      "title": "Kontakbesonderhede",
+      "email": {
+        "title": "E-pos"
+      },
+      "phone": {
+        "title": "Telefoon"
+      },
+      "address": {
+        "title": "Adres"
+      },
+      "hours": {
+        "title": "Kantoorure",
+        "monday": "Maandag - Vrydag: 9:00 VM - 6:00 NM",
+        "saturday": "Saterdag: 10:00 VM - 4:00 NM",
+        "sunday": "Sondag: Gesluit"
+      }
+    },
+    "help": {
+      "title": "Hoe Kan Ons Help?",
+      "volunteer": {
+        "title": "Word 'n Vrywilliger",
+        "description": "Sluit aan by ons gemeenskap van vrywilligers wat 'n verskil maak",
+      },
+      "partner": {
+        "title": "Vennootskapsgeleenthede",
+        "description": "Verken maniere om met ons te vennoot vir groter impak",
+        "button": "Kom Aan Die Gang"
+      }
+    }
+  },
+  "donate": {
+    "title": "Maak 'n Skanking",
+    "subtitle": "Jou ondersteuning help ons om blywende verandering in gemeenskappe wêreldwyd te skep",
+    "hero": {
+      "subtitle": "Elke skenking, ongeag die grootte, maak 'n werklike verskil"
+    },
+    "amount": "Kies Bedrag",
+    "custom": "Persoonlike Bedrag",
+    "customPlaceholder": "Voer bedrag in",
+    "monthly": "Maak dit 'n maandelikse skenking",
+    "form": {
+      "firstName": "Voornaam",
+      "lastName": "Van",
+      "paymentMethod": "Betaalmetode",
+      "creditCard": "Kredietkaart"
+    },
+    "submit": "Voltooi Skenking",
+    "secure": "Veilige skenking aangedryf deur Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Jou Impak",
+      "25Description": "Voorsien skoolbenodigdhede vir 5 kinders",
+      "50Description": "Finansier 'n week van skoon water vir 'n gesin",
+      "100Description": "Ondersteun 'n maand van gesondheidsdienste",
+      "250Description": "Borg 'n kind se onderwys vir 'n semester"
+    },
+    "why": {
+      "title": "Waarom Skenk aan BAOBAB HOPE?",
+      "item1": "100% deursigtigheid in hoe fondse gebruik word",
+      "item2": "Direkte impak in gemeenskappe wêreldwyd",
+      "item3": "Volhoubare oplossings wat blywende verandering skep",
+      "item4": "Gereelde opdaterings oor jou skenking se impak"
+    },
+    "alert": {
+      "processing": "Verwerk jou ${amount} ${monthly} skenking..."
+    }
+  },
+  "language": "af",
+  "lastUpdated": "2025-09-20T15:24:57.335Z"
+
+}

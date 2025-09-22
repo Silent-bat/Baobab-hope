@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": {
+      "history": "Sejarah",
+      "missions": "Misi",
+      "organizations": "Organisasi",
+      "regions": "Wilayah",
+      "localGroups": "Grup Lokal",
+      "partnerNetworks": "Jaringan Mitra",
+      "financialTransparency": "Transparansi Keuangan"
+    },
+    "aboutTitle": "Tentang Kami",
+    "actions": "Tindakan Kami",
+    "information": {
+      "title": "Informasi",
+      "agenda": "Kalender",
+      "advertising": "Periklanan",
+      "resources": "Sumber Daya",
+      "press": "Area Pers",
+      "podcast": "Podcast",
+      "analysis": "Analisis",
+      "faq": "FAQ"
+    },
+    "informationTitle": "Informasi",
+    "act": {
+      "title": "Bertindak",
+      "volunteering": "Relawan",
+      "campaigns": "Kampanye Kami",
+      "training": "Pelatihan",
+      "jobs": "Lowongan Kerja",
+      "partners": "Mitra",
+      "legacy": "Warisan",
+      "lifeInsurance": "Asuransi Jiwa",
+      "donation": "Donasi"
+    },
+    "actTitle": "Bertindak",
+    "donate": "Donasi",
+    "search": "Cari..."
+  },
+  "footer": {
+    "mission": "Menumbuhkan harapan, memelihara komunitas, menciptakan masa depan berkelanjutan.",
+    "links": "Tautan Cepat",
+    "contact": "Info Kontak",
+    "newsletter": {
+      "title": "Langganan Newsletter",
+      "subtitle": "Tetap terinformasi tentang tindakan dan dampak terbaru kami",
+      "placeholder": "Alamat email Anda",
+      "subscribe": "Berlangganan",
+      "success": "Terima kasih telah berlangganan!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Jalan Harapan, Kota, Negara Bagian 12345",
+    "rights": "Seluruh hak cipta."
+  }
+}

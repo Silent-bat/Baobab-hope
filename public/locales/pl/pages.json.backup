@@ -1,0 +1,264 @@
+{
+
+  "home": {
+        "title": "Wzmocnienie Poprzez Edukację",
+        "subtitle": "Budowanie Jaśniejszych Przyszłości"
+      },
+      "environment": {
+        "title": "Ochrona Naszej Planety",
+        "subtitle": "Ochrona Środowiska",
+        "description": "Wdrażanie zrównoważonych praktyk i działań ochronnych w celu zachowania ekosystemów dla przyszłych pokoleń, jednocześnie wzmacniając lokalne społeczności.",
+        "cta": "Dowiedz się o Naszym Wpływie"
+      },
+        "title": "Opieka Zdrowotna dla Wszystkich",
+        "subtitle": "Zdrowie Społeczności",
+        "description": "Zapewnianie podstawowych usług opieki zdrowotnej i edukacji zdrowotnej niedostatecznie obsługiwanym społecznościom, zapewniając wszystkim dostęp do wysokiej jakości opieki medycznej.",
+        "cta": "Zobacz Projekty Zdrowotne"
+      }
+    },
+    "impact": {
+      "title": "Nasz Rozwijający się Wpływ",
+      "people": "Przemienione Życia",
+      "countries": "Osiągnięte Kraje",
+    },
+    "stories": {
+      "title": "Nasze Historie Wpływu",
+      "subtitle": "Odkryj, jak tworzymy zrównoważoną zmianę w społecznościach na całym świecie"
+    },
+    "cta": {
+      "title": "Gotowy do Zasiania Ziaren Zmiany?",
+      "subtitle": "Dołącz do naszej rozwijającej się społeczności twórców zmian i pomóż nam pielęgnować nadzieję w społecznościach, które jej najbardziej potrzebują. Każdy wkład, niezależnie od wielkości, tworzy fale pozytywnej zmiany.",
+      "learn": "Poznaj Naszą Historię"
+    }
+  },
+  "about": {
+    "title": "O BAOBAB HOPE",
+    "hero": {
+      "subtitle": "Jak potężne drzewo baobabu, wierzymy w głębokie korzenie, silny wzrost i trwały wpływ."
+    },
+    "mission": {
+      "badge": "Nasz Cel",
+      "title": "Nasza Misja",
+      "text": "Pielęgnowanie zrównoważonego wzrostu w społecznościach poprzez edukację, wzmocnienie i zarządzanie środowiskiem, tworząc trwałą pozytywną zmianę, która obejmuje pokolenia.",
+      "description": "Od naszego założenia w 2020 roku, jesteśmy zaangażowani w tworzenie zrównoważonych rozwiązań, które rozwiązują podstawowe przyczyny ubóstwa, nierówności i degradacji środowiska."
+    },
+    "values": {
+      "badge": "To, Co Nas Napędza",
+      "title": "Nasze Podstawowe Wartości",
+      "subtitle": "Nasze podstawowe wartości kierują każdą decyzją, którą podejmujemy i każdym działaniem, które wykonujemy w służbie naszej misji.",
+      "community": "Społeczność Przede Wszystkim",
+      "transparency": "Przejrzystość",
+      "empowerment": "Wzmocnienie",
+      "growthDescription": "Wierzymy w pielęgnowanie długoterminowych, zrównoważonych rozwiązań, które z czasem stają się silniejsze, podobnie jak drzewo baobabu.",
+      "communityDescription": "Społeczności są sercem wszystkiego, co robimy. Słuchamy, uczymy się i pracujemy razem, aby stworzyć znaczącą zmianę.",
+      "transparencyDescription": "Utrzymujemy pełną przejrzystość w naszych operacjach, finansach i wpływie, aby budować trwałe zaufanie z naszymi zwolennikami.",
+      "empowermentDescription": "Wzmocniamy jednostki i społeczności narzędziami, wiedzą i zasobami, których potrzebują, aby rozwijać się niezależnie."
+    },
+    "timeline": {
+      "badge": "Nasza Podróż",
+      "title": "Wspólny Wzrost Od 2020 Roku",
+      "subtitle": "Od skromnych początków do globalnego wpływu, zobacz, jak BAOBAB HOPE rósł i ewoluował.",
+      "milestone1": {
+        "description": "Rozpoczęte z wizją tworzenia zrównoważonej zmiany"
+      },
+      "milestone2": {
+        "event": "Pierwszy Program Edukacyjny",
+        "description": "Uruchomiono inicjatywy alfabetyzacji w 3 społecznościach"
+      },
+      "milestone3": {
+        "event": "Skupienie na Środowisku",
+        "description": "Rozszerzono o projekty ochrony i zrównoważoności"
+      },
+      "milestone4": {
+        "event": "Inicjatywa Zdrowotna",
+        "description": "Wprowadzono mobilne kliniki zdrowia i edukację zdrowotną"
+      },
+      "milestone5": {
+        "event": "Ekspansja Globalna",
+        "description": "Obecnie działające w 18 krajach na 4 kontynentach"
+      }
+    }
+    "impact": {
+      "title": "Nasz Rozwijający się Wpływ",
+      "subtitle": "Liczby, które opowiadają historię przemienionych żyć i wzmocnionych społeczności.",
+      "livesTransformed": "Przemienione Życia",
+      "activeProjects": "Aktywne Projekty",
+      "countriesReached": "Osiągnięte Kraje",
+      "volunteers": "Wolontariusze"
+    },
+    "team": {
+      "badge": "Poznaj Nasz Zespół",
+      "title": "Ludzie Za Misją",
+      "subtitle": "Poznaj oddanych ludzi, którzy prowadzą naszą organizację i napędzają naszą misję do przodu.",
+      "member1": {
+      },
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Dyrektor Programowy",
+        "bio": "Specjalista ds. edukacji skupiony na inicjatywach edukacyjnych opartych na społeczności"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Menedżer Operacyjny",
+        "bio": "Administrator opieki zdrowotnej z pasją do dostępnej opieki medycznej"
+      }
+    },
+    "history": {
+      "title": "Nasza Historia",
+      "subtitle": "Podróż BAOBAB HOPE od małego pomysłu do globalnego ruchu",
+      "founding": {
+        "title": "Początek Nadziei",
+        "description": "BAOBAB HOPE został założony w 2020 roku z prostą, ale potężną wizją: tworzenia zrównoważonej zmiany w społecznościach na całym świecie."
+      },
+      "growth": {
+        "title": "Rozwój Korzeni",
+        "description": "Od skromnych początków wyrośliśmy, aby służyć społecznościom w 18 krajach, zawsze pozostając wiernymi naszym podstawowym wartościom."
+      },
+      "impact": {
+        "title": "Tworzenie Wpływu",
+        "description": "Dziś przekształciliśmy ponad 75 000 żyć poprzez nasze programy edukacyjne, zdrowotne i środowiskowe."
+      },
+      "cta": {
+        "title": "Bądź Częścią Naszej Historii",
+        "subtitle": "Dołącz do tysięcy wolontariuszy i zwolenników, którzy pomagają nam napisać kolejny rozdział nadziei."
+      }
+    }
+  },
+  "projects": {
+    "title": "Nasze Działania",
+    "subtitle": "Odkryj transformacyjne inicjatywy tworzące trwałą zmianę w społecznościach na całym świecie.",
+    "education": {
+      "title": "Edukacja i Alfabetyzacja",
+      "description": "Budowanie fundamentów edukacyjnych, które umożliwiają społecznościom rozwijanie się i wzrost w zrównoważony sposób."
+    },
+    "environment": {
+      "title": "Ochrona Środowiska",
+      "description": "Ochrona i restauracja ekosystemów, jednocześnie nauczanie zrównoważonych praktyk lokalne społeczności."
+    },
+    "healthcare": {
+      "title": "Zdrowie Społeczności",
+      "description": "Zapewnianie podstawowych usług opieki zdrowotnej i edukacji zdrowotnej niedostatecznie obsługiwanym społecznościom."
+    },
+    "water": {
+      "title": "Dostęp do Czystej Wody",
+      "description": "Budowanie zrównoważonych systemów wodnych i nauczanie praktyk oszczędzania wody."
+    },
+    "view": "Zobacz Szczegóły",
+    "learn": "Dowiedz się Więcej",
+    "explore": "Odkryj Projekt",
+    "impact": {
+      "title": "Nasz Wpływ",
+      "subtitle": "Zobacz różnicę, którą tworzymy razem"
+    },
+    "cta": {
+      "title": "Dołącz do Naszej Misji",
+      "subtitle": "Każdy wkład ma znaczenie",
+      "support": "Wesprzyj Naszą Pracę",
+      "involved": "Zaangażuj się"
+    }
+  },
+  "blog": {
+    "title": "Najnowsze Wiadomości",
+    "subtitle": "Bądź na bieżąco z naszymi najnowszymi historiami wpływu i wiadomościami społeczności",
+      "title": "Bądź na Bieżąco",
+      "subtitle": "Zapisz się do naszego newslettera, aby otrzymywać najnowsze aktualizacje",
+    }
+  },
+  "information": {
+    "title": "Centrum Informacyjne",
+    "subtitle": "Uzyskaj dostęp do zasobów, wiadomości i spostrzeżeń na temat naszej pracy i wpływu",
+    "featured": "Polecana Treść",
+    "readFull": "Przeczytaj Pełny Artykuł",
+    "readMore": "Przeczytaj Więcej",
+    "newsletter": {
+      "title": "Bądź Informowany",
+      "subtitle": "Otrzymuj najnowsze aktualizacje i spostrzeżenia",
+      "placeholder": "Wpisz swój adres e-mail",
+      "subscribe": "Zapisz się"
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się z Nami",
+    "subtitle": "Skontaktuj się z nami. Chcielibyśmy usłyszeć od Ciebie.",
+    "hero": {
+      "subtitle": "Jesteśmy tu, aby pomóc i odpowiedzieć na wszelkie pytania, które możesz mieć"
+    },
+      "title": "Wyślij Nam Wiadomość",
+      "name": "Imię i Nazwisko",
+      "subject": "Temat",
+      "message": "Wiadomość",
+      "send": "Wyślij Wiadomość"
+    },
+    "info": {
+      "title": "Informacje Kontaktowe",
+      "email": {
+        "title": "E-mail"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "address": {
+        "title": "Adres"
+      },
+      "hours": {
+        "title": "Godziny Pracy",
+        "monday": "Poniedziałek - Piątek: 9:00 - 18:00",
+        "saturday": "Sobota: 10:00 - 16:00",
+        "sunday": "Niedziela: Zamknięte"
+      }
+    },
+    "help": {
+      "title": "Jak Możemy Pomóc?",
+      "volunteer": {
+        "title": "Zostań Wolontariuszem",
+        "description": "Dołącz do naszej społeczności wolontariuszy, którzy robią różnicę",
+      },
+      "partner": {
+        "title": "Możliwości Partnerstwa",
+        "description": "Odkryj sposoby partnerstwa z nami dla większego wpływu",
+        "button": "Rozpocznij"
+      }
+    }
+  },
+  "donate": {
+    "title": "Przekaż Darowiznę",
+    "subtitle": "Twoje wsparcie pomaga nam tworzyć trwałą zmianę w społecznościach na całym świecie",
+    "hero": {
+      "subtitle": "Każda darowizna, niezależnie od wielkości, robi prawdziwą różnicę"
+    },
+    "amount": "Wybierz Kwotę",
+    "custom": "Niestandardowa Kwota",
+    "customPlaceholder": "Wpisz kwotę",
+    "monthly": "Uczyń to miesięczną darowizną",
+    "form": {
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "paymentMethod": "Metoda Płatności",
+      "creditCard": "Karta Kredytowa"
+    },
+    "submit": "Dokończ Darowiznę",
+    "secure": "Bezpieczna darowizna obsługiwana przez Stripe",
+    "impact": {
+      "25": "25$",
+      "50": "50$",
+      "100": "100$",
+      "250": "250$",
+      "title": "Twój Wpływ",
+      "25Description": "Zapewnia materiały szkolne dla 5 dzieci",
+      "50Description": "Funduje tydzień czystej wody dla rodziny",
+      "100Description": "Wspiera miesiąc usług zdrowotnych",
+      "250Description": "Sponsoruje edukację dziecka przez semestr"
+    },
+    "why": {
+      "title": "Dlaczego Przekazać Darowiznę na BAOBAB HOPE?",
+      "item1": "100% przejrzystość w wykorzystaniu funduszy",
+      "item2": "Bezpośredni wpływ w społecznościach na całym świecie",
+      "item3": "Zrównoważone rozwiązania tworzące trwałą zmianę",
+      "item4": "Regularne aktualizacje na temat wpływu Twojej darowizny"
+    },
+    "alert": {
+      "processing": "Przetwarzanie Twojej darowizny w wysokości ${amount} ${monthly}..."
+    }
+  }
+
+}

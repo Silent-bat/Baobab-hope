@@ -1,0 +1,51 @@
+{
+  "home": {
+    "learnMore": "En Savoir Plus"
+  },
+  "impact": {
+    "title": "Notre Impact",
+    "subtitle": "Ensemble, nous créons un changement durable dans les communautés du monde entier",
+    "volunteers": "Bénévoles Engagés",
+    "lives": "Vies Impactées"
+  },
+  "programs": {
+    "title": "Nos Programmes",
+    "subtitle": "Des initiatives complètes conçues pour répondre aux besoins les plus pressants de nos communautés"
+  },
+  "education": {
+    "title": "Éducation"
+  },
+  "environment": {
+    "title": "Environnement",
+    "description": "Solutions durables pour protéger et préserver notre planète"
+  },
+  "healthcare": {
+    "title": "Santé",
+    "description": "Services de santé accessibles qui sauvent et améliorent des vies"
+  },
+  "water": {
+    "title": "Eau Propre",
+    "description": "Accès à l'eau potable et assainissement pour des communautés en bonne santé"
+  },
+  "stories": {
+    "title": "Histoires d'Impact",
+    "subtitle": "Découvrez comment nos programmes transforment des vies et renforcent des communautés",
+    "cta": "Lire Toutes les Histoires"
+  },
+  "cta": {
+    "title": "Prêt à Faire la Différence ?",
+    "subtitle": "Rejoignez notre mission pour créer un monde meilleur pour tous",
+    "donate": "Faire un Don",
+    "volunteer": "Devenir Bénévole",
+    "partner": "Devenir Partenaire"
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de BAOBAB HOPE",
+      "subtitle": "Une organisation dédiée à la création d'un changement durable dans les communautés du monde entier"
+    },
+    "mission": {
+      "title": "Notre Mission"
+    }
+  }
+}

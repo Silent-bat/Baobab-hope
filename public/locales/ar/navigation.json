@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "about": {
+      "history": "التاريخ",
+      "missions": "المهام",
+      "organizations": "المنظمات",
+      "regions": "المناطق",
+      "localGroups": "المجموعات المحلية",
+      "partnerNetworks": "شبكات الشركاء",
+      "financialTransparency": "الشفافية المالية"
+    },
+    "actions": "أعمالنا",
+    "information": {
+      "title": "معلومات",
+      "agenda": "التقويم",
+      "advertising": "الإعلان",
+      "resources": "الموارد",
+      "press": "منطقة الصحافة",
+      "podcast": "البودكاست",
+      "analysis": "التحليل",
+      "faq": "الأسئلة الشائعة"
+    },
+    "act": {
+      "title": "اتخذ إجراء",
+      "volunteering": "التطوع",
+      "campaigns": "حملاتنا",
+      "training": "التدريب",
+      "jobs": "عروض العمل",
+      "partners": "الشركاء",
+      "legacy": "الإرث",
+      "lifeInsurance": "التأمين على الحياة",
+      "donation": "التبرع"
+    },
+    "donate": "تبرع",
+    "aboutTitle": "من نحن",
+    "informationTitle": "معلومات",
+    "actTitle": "اتخذ إجراء",
+    "search": "بحث..."
+  },
+  "footer": {
+    "mission": "زرع الأمل، رعاية المجتمعات، خلق مستقبل مستدام.",
+    "links": "روابط سريعة",
+    "contact": "معلومات الاتصال",
+    "rights": "جميع الحقوق محفوظة.",
+    "newsletter": {
+      "title": "اشتراك النشرة الإخبارية",
+      "subtitle": "ابق على اطلاع بأحدث أعمالنا وتأثيرنا",
+      "placeholder": "عنوان بريدك الإلكتروني",
+      "subscribe": "اشترك",
+      "success": "شكراً لاشتراكك!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Hope Street, City, State 12345"
+  },
+  "language": "ar",
+  "lastUpdated": "2025-09-20T15:24:57.559Z"
+}

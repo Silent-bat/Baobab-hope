@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "홈",
+    "about": {
+      "history": "역사",
+      "missions": "사명",
+      "organizations": "조직",
+      "regions": "지역",
+      "localGroups": "지역 그룹",
+      "partnerNetworks": "파트너 네트워크",
+      "financialTransparency": "재정 투명성"
+    },
+    "aboutTitle": "소개",
+    "actions": "우리의 행동",
+    "information": {
+      "title": "정보",
+      "agenda": "캘린더",
+      "advertising": "광고",
+      "resources": "자원",
+      "press": "언론 영역",
+      "podcast": "팟캐스트",
+      "analysis": "분석",
+      "faq": "자주 묻는 질문"
+    },
+    "informationTitle": "정보",
+    "act": {
+      "title": "행동하기",
+      "volunteering": "자원봉사",
+      "campaigns": "캠페인",
+      "training": "교육",
+      "jobs": "채용 공고",
+      "partners": "파트너",
+      "legacy": "유산",
+      "lifeInsurance": "생명보험",
+      "donation": "기부"
+    },
+    "actTitle": "행동하기",
+    "donate": "기부",
+    "search": "검색..."
+  },
+  "footer": {
+    "mission": "희망을 키우고, 커뮤니티를 양육하며, 지속 가능한 미래를 만듭니다.",
+    "links": "빠른 링크",
+    "contact": "연락처 정보",
+    "newsletter": {
+      "title": "뉴스레터 구독",
+      "subtitle": "최신 행동과 영향력에 대한 정보를 받아보세요",
+      "placeholder": "이메일 주소",
+      "subscribe": "구독",
+      "success": "구독해 주셔서 감사합니다!"
+    },
+    "email": "info@baobabhope.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 희망 거리, 도시, 주 12345",
+    "rights": "모든 권리 보유."
+  }
+}

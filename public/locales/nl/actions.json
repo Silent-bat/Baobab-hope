@@ -1,0 +1,39 @@
+{
+  "buttons": {
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "create": "Maken",
+    "update": "Updaten",
+    "submit": "Verzenden",
+    "reset": "Resetten",
+    "confirm": "Bevestigen",
+    "back": "Terug",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "finish": "Voltooien",
+    "close": "Sluiten",
+    "open": "Openen",
+    "expand": "Uitvouwen",
+    "collapse": "Invouwen",
+    "select": "Selecteren",
+    "deselect": "Deselecteren",
+    "selectAll": "Alles Selecteren",
+    "deselectAll": "Alles Deselecteren",
+    "copy": "Kopiëren",
+    "paste": "Plakken",
+    "cut": "Knippen",
+    "undo": "Ongedaan Maken",
+    "redo": "Opnieuw"
+  },
+  "project": {
+    "progress": "Voortgang",
+    "raised": "Verzameld",
+    "goal": "Doel",
+    "beneficiaries": "Begunstigden",
+    "achievements": "Belangrijkste Prestaties"
+  },
+  "language": "nl",
+  "lastUpdated": "2025-09-21T12:26:30.000Z"
+}

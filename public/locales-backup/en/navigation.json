@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": {
+      "history": "History",
+      "missions": "Missions",
+      "organizations": "Organizations",
+      "regions": "Regions",
+      "localGroups": "Local Groups",
+      "partnerNetworks": "Partner Networks",
+      "financialTransparency": "Financial Transparency"
+    },
+    "actions": "Our Actions",
+    "information": {
+      "agenda": "Calendar",
+      "advertising": "Advertising",
+      "resources": "Resources",
+      "press": "Press Area",
+      "podcast": "Podcast",
+      "analysis": "Analysis",
+      "faq": "FAQ"
+    },
+    "act": {
+      "volunteering": "Volunteering",
+      "campaigns": "Our Campaigns",
+      "training": "Training",
+      "jobs": "Job Offers",
+      "partners": "Partners",
+      "legacy": "Legacy",
+      "lifeInsurance": "Life Insurance",
+      "donation": "Donation"
+    },
+    "contact": "Contact",
+    "donate": "Donate",
+    "search": "Search..."
+  }
+}

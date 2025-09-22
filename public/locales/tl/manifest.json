@@ -1,0 +1,15 @@
+{
+  "language": "tl",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-20T15:24:59.076Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 326
+}
