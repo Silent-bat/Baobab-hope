@@ -183,7 +183,7 @@ export default function PodcastPage() {
     },
   }
 
-  const t = content[language]
+  const t = content[language] || content.en // Fallback to English
 
   const filteredEpisodes = t.episodes.filter((episode) => {
     const matchesCategory = selectedCategory === "all" || episode.category === selectedCategory

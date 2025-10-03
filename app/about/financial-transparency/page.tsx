@@ -168,7 +168,7 @@ const certifications = [
 
 export default function FinancialTransparencyPage() {
   const { language } = useLanguage()
-  const t = translations[language]
+  const t = translations[language] || translations.en // Fallback to English
 
   const programRatio = Math.round((financialData.programExpenses / financialData.totalExpenses) * 100)
   const adminRatio = Math.round((financialData.adminExpenses / financialData.totalExpenses) * 100)

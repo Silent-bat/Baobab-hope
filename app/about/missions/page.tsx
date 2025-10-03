@@ -10,53 +10,30 @@ export default function MissionsPage() {
   const missions = [
     {
       icon: BookOpen,
-      title: "Education & Literacy",
-      description:
-        "Providing quality education and literacy programs to empower communities with knowledge and skills for sustainable development.",
-      goals: [
-        "Establish community learning centers",
-        "Train local educators",
-        "Develop culturally relevant curricula",
-        "Promote digital literacy",
-      ],
+      title: t("missions.missionAreas.education.title"),
+      description: t("missions.missionAreas.education.description"),
+      goals: t("missions.missionAreas.education.goals"),
       color: "from-blue-500 to-purple-600",
     },
     {
       icon: Leaf,
-      title: "Environmental Conservation",
-      description:
-        "Protecting ecosystems and promoting sustainable practices to ensure a healthy planet for future generations.",
-      goals: [
-        "Reforestation and biodiversity protection",
-        "Sustainable agriculture training",
-        "Clean energy initiatives",
-        "Environmental education",
-      ],
+      title: t("missions.missionAreas.environment.title"),
+      description: t("missions.missionAreas.environment.description"),
+      goals: t("missions.missionAreas.environment.goals"),
       color: "from-green-500 to-teal-600",
     },
     {
       icon: Heart,
-      title: "Community Health",
-      description: "Improving access to healthcare services and promoting health education in underserved communities.",
-      goals: [
-        "Mobile health clinics",
-        "Community health worker training",
-        "Preventive care programs",
-        "Health education initiatives",
-      ],
+      title: t("missions.missionAreas.health.title"),
+      description: t("missions.missionAreas.health.description"),
+      goals: t("missions.missionAreas.health.goals"),
       color: "from-red-500 to-pink-600",
     },
     {
       icon: Users,
-      title: "Community Empowerment",
-      description:
-        "Building local capacity and leadership to create self-sustaining communities that can thrive independently.",
-      goals: [
-        "Leadership development programs",
-        "Economic empowerment initiatives",
-        "Community organizing",
-        "Local governance support",
-      ],
+      title: t("missions.missionAreas.empowerment.title"),
+      description: t("missions.missionAreas.empowerment.description"),
+      goals: t("missions.missionAreas.empowerment.goals"),
       color: "from-orange-500 to-red-600",
     },
   ]
@@ -64,23 +41,23 @@ export default function MissionsPage() {
   const coreValues = [
     {
       icon: Target,
-      title: "Sustainability",
-      description: "We focus on long-term solutions that create lasting positive change in communities.",
+      title: t("missions.coreValues.sustainability.title"),
+      description: t("missions.coreValues.sustainability.description"),
     },
     {
       icon: Shield,
-      title: "Transparency",
-      description: "We maintain complete openness in our operations, finances, and impact measurement.",
+      title: t("missions.coreValues.transparency.title"),
+      description: t("missions.coreValues.transparency.description"),
     },
     {
       icon: Globe,
-      title: "Cultural Respect",
-      description: "We honor local traditions and work within cultural contexts to ensure appropriate solutions.",
+      title: t("missions.coreValues.culturalRespect.title"),
+      description: t("missions.coreValues.culturalRespect.description"),
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "We embrace creative approaches and new technologies to maximize our impact.",
+      title: t("missions.coreValues.innovation.title"),
+      description: t("missions.coreValues.innovation.description"),
     },
   ]
 
@@ -90,13 +67,12 @@ export default function MissionsPage() {
       <section className="bg-gradient-to-br from-red-600 via-red-700 to-red-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Our Missions</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">{t("missions.title")}</h1>
             <p
               className="text-xl lg:text-2xl text-red-100 max-w-3xl mx-auto animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Dedicated to creating sustainable change through education, conservation, health, and community
-              empowerment
+              {t("missions.subtitle")}
             </p>
           </div>
         </div>
@@ -105,11 +81,9 @@ export default function MissionsPage() {
       {/* Mission Statement */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 animate-fade-in-up">Our Core Mission</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 animate-fade-in-up">{t("missions.coreMission.title")}</h2>
           <p className="text-xl text-gray-600 leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            To nurture sustainable growth in communities through education, empowerment, and environmental stewardship,
-            creating lasting positive change that spans generations. Like the mighty baobab tree, we believe in deep
-            roots, strong growth, and enduring impact that benefits entire ecosystems of human development.
+            {t("missions.coreMission.description")}
           </p>
         </div>
       </section>
@@ -118,12 +92,12 @@ export default function MissionsPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">Mission Areas</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">{t("missions.missionAreas.title")}</h2>
             <p
               className="text-lg text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Our comprehensive approach addresses multiple interconnected challenges facing communities worldwide
+              {t("missions.missionAreas.subtitle")}
             </p>
           </div>
 
@@ -147,12 +121,12 @@ export default function MissionsPage() {
                     <p className="text-gray-600 mb-6 leading-relaxed">{mission.description}</p>
                     <div className="space-y-2">
                       <h4 className="font-semibold text-gray-900 mb-3">Key Goals:</h4>
-                      {mission.goals.map((goal, idx) => (
+                      {Array.isArray(mission.goals) ? mission.goals.map((goal, idx) => (
                         <div key={idx} className="flex items-center text-gray-600">
                           <div className="w-2 h-2 bg-red-500 rounded-full mr-3 flex-shrink-0"></div>
                           <span>{goal}</span>
                         </div>
-                      ))}
+                      )) : null}
                     </div>
                   </CardContent>
                 </Card>
@@ -166,12 +140,12 @@ export default function MissionsPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">Our Core Values</h2>
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">{t("missions.coreValues.title")}</h2>
             <p
               className="text-lg text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              The principles that guide every decision we make and every action we take
+              {t("missions.coreValues.subtitle")}
             </p>
           </div>
 
@@ -201,12 +175,12 @@ export default function MissionsPage() {
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-red-600 via-red-700 to-red-800 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6 animate-fade-in-up">Join Our Mission</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6 animate-fade-in-up">{t("missions.joinMission.title")}</h2>
           <p
             className="text-xl mb-8 text-red-100 leading-relaxed animate-fade-in-up"
             style={{ animationDelay: "0.2s" }}
           >
-            Together, we can create lasting change that transforms communities and builds a better future for all.
+            {t("missions.joinMission.subtitle")}
           </p>
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up"
@@ -216,13 +190,13 @@ export default function MissionsPage() {
               href="/donate"
               className="bg-white text-red-600 hover:bg-gray-100 font-bold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
-              Support Our Mission
+              {t("missions.joinMission.supportMission")}
             </a>
             <a
               href="/contact"
               className="border-2 border-red-300 text-red-300 hover:bg-red-300 hover:text-red-800 font-bold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105"
             >
-              Get Involved
+              {t("missions.joinMission.getInvolved")}
             </a>
           </div>
         </div>

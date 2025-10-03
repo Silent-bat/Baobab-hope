@@ -176,7 +176,7 @@ const categories = [
 
 export default function ResourcesPage() {
   const { language } = useLanguage()
-  const t = translations[language]
+  const t = translations[language] || translations.en // Fallback to English
   const [searchTerm, setSearchTerm] = useState("")
   const [selectedCategory, setSelectedCategory] = useState("all")
   const [selectedType, setSelectedType] = useState("all")

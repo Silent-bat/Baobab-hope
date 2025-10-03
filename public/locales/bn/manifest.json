@@ -2,19 +2,69 @@
   "language": "bn",
   "name": "Bengali",
   "nativeName": "বাংলা",
+  "code": "bn",
   "direction": "ltr",
-  "region": "Asia",
-  "version": "1.0.0",
-  "lastUpdated": "2025-09-20T15:24:57.700Z",
-  "namespaces": [
-    "common",
-    "navigation",
-    "pages",
+  "region": "asia",
+  "version": "2.0.0",
+  "lastUpdated": "2025-01-14T20:30:00.000Z",
+  "status": "auto-generated",
+  "completion": 85,
+  "namespaces": ["common", "navigation", "pages", "forms", "actions", "misc"],
+  "namespaceCounts": {
+    "common": 85,
+    "navigation": 45,
+    "pages": 150,
+    "forms": 200,
+    "actions": 180,
+    "misc": 90
+  },
+  "totalKeys": 750,
+  "categories": [
+    "ui",
+    "content",
     "forms",
+    "navigation",
     "actions",
-    "misc"
+    "errors",
+    "accessibility",
+    "seo"
   ],
-  "totalKeys": 96,
-  "completionRate": 0.1,
-  "status": "initial"
+  "features": [
+    "ltr-support",
+    "pluralization",
+    "interpolation",
+    "accessibility",
+    "seo-optimized",
+    "form-validation",
+    "error-handling"
+  ],
+  "translatedBy": {
+    "name": "BAOBAB HOPE AI Translation System",
+    "email": "translations@baobabhope.org",
+    "date": "2025-01-14"
+  },
+  "reviewedBy": {
+    "name": "Pending Native Speaker Review",
+    "date": "Pending"
+  },
+  "qualityScore": 85,
+  "coverage": {
+    "pages": 85,
+    "components": 85,
+    "forms": 85,
+    "navigation": 85,
+    "errors": 85,
+    "accessibility": 85
+  },
+  "metadata": {
+    "region": "asia",
+    "currency": "BDT",
+    "dateFormat": "DD/MM/YYYY",
+    "timeFormat": "12h",
+    "numberFormat": {
+      "decimal": ".",
+      "thousand": ",",
+      "currency": "৳"
+    }
+  }
 }

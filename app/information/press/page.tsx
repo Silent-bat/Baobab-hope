@@ -204,7 +204,7 @@ export default function PressPage() {
     },
   }
 
-  const t = content[language]
+  const t = content[language] || content.en // Fallback to English
 
   const filteredReleases =
     selectedCategory === "all"

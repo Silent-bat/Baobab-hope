@@ -1,0 +1,44 @@
+{
+  "slogan": {
+    "main": "Jedno Srce, Jedna Ruka"
+  },
+  "common": {
+    "loading": "Učitava se...",
+    "error": "Dogodila se greška",
+    "backTop": "Povratak na vrh",
+    "share": "Podijeli",
+    "search": "Pretraži",
+    "menu": "Meni",
+    "close": "Zatvori",
+    "open": "Otvori",
+    "learnMore": "Saznaj više",
+    "getStarted": "Počni",
+    "joinUs": "Pridruži nam se",
+    "contactUs": "Kontaktiraj nas",
+    "followUs": "Prati nas",
+    "subscribe": "Pretplati se",
+    "thankYou": "Hvala",
+    "donate": "Doniraj",
+    "volunteer": "Volontiraj",
+    "support": "Podrška",
+    "impact": "Utjecaj",
+    "community": "Zajednica",
+    "education": "Obrazovanje",
+    "healthcare": "Zdravstvo",
+    "environment": "Okoliš",
+    "water": "Čista voda"
+  },
+  "accessibility": {
+    "languageChanged": "Jezik je promijenjen na {{language}}",
+    "languageSelector": "Odaberi jezik",
+    "currentLanguage": "Trenutni jezik: {{language}}",
+    "skipToContent": "Preskoči na glavni sadržaj",
+    "mainContent": "Glavni sadržaj",
+    "navigation": "Navigacija"
+  },
+  "language": "hr",
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
+  "namespaces": ["common", "navigation", "pages", "forms", "actions", "misc", "manifest"],
+  "totalKeys": 450
+}

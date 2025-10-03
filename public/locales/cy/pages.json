@@ -1,0 +1,468 @@
+{
+  "home": {
+    "title": "Empowering Through Education",
+    "subtitle": "Building Brighter Futures",
+    "hero": {
+      "donate": "Donate Now",
+      "education": {
+        "title": "Education Transforms Lives",
+        "subtitle": "Building Brighter Futures Through Learning",
+        "description": "Join us in providing quality education and literacy programs that empower communities to break the cycle of poverty and create sustainable change.",
+        "cta": "Support Education"
+      },
+      "healthcare": {
+        "title": "Healthcare for All",
+        "subtitle": "Bringing Medical Care to Those in Need",
+        "description": "Help us expand access to essential healthcare services and health education in underserved communities worldwide.",
+        "cta": "Support Healthcare"
+      },
+      "environment": {
+        "title": "Protecting Our Planet",
+        "subtitle": "Environmental Conservation for Future Generations",
+        "description": "Support our environmental conservation efforts and sustainable practices that preserve ecosystems while empowering local communities.",
+        "cta": "Support Environment"
+      },
+      "water": {
+        "title": "Clean Water for Life",
+        "subtitle": "Building Sustainable Water Systems",
+        "description": "Help us provide clean, safe water access to communities in need through sustainable water systems and conservation education.",
+        "cta": "Support Water Projects"
+      }
+    },
+    "impact": {
+      "title": "Our Growing Impact",
+      "people": "Lives Transformed",
+      "countries": "Countries Reached",
+      "projects": "Active Projects",
+      "volunteers": "Volunteers"
+    },
+    "stories": {
+      "title": "Our Impact Stories",
+      "subtitle": "Discover how we're creating sustainable change in communities worldwide"
+    },
+    "cta": {
+      "title": "Ready to Plant Seeds of Change?",
+      "subtitle": "Join our growing community of changemakers and help us nurture hope in communities that need it most. Every contribution, no matter the size, creates ripples of positive change.",
+      "learn": "Learn Our Story"
+    },
+    "focusAreas": {
+      "title": "Our Focus Areas",
+      "subtitle": "We work across multiple interconnected areas to create comprehensive, sustainable change"
+    },
+    "impactStories": [
+      {
+        "title": "Clean Water Transforms Village Life",
+        "description": "How a new well system brought hope and health to 500 families in rural Mali",
+        "category": "Water Access",
+        "readTime": "5 min read"
+      },
+      {
+        "title": "Education Opens New Doors",
+        "description": "Meet Amina, whose literacy program participation led to starting her own business",
+        "category": "Education",
+        "readTime": "7 min read"
+      },
+      {
+        "title": "Healthcare Reaches Remote Communities",
+        "description": "Mobile clinics bring essential medical care to previously unreachable areas",
+        "category": "Healthcare",
+        "readTime": "6 min read"
+      }
+    ]
+  },
+  "environment": {
+    "title": "Protecting Our Planet",
+    "subtitle": "Environmental Conservation",
+    "description": "Implementing sustainable practices and conservation efforts to preserve ecosystems for future generations while empowering local communities.",
+    "cta": "Learn About Our Impact"
+  },
+  "healthcare": {
+    "title": "Healthcare for All",
+    "subtitle": "Community Wellness",
+    "description": "Providing essential healthcare services and health education to underserved communities, ensuring everyone has access to quality medical care.",
+    "cta": "View Health Projects"
+  },
+  "about": {
+    "title": "About BAOBAB HOPE",
+    "hero": {
+      "badge": "Our Story",
+      "subtitle": "Like the mighty baobab tree, we believe in deep roots, strong growth, and lasting impact."
+    },
+    "mission": {
+      "badge": "Our Purpose",
+      "title": "Our Mission",
+      "text": "To nurture sustainable growth in communities through education, empowerment, and environmental stewardship, creating lasting positive change that spans generations.",
+      "description": "Since our founding in 2020, we have been committed to creating sustainable solutions that address the root causes of poverty, inequality, and environmental degradation."
+    },
+    "values": {
+      "badge": "What Drives Us",
+      "title": "Our Core Values",
+      "subtitle": "Our core values guide every decision we make and every action we take in service of our mission.",
+      "growth": "Sustainable Growth",
+      "community": "Community First",
+      "transparency": "Transparency",
+      "empowerment": "Empowerment",
+      "growthDescription": "We believe in nurturing long-term, sustainable solutions that grow stronger over time, just like the baobab tree.",
+      "communityDescription": "Communities are at the heart of everything we do. We listen, learn, and work together to create meaningful change.",
+      "transparencyDescription": "We maintain complete transparency in our operations, finances, and impact to build lasting trust with our supporters.",
+      "empowermentDescription": "We empower individuals and communities with the tools, knowledge, and resources they need to thrive independently."
+    },
+    "timeline": {
+      "badge": "Our Journey",
+      "title": "Growing Together Since 2020",
+      "subtitle": "From humble beginnings to global impact, see how BAOBAB HOPE has grown and evolved.",
+      "milestone1": {
+        "event": "Foundation",
+        "description": "Started with a vision to create sustainable change"
+      },
+      "milestone2": {
+        "event": "First Education Program",
+        "description": "Launched literacy initiatives in 3 communities"
+      },
+      "milestone3": {
+        "event": "Environmental Focus",
+        "description": "Expanded to include conservation and sustainability projects"
+      },
+      "milestone4": {
+        "event": "Healthcare Initiative",
+        "description": "Introduced mobile health clinics and health education"
+      },
+      "milestone5": {
+        "event": "Global Expansion",
+        "description": "Now operating in 18 countries across 4 continents"
+      }
+    },
+    "impact": {
+      "title": "Our Growing Impact",
+      "subtitle": "Numbers that tell the story of lives transformed and communities empowered.",
+      "livesTransformed": "Lives Transformed",
+      "activeProjects": "Active Projects",
+      "countriesReached": "Countries Reached",
+      "volunteers": "Volunteers"
+    },
+    "team": {
+      "badge": "Meet Our Team",
+      "title": "The People Behind the Mission",
+      "subtitle": "Meet the dedicated individuals who lead our organization and drive our mission forward.",
+      "member1": {
+        "name": "Marie Kouadio",
+        "role": "Executive Director",
+        "bio": "Visionary leader with 15 years of experience in international development and community empowerment"
+      },
+      "member2": {
+        "name": "Jean-Baptiste Dubois",
+        "role": "Program Director",
+        "bio": "Education specialist focused on community-driven learning initiatives"
+      },
+      "member3": {
+        "name": "Sarah Chen",
+        "role": "Operations Manager",
+        "bio": "Healthcare administrator passionate about accessible medical care"
+      }
+    },
+    "history": {
+      "title": "Our History",
+      "subtitle": "The journey of BAOBAB HOPE from a small idea to a global movement",
+      "founding": {
+        "title": "The Beginning of Hope",
+        "description": "BAOBAB HOPE was founded in 2020 with a simple yet powerful vision: to create sustainable change in communities worldwide."
+      },
+      "growth": {
+        "title": "Growing Roots",
+        "description": "From our humble beginnings, we've grown to serve communities across 18 countries, always staying true to our core values."
+      },
+      "impact": {
+        "title": "Making Impact",
+        "description": "Today, we've transformed over 75,000 lives through our education, healthcare, and environmental programs."
+      },
+      "cta": {
+        "title": "Be Part of Our Story",
+        "subtitle": "Join thousands of volunteers and supporters who are helping us write the next chapter of hope."
+      }
+    }
+  },
+  "projects": {
+    "title": "Our Actions",
+    "subtitle": "Discover the transformative initiatives creating lasting change in communities worldwide.",
+    "education": {
+      "title": "Education & Literacy",
+      "description": "Building educational foundations that empower communities to thrive and grow sustainably."
+    },
+    "environment": {
+      "title": "Environmental Conservation",
+      "description": "Protecting and restoring ecosystems while teaching sustainable practices to local communities."
+    },
+    "healthcare": {
+      "title": "Community Health",
+      "description": "Providing essential healthcare services and health education to underserved communities."
+    },
+    "water": {
+      "title": "Clean Water Access",
+      "description": "Building sustainable water systems and teaching water conservation practices."
+    },
+    "view": "View Details",
+    "learn": "Learn More",
+    "explore": "Explore Project",
+    "impact": {
+      "title": "Our Impact",
+      "subtitle": "See the difference we're making together"
+    },
+    "cta": {
+      "title": "Join Our Mission",
+      "subtitle": "Every contribution makes a difference",
+      "support": "Support Our Work",
+      "involved": "Get Involved"
+    },
+    "support": "Support Our Work"
+  },
+  "project": {
+    "back": "Back to Projects",
+    "custom": "Custom Amount",
+    "donate": "Donate Now",
+    "duration": "Duration",
+    "funding": "Funding Goal",
+    "goal": "Goal",
+    "impact": "Impact",
+    "location": "Location",
+    "monthly": "Monthly",
+    "progress": "Progress",
+    "raised": "Raised",
+    "share": "Share",
+    "story": "Story",
+    "support": {
+      "title": "Support This Project"
+    },
+    "updates": "Updates",
+    "amount": "Amount",
+    "beneficiaries": "Beneficiaries",
+    "achievements": "Achievements",
+    "impactInfo": "Impact Information"
+  },
+  "blog": {
+    "title": "Latest News",
+    "subtitle": "Stay updated with our latest impact stories and community news",
+    "author": "Author",
+    "back": "Back to Blog",
+    "featured": "Featured",
+    "read": {
+      "full": "Read Full Article",
+      "more": "Read More",
+      "time": "min read"
+    },
+    "related": "Related Articles",
+    "share": {
+      "title": "Share this article",
+      "copy": "Copy Link",
+      "facebook": "Share on Facebook",
+      "twitter": "Share on Twitter"
+    },
+    "support": {
+      "title": "Support Our Work",
+      "subtitle": "Help us continue making a difference",
+      "donate": "Donate Now"
+    },
+    "tags": "Tags",
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get the latest stories and updates",
+      "email": "Enter your email",
+      "get": "Get Updates",
+      "placeholder": "your.email@example.com",
+      "subscribe": "Subscribe",
+      "stay": "Stay Informed"
+    }
+  },
+  "information": {
+    "title": "Information Hub",
+    "subtitle": "Access resources, news, and insights about our work and impact",
+    "featured": "Featured Content",
+    "readFull": "Read Full Article",
+    "readMore": "Read More",
+    "newsletter": {
+      "title": "Stay Informed",
+      "subtitle": "Get the latest updates and insights",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us. We'd love to hear from you.",
+    "hero": {
+      "subtitle": "We're here to help and answer any questions you might have"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "address": {
+        "title": "Address"
+      },
+      "hours": {
+        "title": "Office Hours",
+        "monday": "Monday - Friday: 9:00 AM - 6:00 PM",
+        "saturday": "Saturday: 10:00 AM - 4:00 PM",
+        "sunday": "Sunday: Closed"
+      }
+    },
+    "help": {
+      "title": "How Can We Help?",
+      "volunteer": {
+        "title": "Become a Volunteer",
+        "description": "Join our community of volunteers making a difference",
+        "button": "Volunteer Now"
+      },
+      "partner": {
+        "title": "Partnership Opportunities",
+        "description": "Explore ways to partner with us for greater impact",
+        "button": "Get Started"
+      }
+    }
+  },
+  "donate": {
+    "title": "Make a Donation",
+    "subtitle": "Your support helps us create lasting change in communities worldwide",
+    "hero": {
+      "subtitle": "Every donation, no matter the size, makes a real difference"
+    },
+    "amount": "Choose Amount",
+    "custom": "Custom Amount",
+    "customPlaceholder": "Enter amount",
+    "monthly": "Make this a monthly donation",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "paymentMethod": "Payment Method",
+      "creditCard": "Credit Card"
+    },
+    "submit": "Complete Donation",
+    "secure": "Secure donation powered by Stripe",
+    "impact": {
+      "25": "$25",
+      "50": "$50",
+      "100": "$100",
+      "250": "$250",
+      "title": "Your Impact",
+      "25Description": "Provides school supplies for 5 children",
+      "50Description": "Funds a week of clean water for a family",
+      "100Description": "Supports a month of healthcare services",
+      "250Description": "Sponsors a child's education for a semester"
+    },
+    "why": {
+      "title": "Why Donate to BAOBAB HOPE?",
+      "item1": "100% transparency in how funds are used",
+      "item2": "Direct impact in communities worldwide",
+      "item3": "Sustainable solutions that create lasting change",
+      "item4": "Regular updates on your donation's impact"
+    },
+    "alert": {
+      "processing": "Processing your ${amount} ${monthly} donation..."
+    }
+  },
+  "nav": {
+    "act": {
+      "campaigns": "Campaigns",
+      "jobs": "Jobs",
+      "legacy": "Legacy",
+      "lifeInsurance": "Life Insurance",
+      "partners": "Partners",
+      "training": "Training",
+      "volunteering": "Volunteering"
+    },
+    "contact": "Contact",
+    "information": {
+      "advertising": "Advertising",
+      "agenda": "Agenda",
+      "analysis": "Analysis",
+      "faq": "FAQ",
+      "podcast": "Podcast",
+      "press": "Press",
+      "resources": "Resources"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "ongoing": "Ongoing",
+    "people": {
+      "reached": "People Reached"
+    },
+    "started": "Started",
+    "success": {
+      "rate": "Success Rate"
+    },
+    "countries": "Countries",
+    "active": {
+      "projects": "Active Projects"
+    }
+  },
+  "act": {
+    "title": "Take Action",
+    "subtitle": "Join our mission to create lasting change in communities worldwide",
+    "hero": {
+      "title": "Make a Difference Today",
+      "subtitle": "Every action counts. Discover how you can contribute to positive change."
+    },
+    "ways": "Ways to Get Involved",
+    "impact": {
+      "title": "Your Impact",
+      "subtitle": "See how your involvement creates real change"
+    }
+  },
+  "search": {
+    "title": "Search Results",
+    "subtitle": "Find what you're looking for",
+    "placeholder": "Search our website...",
+    "noResults": "No results found",
+    "results": "results found",
+    "searchFor": "Search for",
+    "categories": {
+      "all": "All",
+      "projects": "Projects",
+      "blog": "Blog",
+      "pages": "Pages"
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "subtitle": "We're sorry for the inconvenience",
+    "404": {
+      "title": "Page Not Found",
+      "subtitle": "The page you're looking for doesn't exist",
+      "description": "It seems like you've followed a broken link or entered a URL that doesn't exist on this site."
+    },
+    "500": {
+      "title": "Server Error",
+      "subtitle": "Something went wrong on our end",
+      "description": "We're experiencing technical difficulties. Please try again later."
+    },
+    "goHome": "Go Home",
+    "tryAgain": "Try Again",
+    "reportIssue": "Report Issue"
+  },
+  "newsletter": {
+    "success": "Thank you for subscribing!",
+    "error": "Something went wrong. Please try again.",
+    "alreadySubscribed": "You're already subscribed!",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "hardcodedStrings": {
+    "donateNow": "Donate Now",
+    "becomeMember": "Become a Volunteer",
+    "learnAboutMissions": "Learn About Our Missions",
+    "viewHealthProjects": "View Health Projects"
+  },
+  "language": "cy",
+  "lastUpdated": "2025-01-27T12:30:00.000Z"
+}

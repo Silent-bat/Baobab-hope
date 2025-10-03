@@ -1,21 +1,507 @@
 {
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Ponte en contacto con nosotros",
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "name": {
+        "label": "Nombre Completo",
+        "placeholder": "Ingresa tu nombre completo",
+        "error": "Por favor ingresa tu nombre completo"
+      },
+      "email": {
+        "label": "Dirección de Correo Electrónico",
+        "placeholder": "tu.email@ejemplo.com",
+        "error": "Por favor ingresa una dirección de correo electrónico válida"
+      },
+      "phone": {
+        "label": "Número de Teléfono",
+        "placeholder": "Tu número de teléfono (opcional)",
+        "error": "Por favor ingresa un número de teléfono válido"
+      },
+      "subject": {
+        "label": "Asunto",
+        "placeholder": "¿De qué se trata?",
+        "error": "Por favor ingresa un asunto"
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos más sobre tu consulta...",
+        "error": "Por favor ingresa tu mensaje"
+      },
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Tu mensaje ha sido enviado exitosamente.",
+      "error": "Lo sentimos, hubo un error al enviar tu mensaje. Por favor intenta de nuevo."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": {
+        "title": "Correo Electrónico",
+        "value": "info@baobabhope.org"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "value": "+1 (555) 123-4567"
+      },
+      "address": {
+        "title": "Dirección",
+        "value": "123 Hope Street, Ciudad, Estado 12345"
+      },
+      "hours": {
+        "title": "Horario de Atención",
+        "weekdays": "Lunes - Viernes: 9:00 AM - 6:00 PM",
+        "weekends": "Sábados: 10:00 AM - 4:00 PM",
+        "closed": "Cerrado los Domingos"
+      }
+    }
+  },
+  "donation": {
+    "title": "Hacer una Donación",
+    "subtitle": "Tu contribución hace la diferencia",
+    "form": {
+      "title": "Detalles de la Donación",
+      "amount": {
+        "label": "Cantidad de Donación",
+        "preset": "Cantidades Predefinidas",
+        "custom": "Cantidad Personalizada",
+        "currency": "$",
+        "minimum": "Donación mínima: $5",
+        "error": "Por favor selecciona o ingresa una cantidad válida"
+      },
+      "frequency": {
+        "label": "Frecuencia",
+        "oneTime": "Una sola vez",
+        "monthly": "Mensual",
+        "quarterly": "Trimestral",
+        "yearly": "Anual"
+      },
+      "dedication": {
+        "title": "Dedicar esta Donación",
+        "inHonor": "En honor de",
+        "inMemory": "En memoria de",
+        "honoree": {
+          "label": "Nombre del Homenajeado",
+          "placeholder": "Ingresa el nombre"
+        },
+        "notify": {
+          "label": "Notificar a Alguien",
+          "name": "Nombre del Destinatario",
+          "email": "Correo del Destinatario",
+          "message": "Mensaje Personal (Opcional)"
+        }
+      },
+      "donor": {
+        "title": "Información del Donante",
+        "firstName": {
+          "label": "Nombre",
+          "placeholder": "Tu nombre",
+          "error": "Se requiere el nombre"
+        },
+        "lastName": {
+          "label": "Apellido",
+          "placeholder": "Tu apellido",
+          "error": "Se requiere el apellido"
+        },
+        "email": {
+          "label": "Correo Electrónico",
+          "placeholder": "tu@email.com",
+          "error": "Se requiere un correo electrónico válido"
+        },
+        "phone": {
+          "label": "Teléfono",
+          "placeholder": "Número de teléfono (opcional)"
+        },
+        "anonymous": "Hacer esta donación anónima"
+      },
+      "billing": {
+        "title": "Información de Facturación",
+        "address": {
+          "label": "Dirección",
+          "placeholder": "Calle y número",
+          "error": "Se requiere la dirección"
+        },
+        "city": {
+          "label": "Ciudad",
+          "placeholder": "Tu ciudad",
+          "error": "Se requiere la ciudad"
+        },
+        "state": {
+          "label": "Estado/Provincia",
+          "placeholder": "Tu estado o provincia",
+          "error": "Se requiere el estado/provincia"
+        },
+        "zipCode": {
+          "label": "Código Postal",
+          "placeholder": "Código postal",
+          "error": "Se requiere un código postal válido"
+        },
+        "country": {
+          "label": "País",
+          "placeholder": "Selecciona tu país",
+          "error": "Se requiere seleccionar un país"
+        }
+      },
+      "payment": {
+        "title": "Información de Pago",
+        "method": {
+          "label": "Método de Pago",
+          "card": "Tarjeta de Crédito/Débito",
+          "paypal": "PayPal",
+          "bankTransfer": "Transferencia Bancaria",
+          "check": "Cheque"
+        },
+        "cardNumber": {
+          "label": "Número de Tarjeta",
+          "placeholder": "1234 5678 9012 3456",
+          "error": "Se requiere un número de tarjeta válido"
+        },
+        "expiryDate": {
+          "label": "Fecha de Vencimiento",
+          "placeholder": "MM/AA",
+          "error": "Se requiere una fecha de vencimiento válida"
+        },
+        "cvv": {
+          "label": "Código CVV",
+          "placeholder": "123",
+          "error": "Se requiere un CVV válido"
+        },
+        "nameOnCard": {
+          "label": "Nombre en la Tarjeta",
+          "placeholder": "Como aparece en la tarjeta",
+          "error": "Se requiere el nombre en la tarjeta"
+        }
+      },
+      "consent": {
+        "title": "Consentimientos",
+        "receiveUpdates": "Deseo recibir actualizaciones por correo electrónico sobre el impacto de mi donación",
+        "newsletter": "Suscribirme al boletín de BAOBAB HOPE",
+        "shareInfo": "Permitir que BAOBAB HOPE comparta mi información con organizaciones asociadas",
+        "taxReceipt": "Enviarme un recibo fiscal para esta donación",
+        "privacy": "Acepto la política de privacidad",
+        "terms": "Acepto los términos y condiciones"
+      },
+      "submit": "Completar Donación",
+      "processing": "Procesando...",
+      "success": {
+        "title": "¡Donación Exitosa!",
+        "message": "Gracias por tu generosa donación. Tu contribución ayudará a crear un cambio positivo.",
+        "receipt": "Se ha enviado un recibo a tu correo electrónico.",
+        "tracking": "Número de seguimiento: {{trackingNumber}}"
+      },
+      "error": {
+        "title": "Error en la Donación",
+        "message": "Hubo un problema procesando tu donación. Por favor intenta de nuevo.",
+        "tryAgain": "Intentar de Nuevo",
+        "contact": "Contactar Soporte"
+      }
+    }
+  },
+  "volunteer": {
+    "title": "Solicitud de Voluntariado",
+    "subtitle": "Únete a nuestro equipo de voluntarios",
+    "form": {
+      "title": "Información del Voluntario",
+      "personal": {
+        "title": "Información Personal",
+        "firstName": {
+          "label": "Nombre",
+          "placeholder": "Tu nombre",
+          "error": "Se requiere el nombre"
+        },
+        "lastName": {
+          "label": "Apellido",
+          "placeholder": "Tu apellido",
+          "error": "Se requiere el apellido"
+        },
+        "email": {
+          "label": "Correo Electrónico",
+          "placeholder": "tu@email.com",
+          "error": "Se requiere un correo electrónico válido"
+        },
+        "phone": {
+          "label": "Teléfono",
+          "placeholder": "Tu número de teléfono",
+          "error": "Se requiere un número de teléfono válido"
+        },
+        "dateOfBirth": {
+          "label": "Fecha de Nacimiento",
+          "placeholder": "DD/MM/AAAA",
+          "error": "Se requiere la fecha de nacimiento"
+        },
+        "address": {
+          "label": "Dirección",
+          "placeholder": "Tu dirección completa",
+          "error": "Se requiere la dirección"
+        },
+        "city": {
+          "label": "Ciudad",
+          "placeholder": "Tu ciudad",
+          "error": "Se requiere la ciudad"
+        },
+        "emergencyContact": {
+          "name": {
+            "label": "Contacto de Emergencia - Nombre",
+            "placeholder": "Nombre completo",
+            "error": "Se requiere el nombre del contacto de emergencia"
+          },
+          "phone": {
+            "label": "Contacto de Emergencia - Teléfono",
+            "placeholder": "Número de teléfono",
+            "error": "Se requiere el teléfono del contacto de emergencia"
+          },
+          "relationship": {
+            "label": "Relación",
+            "placeholder": "Relación contigo",
+            "error": "Se requiere especificar la relación"
+          }
+        }
+      },
+      "availability": {
+        "title": "Disponibilidad",
+        "schedule": {
+          "label": "¿Cuándo puedes hacer voluntariado?",
+          "weekdays": "Entre semana",
+          "weekends": "Fines de semana",
+          "evenings": "Noches",
+          "flexible": "Horario flexible"
+        },
+        "hoursPerWeek": {
+          "label": "Horas por semana",
+          "1to5": "1-5 horas",
+          "5to10": "5-10 horas",
+          "10to20": "10-20 horas",
+          "20plus": "20+ horas"
+        },
+        "duration": {
+          "label": "Compromiso de duración",
+          "shortTerm": "Corto plazo (menos de 3 meses)",
+          "mediumTerm": "Medio plazo (3-12 meses)",
+          "longTerm": "Largo plazo (más de 12 meses)",
+          "ongoing": "Compromiso continuo"
+        }
+      },
+      "interests": {
+        "title": "Áreas de Interés",
+        "education": "Educación",
+        "healthcare": "Salud",
+        "environment": "Medio Ambiente",
+        "fundraising": "Recaudación de Fondos",
+        "administration": "Administración",
+        "marketing": "Marketing",
+        "translation": "Traducción",
+        "fieldwork": "Trabajo de Campo",
+        "events": "Organización de Eventos",
+        "other": "Otros (especificar)"
+      },
+      "skills": {
+        "title": "Habilidades y Experiencia",
+        "languages": {
+          "label": "Idiomas que hablas",
+          "placeholder": "Enumera los idiomas y tu nivel"
+        },
+        "technical": {
+          "label": "Habilidades técnicas",
+          "placeholder": "Computación, software, herramientas específicas"
+        },
+        "professional": {
+          "label": "Experiencia profesional relevante",
+          "placeholder": "Describe tu experiencia profesional"
+        },
+        "volunteer": {
+          "label": "Experiencia previa como voluntario",
+          "placeholder": "Describe tu experiencia previa"
+        }
+      },
+      "motivation": {
+        "title": "Motivación",
+        "why": {
+          "label": "¿Por qué quieres ser voluntario con BAOBAB HOPE?",
+          "placeholder": "Comparte tu motivación...",
+          "error": "Por favor comparte tu motivación"
+        },
+        "goals": {
+          "label": "¿Qué esperas lograr como voluntario?",
+          "placeholder": "Describe tus objetivos..."
+        }
+      },
+      "background": {
+        "title": "Verificación de Antecedentes",
+        "consent": "Consiento a una verificación de antecedentes si es necesaria",
+        "criminal": "¿Tienes antecedentes penales? (Se requiere honestidad)",
+        "explanation": {
+          "label": "Si respondiste sí, por favor explica",
+          "placeholder": "Proporciona detalles..."
+        }
+      },
+      "references": {
+        "title": "Referencias",
+        "reference1": {
+          "name": {
+            "label": "Referencia 1 - Nombre",
+            "placeholder": "Nombre completo",
+            "error": "Se requiere el nombre de la referencia"
+          },
+          "email": {
+            "label": "Referencia 1 - Correo",
+            "placeholder": "email@ejemplo.com",
+            "error": "Se requiere el correo de la referencia"
+          },
+          "phone": {
+            "label": "Referencia 1 - Teléfono",
+            "placeholder": "Número de teléfono",
+            "error": "Se requiere el teléfono de la referencia"
+          },
+          "relationship": {
+            "label": "Relación",
+            "placeholder": "Cómo te conoce",
+            "error": "Se requiere especificar la relación"
+          }
+        },
+        "reference2": {
+          "name": {
+            "label": "Referencia 2 - Nombre",
+            "placeholder": "Nombre completo"
+          },
+          "email": {
+            "label": "Referencia 2 - Correo",
+            "placeholder": "email@ejemplo.com"
+          },
+          "phone": {
+            "label": "Referencia 2 - Teléfono",
+            "placeholder": "Número de teléfono"
+          },
+          "relationship": {
+            "label": "Relación",
+            "placeholder": "Cómo te conoce"
+          }
+        }
+      },
+      "agreements": {
+        "title": "Acuerdos",
+        "commitment": "Me comprometo a cumplir con mis responsabilidades como voluntario",
+        "policies": "He leído y acepto las políticas de voluntariado",
+        "safety": "Entiendo y seguiré todos los protocolos de seguridad",
+        "confidentiality": "Acepto mantener la confidencialidad según sea necesario",
+        "media": "Consiento al uso de mi imagen en materiales promocionales",
+        "updates": "Deseo recibir actualizaciones sobre oportunidades de voluntariado"
+      },
+      "submit": "Enviar Solicitud",
+      "processing": "Procesando...",
+      "success": {
+        "title": "¡Solicitud Enviada!",
+        "message": "Gracias por tu interés en hacer voluntariado con nosotros. Revisaremos tu solicitud y nos pondremos en contacto contigo pronto.",
+        "next": "¿Qué sigue?",
+        "review": "Revisaremos tu solicitud en 3-5 días hábiles",
+        "interview": "Si es seleccionado, te contactaremos para una entrevista",
+        "training": "Los voluntarios seleccionados recibirán orientación y entrenamiento"
+      },
+      "error": {
+        "title": "Error en la Solicitud",
+        "message": "Hubo un problema enviando tu solicitud. Por favor intenta de nuevo.",
+        "tryAgain": "Intentar de Nuevo",
+        "save": "Guardar Borrador"
+      }
+    }
+  },
+  "newsletter": {
+    "title": "Suscripción al Boletín",
+    "subtitle": "Mantente actualizado con nuestras últimas noticias e impacto",
+    "form": {
+      "email": {
+        "label": "Dirección de Correo Electrónico",
+        "placeholder": "tu@email.com",
+        "error": "Por favor ingresa una dirección de correo electrónico válida"
+      },
+      "name": {
+        "label": "Nombre (Opcional)",
+        "placeholder": "Tu nombre"
+      },
+      "interests": {
+        "label": "Intereses",
+        "projects": "Actualizaciones de proyectos",
+        "events": "Próximos eventos",
+        "impact": "Historias de impacto",
+        "volunteer": "Oportunidades de voluntariado",
+        "fundraising": "Campañas de recaudación"
+      },
+      "frequency": {
+        "label": "Frecuencia",
+        "weekly": "Semanal",
+        "monthly": "Mensual",
+        "quarterly": "Trimestral"
+      },
+      "consent": "Acepto recibir correos electrónicos de BAOBAB HOPE y entiendo que puedo cancelar la suscripción en cualquier momento",
+      "subscribe": "Suscribirse",
+      "subscribing": "Suscribiendo...",
+      "success": "¡Gracias por suscribirte! Recibirás un correo de confirmación pronto.",
+      "error": "Hubo un problema con tu suscripción. Por favor intenta de nuevo."
+    }
+  },
+  "feedback": {
+    "title": "Comparte tu Opinión",
+    "subtitle": "Tu retroalimentación nos ayuda a mejorar",
+    "form": {
+      "type": {
+        "label": "Tipo de retroalimentación",
+        "suggestion": "Sugerencia",
+        "complaint": "Queja",
+        "compliment": "Cumplido",
+        "question": "Pregunta",
+        "other": "Otro"
+      },
+      "subject": {
+        "label": "Asunto",
+        "placeholder": "Breve resumen de tu retroalimentación",
+        "error": "Por favor ingresa un asunto"
+      },
+      "message": {
+        "label": "Tu mensaje",
+        "placeholder": "Comparte tus pensamientos detallados...",
+        "error": "Por favor ingresa tu mensaje"
+      },
+      "rating": {
+        "label": "Calificación general (opcional)",
+        "excellent": "Excelente",
+        "good": "Bueno",
+        "average": "Promedio",
+        "poor": "Malo",
+        "terrible": "Terrible"
+      },
+      "contact": {
+        "label": "Información de contacto (opcional)",
+        "name": "Tu nombre",
+        "email": "Tu correo electrónico"
+      },
+      "followUp": "¿Está bien si te contactamos sobre esta retroalimentación?",
+      "submit": "Enviar Retroalimentación",
+      "processing": "Enviando...",
+      "success": "¡Gracias por tu retroalimentación! La hemos recibido y la revisaremos.",
+      "error": "Hubo un problema enviando tu retroalimentación. Por favor intenta de nuevo."
+    }
+  },
   "validation": {
     "required": "Este campo es obligatorio",
     "email": "Por favor ingresa una dirección de correo electrónico válida",
+    "phone": "Por favor ingresa un número de teléfono válido",
     "minLength": "La longitud mínima es de {{min}} caracteres",
-    "maxLength": "La longitud máxima es de {{max}} caracteres"
-  },
-  "information": {
-    "featured": "Contenido Destacado",
-    "readFull": "Leer Artículo Completo",
-    "readMore": "Leer Más",
-    "newsletter": {
-      "title": "Mantente Informado",
-      "subtitle": "Obtén las últimas actualizaciones e información",
-      "placeholder": "Ingresa tu correo electrónico",
-      "subscribe": "Suscribirse"
-    }
-  },
-  "language": "es",
-  "lastUpdated": "2025-09-20T15:24:57.801Z"
+    "maxLength": "La longitud máxima es de {{max}} caracteres",
+    "pattern": "El formato ingresado no es válido",
+    "numeric": "Este campo solo acepta números",
+    "alphanumeric": "Este campo solo acepta letras y números",
+    "url": "Por favor ingresa una URL válida",
+    "date": "Por favor ingresa una fecha válida",
+    "future": "La fecha debe ser en el futuro",
+    "past": "La fecha debe ser en el pasado",
+    "min": "El valor mínimo es {{min}}",
+    "max": "El valor máximo es {{max}}",
+    "match": "Los campos no coinciden",
+    "unique": "Este valor ya está en uso",
+    "fileSize": "El archivo es demasiado grande. Tamaño máximo: {{size}}",
+    "fileType": "Tipo de archivo no permitido",
+    "processing": "Procesando...",
+    "success": "¡Éxito!",
+    "error": "Error",
+    "tryAgain": "Intentar de Nuevo"
+  }
 }

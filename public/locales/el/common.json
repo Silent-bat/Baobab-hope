@@ -1,0 +1,103 @@
+{
+  "slogan": {
+    "main": "Μία Καρδιά, Ένα Χέρι"
+  },
+  "common": {
+    "loading": "Φόρτωση...",
+    "error": "Παρουσιάστηκε σφάλμα",
+    "back": {
+      "top": "Επιστροφή στην Αρχή"
+    },
+    "backTop": "Επιστροφή στην Αρχή",
+    "share": "Μοιραστείτε",
+    "search": "Αναζήτηση",
+    "menu": "Μενού",
+    "close": "Κλείσιμο",
+    "open": "Άνοιγμα",
+    "learnMore": "Μάθετε Περισσότερα",
+    "getStarted": "Ξεκινήστε",
+    "joinUs": "Συμμετέχετε",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "followUs": "Ακολουθήστε μας",
+    "subscribe": "Εγγραφή",
+    "thankYou": "Ευχαριστούμε",
+    "success": {
+      "rate": "Ποσοστό Επιτυχίας"
+    },
+    "apply": "Υποβολή Αίτησης",
+    "submit": "Υποβολή",
+    "cancel": "Ακύρωση",
+    "save": "Αποθήκευση",
+    "download": "Λήψη",
+    "required": "Απαιτείται",
+    "yes": "Ναι",
+    "no": "Όχι",
+    "started": "Ξεκίνησε",
+    "ongoing": "Σε εξέλιξη",
+    "people": {
+      "reached": "Άνθρωποι που Βοηθήθηκαν"
+    },
+    "active": {
+      "projects": "Ενεργά Έργα"
+    },
+    "countries": "Χώρες",
+    "successRate": "Ποσοστό Επιτυχίας",
+    "donate": "Δωρεά",
+    "volunteer": "Εθελοντισμός",
+    "support": "Υποστήριξη",
+    "impact": "Επίδραση",
+    "community": "Κοινότητα",
+    "education": "Εκπαίδευση",
+    "healthcare": "Υγειονομική Περίθαλψη",
+    "environment": "Περιβάλλον",
+    "water": "Καθαρό Νερό",
+    "readMore": "Διαβάστε Περισσότερα",
+    "viewMore": "Δείτε Περισσότερα",
+    "seeMore": "Δείτε Περισσότερα",
+    "showMore": "Εμφάνιση Περισσότερων",
+    "showLess": "Εμφάνιση Λιγότερων",
+    "next": "Επόμενο",
+    "previous": "Προηγούμενο",
+    "continue": "Συνέχεια",
+    "finish": "Ολοκλήρωση",
+    "complete": "Ολοκληρώθηκε",
+    "send": "Αποστολή",
+    "email": "Email",
+    "phone": "Τηλέφωνο",
+    "address": "Διεύθυνση",
+    "name": "Όνομα",
+    "message": "Μήνυμα",
+    "subject": "Θέμα"
+  },
+  "accessibility": {
+    "languageChanged": "Η γλώσσα άλλαξε σε {{language}}",
+    "languageSelector": "Επιλέξτε γλώσσα",
+    "currentLanguage": "Τρέχουσα γλώσσα: {{language}}",
+    "availableLanguages": "Διαθέσιμες γλώσσες",
+    "searchLanguages": "Αναζήτηση γλωσσών",
+    "languageOptions": "Χρησιμοποιήστε τα βέλη για πλοήγηση, Enter για επιλογή, Escape για κλείσιμο",
+    "skipToContent": "Μετάβαση στο κύριο περιεχόμενο",
+    "skipToNavigation": "Μετάβαση στην πλοήγηση",
+    "mainContent": "Κύριο περιεχόμενο",
+    "navigation": "Πλοήγηση",
+    "languageMenu": "Μενού γλωσσών",
+    "closeLanguageMenu": "Κλείσιμο μενού γλωσσών",
+    "openLanguageMenu": "Άνοιγμα μενού γλωσσών",
+    "searchResults": "Αποτελέσματα αναζήτησης",
+    "noResults": "Δεν βρέθηκαν αποτελέσματα",
+    "searchPlaceholder": "Αναζήτηση στον ιστότοπό μας..."
+  },
+  "language": "el",
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 450
+}

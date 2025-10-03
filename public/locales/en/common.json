@@ -5,6 +5,9 @@
   "common": {
     "loading": "Loading...",
     "error": "An error occurred",
+    "back": {
+      "top": "Back to Top"
+    },
     "backTop": "Back to Top",
     "share": "Share",
     "search": "Search",
@@ -30,6 +33,7 @@
     "yes": "Yes",
     "no": "No",
     "started": "Started",
+    "ongoing": "Ongoing",
     "people": {
       "reached": "People Reached"
     },
@@ -37,12 +41,38 @@
       "projects": "Active Projects"
     },
     "countries": "Countries",
-    "successRate": "Success Rate"
+    "successRate": "Success Rate",
+    "donate": "Donate",
+    "volunteer": "Volunteer",
+    "support": "Support",
+    "impact": "Impact",
+    "community": "Community",
+    "education": "Education",
+    "healthcare": "Healthcare",
+    "environment": "Environment",
+    "water": "Clean Water",
+    "readMore": "Read More",
+    "viewMore": "View More",
+    "seeMore": "See More",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "next": "Next",
+    "previous": "Previous",
+    "continue": "Continue",
+    "finish": "Finish",
+    "complete": "Complete",
+    "send": "Send",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "name": "Name",
+    "message": "Message",
+    "subject": "Subject"
   },
   "accessibility": {
-    "languageChanged": "Language changed to {{language}",
+    "languageChanged": "Language changed to {{language}}",
     "languageSelector": "Select language",
-    "currentLanguage": "Current language: {{language}",
+    "currentLanguage": "Current language: {{language}}",
     "availableLanguages": "Available languages",
     "searchLanguages": "Search languages",
     "languageOptions": "Use arrow keys to navigate, Enter to select, Escape to close",
@@ -52,11 +82,14 @@
     "navigation": "Navigation",
     "languageMenu": "Language menu",
     "closeLanguageMenu": "Close language menu",
-    "openLanguageMenu": "Open language menu"
+    "openLanguageMenu": "Open language menu",
+    "searchResults": "Search results",
+    "noResults": "No results found",
+    "searchPlaceholder": "Search our website..."
   },
   "language": "en",
   "version": "1.0.0",
-  "lastUpdated": "2025-09-12T22:34:09.584Z",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
   "namespaces": [
     "common",
     "navigation",
@@ -66,5 +99,5 @@
     "misc",
     "manifest"
   ],
-  "totalKeys": 326
+  "totalKeys": 450
 }

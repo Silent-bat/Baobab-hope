@@ -13,48 +13,46 @@ export default function HistoryPage() {
   const milestones = [
     {
       year: "2020",
-      event: "Foundation Established",
-      description:
-        "BAOBAB HOPE was officially founded with a mission to create sustainable change in underserved communities.",
+      event: t("history.timeline.milestones.2020.event"),
+      description: t("history.timeline.milestones.2020.description"),
       icon: Lightbulb,
       color: "from-blue-400 to-blue-500",
     },
     {
       year: "2021",
-      event: "First Education Programs",
-      description:
-        "Launched comprehensive education initiatives in East Africa, focusing on literacy and skill development.",
+      event: t("history.timeline.milestones.2021.event"),
+      description: t("history.timeline.milestones.2021.description"),
       icon: Award,
       color: "from-green-400 to-green-500",
     },
     {
       year: "2022",
-      event: "Environmental Focus",
-      description: "Expanded our mission to include environmental conservation and sustainable agriculture programs.",
+      event: t("history.timeline.milestones.2022.event"),
+      description: t("history.timeline.milestones.2022.description"),
       icon: Globe,
       color: "from-emerald-400 to-emerald-500",
     },
     {
       year: "2023",
-      event: "Healthcare Expansion",
-      description: "Introduced mobile health clinics and community health worker training across multiple countries.",
+      event: t("history.timeline.milestones.2023.event"),
+      description: t("history.timeline.milestones.2023.description"),
       icon: Heart,
       color: "from-red-400 to-red-500",
     },
     {
       year: "2024",
-      event: "Global Reach",
-      description: "Achieved operations in 18 countries with over 75,000 direct beneficiaries worldwide.",
+      event: t("history.timeline.milestones.2024.event"),
+      description: t("history.timeline.milestones.2024.description"),
       icon: Target,
       color: "from-purple-400 to-purple-500",
     },
   ]
 
   const stats = [
-    { label: "Lives Transformed", value: 75000, icon: Users, suffix: "+", color: "from-red-400 to-red-500" },
-    { label: "Countries Reached", value: 18, icon: Globe, color: "from-blue-400 to-blue-500" },
-    { label: "Active Projects", value: 42, icon: Heart, color: "from-green-400 to-green-500" },
-    { label: "Volunteers", value: 850, icon: Calendar, suffix: "+", color: "from-purple-400 to-purple-500" },
+    { label: t("history.impact.stats.livesTransformed"), value: 75000, icon: Users, suffix: "+", color: "from-red-400 to-red-500" },
+    { label: t("history.impact.stats.countriesReached"), value: 18, icon: Globe, color: "from-blue-400 to-blue-500" },
+    { label: t("history.impact.stats.activeProjects"), value: 42, icon: Heart, color: "from-green-400 to-green-500" },
+    { label: t("history.impact.stats.volunteers"), value: 850, icon: Calendar, suffix: "+", color: "from-purple-400 to-purple-500" },
   ]
 
   return (
@@ -73,11 +71,11 @@ export default function HistoryPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="inline-flex items-center space-x-2 bg-red-600/90 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              <span>Our Story</span>
+              <span>{t("history.hero.badge")}</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 font-poppins">Our History</h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 font-poppins">{t("history.title")}</h1>
             <p className="text-xl sm:text-2xl text-red-100 max-w-4xl mx-auto leading-relaxed">
-              The journey of BAOBAB HOPE from a small idea to a global movement
+              {t("history.subtitle")}
             </p>
           </div>
         </div>
@@ -89,23 +87,20 @@ export default function HistoryPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div>
               <div className="inline-flex items-center space-x-2 bg-red-50 text-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                <span>The Beginning</span>
+                <span>{t("history.founding.subtitle")}</span>
               </div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-poppins">
-                The Beginning of Hope
+                {t("history.founding.title")}
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                BAOBAB HOPE was founded in 2020 with a simple yet powerful vision: to create sustainable change in
-                communities worldwide, just like the mighty baobab tree that provides shelter, sustenance, and hope for
-                generations.
+                {t("history.founding.description1")}
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                From our humble beginnings, we've grown to serve communities across 18 countries, always staying true to
-                our core values of transparency, empowerment, and sustainable development.
+                {t("history.founding.description2")}
               </p>
               <Button asChild size="lg" className="bg-red-600 hover:bg-red-700 text-white">
                 <Link href="/about" className="flex items-center space-x-2">
-                  <span>Learn About Our Mission</span>
+                  <span>{t("history.founding.learnMission")}</span>
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </Button>
@@ -129,13 +124,13 @@ export default function HistoryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <div className="inline-flex items-center space-x-2 bg-red-50 text-red-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              <span>Timeline</span>
+              <span>{t("history.timeline.badge")}</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-poppins">
-              Milestones of Impact
+              {t("history.timeline.title")}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Key moments that shaped our journey and expanded our global reach.
+              {t("history.timeline.subtitle")}
             </p>
           </div>
 
@@ -184,9 +179,9 @@ export default function HistoryPage() {
       <section className="py-16 sm:py-20 lg:py-24 bg-gradient-to-br from-red-500 via-red-600 to-red-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-poppins">Our Growing Impact</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 font-poppins">{t("history.impact.title")}</h2>
             <p className="text-xl text-red-100 max-w-3xl mx-auto">
-              Numbers that tell the story of lives changed and communities empowered.
+              {t("history.impact.subtitle")}
             </p>
           </div>
 
@@ -219,16 +214,16 @@ export default function HistoryPage() {
       <section className="py-16 sm:py-20 lg:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-poppins">
-            Be Part of Our Story
+            {t("history.cta.title")}
           </h2>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Join thousands of volunteers and supporters who are helping us write the next chapter of hope.
+            {t("history.cta.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-red-600 hover:bg-red-700 text-white">
               <Link href="/donate" className="flex items-center space-x-2">
                 <Heart className="w-5 h-5" />
-                <span>Donate Now</span>
+                <span>{t("history.cta.donateNow")}</span>
               </Link>
             </Button>
             <Button
@@ -238,7 +233,7 @@ export default function HistoryPage() {
               className="border-red-600 text-red-600 hover:bg-red-50 bg-transparent"
             >
               <Link href="/act/volunteering" className="flex items-center space-x-2">
-                <span>Become a Volunteer</span>
+                <span>{t("history.cta.becomeVolunteer")}</span>
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </Button>

@@ -172,7 +172,7 @@ const webinars = [
 
 export default function TrainingPage() {
   const { language } = useLanguage()
-  const t = translations[language]
+  const t = translations[language] || translations.en // Fallback to English
   const [selectedLevel, setSelectedLevel] = useState("all")
   const [selectedFormat, setSelectedFormat] = useState("all")
 

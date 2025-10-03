@@ -1,0 +1,86 @@
+{
+  "slogan": {
+    "main": "Едно Сърце, Една Ръка"
+  },
+  "common": {
+    "loading": "Зарежда се...",
+    "error": "Възникна грешка",
+    "back": {
+      "top": "Обратно нагоре"
+    },
+    "backTop": "Обратно нагоре",
+    "share": "Споделяне",
+    "search": "Търсене",
+    "menu": "Меню",
+    "close": "Затваряне",
+    "open": "Отваряне",
+    "learnMore": "Научете повече",
+    "getStarted": "Започнете",
+    "joinUs": "Присъединете се към нас",
+    "contactUs": "Свържете се с нас",
+    "followUs": "Следвайте ни",
+    "subscribe": "Абонирайте се",
+    "thankYou": "Благодаря",
+    "success": {
+      "rate": "Процент на успех"
+    },
+    "apply": "Кандидатствайте",
+    "submit": "Изпратете",
+    "cancel": "Отменете",
+    "save": "Запазете",
+    "download": "Изтеглете",
+    "required": "Задължително",
+    "yes": "Да",
+    "no": "Не",
+    "started": "Започнато",
+    "ongoing": "В ход",
+    "people": {
+      "reached": "Хора, които са помогнати"
+    },
+    "active": {
+      "projects": "Активни проекти"
+    },
+    "countries": "Страни",
+    "successRate": "Процент на успех",
+    "donate": "Дарете",
+    "volunteer": "Доброволчество",
+    "support": "Подкрепа",
+    "impact": "Въздействие",
+    "community": "Общност",
+    "education": "Образование",
+    "healthcare": "Здравеопазване",
+    "environment": "Околна среда",
+    "water": "Чиста вода"
+  },
+  "accessibility": {
+    "languageChanged": "Езикът е сменен на {{language}}",
+    "languageSelector": "Изберете език",
+    "currentLanguage": "Текущ език: {{language}}",
+    "availableLanguages": "Налични езици",
+    "searchLanguages": "Търсене на езици",
+    "languageOptions": "Използвайте стрелките за навигация, Enter за избор, Escape за затваряне",
+    "skipToContent": "Прескочи към основното съдържание",
+    "skipToNavigation": "Прескочи към навигацията",
+    "mainContent": "Основно съдържание",
+    "navigation": "Навигация",
+    "languageMenu": "Меню за езици",
+    "closeLanguageMenu": "Затвори менюто за езици",
+    "openLanguageMenu": "Отвори менюто за езици",
+    "searchResults": "Резултати от търсенето",
+    "noResults": "Няма намерени резултати",
+    "searchPlaceholder": "Търсете в нашия сайт..."
+  },
+  "language": "bg",
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
+  "namespaces": [
+    "common",
+    "navigation",
+    "pages",
+    "forms",
+    "actions",
+    "misc",
+    "manifest"
+  ],
+  "totalKeys": 450
+}

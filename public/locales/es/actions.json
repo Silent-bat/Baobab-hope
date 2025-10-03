@@ -1,11 +1,237 @@
 {
   "project": {
+    "back": "Volver a Proyectos",
+    "custom": "Cantidad Personalizada",
+    "donate": "Donar Ahora",
+    "duration": "Duración",
+    "funding": "Meta de Financiación",
+    "goal": "Objetivo",
+    "impact": "Impacto",
+    "location": "Ubicación",
+    "monthly": "Mensual",
     "progress": "Progreso",
     "raised": "Recaudado",
-    "goal": "Objetivo",
+    "share": "Compartir",
+    "story": "Historia",
+    "support": {
+      "title": "Apoyar este Proyecto"
+    },
+    "updates": "Actualizaciones",
+    "amount": "Cantidad",
     "beneficiaries": "Beneficiarios",
-    "achievements": "Logros Clave"
+    "achievements": "Logros",
+    "impactInfo": "Información del Impacto",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha Final",
+    "status": "Estado",
+    "category": "Categoría",
+    "partners": "Socios",
+    "volunteers": "Voluntarios Necesarios",
+    "timeline": "Cronograma",
+    "gallery": "Galería de Fotos",
+    "documents": "Documentos",
+    "reports": "Informes de Progreso",
+    "testimonials": "Testimonios",
+    "donation": {
+      "title": "Apoyar este Proyecto",
+      "subtitle": "Tu donación marca una diferencia real",
+      "oneTime": "Donación única",
+      "monthly": "Donación mensual",
+      "choose": "Elegir cantidad",
+      "other": "Otra cantidad",
+      "currency": "$",
+      "minimum": "Mínimo $5",
+      "processing": "Procesando...",
+      "success": "¡Gracias por tu donación!",
+      "error": "El pago falló. Por favor intenta de nuevo."
+    }
   },
-  "language": "es",
-  "lastUpdated": "2025-09-20T15:24:57.802Z"
+  "projects": {
+    "title": "Nuestros Proyectos",
+    "subtitle": "Creando cambios duraderos a través de iniciativas específicas",
+    "all": "Todos los Proyectos",
+    "active": "Proyectos Activos",
+    "completed": "Proyectos Completados",
+    "upcoming": "Próximos Proyectos",
+    "featured": "Proyectos Destacados",
+    "filter": {
+      "title": "Filtrar Proyectos",
+      "category": "Categoría",
+      "location": "Ubicación",
+      "status": "Estado",
+      "clear": "Limpiar Filtros"
+    },
+    "sort": {
+      "title": "Ordenar por",
+      "newest": "Más Recientes",
+      "oldest": "Más Antiguos",
+      "progress": "Progreso",
+      "funding": "Meta de Financiación"
+    },
+    "categories": {
+      "education": "Educación",
+      "healthcare": "Salud",
+      "environment": "Medio Ambiente",
+      "water": "Agua Limpia",
+      "agriculture": "Agricultura",
+      "technology": "Tecnología",
+      "infrastructure": "Infraestructura",
+      "empowerment": "Empoderamiento Femenino"
+    },
+    "status": {
+      "planning": "Planificación",
+      "active": "Activo",
+      "completed": "Completado",
+      "paused": "En Pausa",
+      "cancelled": "Cancelado"
+    },
+    "metrics": {
+      "totalProjects": "Total de Proyectos",
+      "activeProjects": "Proyectos Activos",
+      "completedProjects": "Proyectos Completados",
+      "totalBeneficiaries": "Personas Ayudadas",
+      "totalFunding": "Financiación Total",
+      "averageSuccess": "Tasa de Éxito"
+    },
+    "cta": {
+      "title": "Inicia tu Propio Proyecto",
+      "subtitle": "¿Tienes una idea para crear un cambio positivo?",
+      "button": "Enviar Propuesta de Proyecto"
+    }
+  },
+  "campaigns": {
+    "title": "Nuestras Campañas",
+    "subtitle": "Esfuerzos focalizados para causas específicas",
+    "active": "Campañas Activas",
+    "upcoming": "Próximas Campañas",
+    "completed": "Campañas Pasadas",
+    "join": "Unirse a la Campaña",
+    "share": "Compartir Campaña",
+    "progress": "Progreso de la Campaña",
+    "supporters": "Partidarios",
+    "goal": "Meta de la Campaña",
+    "deadline": "Fecha Límite de la Campaña",
+    "daysLeft": "días restantes",
+    "ended": "Campaña Terminada",
+    "successful": "¡Meta Alcanzada!",
+    "failed": "Meta No Alcanzada",
+    "create": {
+      "title": "Crear una Campaña",
+      "subtitle": "Movilizar apoyo para una causa específica",
+      "button": "Iniciar Campaña"
+    }
+  },
+  "volunteering": {
+    "title": "Oportunidades de Voluntariado",
+    "subtitle": "Únete a nuestra comunidad global de agentes de cambio",
+    "apply": "Aplicar Ahora",
+    "requirements": "Requisitos",
+    "timeCommitment": "Compromiso de Tiempo",
+    "skills": "Habilidades Necesarias",
+    "training": "Entrenamiento Proporcionado",
+    "remote": "Oportunidad Remota",
+    "onsite": "Presencia Requerida",
+    "flexible": "Horario Flexible",
+    "partTime": "Medio Tiempo",
+    "fullTime": "Tiempo Completo",
+    "categories": {
+      "fieldwork": "Trabajo de Campo",
+      "education": "Educación y Entrenamiento",
+      "healthcare": "Apoyo Sanitario",
+      "administration": "Administración",
+      "fundraising": "Recaudación de Fondos",
+      "marketing": "Marketing y Comunicaciones",
+      "technology": "Tecnología e IT",
+      "translation": "Traducción e Idiomas"
+    },
+    "benefits": {
+      "title": "Beneficios del Voluntariado",
+      "experience": "Ganar experiencia valiosa",
+      "network": "Construir red global",
+      "training": "Desarrollo profesional",
+      "impact": "Hacer impacto real",
+      "certificate": "Certificado de voluntariado",
+      "reference": "Carta de referencia"
+    }
+  },
+  "partnerships": {
+    "title": "Oportunidades de Asociación",
+    "subtitle": "Colabora con nosotros para un mayor impacto",
+    "types": {
+      "corporate": "Asociaciones Corporativas",
+      "nonprofit": "Asociaciones ONG",
+      "government": "Relaciones Gubernamentales",
+      "academic": "Asociaciones Académicas",
+      "media": "Asociaciones de Medios"
+    },
+    "benefits": {
+      "title": "Beneficios de la Asociación",
+      "impact": "Impacto amplificado",
+      "visibility": "Visibilidad de marca",
+      "csr": "Objetivos RSC",
+      "network": "Acceso a redes",
+      "expertise": "Experiencia compartida",
+      "resources": "Compartir recursos"
+    },
+    "process": {
+      "title": "Proceso de Asociación",
+      "inquiry": "Consulta Inicial",
+      "assessment": "Evaluación de Necesidades",
+      "proposal": "Propuesta de Asociación",
+      "agreement": "Acuerdo Formal",
+      "implementation": "Implementación",
+      "evaluation": "Evaluación Regular"
+    }
+  },
+  "training": {
+    "title": "Programas de Entrenamiento",
+    "subtitle": "Desarrollar habilidades para el desarrollo sostenible",
+    "courses": "Cursos Disponibles",
+    "workshops": "Talleres",
+    "webinars": "Seminarios Web",
+    "certification": "Programas de Certificación",
+    "schedule": "Horario de Entrenamiento",
+    "register": "Registrarse Ahora",
+    "prerequisites": "Prerequisitos",
+    "materials": "Materiales de Entrenamiento",
+    "instructor": "Instructor",
+    "duration": "Duración",
+    "format": "Formato",
+    "cost": "Costo",
+    "free": "Gratis",
+    "paid": "Pagado",
+    "online": "En Línea",
+    "inPerson": "Presencial",
+    "hybrid": "Híbrido",
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado"
+  },
+  "jobs": {
+    "title": "Oportunidades de Carrera",
+    "subtitle": "Construye una carrera con propósito e impacto",
+    "openPositions": "Posiciones Abiertas",
+    "internships": "Prácticas",
+    "consultancy": "Consultoría",
+    "apply": "Aplicar al Puesto",
+    "requirements": "Requisitos",
+    "responsibilities": "Responsabilidades",
+    "qualifications": "Calificaciones",
+    "benefits": "Paquete de Beneficios",
+    "location": "Ubicación del Trabajo",
+    "type": "Tipo de Empleo",
+    "deadline": "Fecha Límite de Aplicación",
+    "experience": "Nivel de Experiencia",
+    "salary": "Rango Salarial",
+    "remote": "Trabajo Remoto",
+    "fullTime": "Tiempo Completo",
+    "partTime": "Medio Tiempo",
+    "contract": "Contrato",
+    "temporary": "Temporal",
+    "permanent": "Permanente",
+    "entryLevel": "Nivel de Entrada",
+    "midLevel": "Nivel Medio",
+    "senior": "Nivel Senior",
+    "executive": "Ejecutivo"
+  }
 }

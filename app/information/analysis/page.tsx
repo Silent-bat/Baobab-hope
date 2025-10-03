@@ -229,7 +229,7 @@ export default function AnalysisPage() {
     },
   }
 
-  const t = content[language]
+  const t = content[language] || content.en // Fallback to English
 
   const filteredAnalyses = t.analyses.filter((analysis) => {
     const matchesCategory = selectedCategory === "all" || analysis.category === selectedCategory

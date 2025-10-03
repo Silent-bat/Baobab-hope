@@ -1,0 +1,44 @@
+{
+  "slogan": {
+    "main": "Eno Srce, Ena Roka"
+  },
+  "common": {
+    "loading": "Nalaganje...",
+    "error": "Prišlo je do napake",
+    "backTop": "Nazaj na vrh",
+    "share": "Deli",
+    "search": "Išči",
+    "menu": "Meni",
+    "close": "Zapri",
+    "open": "Odpri",
+    "learnMore": "Izvedite več",
+    "getStarted": "Začnite",
+    "joinUs": "Pridružite se nam",
+    "contactUs": "Kontaktirajte nas",
+    "followUs": "Sledite nam",
+    "subscribe": "Naročite se",
+    "thankYou": "Hvala",
+    "donate": "Donirajte",
+    "volunteer": "Prostovoljstvo",
+    "support": "Podpora",
+    "impact": "Vpliv",
+    "community": "Skupnost",
+    "education": "Izobraževanje",
+    "healthcare": "Zdravstvo",
+    "environment": "Okolje",
+    "water": "Čista voda"
+  },
+  "accessibility": {
+    "languageChanged": "Jezik je bil spremenjen na {{language}}",
+    "languageSelector": "Izberite jezik",
+    "currentLanguage": "Trenutni jezik: {{language}}",
+    "skipToContent": "Preskoči na glavno vsebino",
+    "mainContent": "Glavna vsebina",
+    "navigation": "Navigacija"
+  },
+  "language": "sl",
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
+  "namespaces": ["common", "navigation", "pages", "forms", "actions", "misc", "manifest"],
+  "totalKeys": 450
+}

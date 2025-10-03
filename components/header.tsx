@@ -369,10 +369,10 @@ export function Header() {
         }`}
         role="banner"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
-          <div className="grid grid-cols-[auto_1fr_auto] items-center h-16 sm:h-20 gap-x-2 md:gap-x-4 lg:gap-x-[clamp(2rem,8vw,5cm)]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo Section */}
-            <div className={`flex items-center flex-shrink-0 pr-4 md:pr-6 xl:pr-8 justify-self-start ${rtlStyles.isRTL ? 'flex-row-reverse' : ''}`}>
+            <div className={`flex items-center flex-shrink-0 ${rtlStyles.isRTL ? 'flex-row-reverse' : ''}`}>
               <Link
                 href={localizeHref('/')}
                 onClick={handleNavClick}
@@ -388,10 +388,10 @@ export function Header() {
                 </div>
 
                 <div className="flex flex-col min-w-0">
-                  <h1 className="text-sm sm:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-bold bg-gradient-to-r from-red-600 via-red-700 to-red-800 bg-clip-text text-transparent font-poppins leading-tight group-hover:from-red-700 group-hover:via-red-800 group-hover:to-red-900 transition-all duration-300 truncate">
+                  <h1 className="text-sm sm:text-lg lg:text-xl xl:text-xl font-bold bg-gradient-to-r from-red-600 via-red-700 to-red-800 bg-clip-text text-transparent font-poppins leading-tight group-hover:from-red-700 group-hover:via-red-800 group-hover:to-red-900 transition-all duration-300 truncate">
                     BAOBAB HOPE
                   </h1>
-                  <p className="text-xs sm:text-sm lg:text-base text-red-600/80 font-medium tracking-wider font-poppins group-hover:text-red-700 transition-colors duration-300 hidden sm:block truncate">
+                  <p className="text-xs sm:text-sm lg:text-sm text-red-600/80 font-medium tracking-wider font-poppins group-hover:text-red-700 transition-colors duration-300 hidden sm:block truncate">
                     {t("slogan.main")}
                   </p>
                 </div>
@@ -401,7 +401,7 @@ export function Header() {
             {/* Desktop Navigation */}
             <nav 
               id="main-navigation"
-              className={`hidden lg:flex items-center flex-1 min-w-0 justify-center whitespace-nowrap px-2 md:px-4 justify-self-center ${rtlStyles.isRTL ? 'space-x-reverse space-x-3 xl:space-x-4' : 'space-x-3 xl:space-x-4'}`} 
+              className={`hidden lg:flex items-center flex-1 justify-center mx-8 ${rtlStyles.isRTL ? 'space-x-reverse space-x-2 xl:space-x-3' : 'space-x-2 xl:space-x-3'}`} 
               role="navigation"
               aria-label={t('accessibility.navigation')}
             >
@@ -412,7 +412,7 @@ export function Header() {
                       <DropdownMenuTrigger asChild>
                         <Button
                           variant="ghost"
-                          className={`relative group px-3 xl:px-4 py-2 font-medium text-sm xl:text-base transition-all duration-300 rounded-xl hover:bg-red-50 flex items-center space-x-1 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 ${
+                          className={`relative group px-2 xl:px-3 py-2 font-medium text-sm xl:text-base transition-all duration-300 rounded-xl hover:bg-red-50 flex items-center space-x-1 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 ${
                             isScrolled
                               ? `${isActivePath(item.href) ? 'text-red-600' : 'text-gray-700 hover:text-red-600'}`
                               : `${isActivePath(item.href) ? 'text-red-200' : 'text-white hover:text-red-200'}`
@@ -446,7 +446,7 @@ export function Header() {
                     <Link
                       href={localizeHref(item.href)}
                       onClick={handleNavClick}
-                      className={`relative group px-3 xl:px-4 py-2 font-medium text-sm xl:text-base transition-all duration-300 rounded-xl hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 ${
+                      className={`relative group px-2 xl:px-3 py-2 font-medium text-sm xl:text-base transition-all duration-300 rounded-xl hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 ${
                         isScrolled
                           ? `${isActivePath(item.href) ? 'text-red-600' : 'text-gray-700 hover:text-red-600'}`
                           : `${isActivePath(item.href) ? 'text-red-200' : 'text-white hover:text-red-200'}`
@@ -462,7 +462,7 @@ export function Header() {
             </nav>
 
             {/* Desktop Actions */}
-            <div className={`hidden lg:flex items-center flex-shrink-0 pl-4 md:pl-6 xl:pl-8 justify-self-end ${rtlStyles.isRTL ? 'space-x-reverse space-x-2 xl:space-x-4' : 'space-x-2 xl:space-x-4'}`}>
+            <div className={`hidden lg:flex items-center flex-shrink-0 ${rtlStyles.isRTL ? 'space-x-reverse space-x-2 xl:space-x-3' : 'space-x-2 xl:space-x-3'}`}>
               {/* Search Toggle */}
               <div className="relative" ref={searchContainerRef}>
                 <Button
@@ -480,7 +480,7 @@ export function Header() {
 
                 {/* Search Dropdown */}
                 {isSearchOpen && (
-                  <div className={`absolute top-full mt-2 w-80 xl:w-96 bg-white/95 backdrop-blur-md border border-gray-200 shadow-xl rounded-xl p-4 z-50 ${rtlStyles.isRTL ? 'left-0' : 'right-0'}`}>
+                  <div className={`absolute top-full mt-2 w-72 xl:w-80 bg-white/95 backdrop-blur-md border border-gray-200 shadow-xl rounded-xl p-4 z-50 ${rtlStyles.isRTL ? 'left-0' : 'right-0'}`}>
                     <form onSubmit={handleSearchSubmit} className="space-y-3">
                       <div className="relative">
                         <Search className={`absolute top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4 ${rtlStyles.isRTL ? 'right-3' : 'left-3'}`} />

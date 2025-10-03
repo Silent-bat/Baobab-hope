@@ -1,53 +1,53 @@
 {
   "slogan": {
-    "main": "One Heart, One Hand"
+    "main": "Een Hart, Een Hand"
   },
   "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "backTop": "Back to Top",
-    "share": "Share",
-    "search": "Search",
-    "menu": "Menu",
-    "close": "Close",
-    "open": "Open",
-    "learnMore": "Learn More",
-    "getStarted": "Get Started",
-    "joinUs": "Join Us",
-    "contactUs": "Contact Us",
-    "followUs": "Follow Us",
-    "subscribe": "Subscribe",
-    "thankYou": "Thank You",
+    "loading": "Laai...",
+    "error": "Fout het voorgekom",
+    "backTop": "Terug na Bo",
+    "share": "Deel",
+    "search": "Soek",
+    "menu": "Kieslys",
+    "close": "Sluit",
+    "open": "Oop",
+    "learnMore": "Leer Meer",
+    "getStarted": "Begin",
+    "joinUs": "Sluit by Ons Aan",
+    "contactUs": "Kontak Ons",
+    "followUs": "Volg Ons",
+    "subscribe": "Teken In",
+    "thankYou": "Dankie",
     "success": {
-      "rate": "Success Rate"
+      "rate": "Sukses Koers"
     },
-    "apply": "Apply",
-    "submit": "Submit",
-    "cancel": "Cancel",
-    "save": "Save",
-    "download": "Download",
-    "required": "Required",
-    "yes": "Yes",
-    "no": "No",
-    "started": "Started",
+    "apply": "Pas Aan",
+    "submit": "Dien In",
+    "cancel": "Kanselleer",
+    "save": "Stoor",
+    "download": "Aflaai",
+    "required": "Vereiste",
+    "yes": "Ja",
+    "no": "Nee",
+    "started": "Begin",
     "people": {
-      "reached": "People Reached"
+      "reached": "Mense Bereik"
     },
     "active": {
-      "projects": "Active Projects"
+      "projects": "Aktiewe Projekte"
     },
-    "countries": "Countries",
-    "successRate": "Success Rate"
+    "countries": "Lande",
+    "successRate": "Sukses Koers"
   },
   "accessibility": {
-    "languageChanged": "Language changed to {{language}",
-    "languageSelector": "Select language",
-    "currentLanguage": "Current language: {{language}",
-    "availableLanguages": "Available languages",
-    "searchLanguages": "Search languages",
-    "languageOptions": "Use arrow keys to navigate, Enter to select, Escape to close",
-    "skipToContent": "Skip to main content",
-    "skipToNavigation": "Skip to navigation",
+    "languageChanged": "Taal verander na {{language}}",
+    "languageSelector": "Kies taal",
+    "currentLanguage": "Huidige taal: {{language}}",
+    "availableLanguages": "Beskikbare tale",
+    "searchLanguages": "Soek tale",
+    "languageOptions": "Gebruik pyltjie sleutels om te navigeer, Enter om te kies, Escape om toe te maak",
+    "skipToContent": "Spring na hoof inhoud",
+    "skipToNavigation": "Spring na navigasie",
     "mainContent": "Main content",
     "navigation": "Navigation",
     "languageMenu": "Language menu",

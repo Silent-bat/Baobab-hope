@@ -258,7 +258,7 @@ export default function AdvertisingPage() {
     },
   }
 
-  const t = content[language as keyof Content]
+  const t = content[language as keyof Content] || content.fr // Fallback to French
 
   const filteredMaterials =
     selectedCategory === "all" ? t.materials : t.materials.filter((material: Material) => material.category === selectedCategory)

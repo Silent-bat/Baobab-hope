@@ -1,0 +1,502 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User Management
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String?
+  password    String
+  role        UserRole @default(USER)
+  avatar      String?
+  isActive    Boolean  @default(true)
+  lastLogin   DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  createdPages     Page[]
+  createdProjects  Project[]
+  createdBlogs     BlogPost[]
+  createdEvents    Event[]
+  sessions         UserSession[]
+  activityLogs     ActivityLog[]
+
+  @@map("users")
+}
+
+model UserSession {
+  id        String   @id @default(cuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_sessions")
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  EDITOR
+  USER
+}
+
+// Content Management
+model Page {
+  id          String      @id @default(cuid())
+  title       String
+  slug        String      @unique
+  content     Json // Rich content with sections
+  metaTitle   String?
+  metaDescription String?
+  keywords    String[]
+  status      ContentStatus @default(DRAFT)
+  language    String      @default("en")
+  publishedAt DateTime?
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  createdBy   String
+
+  creator User @relation(fields: [createdBy], references: [id])
+
+  @@map("pages")
+}
+
+model BlogPost {
+  id          String      @id @default(cuid())
+  title       String
+  slug        String      @unique
+  excerpt     String?
+  content     String // Markdown or rich text
+  featuredImage String?
+  metaTitle   String?
+  metaDescription String?
+  keywords    String[]
+  status      ContentStatus @default(DRAFT)
+  language    String      @default("en")
+  readTime    Int? // in minutes
+  publishedAt DateTime?
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  createdBy   String
+
+  creator    User @relation(fields: [createdBy], references: [id])
+  categories BlogCategory[]
+  tags       BlogTag[]
+
+  @@map("blog_posts")
+}
+
+model BlogCategory {
+  id          String @id @default(cuid())
+  name        String
+  slug        String @unique
+  description String?
+  color       String? // Hex color
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  posts BlogPost[]
+
+  @@map("blog_categories")
+}
+
+model BlogTag {
+  id        String @id @default(cuid())
+  name      String
+  slug      String @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  posts BlogPost[]
+
+  @@map("blog_tags")
+}
+
+// Project Management
+model Project {
+  id            String        @id @default(cuid())
+  title         String
+  slug          String        @unique
+  description   String
+  content       String // Detailed project information
+  featuredImage String?
+  gallery       String[] // Array of image URLs
+  location      String?
+  startDate     DateTime?
+  endDate       DateTime?
+  status        ProjectStatus @default(PLANNING)
+  category      String
+
+  // Financial data
+  goalAmount    Decimal @default(0)
+  raisedAmount  Decimal @default(0)
+  currency      String  @default("USD")
+
+  // Impact metrics
+  beneficiaries Int?
+  volunteers    Int?
+
+  metaTitle       String?
+  metaDescription String?
+  keywords        String[]
+  language        String @default("en")
+  publishedAt     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  createdBy       String
+
+  creator   User @relation(fields: [createdBy], references: [id])
+  updates   ProjectUpdate[]
+  donations Donation[]
+
+  @@map("projects")
+}
+
+model ProjectUpdate {
+  id          String   @id @default(cuid())
+  projectId   String
+  title       String
+  content     String
+  images      String[]
+  publishedAt DateTime?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@map("project_updates")
+}
+
+enum ProjectStatus {
+  PLANNING
+  ACTIVE
+  COMPLETED
+  PAUSED
+  CANCELLED
+}
+
+// Donation Management
+model Donation {
+  id            String        @id @default(cuid())
+  amount        Decimal
+  currency      String        @default("USD")
+  frequency     DonationFrequency @default(ONE_TIME)
+  status        DonationStatus @default(PENDING)
+
+  // Donor information
+  donorName     String?
+  donorEmail    String?
+  donorPhone    String?
+  isAnonymous   Boolean       @default(false)
+
+  // Payment information
+  paymentId     String?
+  paymentMethod String?
+
+  // Project relation (optional)
+  projectId     String?
+
+  // Dedication (optional)
+  dedicationType String? // "honor" or "memory"
+  dedicateeeName String?
+  notifyEmail   String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  project Project? @relation(fields: [projectId], references: [id])
+
+  @@map("donations")
+}
+
+enum DonationFrequency {
+  ONE_TIME
+  MONTHLY
+  QUARTERLY
+  ANNUALLY
+}
+
+enum DonationStatus {
+  PENDING
+  COMPLETED
+  FAILED
+  REFUNDED
+  CANCELLED
+}
+
+// Event Management
+model Event {
+  id            String      @id @default(cuid())
+  title         String
+  slug          String      @unique
+  description   String
+  content       String?
+  featuredImage String?
+  location      String?
+  venue         String?
+  startDate     DateTime
+  endDate       DateTime?
+  isOnline      Boolean     @default(false)
+  maxAttendees  Int?
+  currentAttendees Int      @default(0)
+  price         Decimal?
+  currency      String      @default("USD")
+  status        EventStatus @default(DRAFT)
+
+  metaTitle       String?
+  metaDescription String?
+  keywords        String[]
+  language        String @default("en")
+  publishedAt     DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  createdBy       String
+
+  creator     User @relation(fields: [createdBy], references: [id])
+  attendees   EventAttendee[]
+
+  @@map("events")
+}
+
+model EventAttendee {
+  id        String @id @default(cuid())
+  eventId   String
+  name      String
+  email     String
+  phone     String?
+  status    AttendeeStatus @default(REGISTERED)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  event Event @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, email])
+  @@map("event_attendees")
+}
+
+enum EventStatus {
+  DRAFT
+  PUBLISHED
+  CANCELLED
+  COMPLETED
+}
+
+enum AttendeeStatus {
+  REGISTERED
+  CONFIRMED
+  ATTENDED
+  CANCELLED
+}
+
+// Newsletter Management
+model NewsletterSubscriber {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String?
+  status      SubscriptionStatus @default(ACTIVE)
+  preferences Json? // Subscription preferences
+  source      String? // Where they subscribed from
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("newsletter_subscribers")
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  UNSUBSCRIBED
+  BOUNCED
+}
+
+// Volunteer Management
+model VolunteerApplication {
+  id            String @id @default(cuid())
+  firstName     String
+  lastName      String
+  email         String
+  phone         String
+  dateOfBirth   DateTime?
+  address       String?
+
+  // Availability
+  timeCommitment String
+  duration      String
+  schedule      String[]
+
+  // Interests and skills
+  interests     String[]
+  skills        String?
+  languages     String?
+  education     String?
+  experience    String?
+
+  // Motivation
+  motivation    String
+  goals         String?
+
+  // References
+  references    Json?
+
+  status        ApplicationStatus @default(PENDING)
+  notes         String?
+  reviewedAt    DateTime?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("volunteer_applications")
+}
+
+enum ApplicationStatus {
+  PENDING
+  REVIEWING
+  APPROVED
+  REJECTED
+  WAITLISTED
+}
+
+// Contact Management
+model ContactMessage {
+  id        String        @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  subject   String
+  message   String
+  status    MessageStatus @default(UNREAD)
+  priority  MessagePriority @default(NORMAL)
+  assignedTo String?
+  response  String?
+  respondedAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("contact_messages")
+}
+
+enum MessageStatus {
+  UNREAD
+  READ
+  RESPONDED
+  ARCHIVED
+}
+
+enum MessagePriority {
+  LOW
+  NORMAL
+  HIGH
+  URGENT
+}
+
+// Media Management
+model MediaFile {
+  id          String    @id @default(cuid())
+  filename    String
+  originalName String
+  mimeType    String
+  size        Int // in bytes
+  url         String
+  alt         String?
+  caption     String?
+  folder      String?
+  tags        String[]
+  isPublic    Boolean   @default(true)
+  uploadedAt  DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("media_files")
+}
+
+// Translation Management
+model Translation {
+  id          String @id @default(cuid())
+  key         String
+  namespace   String
+  language    String @default("en")
+  value       String
+  description String?
+  status      TranslationStatus @default(PENDING)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([key, namespace, language])
+  @@map("translations")
+}
+
+enum TranslationStatus {
+  PENDING
+  APPROVED
+  NEEDS_REVIEW
+}
+
+// Site Settings
+model Setting {
+  id          String @id @default(cuid())
+  key         String @unique
+  value       Json
+  type        SettingType
+  category    String
+  description String?
+  isPublic    Boolean @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("settings")
+}
+
+enum SettingType {
+  STRING
+  NUMBER
+  BOOLEAN
+  JSON
+  ARRAY
+}
+
+// Analytics
+model PageView {
+  id        String   @id @default(cuid())
+  path      String
+  userAgent String?
+  ipAddress String?
+  referer   String?
+  language  String?
+  country   String?
+  timestamp DateTime @default(now())
+
+  @@map("page_views")
+}
+
+// Activity Logging
+model ActivityLog {
+  id          String @id @default(cuid())
+  userId      String?
+  action      String
+  entity      String? // e.g., "project", "blog", "user"
+  entityId    String?
+  details     Json?
+  ipAddress   String?
+  userAgent   String?
+  timestamp   DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@map("activity_logs")
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}

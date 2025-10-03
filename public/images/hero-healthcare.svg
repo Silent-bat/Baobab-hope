@@ -1,5 +1,90 @@
 <svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-    <rect width="100%" height="100%" fill="#ef4444"/>
-    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
-          text-anchor="middle" dominant-baseline="middle" fill="#ffffff">Healthcare Hero</text>
-  </svg>
+  <defs>
+    <linearGradient id="healthGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ef4444;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+  
+  <!-- Hospital building -->
+  <rect x="250" y="250" width="300" height="250" fill="#ffffff" rx="10"/>
+  
+  <!-- Hospital windows -->
+  <rect x="270" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="305" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="340" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="375" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="410" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="445" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="480" y="280" width="25" height="30" fill="#3b82f6"/>
+  <rect x="515" y="280" width="25" height="30" fill="#3b82f6"/>
+  
+  <rect x="270" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="305" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="340" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="375" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="410" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="445" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="480" y="320" width="25" height="30" fill="#3b82f6"/>
+  <rect x="515" y="320" width="25" height="30" fill="#3b82f6"/>
+  
+  <rect x="270" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="305" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="340" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="375" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="410" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="445" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="480" y="360" width="25" height="30" fill="#3b82f6"/>
+  <rect x="515" y="360" width="25" height="30" fill="#3b82f6"/>
+  
+  <!-- Hospital entrance -->
+  <rect x="370" y="400" width="60" height="100" fill="#1f2937"/>
+  
+  <!-- Red cross -->
+  <rect x="385" y="200" width="30" height="10" fill="#ef4444"/>
+  <rect x="395" y="190" width="10" height="30" fill="#ef4444"/>
+  
+  <!-- Ambulance -->
+  <rect x="100" y="450" width="120" height="60" fill="#ffffff" rx="5"/>
+  <rect x="110" y="460" width="25" height="20" fill="#3b82f6"/>
+  <rect x="140" y="460" width="25" height="20" fill="#3b82f6"/>
+  <rect x="170" y="460" width="25" height="20" fill="#3b82f6"/>
+  
+  <!-- Ambulance wheels -->
+  <circle cx="125" cy="520" r="15" fill="#1f2937"/>
+  <circle cx="195" cy="520" r="15" fill="#1f2937"/>
+  
+  <!-- Red cross on ambulance -->
+  <rect x="180" y="485" width="20" height="6" fill="#ef4444"/>
+  <rect x="187" y="478" width="6" height="20" fill="#ef4444"/>
+  
+  <!-- Medical staff silhouettes -->
+  <circle cx="150" cy="420" r="12" fill="#1f2937"/>
+  <rect x="146" cy="432" width="8" height="25" fill="#1f2937"/>
+  <rect x="142" cy="445" width="16" height="12" fill="#ffffff"/> <!-- coat -->
+  
+  <circle cx="180" cy="415" r="10" fill="#1f2937"/>
+  <rect x="177" cy="425" width="6" height="20" fill="#1f2937"/>
+  <rect x="174" cy="435" width="12" height="10" fill="#ffffff"/> <!-- coat -->
+  
+  <!-- Heart symbols floating -->
+  <path d="M 50 150 C 50 140, 65 140, 65 150 C 65 140, 80 140, 80 150 C 80 160, 65 175, 65 175 C 65 175, 50 160, 50 150 Z" fill="#ef4444" opacity="0.7"/>
+  <path d="M 680 120 C 680 115, 690 115, 690 120 C 690 115, 700 115, 700 120 C 700 125, 690 135, 690 135 C 690 135, 680 125, 680 120 Z" fill="#ef4444" opacity="0.5"/>
+  
+  <!-- Trees -->
+  <circle cx="80" cy="380" r="30" fill="#10b981"/>
+  <rect x="75" cy="400" width="10" height="40" fill="#92400e"/>
+  
+  <circle cx="650" cy="400" r="25" fill="#10b981"/>
+  <rect x="647" cy="415" width="8" height="35" fill="#92400e"/>
+  
+  <!-- Sun -->
+  <circle cx="700" cy="80" r="40" fill="#fbbf24" opacity="0.8"/>
+</svg>

@@ -100,12 +100,12 @@ export default function CampaignsPage() {
       <section className="bg-gradient-to-br from-red-600 via-red-700 to-red-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">Our Campaigns</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold mb-6 animate-fade-in-up">{t("campaigns.title")}</h1>
             <p
               className="text-xl lg:text-2xl text-red-100 max-w-3xl mx-auto animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              Join our targeted campaigns to create specific, measurable impact in communities worldwide
+              {t("campaigns.subtitle")}
             </p>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function CampaignsPage() {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-8">
-              <Badge className="bg-red-600 hover:bg-red-700 mb-4">Featured Campaign</Badge>
+              <Badge className="bg-red-600 hover:bg-red-700 mb-4">{t("campaigns.featured")}</Badge>
             </div>
             <Card className="overflow-hidden border-2 border-red-200">
               <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -142,7 +142,7 @@ export default function CampaignsPage() {
 
                   <div className="mb-6">
                     <div className="flex justify-between items-center mb-2">
-                      <span className="font-medium">Progress</span>
+                      <span className="font-medium">{t("campaigns.progress")}</span>
                       <span className="text-sm text-gray-500">
                         {Math.round((featuredCampaign.raised / featuredCampaign.goal) * 100)}%
                       </span>
@@ -153,21 +153,21 @@ export default function CampaignsPage() {
                         <div className="text-2xl font-bold text-red-600">
                           ${featuredCampaign.raised.toLocaleString()}
                         </div>
-                        <div className="text-sm text-gray-500">Raised</div>
+                        <div className="text-sm text-gray-500">{t("campaigns.raised")}</div>
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-red-600">{featuredCampaign.supporters}</div>
-                        <div className="text-sm text-gray-500">Supporters</div>
+                        <div className="text-sm text-gray-500">{t("campaigns.supporters")}</div>
                       </div>
                       <div>
                         <div className="text-2xl font-bold text-red-600">{featuredCampaign.daysLeft}</div>
-                        <div className="text-sm text-gray-500">Days Left</div>
+                        <div className="text-sm text-gray-500">{t("campaigns.daysLeft")}</div>
                       </div>
                     </div>
                   </div>
 
-                  <div className="bg-red-50 p-4 rounded-lg mb-6">
-                    <div className="text-sm font-medium text-red-800 mb-1">Impact:</div>
+                    <div className="bg-red-50 p-4 rounded-lg mb-6">
+                      <div className="text-sm font-medium text-red-800 mb-1">{t("campaigns.impact")}:</div>
                     <div className="text-red-700">{featuredCampaign.impact}</div>
                   </div>
 
@@ -175,7 +175,7 @@ export default function CampaignsPage() {
                     <Button asChild className="flex-1 bg-red-600 hover:bg-red-700">
                       <Link href="/donate">
                         <Heart className="w-4 h-4 mr-2" />
-                        Support Campaign
+                        {t("campaigns.supportCampaign")}
                       </Link>
                     </Button>
                     <Button
@@ -183,7 +183,7 @@ export default function CampaignsPage() {
                       className="flex-1 border-red-600 text-red-600 hover:bg-red-600 hover:text-white bg-transparent"
                     >
                       <Share2 className="w-4 h-4 mr-2" />
-                      Share Campaign
+                      {t("campaigns.shareCampaign")}
                     </Button>
                   </div>
                 </CardContent>
@@ -197,8 +197,8 @@ export default function CampaignsPage() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Active Campaigns</h2>
-            <p className="text-lg text-gray-600">Join these ongoing campaigns and help us reach our goals</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("campaigns.active.title")}</h2>
+            <p className="text-lg text-gray-600">{t("campaigns.active.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -263,7 +263,7 @@ export default function CampaignsPage() {
 
                     <div className="flex gap-2">
                       <Button asChild size="sm" className="flex-1 bg-red-600 hover:bg-red-700">
-                        <Link href="/donate">Support</Link>
+                        <Link href="/donate">{t("campaigns.support")}</Link>
                       </Button>
                       <Button
                         size="sm"
@@ -284,8 +284,8 @@ export default function CampaignsPage() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Completed Campaigns</h2>
-            <p className="text-lg text-gray-600">See the successful campaigns we've completed together</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("campaigns.completedCampaigns.title")}</h2>
+            <p className="text-lg text-gray-600">{t("campaigns.completedCampaigns.subtitle")}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -329,11 +329,11 @@ export default function CampaignsPage() {
                       <Users className="w-4 h-4 mr-1" />
                       {campaign.supporters} supporters
                     </div>
-                    <div className="text-green-600 font-medium">✓ Completed</div>
+                    <div className="text-green-600 font-medium">✓ {t("campaigns.completedStatus")}</div>
                   </div>
 
-                  <div className="bg-green-50 p-3 rounded-lg mb-4">
-                    <div className="text-xs font-medium text-green-700 mb-1">Final Impact:</div>
+                    <div className="bg-green-50 p-3 rounded-lg mb-4">
+                      <div className="text-xs font-medium text-green-700 mb-1">{t("campaigns.finalImpact")}:</div>
                     <div className="text-xs text-green-600">{campaign.impact}</div>
                   </div>
 
@@ -344,7 +344,7 @@ export default function CampaignsPage() {
                     className="w-full border-green-600 text-green-600 hover:bg-green-600 hover:text-white bg-transparent"
                   >
                     <Link href={`/campaigns/${campaign.id}`}>
-                      View Results
+                      {t("campaigns.viewResults")}
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </Link>
                   </Button>
@@ -359,9 +359,9 @@ export default function CampaignsPage() {
       <section className="py-16 bg-gradient-to-br from-red-50 to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">How Our Campaigns Work</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">{t("campaigns.howItWorks.title")}</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our campaigns are designed for maximum transparency and impact
+              {t("campaigns.howItWorks.subtitle")}
             </p>
           </div>
 
@@ -369,24 +369,23 @@ export default function CampaignsPage() {
             {[
               {
                 step: "1",
-                title: "Identify Need",
-                description: "We work with local communities to identify urgent needs and develop targeted solutions.",
+                title: t("campaigns.howItWorks.steps.1.title"),
+                description: t("campaigns.howItWorks.steps.1.description"),
               },
               {
                 step: "2",
-                title: "Set Clear Goals",
-                description: "Each campaign has specific, measurable goals with transparent funding requirements.",
+                title: t("campaigns.howItWorks.steps.2.title"),
+                description: t("campaigns.howItWorks.steps.2.description"),
               },
               {
                 step: "3",
-                title: "Community Support",
-                description:
-                  "Supporters like you contribute to campaigns that resonate with your values and interests.",
+                title: t("campaigns.howItWorks.steps.3.title"),
+                description: t("campaigns.howItWorks.steps.3.description"),
               },
               {
                 step: "4",
-                title: "Track Progress",
-                description: "We provide regular updates on campaign progress and impact achieved in real-time.",
+                title: t("campaigns.howItWorks.steps.4.title"),
+                description: t("campaigns.howItWorks.steps.4.description"),
               },
             ].map((step, index) => (
               <Card
@@ -410,14 +409,14 @@ export default function CampaignsPage() {
       <section className="py-16 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Megaphone className="w-16 h-16 mx-auto mb-6" />
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">Start Your Own Campaign</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold mb-6">{t("campaigns.startCampaign.title")}</h2>
           <p className="text-xl mb-8 text-red-100 leading-relaxed">
-            Have an idea for a campaign? We'd love to hear from you and help bring your vision to life.
+            {t("campaigns.startCampaign.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-white text-red-600 hover:bg-gray-100">
               <Link href="/contact">
-                Propose a Campaign
+                {t("campaigns.startCampaign.proposeCampaign")}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Link>
             </Button>
@@ -427,7 +426,7 @@ export default function CampaignsPage() {
               variant="outline"
               className="border-red-300 text-red-300 hover:bg-red-300 hover:text-red-800 bg-transparent"
             >
-              <Link href="/donate">Support Existing Campaigns</Link>
+              <Link href="/donate">{t("campaigns.startCampaign.supportExisting")}</Link>
             </Button>
           </div>
         </div>

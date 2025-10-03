@@ -1,5 +1,118 @@
 <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
-    <rect width="100%" height="100%" fill="#ef4444"/>
-    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
-          text-anchor="middle" dominant-baseline="middle" fill="#ffffff">Healthcare Project</text>
-  </svg>
+  <defs>
+    <linearGradient id="healthProjectBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b91c1c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#healthProjectBg)"/>
+  
+  <!-- Hospital building -->
+  <rect x="150" y="120" width="300" height="220" fill="#ffffff" rx="10"/>
+  
+  <!-- Hospital entrance -->
+  <rect x="270" y="240" width="60" height="100" fill="#1f2937"/>
+  <circle cx="300" cy="290" r="3" fill="#ffffff"/> <!-- door handle -->
+  
+  <!-- Hospital windows -->
+  <rect x="170" y="150" width="25" height="30" fill="#3b82f6"/>
+  <rect x="205" y="150" width="25" height="30" fill="#3b82f6"/>
+  <rect x="240" y="150" width="25" height="30" fill="#3b82f6"/>
+  <rect x="360" y="150" width="25" height="30" fill="#3b82f6"/>
+  <rect x="395" y="150" width="25" height="30" fill="#3b82f6"/>
+  
+  <rect x="170" y="190" width="25" height="30" fill="#3b82f6"/>
+  <rect x="205" y="190" width="25" height="30" fill="#3b82f6"/>
+  <rect x="240" y="190" width="25" height="30" fill="#3b82f6"/>
+  <rect x="360" y="190" width="25" height="30" fill="#3b82f6"/>
+  <rect x="395" y="190" width="25" height="30" fill="#3b82f6"/>
+  
+  <!-- Large red cross on building -->
+  <rect x="280" y="80" width="40" height="12" fill="#ef4444"/>
+  <rect x="294" y="66" width="12" height="40" fill="#ef4444"/>
+  
+  <!-- Hospital sign -->
+  <rect x="180" y="100" width="240" height="30" fill="#ffffff" rx="5"/>
+  <text x="300" y="120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" 
+        text-anchor="middle" fill="#1f2937">COMMUNITY HEALTH CENTER</text>
+  
+  <!-- Ambulance -->
+  <rect x="50" y="280" width="120" height="60" fill="#ffffff" rx="8"/>
+  <!-- Ambulance windows -->
+  <rect x="60" y="295" width="20" height="15" fill="#3b82f6"/>
+  <rect x="85" y="295" width="20" height="15" fill="#3b82f6"/>
+  <rect x="110" y="295" width="20" height="15" fill="#3b82f6"/>
+  <rect x="135" y="295" width="20" height="15" fill="#3b82f6"/>
+  
+  <!-- Ambulance wheels -->
+  <circle cx="75" cy="350" r="15" fill="#1f2937"/>
+  <circle cx="145" cy="350" r="15" fill="#1f2937"/>
+  
+  <!-- Red cross on ambulance -->
+  <rect x="125" y="320" width="20" height="6" fill="#ef4444"/>
+  <rect x="132" y="313" width="6" height="20" fill="#ef4444"/>
+  
+  <!-- Medical staff -->
+  <!-- Doctor -->
+  <circle cx="200" cy="260" r="10" fill="#8b5cf6"/>
+  <rect x="197" cy="270" width="6" height="20" fill="#1f2937"/>
+  <rect x="194" cy="280" width="12" height="10" fill="#ffffff"/> <!-- white coat -->
+  
+  <!-- Stethoscope -->
+  <circle cx="205" cy="275" r="2" fill="#1f2937"/>
+  <path d="M 205 275 Q 210 280 215 275" stroke="#1f2937" stroke-width="1" fill="none"/>
+  
+  <!-- Nurse -->
+  <circle cx="380" cy="265" r="8" fill="#8b5cf6"/>
+  <rect x="378" cy="273" width="4" height="17" fill="#1f2937"/>
+  <rect x="376" cy="283" width="8" height="8" fill="#ffffff"/> <!-- white uniform -->
+  
+  <!-- Patients -->
+  <!-- Patient with crutches -->
+  <circle cx="100" cy="250" r="8" fill="#8b5cf6"/>
+  <rect x="98" cy="258" width="4" height="18" fill="#10b981"/>
+  <line x1="95" y1="260" x2="95" y2="276" stroke="#92400e" stroke-width="2"/>
+  <line x1="105" y1="260" x2="105" y2="276" stroke="#92400e" stroke-width="2"/>
+  
+  <!-- Child patient -->
+  <circle cx="480" cy="270" r="6" fill="#8b5cf6"/>
+  <rect x="478" cy="276" width="4" height="15" fill="#f59e0b"/>
+  
+  <!-- Elderly patient -->
+  <circle cx="520" cy="275" r="7" fill="#8b5cf6"/>
+  <rect x="518" cy="282" width="4" height="16" fill="#8b5cf6"/>
+  <!-- Walking stick -->
+  <line x1="525" y1="282" x2="525" y2="298" stroke="#92400e" stroke-width="2"/>
+  
+  <!-- Medical equipment -->
+  <!-- Stretcher -->
+  <rect x="460" y="320" width="80" height="20" fill="#e5e7eb"/>
+  <circle cx="470" cy="350" r="8" fill="#6b7280"/>
+  <circle cx="530" cy="350" r="8" fill="#6b7280"/>
+  
+  <!-- Medical supplies -->
+  <rect x="120" y="230" width="12" height="18" fill="#ffffff"/>
+  <rect x="120" y="230" width="12" height="6" fill="#ef4444"/>
+  
+  <!-- First aid box -->
+  <rect x="350" y="220" width="20" height="12" fill="#ffffff"/>
+  <rect x="357" y="224" width="6" height="2" fill="#ef4444"/>
+  <rect x="359" y="222" width="2" height="6" fill="#ef4444"/>
+  
+  <!-- Trees -->
+  <circle cx="40" cy="180" r="35" fill="#10b981"/>
+  <rect x="37" cy="210" width="8" height="40" fill="#92400e"/>
+  
+  <circle cx="560" cy="160" r="30" fill="#059669"/>
+  <rect x="558" cy="185" width="6" height="35" fill="#92400e"/>
+  
+  <!-- Sun -->
+  <circle cx="500" cy="60" r="35" fill="#fbbf24"/>
+  
+  <!-- Clouds -->
+  <circle cx="100" cy="40" r="18" fill="#ffffff" opacity="0.8"/>
+  <circle cx="118" cy="40" r="22" fill="#ffffff" opacity="0.8"/>
+  <circle cx="136" cy="40" r="18" fill="#ffffff" opacity="0.8"/>
+</svg>

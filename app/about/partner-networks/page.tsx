@@ -180,7 +180,7 @@ const partnershipTypes = [
 
 export default function PartnerNetworksPage() {
   const { language } = useLanguage()
-  const t = translations[language]
+  const t = translations[language] || translations.en // Fallback to English
 
   return (
     <div className="min-h-screen">

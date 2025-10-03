@@ -264,7 +264,7 @@ export default function FAQPage() {
     },
   }
 
-  const t = content[language]
+  const t = content[language] || content.en // Fallback to English
 
   const filteredFAQs = t.faqs.filter((faq) => {
     const matchesCategory = selectedCategory === "all" || faq.category === selectedCategory

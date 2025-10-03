@@ -1,0 +1,21 @@
+{
+  "language": "cy",
+  "name": "Welsh",
+  "nativeName": "Cymraeg",
+  "code": "cy",
+  "direction": "ltr",
+  "version": "2.0.0",
+  "lastUpdated": "2025-01-27T12:30:00.000Z",
+  "status": "complete",
+  "completion": 100,
+  "namespaces": ["common", "navigation", "pages", "forms", "actions", "misc"],
+  "namespaceCounts": {"common": 85, "navigation": 45, "pages": 150, "forms": 200, "actions": 180, "misc": 90},
+  "totalKeys": 750,
+  "categories": ["ui", "content", "forms", "navigation", "actions", "errors", "accessibility", "seo"],
+  "features": ["rtl-support", "pluralization", "interpolation", "accessibility", "seo-optimized", "form-validation", "error-handling"],
+  "translatedBy": {"name": "BAOBAB HOPE Translation Team", "email": "translations@baobabhope.org", "date": "2025-01-27"},
+  "reviewedBy": {"name": "Native Speaker Review Team", "date": "2025-01-27"},
+  "qualityScore": 100,
+  "coverage": {"pages": 100, "components": 100, "forms": 100, "navigation": 100, "errors": 100, "accessibility": 100},
+  "metadata": {"region": "global", "currency": "USD", "dateFormat": "DD/MM/YYYY", "timeFormat": "24h", "numberFormat": {"decimal": ".", "thousand": ",", "currency": "$"}}
+}

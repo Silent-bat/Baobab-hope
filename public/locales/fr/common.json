@@ -5,6 +5,9 @@
   "common": {
     "loading": "Chargement...",
     "error": "Une erreur s'est produite",
+    "back": {
+      "top": "Retour en Haut"
+    },
     "backTop": "Retour en Haut",
     "share": "Partager",
     "search": "Rechercher",
@@ -30,6 +33,7 @@
     "yes": "Oui",
     "no": "Non",
     "started": "Commencé",
+    "ongoing": "En cours",
     "people": {
       "reached": "Personnes Atteintes"
     },
@@ -37,12 +41,38 @@
       "projects": "Projets Actifs"
     },
     "countries": "Pays",
-    "successRate": "Taux de Réussite"
+    "successRate": "Taux de Réussite",
+    "donate": "Faire un Don",
+    "volunteer": "Bénévolat",
+    "support": "Soutien",
+    "impact": "Impact",
+    "community": "Communauté",
+    "education": "Éducation",
+    "healthcare": "Soins de Santé",
+    "environment": "Environnement",
+    "water": "Eau Propre",
+    "readMore": "Lire Plus",
+    "viewMore": "Voir Plus",
+    "seeMore": "Voir Plus",
+    "showMore": "Afficher Plus",
+    "showLess": "Afficher Moins",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "continue": "Continuer",
+    "finish": "Terminer",
+    "complete": "Compléter",
+    "send": "Envoyer",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "name": "Nom",
+    "message": "Message",
+    "subject": "Sujet"
   },
   "accessibility": {
-    "languageChanged": "Langue changée vers {{language}",
+    "languageChanged": "Langue changée vers {{language}}",
     "languageSelector": "Sélectionner la langue",
-    "currentLanguage": "Langue actuelle : {{language}",
+    "currentLanguage": "Langue actuelle : {{language}}",
     "availableLanguages": "Langues disponibles",
     "searchLanguages": "Rechercher des langues",
     "languageOptions": "Utilisez les flèches pour naviguer, Entrée pour sélectionner, Échap pour fermer",
@@ -52,11 +82,14 @@
     "navigation": "Navigation",
     "languageMenu": "Menu des langues",
     "closeLanguageMenu": "Fermer le menu des langues",
-    "openLanguageMenu": "Ouvrir le menu des langues"
+    "openLanguageMenu": "Ouvrir le menu des langues",
+    "searchResults": "Résultats de recherche",
+    "noResults": "Aucun résultat trouvé",
+    "searchPlaceholder": "Rechercher sur notre site..."
   },
   "language": "fr",
   "version": "1.0.0",
-  "lastUpdated": "2025-09-20T15:24:58.136Z",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
   "namespaces": [
     "common",
     "navigation",
@@ -66,5 +99,5 @@
     "misc",
     "manifest"
   ],
-  "totalKeys": 326
+  "totalKeys": 450
 }

@@ -1,5 +1,108 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
-    <rect width="100%" height="100%" fill="#8b5cf6"/>
-    <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
-          text-anchor="middle" dominant-baseline="middle" fill="#ffffff">Volunteer Story</text>
-  </svg>
+  <defs>
+    <linearGradient id="volunteerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#volunteerBg)"/>
+  
+  <!-- Group of volunteers -->
+  <!-- Volunteer 1 -->
+  <circle cx="100" cy="150" r="12" fill="#fbbf24"/>
+  <rect x="96" cy="162" width="8" height="25" fill="#ef4444"/>
+  <rect x="94" cy="175" width="12" height="12" fill="#ffffff"/> <!-- volunteer vest -->
+  <text x="100" y="183" font-family="Arial, sans-serif" font-size="8" 
+        text-anchor="middle" fill="#ef4444">V</text>
+  
+  <!-- Volunteer 2 -->
+  <circle cx="150" cy="145" r="10" fill="#fbbf24"/>
+  <rect x="147" cy="155" width="6" height="22" fill="#10b981"/>
+  <rect x="145" cy="167" width="10" height="10" fill="#ffffff"/> <!-- volunteer vest -->
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="6" 
+        text-anchor="middle" fill="#10b981">V</text>
+  
+  <!-- Volunteer 3 -->
+  <circle cx="200" cy="148" r="11" fill="#fbbf24"/>
+  <rect x="197" cy="159" width="6" height="23" fill="#3b82f6"/>
+  <rect x="195" cy="172" width="10" height="10" fill="#ffffff"/> <!-- volunteer vest -->
+  <text x="200" y="180" font-family="Arial, sans-serif" font-size="6" 
+        text-anchor="middle" fill="#3b82f6">V</text>
+  
+  <!-- Volunteer 4 -->
+  <circle cx="250" cy="152" r="9" fill="#fbbf24"/>
+  <rect x="248" cy="161" width="4" height="20" fill="#f59e0b"/>
+  <rect x="246" cy="172" width="8" height="9" fill="#ffffff"/> <!-- volunteer vest -->
+  <text x="250" y="179" font-family="Arial, sans-serif" font-size="5" 
+        text-anchor="middle" fill="#f59e0b">V</text>
+  
+  <!-- Volunteer 5 -->
+  <circle cx="300" cy="150" r="10" fill="#fbbf24"/>
+  <rect x="297" cy="160" width="6" height="22" fill="#8b5cf6"/>
+  <rect x="295" cy="172" width="10" height="10" fill="#ffffff"/> <!-- volunteer vest -->
+  <text x="300" y="180" font-family="Arial, sans-serif" font-size="6" 
+        text-anchor="middle" fill="#8b5cf6">V</text>
+  
+  <!-- Community work scene -->
+  <!-- Building/painting -->
+  <rect x="80" y="200" width="60" height="40" fill="#d97706"/>
+  <rect x="90" y="210" width="15" height="20" fill="#3b82f6"/>
+  <rect x="115" y="210" width="15" height="20" fill="#3b82f6"/>
+  
+  <!-- Paint brushes -->
+  <rect x="75" y="180" width="2" height="15" fill="#92400e"/>
+  <circle cx="76" cy="178" r="3" fill="#ef4444"/>
+  
+  <rect x="145" y="185" width="2" height="12" fill="#92400e"/>
+  <circle cx="146" cy="183" r="2" fill="#10b981"/>
+  
+  <!-- Garden/planting area -->
+  <rect x="260" y="220" width="80" height="30" fill="#059669"/>
+  
+  <!-- Small plants -->
+  <circle cx="270" cy="235" r="4" fill="#10b981"/>
+  <rect x="269" cy="238" width="2" height="8" fill="#92400e"/>
+  
+  <circle cx="290" cy="232" r="3" fill="#10b981"/>
+  <rect x="289" cy="234" width="2" height="6" fill="#92400e"/>
+  
+  <circle cx="310" cy="235" r="4" fill="#10b981"/>
+  <rect x="309" cy="238" width="2" height="8" fill="#92400e"/>
+  
+  <circle cx="330" cy="233" r="3" fill="#10b981"/>
+  <rect x="329" cy="235" width="2" height="7" fill="#92400e"/>
+  
+  <!-- Tools -->
+  <!-- Shovel -->
+  <rect x="180" y="190" width="3" height="25" fill="#92400e"/>
+  <rect x="177" y="188" width="9" height="6" fill="#6b7280"/>
+  
+  <!-- Watering can -->
+  <rect x="220" y="195" width="12" height="8" fill="#6b7280"/>
+  <rect x="232" y="198" width="6" height="2" fill="#6b7280"/>
+  
+  <!-- Water drops -->
+  <circle cx="240" cy="205" r="1" fill="#06b6d4"/>
+  <circle cx="242" cy="207" r="1" fill="#06b6d4"/>
+  <circle cx="238" cy="209" r="1" fill="#06b6d4"/>
+  
+  <!-- Hearts floating (showing love/care) -->
+  <path d="M 50 100 C 50 95, 60 95, 60 100 C 60 95, 70 95, 70 100 C 70 105, 60 115, 60 115 C 60 115, 50 105, 50 100 Z" fill="#ef4444" opacity="0.7"/>
+  <path d="M 350 80 C 350 77, 357 77, 357 80 C 357 77, 364 77, 364 80 C 364 83, 357 90, 357 90 C 357 90, 350 83, 350 80 Z" fill="#ef4444" opacity="0.6"/>
+  
+  <!-- Community building in background -->
+  <rect x="20" y="120" width="40" height="50" fill="#ffffff" opacity="0.8"/>
+  <rect x="25" y="130" width="8" height="10" fill="#3b82f6" opacity="0.8"/>
+  <rect x="37" y="130" width="8" height="10" fill="#3b82f6" opacity="0.8"/>
+  <rect x="30" y="150" width="10" height="20" fill="#1f2937" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="30" fill="#fbbf24"/>
+  
+  <!-- Title text overlay -->
+  <rect x="0" y="0" width="400" height="50" fill="rgba(0,0,0,0.7)"/>
+  <text x="200" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" 
+        text-anchor="middle" fill="#ffffff">Volunteer Impact</text>
+</svg>

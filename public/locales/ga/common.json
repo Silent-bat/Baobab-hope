@@ -1,0 +1,44 @@
+{
+  "slogan": {
+    "main": "Croí Amháin, Lámh Amháin"
+  },
+  "common": {
+    "loading": "Á lódáil...",
+    "error": "Tharla earráid",
+    "backTop": "Ar ais go barr",
+    "share": "Roinn",
+    "search": "Cuardaigh",
+    "menu": "Roghchlár",
+    "close": "Dún",
+    "open": "Oscail",
+    "learnMore": "Foghlaim níos mó",
+    "getStarted": "Tosaigh",
+    "joinUs": "Bí linn",
+    "contactUs": "Déan teagmháil linn",
+    "followUs": "Lean muid",
+    "subscribe": "Cláraigh",
+    "thankYou": "Go raibh maith agat",
+    "donate": "Bronn",
+    "volunteer": "Óglach",
+    "support": "Tacaíocht",
+    "impact": "Tionchar",
+    "community": "Pobal",
+    "education": "Oideachas",
+    "healthcare": "Cúram sláinte",
+    "environment": "Comhshaol",
+    "water": "Uisce glan"
+  },
+  "accessibility": {
+    "languageChanged": "Athraíodh an teanga go {{language}}",
+    "languageSelector": "Roghnaigh teanga",
+    "currentLanguage": "Teanga reatha: {{language}}",
+    "skipToContent": "Léim go príomhábhar",
+    "mainContent": "Príomhábhar",
+    "navigation": "Nascleanúint"
+  },
+  "language": "ga",
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-27T12:00:00.000Z",
+  "namespaces": ["common", "navigation", "pages", "forms", "actions", "misc", "manifest"],
+  "totalKeys": 450
+}
