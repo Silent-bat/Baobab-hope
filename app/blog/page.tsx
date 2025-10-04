@@ -19,7 +19,7 @@ export default function BlogPage() {
       author: "Sarah Johnson",
       date: "2024-05-15",
       category: "Project Update",
-      image: "/images/blog-water.svg",
+      image: "/images/blog/blog-water.jpg",
       featured: true,
     },
     {
@@ -30,7 +30,7 @@ export default function BlogPage() {
       author: "David Chen",
       date: "2024-05-10",
       category: "Volunteer Stories",
-      image: "/images/blog-volunteer.svg",
+      image: "/images/blog/blog-volunteer.jpg",
       featured: false,
     },
     {
@@ -41,7 +41,7 @@ export default function BlogPage() {
       author: "Emily Watson",
       date: "2024-05-05",
       category: "Impact Report",
-      image: "/images/blog-education.svg",
+      image: "/images/blog/blog-education.jpg",
       featured: false,
     },
     {
@@ -52,7 +52,7 @@ export default function BlogPage() {
       author: "Michael Brown",
       date: "2024-04-28",
       category: "Announcements",
-      image: "/images/blog-healthcare.svg",
+      image: "/images/blog/blog-healthcare.jpg",
       featured: false,
     },
     {
@@ -63,7 +63,7 @@ export default function BlogPage() {
       author: "Lisa Park",
       date: "2024-04-20",
       category: "Success Stories",
-      image: "/images/blog-agriculture.svg",
+      image: "/images/blog/blog-agriculture.jpg",
       featured: false,
     },
     {
@@ -74,7 +74,7 @@ export default function BlogPage() {
       author: "Hope Foundation Team",
       date: "2024-04-15",
       category: "Impact Report",
-      image: "/images/blog-impact.svg",
+      image: "/images/blog/blog-impact.jpg",
       featured: false,
     },
   ]

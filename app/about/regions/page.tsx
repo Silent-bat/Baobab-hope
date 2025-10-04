@@ -17,7 +17,7 @@ export default function RegionsPage() {
       focus: ["Education & Literacy", "Water Access", "Healthcare"],
       coordinator: "Dr. Amara Okafor",
       established: "2021",
-      image: "/images/education-project.svg",
+      image: "/images/projects/project-education.jpg",
       description:
         "Our flagship region where BAOBAB HOPE began its mission, focusing on education and community empowerment.",
       achievements: [
@@ -35,7 +35,7 @@ export default function RegionsPage() {
       focus: ["Environmental Conservation", "Agriculture", "Women's Empowerment"],
       coordinator: "Jean-Baptiste Dubois",
       established: "2022",
-      image: "/images/environment-project.svg",
+      image: "/images/projects/project-environment.jpg",
       description: "Focused on environmental restoration and sustainable agriculture practices in the Sahel region.",
       achievements: [
         "50,000+ trees planted",
@@ -52,7 +52,7 @@ export default function RegionsPage() {
       focus: ["Healthcare", "Disaster Relief", "Youth Development"],
       coordinator: "Maria Rodriguez",
       established: "2023",
-      image: "/images/healthcare-project.svg",
+      image: "/images/projects/project-healthcare.jpg",
       description: "Providing essential healthcare services and building resilient communities in Central America.",
       achievements: [
         "5 mobile health clinics",
@@ -69,7 +69,7 @@ export default function RegionsPage() {
       focus: ["Clean Water", "Disaster Preparedness", "Education"],
       coordinator: "Sarah Chen",
       established: "2024",
-      image: "/images/water-project.svg",
+      image: "/images/projects/project-water.jpg",
       description: "Addressing water scarcity and building climate-resilient communities in South and Southeast Asia.",
       achievements: [
         "15 water wells constructed",
@@ -163,7 +163,7 @@ export default function RegionsPage() {
                 <div className="grid grid-cols-1 lg:grid-cols-2">
                   <div className="relative overflow-hidden">
                     <Image
-                      src={region.image || "/placeholder.svg"}
+                      src={region.image || "/images/projects/project-education.jpg"}
                       alt={region.name}
                       width={600}
                       height={400}

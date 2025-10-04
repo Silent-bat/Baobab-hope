@@ -107,7 +107,7 @@ export default function HistoryPage() {
             </div>
             <div className="relative">
               <Image
-                src="/images/hero-education.svg"
+                src="/images/heroes/hero-about.jpg"
                 alt="BAOBAB HOPE founding story"
                 width={600}
                 height={400}

@@ -1,0 +1,54 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Water well -->
+  <rect x="250" y="120" width="100" height="80" fill="rgba(255,255,255,0.9)"/>
+  <rect x="270" y="140" width="60" height="40" fill="url(#waterGradient)"/>
+  
+  <!-- Water pump handle -->
+  <line x1="300" y1="120" x2="300" y2="100" stroke="url(#waterGradient)" stroke-width="4"/>
+  <line x1="300" y1="100" x2="320" y2="80" stroke="url(#waterGradient)" stroke-width="4"/>
+  
+  <!-- Water droplets -->
+  <g fill="url(#waterGradient)">
+    <circle cx="200" cy="180" r="8"/>
+    <circle cx="220" cy="200" r="6"/>
+    <circle cx="180" cy="200" r="6"/>
+    <circle cx="400" cy="180" r="8"/>
+    <circle cx="420" cy="200" r="6"/>
+    <circle cx="380" cy="200" r="6"/>
+  </g>
+  
+  <!-- Water stream -->
+  <path d="M300,200 Q320,220 340,200 Q360,180 380,200" stroke="url(#waterGradient)" stroke-width="4" fill="none"/>
+  
+  <!-- People collecting water -->
+  <g transform="translate(150,220)">
+    <circle cx="0" cy="0" r="8" fill="url(#waterGradient)"/>
+    <rect x="-6" y="8" width="12" height="20" rx="6" fill="url(#waterGradient)"/>
+  </g>
+  
+  <g transform="translate(450,220)">
+    <circle cx="0" cy="0" r="8" fill="url(#waterGradient)"/>
+    <rect x="-6" y="8" width="12" height="20" rx="6" fill="url(#waterGradient)"/>
+  </g>
+  
+  <!-- Water containers -->
+  <rect x="130" y="240" width="20" height="30" rx="3" fill="url(#waterGradient)"/>
+  <rect x="450" y="240" width="20" height="30" rx="3" fill="url(#waterGradient)"/>
+  
+  <!-- Text -->
+  <text x="300" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Clean Water Access</text>
+</svg>

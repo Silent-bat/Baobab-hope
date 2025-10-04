@@ -63,7 +63,7 @@ export function Carousel({ items, autoPlay = true, interval = 5000 }: CarouselPr
             }`}
           >
             <Image
-              src={item.image || "/placeholder.svg"}
+              src={item.image || "/images/projects/project-education.jpg"}
               alt={item.title}
               fill
               className="object-cover"

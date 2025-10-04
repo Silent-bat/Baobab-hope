@@ -1,0 +1,53 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991b1b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="medicalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Medical cross -->
+  <g transform="translate(300,150)">
+    <rect x="-40" y="-10" width="80" height="20" fill="url(#medicalGradient)"/>
+    <rect x="-10" y="-40" width="20" height="80" fill="url(#medicalGradient)"/>
+  </g>
+  
+  <!-- Medical equipment -->
+  <g transform="translate(150,100)">
+    <!-- Stethoscope -->
+    <circle cx="0" cy="0" r="15" fill="none" stroke="url(#medicalGradient)" stroke-width="3"/>
+    <path d="M-10,-10 Q-20,-20 -30,-10" stroke="url(#medicalGradient)" stroke-width="3" fill="none"/>
+    <path d="M10,-10 Q20,-20 30,-10" stroke="url(#medicalGradient)" stroke-width="3" fill="none"/>
+  </g>
+  
+  <g transform="translate(450,100)">
+    <!-- Medical bag -->
+    <rect x="-20" y="-15" width="40" height="30" rx="5" fill="url(#medicalGradient)"/>
+    <path d="M-15,-10 L15,-10 L15,10 L-15,10 Z" fill="white"/>
+    <path d="M-10,-5 L10,-5 L10,5 L-10,5 Z" fill="url(#medicalGradient)"/>
+  </g>
+  
+  <!-- Patients -->
+  <g transform="translate(200,200)">
+    <circle cx="0" cy="0" r="8" fill="url(#medicalGradient)"/>
+    <rect x="-6" y="8" width="12" height="20" rx="6" fill="url(#medicalGradient)"/>
+  </g>
+  
+  <g transform="translate(400,200)">
+    <circle cx="0" cy="0" r="8" fill="url(#medicalGradient)"/>
+    <rect x="-6" y="8" width="12" height="20" rx="6" fill="url(#medicalGradient)"/>
+  </g>
+  
+  <!-- Heart rate line -->
+  <path d="M100,250 Q120,230 140,250 Q160,270 180,250 Q200,230 220,250" stroke="url(#medicalGradient)" stroke-width="3" fill="none"/>
+  
+  <!-- Text -->
+  <text x="300" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Healthcare Access</text>
+</svg>

@@ -40,7 +40,7 @@ export default function VolunteeringPage() {
         "Minimum 3-month commitment",
       ],
       benefits: ["Accommodation provided", "Local transportation", "Cultural immersion", "Professional development"],
-      image: "/images/education-project.svg",
+      image: "/images/volunteer/volunteer-education.jpg",
     },
     {
       title: "Healthcare Program Assistant",
@@ -61,7 +61,7 @@ export default function VolunteeringPage() {
         "Language learning support",
         "Certificate of completion",
       ],
-      image: "/images/healthcare-project.svg",
+      image: "/images/volunteer/volunteer-healthcare.jpg",
     },
     {
       title: "Environmental Conservation Volunteer",
@@ -81,7 +81,7 @@ export default function VolunteeringPage() {
         "Environmental certification",
         "Networking opportunities",
       ],
-      image: "/images/environment-project.svg",
+      image: "/images/volunteer/volunteer-environment.jpg",
     },
     {
       title: "Remote Digital Support",
@@ -96,7 +96,7 @@ export default function VolunteeringPage() {
         "Minimum 10 hours/week",
       ],
       benefits: ["Flexible schedule", "Skill development", "Global team collaboration", "Portfolio building"],
-      image: "/images/blog-volunteer.svg",
+      image: "/images/volunteer/volunteer-education.jpg",
     },
   ]
 
@@ -224,7 +224,7 @@ export default function VolunteeringPage() {
               >
                 <div className="relative overflow-hidden">
                   <Image
-                    src={opportunity.image || "/placeholder.svg"}
+                    src={opportunity.image || "/images/volunteer/volunteer-education.jpg"}
                     alt={opportunity.title}
                     width={600}
                     height={300}
@@ -443,7 +443,7 @@ export default function VolunteeringPage() {
                 location: "Kenya",
                 quote:
                   "Volunteering with BAOBAB HOPE changed my perspective on education and community development. The impact we made together was incredible.",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/images/volunteer/volunteer-education.jpg",
               },
               {
                 name: "Miguel Rodriguez",
@@ -451,7 +451,7 @@ export default function VolunteeringPage() {
                 location: "Guatemala",
                 quote:
                   "Working with the mobile health clinics taught me so much about community healthcare. It was the most rewarding experience of my life.",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/images/volunteer/volunteer-education.jpg",
               },
               {
                 name: "Emma Chen",
@@ -459,7 +459,7 @@ export default function VolunteeringPage() {
                 location: "Remote",
                 quote:
                   "Being able to contribute my digital skills remotely while supporting such important work has been incredibly fulfilling.",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/images/volunteer/volunteer-education.jpg",
               },
             ].map((story, index) => (
               <Card

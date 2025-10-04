@@ -1,0 +1,46 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991b1b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#bgGradient)"/>
+  
+  <!-- Medical tent -->
+  <path d="M100,120 L200,80 L300,120 L300,180 L100,180 Z" fill="rgba(255,255,255,0.9)"/>
+  
+  <!-- Medical cross on tent -->
+  <g transform="translate(200,100)">
+    <rect x="-15" y="-3" width="30" height="6" fill="url(#personGradient)"/>
+    <rect x="-3" y="-15" width="6" height="30" fill="url(#personGradient)"/>
+  </g>
+  
+  <!-- Healthcare worker -->
+  <g transform="translate(200,140)">
+    <circle cx="0" cy="-15" r="10" fill="url(#personGradient)"/>
+    <rect x="-6" y="-5" width="12" height="15" rx="6" fill="url(#personGradient)"/>
+  </g>
+  
+  <!-- Patient -->
+  <g transform="translate(150,150)">
+    <circle cx="0" cy="-10" r="8" fill="url(#personGradient)"/>
+    <rect x="-5" y="0" width="10" height="12" rx="5" fill="url(#personGradient)"/>
+  </g>
+  
+  <!-- Medical equipment -->
+  <g transform="translate(250,150)">
+    <circle cx="0" cy="0" r="12" fill="none" stroke="url(#personGradient)" stroke-width="2"/>
+    <path d="M-8,-8 Q-12,-12 -16,-8" stroke="url(#personGradient)" stroke-width="2" fill="none"/>
+    <path d="M8,-8 Q12,-12 16,-8" stroke="url(#personGradient)" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Healthcare Volunteer</text>
+</svg>

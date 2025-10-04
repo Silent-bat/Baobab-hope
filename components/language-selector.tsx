@@ -145,12 +145,13 @@ export function LanguageSelector() {
         <DropdownMenuTrigger asChild>
           <Button
             ref={triggerRef}
-            variant="outline"
+            variant="ghost"
             size="sm"
             className={`${rtlStyles.isRTL ? 'gap-x-reverse gap-2' : 'gap-2'} 
               focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 
               high-contrast:border-2 high-contrast:border-black
-              transition-all duration-200 max-w-[10rem] md:max-w-[12rem] overflow-hidden`}
+              transition-all duration-200 max-w-[10rem] md:max-w-[12rem] overflow-hidden
+              bg-transparent border-transparent hover:bg-white/20 hover:border-white/30`}
             disabled={isLoading}
             dir={direction}
             aria-label={t('accessibility.currentLanguage', { interpolation: { language: currentLanguage?.name || language } })}

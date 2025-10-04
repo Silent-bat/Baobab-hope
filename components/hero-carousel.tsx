@@ -17,7 +17,7 @@ export function HeroCarousel() {
       title: t("home.hero.education.title"),
       subtitle: t("home.hero.education.subtitle"),
       description: t("home.hero.education.description"),
-      image: "/images/hero-education.svg",
+      image: "/images/projects/project-education.jpg",
       cta: {
         primary: {
           text: t("home.hero.education.cta"),
@@ -34,7 +34,7 @@ export function HeroCarousel() {
       title: t("home.hero.environment.title"),
       subtitle: t("home.hero.environment.subtitle"),
       description: t("home.hero.environment.description"),
-      image: "/images/hero-environment.svg",
+      image: "/images/projects/project-environment.jpg",
       cta: {
         primary: {
           text: t("home.hero.environment.cta"),
@@ -51,7 +51,7 @@ export function HeroCarousel() {
       title: t("home.hero.healthcare.title"),
       subtitle: t("home.hero.healthcare.subtitle"),
       description: t("home.hero.healthcare.description"),
-      image: "/images/hero-healthcare.svg",
+      image: "/images/projects/project-healthcare.jpg",
       cta: {
         primary: {
           text: t("home.hero.healthcare.cta"),
@@ -91,14 +91,14 @@ export function HeroCarousel() {
           }`}
         >
           <Image
-            src={slide.image || "/images/placeholder.svg"}
+            src={slide.image || "/images/projects/project-education.jpg"}
             alt={slide.title}
             fill
             className="object-cover"
             priority={index === 0}
             onError={(e) => {
               const target = e.target as HTMLImageElement
-              target.src = "/images/placeholder.svg"
+              target.src = "/images/projects/project-education.jpg"
             }}
           />
           <div className="absolute inset-0 bg-black/50" />

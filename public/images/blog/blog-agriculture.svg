@@ -1,0 +1,50 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="plantGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#bgGradient)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="150" width="400" height="50" fill="#8b4513"/>
+  
+  <!-- Plants -->
+  <g transform="translate(100,150)">
+    <rect x="-2" y="0" width="4" height="30" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="15" fill="url(#plantGradient)"/>
+  </g>
+  
+  <g transform="translate(150,150)">
+    <rect x="-2" y="0" width="4" height="30" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="15" fill="url(#plantGradient)"/>
+  </g>
+  
+  <g transform="translate(200,150)">
+    <rect x="-2" y="0" width="4" height="30" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="15" fill="url(#plantGradient)"/>
+  </g>
+  
+  <g transform="translate(250,150)">
+    <rect x="-2" y="0" width="4" height="30" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="15" fill="url(#plantGradient)"/>
+  </g>
+  
+  <g transform="translate(300,150)">
+    <rect x="-2" y="0" width="4" height="30" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="15" fill="url(#plantGradient)"/>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="20" fill="url(#plantGradient)"/>
+  
+  <!-- Text -->
+  <text x="200" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Community Gardens</text>
+</svg>

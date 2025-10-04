@@ -6,10 +6,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  swcMinify: true,
+  // swcMinify is now enabled by default in Next.js 15
   output: "standalone",
   images: {
-    domains: ["localhost"],
     remotePatterns: [
       {
         protocol: "https",
@@ -21,7 +20,16 @@ const nextConfig = {
         port: "3001",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.pexels.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
     ],
+    formats: ['image/webp', 'image/avif'],
     dangerouslyAllowSVG: true,
     contentDispositionType: "attachment",
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
@@ -147,7 +155,6 @@ const nextConfig = {
 
   // Experimental features for better performance
   experimental: {
-    serverComponentsExternalPackages: ["@prisma/client", "bcryptjs"],
     optimizePackageImports: ["lucide-react"],
   },
 

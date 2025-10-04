@@ -50,7 +50,7 @@ export default function ProjectDetailPage() {
       progress: 85,
       goal: 120000,
       raised: 102000,
-      image: "/images/education-project.svg",
+      image: "/images/projects/project-education.jpg",
       category: "Education",
       icon: BookOpen,
       color: "from-blue-500 to-purple-600",
@@ -99,7 +99,7 @@ export default function ProjectDetailPage() {
       progress: 70,
       goal: 200000,
       raised: 140000,
-      image: "/images/environment-project.svg",
+      image: "/images/projects/project-environment.jpg",
       category: "Environment",
       icon: Leaf,
       color: "from-green-500 to-teal-600",
@@ -142,7 +142,7 @@ export default function ProjectDetailPage() {
       progress: 60,
       goal: 80000,
       raised: 48000,
-      image: "/images/healthcare-project.svg",
+      image: "/images/projects/project-healthcare.jpg",
       category: "Healthcare",
       icon: Heart,
       color: "from-red-500 to-pink-600",
@@ -185,7 +185,7 @@ export default function ProjectDetailPage() {
       progress: 45,
       goal: 150000,
       raised: 67500,
-      image: "/images/water-project.svg",
+      image: "/images/projects/project-water.jpg",
       category: "Water",
       icon: Droplets,
       color: "from-cyan-500 to-blue-600",
@@ -247,7 +247,7 @@ export default function ProjectDetailPage() {
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
-        <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" priority />
+        <Image src={project.image || "/images/projects/project-education.jpg"} alt={project.title} fill className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40" />
 
         <div className="absolute inset-0 flex items-center">

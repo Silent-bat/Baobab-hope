@@ -52,12 +52,12 @@ export default function BlogDetailPage() {
       author: "Sarah Johnson",
       authorBio:
         "Sarah is our Water Projects Coordinator with over 8 years of experience in community development and water access initiatives across South Asia.",
-      authorImage: "/placeholder.svg?height=100&width=100",
+      authorImage: "/images/team/team-member-1.jpg",
       date: "2024-05-15",
       readTime: "5",
       category: "Project Update",
       tags: ["Water Access", "Bangladesh", "Community Development", "Health"],
-      image: "/images/blog-water.svg",
+      image: "/images/blog/blog-water.jpg",
       featured: true,
     },
     "2": {
@@ -103,12 +103,12 @@ export default function BlogDetailPage() {
       author: "David Chen",
       authorBio:
         "David is our Communications Manager, specializing in volunteer stories and community impact documentation.",
-      authorImage: "/placeholder.svg?height=100&width=100",
+      authorImage: "/images/team/team-member-1.jpg",
       date: "2024-05-10",
       readTime: "7",
       category: "Volunteer Stories",
       tags: ["Volunteer Spotlight", "Guatemala", "Healthcare", "Leadership"],
-      image: "/images/blog-volunteer.svg",
+      image: "/images/volunteer/volunteer-education.jpg",
       featured: false,
     },
     "3": {
@@ -194,12 +194,12 @@ export default function BlogDetailPage() {
       author: "Emily Watson",
       authorBio:
         "Emily leads our Education Programs across East Africa, bringing 12 years of experience in international development and education policy.",
-      authorImage: "/placeholder.svg?height=100&width=100",
+      authorImage: "/images/team/team-member-1.jpg",
       date: "2024-05-05",
       readTime: "8",
       category: "Impact Report",
       tags: ["Education", "Kenya", "Literacy", "Impact Report"],
-      image: "/images/blog-education.svg",
+      image: "/images/blog/blog-education.jpg",
       featured: false,
     },
   }
@@ -228,7 +228,7 @@ export default function BlogDetailPage() {
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
       <section className="relative h-96 overflow-hidden">
-        <Image src={post.image || "/placeholder.svg"} alt={post.title} fill className="object-cover" priority />
+        <Image src={post.image || "/images/blog/blog-education.jpg"} alt={post.title} fill className="object-cover" priority />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40" />
 
         <div className="absolute inset-0 flex items-center">
@@ -260,7 +260,7 @@ export default function BlogDetailPage() {
               <div className="flex flex-wrap items-center gap-6 mb-8 pb-8 border-b border-gray-200">
                 <div className="flex items-center space-x-3">
                   <Image
-                    src={post.authorImage || "/placeholder.svg"}
+                    src={post.authorImage || "/images/team/team-member-1.jpg"}
                     alt={post.author}
                     width={48}
                     height={48}
@@ -312,7 +312,7 @@ export default function BlogDetailPage() {
               <div className="mt-12 p-6 bg-gray-50 rounded-lg">
                 <div className="flex items-start space-x-4">
                   <Image
-                    src={post.authorImage || "/placeholder.svg"}
+                    src={post.authorImage || "/images/team/team-member-1.jpg"}
                     alt={post.author}
                     width={80}
                     height={80}
@@ -392,7 +392,7 @@ export default function BlogDetailPage() {
             {relatedPosts.map((relatedPost) => (
               <Card key={relatedPost.id} className="overflow-hidden hover:shadow-lg transition-shadow">
                 <Image
-                  src={relatedPost.image || "/placeholder.svg"}
+                  src={relatedPost.image || "/images/blog/blog-education.jpg"}
                   alt={relatedPost.title}
                   width={400}
                   height={200}

@@ -1,0 +1,64 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#991b1b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="personGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#bgGradient)"/>
+  
+  <!-- Central community circle -->
+  <circle cx="200" cy="100" r="50" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  
+  <!-- People around the circle -->
+  <g transform="translate(200,100)">
+    <!-- Person 1 -->
+    <g transform="translate(-60,-30)">
+      <circle cx="0" cy="0" r="8" fill="url(#personGradient)"/>
+      <rect x="-6" y="8" width="12" height="15" rx="6" fill="url(#personGradient)"/>
+    </g>
+    
+    <!-- Person 2 -->
+    <g transform="translate(60,-30)">
+      <circle cx="0" cy="0" r="8" fill="url(#personGradient)"/>
+      <rect x="-6" y="8" width="12" height="15" rx="6" fill="url(#personGradient)"/>
+    </g>
+    
+    <!-- Person 3 -->
+    <g transform="translate(0,50)">
+      <circle cx="0" cy="0" r="8" fill="url(#personGradient)"/>
+      <rect x="-6" y="8" width="12" height="15" rx="6" fill="url(#personGradient)"/>
+    </g>
+    
+    <!-- Person 4 -->
+    <g transform="translate(-40,30)">
+      <circle cx="0" cy="0" r="8" fill="url(#personGradient)"/>
+      <rect x="-6" y="8" width="12" height="15" rx="6" fill="url(#personGradient)"/>
+    </g>
+    
+    <!-- Person 5 -->
+    <g transform="translate(40,30)">
+      <circle cx="0" cy="0" r="8" fill="url(#personGradient)"/>
+      <rect x="-6" y="8" width="12" height="15" rx="6" fill="url(#personGradient)"/>
+    </g>
+  </g>
+  
+  <!-- Connecting lines -->
+  <line x1="200" y1="100" x2="140" y2="70" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <line x1="200" y1="100" x2="260" y2="70" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <line x1="200" y1="100" x2="200" y2="150" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <line x1="200" y1="100" x2="160" y2="130" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  <line x1="200" y1="100" x2="240" y2="130" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+  
+  <!-- Central heart -->
+  <path d="M200,90 C200,80 210,70 220,70 C230,70 240,80 240,90 C240,100 200,130 200,130 C200,130 160,100 160,90 C160,80 170,70 180,70 C190,70 200,80 200,90 Z" fill="rgba(255,255,255,0.8)"/>
+  
+  <!-- Text -->
+  <text x="200" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Community Impact</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg width="600" height="300" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#047857;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="treeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Trees -->
+  <g transform="translate(100,200)">
+    <!-- Tree trunk -->
+    <rect x="-5" y="0" width="10" height="40" fill="#8b4513"/>
+    <!-- Tree canopy -->
+    <circle cx="0" cy="0" r="25" fill="url(#treeGradient)"/>
+  </g>
+  
+  <g transform="translate(200,200)">
+    <rect x="-5" y="0" width="10" height="40" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="25" fill="url(#treeGradient)"/>
+  </g>
+  
+  <g transform="translate(300,200)">
+    <rect x="-5" y="0" width="10" height="40" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="25" fill="url(#treeGradient)"/>
+  </g>
+  
+  <g transform="translate(400,200)">
+    <rect x="-5" y="0" width="10" height="40" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="25" fill="url(#treeGradient)"/>
+  </g>
+  
+  <g transform="translate(500,200)">
+    <rect x="-5" y="0" width="10" height="40" fill="#8b4513"/>
+    <circle cx="0" cy="0" r="25" fill="url(#treeGradient)"/>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="500" cy="80" r="30" fill="url(#treeGradient)"/>
+  
+  <!-- Birds -->
+  <g fill="white">
+    <path d="M150,120 Q160,110 170,120 Q160,130 150,120" fill="white"/>
+    <path d="M250,100 Q260,90 270,100 Q260,110 250,100" fill="white"/>
+    <path d="M350,110 Q360,100 370,110 Q360,120 350,110" fill="white"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="240" width="600" height="60" fill="#8b4513"/>
+  
+  <!-- Text -->
+  <text x="300" y="50" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Environmental Conservation</text>
+</svg>

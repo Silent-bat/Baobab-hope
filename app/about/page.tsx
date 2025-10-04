@@ -110,19 +110,19 @@ export default function AboutPage() {
       name: t("about.team.member1.name"),
       role: t("about.team.member1.role"),
       bio: t("about.team.member1.bio"),
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/team-member-1.jpg",
     },
     {
       name: t("about.team.member2.name"),
       role: t("about.team.member2.role"),
       bio: t("about.team.member2.bio"),
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/team-member-2.jpg",
     },
     {
       name: t("about.team.member3.name"),
       role: t("about.team.member3.role"),
       bio: t("about.team.member3.bio"),
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/team/team-member-3.jpg",
     },
   ]
 
@@ -174,7 +174,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/images/hero-education.svg"
+                src="/images/heroes/hero-about.jpg"
                 alt="BAOBAB HOPE mission"
                 width={600}
                 height={400}

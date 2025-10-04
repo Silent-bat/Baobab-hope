@@ -44,7 +44,7 @@ export default function HomePage() {
     {
       title: "Clean Water Transforms Village Life",
       description: "How a new well system brought hope and health to 500 families in rural Mali",
-      image: "/images/water-project.svg",
+      image: "/images/impact/impact-community.jpg",
       category: "Water Access",
       readTime: "5 min read",
       href: "/blog/clean-water-mali",
@@ -52,7 +52,7 @@ export default function HomePage() {
     {
       title: "Education Opens New Doors",
       description: "Meet Amina, whose literacy program participation led to starting her own business",
-      image: "/images/education-project.svg",
+      image: "/images/impact/impact-education.jpg",
       category: "Education",
       readTime: "7 min read",
       href: "/blog/amina-success-story",
@@ -60,7 +60,7 @@ export default function HomePage() {
     {
       title: "Healthcare Reaches Remote Communities",
       description: "Mobile clinics bring essential medical care to previously unreachable areas",
-      image: "/images/healthcare-project.svg",
+      image: "/images/impact/impact-healthcare.jpg",
       category: "Healthcare",
       readTime: "6 min read",
       href: "/blog/mobile-healthcare",
@@ -199,14 +199,14 @@ export default function HomePage() {
               >
                 <div className="relative overflow-hidden">
                   <Image
-                    src={story.image || "/images/placeholder.svg"}
+                    src={story.image || "/images/impact/impact-community.jpg"}
                     alt={story.title}
                     width={400}
                     height={250}
                     className="w-full h-48 object-cover transition-transform duration-700 hover:scale-110"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement
-                      target.src = "/images/placeholder.svg"
+                      target.src = "/images/impact/impact-community.jpg"
                     }}
                   />
                   <div className="absolute top-4 left-4">
