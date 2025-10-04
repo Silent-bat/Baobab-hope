@@ -230,7 +230,7 @@ export function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-1" role="navigation" aria-label={t('accessibility.navigation')}>
+            <nav className="hidden lg:flex items-center space-x-1" role="navigation" aria-label={t('accessibility.navigation')}>
               {navigation.map((item, index) => (
                 <div key={item.name} className="relative group">
                   {item.dropdown ? (
@@ -298,8 +298,38 @@ export function Header() {
               ))}
             </nav>
 
+            {/* Tablet Navigation */}
+            <nav className="hidden md:flex lg:hidden items-center space-x-1" role="navigation" aria-label={t('accessibility.navigation')}>
+              {navigation.slice(0, 4).map((item, index) => (
+                <div key={item.name} className="relative group">
+                  <Link
+                    href={localizeHref(item.href)}
+                    onClick={handleNavClick}
+                    className="group flex items-center space-x-1 px-2 py-2.5 rounded-xl font-medium text-xs transition-all duration-300 hover:bg-red-50 hover:text-red-600 text-gray-700 hover:text-gray-900"
+                    title={item.name}
+                  >
+                    <span className="text-base group-hover:scale-110 transition-transform">{item.icon}</span>
+                  </Link>
+                </div>
+              ))}
+            </nav>
+
+            {/* Tablet Actions */}
+            <div className="hidden md:flex lg:hidden items-center space-x-2">
+              <LanguageSelector />
+              <Button
+                asChild
+                className="bg-red-600 hover:bg-red-700 text-white px-4 py-2.5 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg text-xs"
+              >
+                <Link href={localizeHref("/donate")} className="flex items-center space-x-1">
+                  <Heart className="w-3 h-3" />
+                  <span>Donate</span>
+                </Link>
+              </Button>
+            </div>
+
             {/* Desktop Actions */}
-            <div className="hidden md:flex items-center space-x-2 lg:space-x-3">
+            <div className="hidden lg:flex items-center space-x-2 lg:space-x-3">
               {/* Search */}
               <div className="relative" ref={searchContainerRef}>
                 <Button
@@ -341,7 +371,7 @@ export function Header() {
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden w-10 h-10 rounded-xl"
+              className="lg:hidden w-10 h-10 rounded-xl"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
@@ -352,7 +382,7 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 z-50 bg-white animate-in slide-in-from-top-2 duration-300">
+          <div className="lg:hidden fixed inset-0 z-50 bg-white animate-in slide-in-from-top-2 duration-300">
             <div className="flex flex-col h-full">
               {/* Mobile Header */}
               <div className="flex items-center justify-between p-4 sm:p-6 border-b border-gray-200 bg-white/95 backdrop-blur-sm">
