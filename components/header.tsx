@@ -138,6 +138,20 @@ export function Header() {
     setActiveDropdown(null)
   }, [pathname])
 
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+    
+    // Cleanup on unmount
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isMobileMenuOpen])
+
   const localizeHref = (href: string) => {
     const locale = pathname.split('/')[1]
     return `/${locale}${href}`
@@ -187,7 +201,7 @@ export function Header() {
         className={`sticky top-0 z-50 transition-all duration-300 ${
           isScrolled
             ? "bg-white shadow-lg border-b border-gray-200"
-            : "bg-white/95 backdrop-blur-sm"
+            : "bg-white"
         }`}
         role="banner"
       >
@@ -228,7 +242,7 @@ export function Header() {
                               : 'text-gray-700 hover:text-gray-900'
                           }`}
                         >
-                          <span className="text-lg">{item.icon}</span>
+                          <span className="text-lg"><item.icon className="w-5 h-5" /></span>
                           <span>{item.name}</span>
                           <ChevronDown className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" />
                         </Button>
@@ -240,7 +254,7 @@ export function Header() {
                       >
                         <div className="px-2 py-1 mb-3">
                           <h3 className="text-sm font-semibold text-gray-900 mb-1 flex items-center space-x-2">
-                            <span className="text-lg">{item.icon}</span>
+                            <span className="text-lg"><item.icon className="w-5 h-5" /></span>
                             <span>{item.name}</span>
                           </h3>
                           <p className="text-xs text-gray-600">{item.description}</p>
@@ -253,7 +267,7 @@ export function Header() {
                                 onClick={handleNavClick}
                                 className="flex items-center space-x-3 px-4 py-3 hover:bg-red-50 hover:text-red-600 rounded-xl cursor-pointer transition-all duration-200 text-sm font-medium group"
                               >
-                                <span className="text-lg group-hover:scale-110 transition-transform">{subItem.icon}</span>
+                                <span className="text-lg group-hover:scale-110 transition-transform"><subItem.icon className="w-5 h-5" /></span>
                                 <div className="flex flex-col">
                                   <span className="font-medium">{subItem.name}</span>
                                   <span className="text-xs text-gray-500 group-hover:text-red-500">{subItem.description}</span>
@@ -274,7 +288,7 @@ export function Header() {
                           : 'text-gray-700 hover:text-gray-900'
                       }`}
                     >
-                      <span className="text-lg group-hover:scale-110 transition-transform">{item.icon}</span>
+                      <span className="text-lg group-hover:scale-110 transition-transform"><item.icon className="w-5 h-5" /></span>
                       <span>{item.name}</span>
                     </Link>
                   )}
@@ -336,10 +350,10 @@ export function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden fixed inset-0 z-50 bg-white">
+          <div className="lg:hidden fixed inset-0 z-[9999] bg-white overflow-hidden">
             <div className="flex flex-col h-full">
               {/* Mobile Header */}
-              <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-white">
+              <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-white flex-shrink-0">
                 <Link href={localizeHref("/")} className="flex items-center space-x-3" onClick={closeMenu}>
                   <div className="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center">
                     <Heart className="w-6 h-6 text-white" />
@@ -360,10 +374,10 @@ export function Header() {
               </div>
 
               {/* Mobile Navigation */}
-              <div className="flex-1 overflow-y-auto p-4">
-                <nav className="space-y-1" role="navigation" aria-label={t('accessibility.navigation')}>
+              <div className="flex-1 overflow-y-auto p-4 min-h-0">
+                <nav className="space-y-2" role="navigation" aria-label={t('accessibility.navigation')}>
                   {navigation.map((item, index) => (
-                    <div key={item.name} className="border-b border-gray-100 last:border-b-0 pb-2 last:pb-0">
+                    <div key={item.name} className="border-b border-gray-100 last:border-b-0 pb-3 last:pb-0">
                       <div className="flex items-center justify-between">
                         <div className="flex-1">
                           <Link
@@ -371,7 +385,7 @@ export function Header() {
                             onClick={!item.dropdown ? closeMenu : undefined}
                             className="flex items-center space-x-3 px-3 py-3 rounded-xl hover:bg-red-50 hover:text-red-600 transition-all duration-200 group"
                           >
-                            <span className="text-xl group-hover:scale-110 transition-transform">{item.icon}</span>
+                            <span className="text-xl group-hover:scale-110 transition-transform"><item.icon className="w-5 h-5" /></span>
                             <div className="flex flex-col">
                               <span className="font-medium text-gray-700 group-hover:text-red-600">{item.name}</span>
                               <span className="text-xs text-gray-500 group-hover:text-red-500">{item.description}</span>
@@ -404,7 +418,7 @@ export function Header() {
                               onClick={closeMenu}
                               className="flex items-center space-x-3 px-3 py-2.5 hover:bg-white rounded-xl transition-all duration-200 group"
                             >
-                              <span className="text-lg group-hover:scale-110 transition-transform">{subItem.icon}</span>
+                              <span className="text-lg group-hover:scale-110 transition-transform"><subItem.icon className="w-5 h-5" /></span>
                               <div className="flex flex-col">
                                 <span className="text-sm font-medium text-gray-700 group-hover:text-red-600">{subItem.name}</span>
                                 <span className="text-xs text-gray-500 group-hover:text-red-500">{subItem.description}</span>
