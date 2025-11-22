@@ -50,7 +50,7 @@ export function PageSEO({
   const finalDescription = description || (descriptionKey ? getMetaDescription(descriptionKey) : undefined)
   const finalKeywords = keywords || (keywordsKey ? getKeywords(keywordsKey) : undefined)
   const finalOGImage = getOGImageUrl(ogImage)
-  
+
   // Generate breadcrumb data
   const breadcrumbData = breadcrumbs ? generateBreadcrumbs(breadcrumbs) : undefined
 
@@ -61,13 +61,13 @@ export function PageSEO({
         {finalTitle && <title>{finalTitle}</title>}
         {finalDescription && <meta name="description" content={finalDescription} />}
         {finalKeywords && <meta name="keywords" content={finalKeywords} />}
-        
+
         {/* Language and direction */}
         <html lang={language} dir={direction} />
-        
+
         {/* Canonical URL */}
         <link rel="canonical" href={canonicalUrl} />
-        
+
         {/* Hreflang links */}
         {hreflangLinks.map(({ hreflang, href }) => (
           <link
@@ -77,7 +77,7 @@ export function PageSEO({
             href={href}
           />
         ))}
-        
+
         {/* Robots */}
         <meta
           name="robots"
@@ -87,7 +87,7 @@ export function PageSEO({
           name="googlebot"
           content={noindex ? 'noindex,nofollow' : 'index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1'}
         />
-        
+
         {/* Open Graph */}
         {finalTitle && <meta property="og:title" content={finalTitle} />}
         {finalDescription && <meta property="og:description" content={finalDescription} />}
@@ -99,7 +99,7 @@ export function PageSEO({
         {finalOGImage && <meta property="og:image:width" content="1200" />}
         {finalOGImage && <meta property="og:image:height" content="630" />}
         {finalOGImage && <meta property="og:image:alt" content={finalTitle || 'BAOBAB HOPE'} />}
-        
+
         {/* Add alternate locales for Open Graph */}
         {hreflangLinks
           .filter(link => link.hreflang !== language && link.hreflang !== 'x-default')
@@ -110,7 +110,7 @@ export function PageSEO({
               content={hreflang}
             />
           ))}
-        
+
         {/* Twitter Card */}
         <meta name="twitter:card" content={twitterCard} />
         {finalTitle && <meta name="twitter:title" content={finalTitle} />}
@@ -118,24 +118,21 @@ export function PageSEO({
         {finalOGImage && <meta name="twitter:image" content={finalOGImage} />}
         <meta name="twitter:site" content="@baobabhope" />
         <meta name="twitter:creator" content="@baobabhope" />
-        
+
         {/* Additional meta tags */}
         <meta name="author" content="BAOBAB HOPE" />
         <meta name="publisher" content="BAOBAB HOPE" />
         <meta name="generator" content="Next.js" />
-        
+
         {/* Favicon and app icons */}
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
         <link rel="manifest" href="/site.webmanifest" />
-        
+
         {/* Theme color */}
         <meta name="theme-color" content="#10b981" />
         <meta name="msapplication-TileColor" content="#10b981" />
       </Head>
-      
+
       {/* Structured Data */}
       <StructuredData
         title={finalTitle}
@@ -218,7 +215,7 @@ export function ArticleSEO({
       name: 'BAOBAB HOPE',
       logo: {
         '@type': 'ImageObject',
-        url: '/logo.png'
+        url: '/images/newlogo.png'
       }
     },
     articleSection: section,
@@ -236,7 +233,7 @@ export function ArticleSEO({
         structuredDataType="Article"
         customStructuredData={articleStructuredData}
       />
-      
+
       {/* Additional article meta tags */}
       <Head>
         <meta property="article:published_time" content={publishedTime} />

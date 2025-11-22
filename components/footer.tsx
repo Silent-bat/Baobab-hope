@@ -52,7 +52,7 @@ export function Footer() {
           {/* Brand and Mission */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <Image src="/logo.png" alt="BAOBAB HOPE" width={40} height={40} className="h-10 w-10" />
+              <Image src="/images/newlogo.png" alt="BAOBAB HOPE" width={40} height={40} className="h-10 w-10" />
               <span className="text-xl font-bold text-red-400">BAOBAB HOPE</span>
             </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">{t("footer.mission")}</p>

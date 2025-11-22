@@ -1,10 +1,10 @@
 import { Metadata } from 'next'
 import { SUPPORTED_LANGUAGES } from './languages'
-import { 
-  generateHreflangLinks, 
-  getCanonicalUrl, 
+import {
+  generateHreflangLinks,
+  getCanonicalUrl,
   addLocaleToPathname,
-  getLanguageDirection 
+  getLanguageDirection
 } from './url-utils'
 
 export interface LocalizedMetadata {
@@ -16,6 +16,7 @@ export interface LocalizedMetadata {
   twitterCard?: 'summary' | 'summary_large_image' | 'app' | 'player'
   noindex?: boolean
   alternateLanguages?: Record<string, string>
+
 }
 
 export interface MetadataGeneratorOptions {
@@ -41,7 +42,8 @@ export function generateMultilingualMetadata({
     ogImage,
     ogType = 'website',
     twitterCard = 'summary_large_image',
-    noindex = false
+    noindex = false,
+
   } = metadata
 
   // Generate URLs
@@ -65,8 +67,8 @@ export function generateMultilingualMetadata({
 
   // Get language info
   const currentLanguageInfo = SUPPORTED_LANGUAGES.find(lang => lang.code === language)
-  const locale = currentLanguageInfo ? 
-    `${language}_${getRegionCode(currentLanguageInfo.region) || 'US'}` : 
+  const locale = currentLanguageInfo ?
+    `${language}_${getRegionCode(currentLanguageInfo.region) || 'US'}` :
     `${language}_US`
 
   // Build alternate locales for OpenGraph
@@ -79,6 +81,7 @@ export function generateMultilingualMetadata({
     description,
     keywords,
     alternates,
+
     robots: {
       index: !noindex,
       follow: !noindex,
@@ -150,7 +153,7 @@ export async function generateMetadataFromHeaders(
  */
 function getRegionCode(region?: string): string | null {
   if (!region) return null
-  
+
   const regionMap: Record<string, string> = {
     'Global': 'US',
     'Europe': 'EU',
@@ -168,7 +171,7 @@ function getRegionCode(region?: string): string | null {
     'Americas/Europe': 'ES',
     'Americas/Europe/Africa': 'PT'
   }
-  
+
   return regionMap[region] || 'US'
 }
 
@@ -212,7 +215,7 @@ export function generateStructuredData({
 
   // Add alternate language versions
   if (hreflangLinks.length > 0) {
-    baseStructuredData.isPartOf = {
+    (baseStructuredData.isPartOf as any) = {
       ...baseStructuredData.isPartOf,
       potentialAction: {
         '@type': 'ReadAction',

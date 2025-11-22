@@ -87,7 +87,7 @@ export function OrganizationStructuredData({ baseUrl = 'https://baobabhope.org' 
     alternateName: 'One Heart, One Hand',
     description: 'A non-profit organization dedicated to sustainable development, education, and community empowerment.',
     url: baseUrl,
-    logo: `${baseUrl}/logo.png`,
+    logo: `${baseUrl}/images/newlogo.png`,
     slogan: 'One Heart, One Hand',
     foundingDate: '2020',
     sameAs: [
@@ -112,9 +112,9 @@ export function OrganizationStructuredData({ baseUrl = 'https://baobabhope.org' 
     },
     areaServed: 'Worldwide',
     knowsAbout: [
-      'Education', 
-      'Healthcare', 
-      'Environmental Conservation', 
+      'Education',
+      'Healthcare',
+      'Environmental Conservation',
       'Community Development',
       'Sustainable Development',
       'Poverty Alleviation'
@@ -157,7 +157,7 @@ export function WebsiteStructuredData({ baseUrl = 'https://baobabhope.org' }: { 
       name: 'BAOBAB HOPE',
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/logo.png`
+        url: `${baseUrl}/images/newlogo.png`
       }
     }
   }

@@ -17,13 +17,13 @@ export interface SEOData {
  * Hook for managing SEO data in components
  */
 export function useSEO() {
-  const { 
-    getCanonicalUrlForPage, 
-    getHreflangLinks, 
+  const {
+    getCanonicalUrlForPage,
+    getHreflangLinks,
     getCurrentUrl,
     baseUrl,
     language,
-    direction 
+    direction
   } = useUrl()
   const { t } = useLanguage()
 
@@ -51,10 +51,10 @@ export function useSEO() {
   const getPageTitle = (pageTitle?: string, includeSiteName = true) => {
     const siteName = t('site.name', { fallback: 'BAOBAB HOPE' })
     const separator = ' | '
-    
+
     if (!pageTitle) return siteName
     if (!includeSiteName) return pageTitle
-    
+
     return `${pageTitle}${separator}${siteName}`
   }
 
@@ -107,7 +107,7 @@ export function useSEO() {
    * Generate Open Graph image URL
    */
   const getOGImageUrl = (imagePath?: string) => {
-    if (!imagePath) return `${baseUrl}/logo.png`
+    if (!imagePath) return `${baseUrl}/images/newlogo.png`
     if (imagePath.startsWith('http')) return imagePath
     return `${baseUrl}${imagePath.startsWith('/') ? '' : '/'}${imagePath}`
   }
@@ -120,7 +120,7 @@ export function useSEO() {
     canonicalUrl: getCanonicalUrlForPage(),
     currentUrl: getCurrentUrl(),
     hreflangLinks: getHreflangLinks(),
-    
+
     // Utility functions
     generateMetaTags,
     getPageTitle,
@@ -129,7 +129,7 @@ export function useSEO() {
     generateBreadcrumbs,
     getSocialSharingUrls,
     getOGImageUrl,
-    
+
     // Translation function for convenience
     t
   }

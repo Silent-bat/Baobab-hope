@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { useLanguage } from "@/components/language-provider"
 import { Button } from "@/components/ui/button"
@@ -145,7 +146,7 @@ export function Header() {
     } else {
       document.body.style.overflow = 'unset'
     }
-    
+
     // Cleanup on unmount
     return () => {
       document.body.style.overflow = 'unset'
@@ -198,31 +199,28 @@ export function Header() {
 
       {/* Main Header */}
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-white shadow-lg border-b border-gray-200"
-            : "bg-white"
-        }`}
+        className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled
+          ? "bg-white shadow-lg border-b border-gray-200"
+          : "bg-white"
+          }`}
         role="banner"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
+
+          <div className="flex items-center justify-between h-20 lg:h-28">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link href={localizeHref("/")} className="flex items-center space-x-3 group">
+              <Link href={localizeHref("/")} className="flex items-center group">
                 <div className="relative">
-                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-red-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-                    <Heart className="w-6 h-6 lg:w-7 lg:h-7 text-white" />
+                  <div className="w-16 h-16 lg:w-24 lg:h-24 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+                    <Image
+                      src="/images/newlogo.png"
+                      alt="Baobab Hope Logo"
+                      width={96}
+                      height={96}
+                      className="object-contain w-full h-full"
+                    />
                   </div>
-                  <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-pulse"></div>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-xl lg:text-2xl font-bold text-gray-900 group-hover:text-red-600 transition-colors">
-                    BAOBAB HOPE
-                  </span>
-                  <span className="text-xs lg:text-sm text-gray-600 group-hover:text-red-500 transition-colors">
-                    One Heart, One Hand
-                  </span>
                 </div>
               </Link>
             </div>
@@ -236,13 +234,12 @@ export function Header() {
                       <DropdownMenuTrigger asChild>
                         <Button
                           variant="ghost"
-                          className={`group flex items-center space-x-2 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 hover:bg-red-50 hover:text-red-600 ${
-                            isActivePath(item.href) 
-                              ? 'text-red-600 bg-red-50' 
-                              : 'text-gray-700 hover:text-gray-900'
-                          }`}
+                          className={`group flex items-center space-x-2 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 hover:bg-red-50 hover:text-red-600 ${isActivePath(item.href)
+                            ? 'text-red-600 bg-red-50'
+                            : 'text-gray-700 hover:text-gray-900'
+                            }`}
                         >
-                          <span className="text-lg"><item.icon className="w-5 h-5" /></span>
+                          <span className="text-lg"><item.icon className="w-7 h-7" /></span>
                           <span>{item.name}</span>
                           <ChevronDown className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180" />
                         </Button>
@@ -254,7 +251,7 @@ export function Header() {
                       >
                         <div className="px-2 py-1 mb-3">
                           <h3 className="text-sm font-semibold text-gray-900 mb-1 flex items-center space-x-2">
-                            <span className="text-lg"><item.icon className="w-5 h-5" /></span>
+                            <span className="text-lg"><item.icon className="w-7 h-7" /></span>
                             <span>{item.name}</span>
                           </h3>
                           <p className="text-xs text-gray-600">{item.description}</p>
@@ -267,7 +264,7 @@ export function Header() {
                                 onClick={handleNavClick}
                                 className="flex items-center space-x-3 px-4 py-3 hover:bg-red-50 hover:text-red-600 rounded-xl cursor-pointer transition-all duration-200 text-sm font-medium group"
                               >
-                                <span className="text-lg group-hover:scale-110 transition-transform"><subItem.icon className="w-5 h-5" /></span>
+                                <span className="text-lg group-hover:scale-110 transition-transform"><subItem.icon className="w-7 h-7" /></span>
                                 <div className="flex flex-col">
                                   <span className="font-medium">{subItem.name}</span>
                                   <span className="text-xs text-gray-500 group-hover:text-red-500">{subItem.description}</span>
@@ -282,13 +279,12 @@ export function Header() {
                     <Link
                       href={localizeHref(item.href)}
                       onClick={handleNavClick}
-                      className={`group flex items-center space-x-2 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 hover:bg-red-50 hover:text-red-600 ${
-                        isActivePath(item.href) 
-                          ? 'text-red-600 bg-red-50' 
-                          : 'text-gray-700 hover:text-gray-900'
-                      }`}
+                      className={`group flex items-center space-x-2 px-4 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 hover:bg-red-50 hover:text-red-600 ${isActivePath(item.href)
+                        ? 'text-red-600 bg-red-50'
+                        : 'text-gray-700 hover:text-gray-900'
+                        }`}
                     >
-                      <span className="text-lg group-hover:scale-110 transition-transform"><item.icon className="w-5 h-5" /></span>
+                      <span className="text-lg group-hover:scale-110 transition-transform"><item.icon className="w-7 h-7" /></span>
                       <span>{item.name}</span>
                     </Link>
                   )}
@@ -306,7 +302,7 @@ export function Header() {
                   onClick={() => setIsSearchOpen(!isSearchOpen)}
                   className="w-10 h-10 rounded-xl hover:bg-red-50 hover:text-red-600 transition-all duration-300"
                 >
-                  <Search className="w-5 h-5" />
+                  <Search className="w-7 h-7" />
                 </Button>
                 {isSearchOpen && (
                   <div className="absolute right-0 top-12 w-80 bg-white rounded-2xl shadow-2xl border border-gray-200 p-4 z-50">
@@ -329,7 +325,7 @@ export function Header() {
                 className="bg-red-600 hover:bg-red-700 text-white px-6 py-2.5 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
               >
                 <Link href={localizeHref("/donate")} className="flex items-center space-x-2">
-                  <Heart className="w-4 h-4" />
+                  <Heart className="w-6 h-6" />
                   <span>Donate</span>
                 </Link>
               </Button>
@@ -343,7 +339,7 @@ export function Header() {
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMobileMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
             </Button>
           </div>
         </div>
@@ -354,13 +350,15 @@ export function Header() {
             <div className="flex flex-col h-full">
               {/* Mobile Header */}
               <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-white flex-shrink-0">
-                <Link href={localizeHref("/")} className="flex items-center space-x-3" onClick={closeMenu}>
-                  <div className="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center">
-                    <Heart className="w-6 h-6 text-white" />
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="text-xl font-bold text-gray-900">BAOBAB HOPE</span>
-                    <span className="text-xs text-gray-600">One Heart, One Hand</span>
+                <Link href={localizeHref("/")} className="flex items-center" onClick={closeMenu}>
+                  <div className="w-16 h-16 rounded-xl flex items-center justify-center overflow-hidden">
+                    <Image
+                      src="/images/newlogo.png"
+                      alt="Baobab Hope Logo"
+                      width={64}
+                      height={64}
+                      className="object-contain w-full h-full"
+                    />
                   </div>
                 </Link>
                 <Button
@@ -369,7 +367,7 @@ export function Header() {
                   onClick={closeMenu}
                   className="w-10 h-10 rounded-xl hover:bg-red-50"
                 >
-                  <X className="w-6 h-6" />
+                  <X className="w-8 h-8" />
                 </Button>
               </div>
 
@@ -385,7 +383,7 @@ export function Header() {
                             onClick={!item.dropdown ? closeMenu : undefined}
                             className="flex items-center space-x-3 px-3 py-3 rounded-xl hover:bg-red-50 hover:text-red-600 transition-all duration-200 group"
                           >
-                            <span className="text-xl group-hover:scale-110 transition-transform"><item.icon className="w-5 h-5" /></span>
+                            <span className="text-xl group-hover:scale-110 transition-transform"><item.icon className="w-8 h-8" /></span>
                             <div className="flex flex-col">
                               <span className="font-medium text-gray-700 group-hover:text-red-600">{item.name}</span>
                               <span className="text-xs text-gray-500 group-hover:text-red-500">{item.description}</span>
@@ -402,9 +400,8 @@ export function Header() {
                             aria-expanded={activeDropdown === item.name}
                           >
                             <ChevronRight
-                              className={`w-4 h-4 transition-transform duration-200 ${
-                                activeDropdown === item.name ? "rotate-90" : ""
-                              }`}
+                              className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.name ? "rotate-90" : ""
+                                }`}
                             />
                           </Button>
                         )}
@@ -418,7 +415,7 @@ export function Header() {
                               onClick={closeMenu}
                               className="flex items-center space-x-3 px-3 py-2.5 hover:bg-white rounded-xl transition-all duration-200 group"
                             >
-                              <span className="text-lg group-hover:scale-110 transition-transform"><subItem.icon className="w-5 h-5" /></span>
+                              <span className="text-lg group-hover:scale-110 transition-transform"><subItem.icon className="w-8 h-8" /></span>
                               <div className="flex flex-col">
                                 <span className="text-sm font-medium text-gray-700 group-hover:text-red-600">{subItem.name}</span>
                                 <span className="text-xs text-gray-500 group-hover:text-red-500">{subItem.description}</span>
@@ -439,7 +436,7 @@ export function Header() {
                       className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-xl font-semibold"
                     >
                       <Link href={localizeHref("/donate")} onClick={closeMenu} className="flex items-center justify-center space-x-2">
-                        <Heart className="w-5 h-5" />
+                        <Heart className="w-6 h-6" />
                         <span>Donate Now</span>
                       </Link>
                     </Button>
@@ -460,7 +457,7 @@ export function Header() {
                         size="icon"
                         className="w-12 h-12 rounded-xl border-gray-200 hover:bg-red-50 hover:border-red-200"
                       >
-                        <Search className="w-5 h-5" />
+                        <Search className="w-6 h-6" />
                       </Button>
                     </div>
                   </div>

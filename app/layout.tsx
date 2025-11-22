@@ -31,7 +31,8 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "BAOBAB HOPE - One Heart, One Hand | Empowering Communities",
     description: "BAOBAB HOPE - Un Coeur, Une Main. A non-profit organization dedicated to sustainable development, education, and community empowerment across Africa and beyond.",
     keywords: "charity, non-profit, Africa, education, sustainable development, community empowerment, donations, baobab hope, one heart one hand",
-    ogImage: "/logo.png"
+    ogImage: "/images/newlogo.png",
+
   })
 }
 
@@ -44,7 +45,7 @@ export default async function RootLayout({
   const headersList = await headers()
   const language = headersList.get('x-locale') || 'en'
   const pathname = headersList.get('x-pathname') || '/'
-  
+
   // Import language utilities
   const { getLanguageDirection } = await import('@/lib/i18n/url-utils')
   const direction = getLanguageDirection(language)
