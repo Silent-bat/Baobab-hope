@@ -2,9 +2,9 @@
 
 import { createContext, useContext, useState, useEffect, type ReactNode } from "react"
 import { usePathname, useRouter } from "next/navigation"
-import { 
-  LanguageContextType, 
-  Language, 
+import {
+  LanguageContextType,
+  Language,
   TranslationOptions,
   getEnabledLanguages,
   getLanguageByCode,
@@ -30,7 +30,7 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   const pathname = usePathname()
   const router = useRouter()
   const analytics = useLanguageAnalytics()
-  
+
   // Determine initial language: URL locale (if present) > provided initial > stored preference > default
   const urlSegments = typeof pathname === 'string' ? pathname.split('/') : ['/']
   const urlHasLocale = urlSegments.length > 1 && isSupportedLocale(urlSegments[1])
@@ -42,7 +42,7 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   const [isLoading, setIsLoading] = useState(true)
   const [availableLanguages, setAvailableLanguages] = useState<Language[]>(getEnabledLanguages())
   const [isMounted, setIsMounted] = useState(false)
-  
+
   // Set mounted state on client side
   useEffect(() => {
     setIsMounted(true)
@@ -51,19 +51,14 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   // Load initial translations immediately
   useEffect(() => {
     if (!isMounted) return
-    
+
     let isMountedRef = true
-    
+
     const loadInitialTranslations = async () => {
       try {
-        // Load translations for the current language immediately
+        // Load translations from single file
         await translationService.loadTranslations(language)
-        
-        // Also load default language if different
-        if (language !== DEFAULT_LANGUAGE) {
-          await translationService.loadTranslations(DEFAULT_LANGUAGE)
-        }
-        
+
         if (isMountedRef) {
           setIsLoading(false)
         }
@@ -74,47 +69,41 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
         }
       }
     }
-    
+
     loadInitialTranslations()
-    
+
     return () => {
       isMountedRef = false
     }
   }, [language, isMounted]) // Run when language changes
-  
+
   // Preload translations for all enabled languages in background for instant switching
   useEffect(() => {
     if (!isMounted) return
     const enabled = getEnabledLanguages().map(l => l.code)
-    // Preload all, but don't block UI
-    enabled.forEach(code => {
-      translationService.isLanguageLoaded(code).then(already => {
-        if (!already) {
-          translationService.loadTranslations(code).catch(() => {})
-        }
-      })
-    })
+    // Since we use a single file, translations are already loaded
+    // This effect is kept for potential future optimization
   }, [isMounted])
 
   // Update available languages when feature flags change
   useEffect(() => {
     if (!isMounted) return
-    
+
     const updateAvailableLanguages = () => {
       const supportedCodes = getSupportedLanguages()
-      const enabledLanguages = getEnabledLanguages().filter(lang => 
+      const enabledLanguages = getEnabledLanguages().filter(lang =>
         supportedCodes.includes(lang.code as any)
       )
       setAvailableLanguages(enabledLanguages)
     }
-    
+
     updateAvailableLanguages()
-    
+
     // Listen for feature flag updates
     const handleFeatureFlagUpdate = () => {
       updateAvailableLanguages()
     }
-    
+
     window.addEventListener('featureFlagsUpdated', handleFeatureFlagUpdate)
     return () => window.removeEventListener('featureFlagsUpdated', handleFeatureFlagUpdate)
   }, [isMounted])
@@ -122,7 +111,7 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   // Sync language state with URL changes and track page views
   useEffect(() => {
     if (!isMounted) return
-    
+
     const segments = typeof pathname === 'string' ? pathname.split('/') : ['/']
     const hasLocale = segments.length > 1 && isSupportedLocale(segments[1])
     if (hasLocale) {
@@ -131,7 +120,7 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
         setLanguageState(currentUrlLanguage)
       }
     }
-    
+
     // Track page view with current language
     analytics.trackPageView(hasLocale ? getLocaleFromPathname(pathname) : language, pathname)
   }, [pathname, language, analytics, isMounted])
@@ -139,45 +128,40 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   // Initialize language detection and loading with performance monitoring
   useEffect(() => {
     if (!isMounted) return
-    
+
     const initializeLanguage = async () => {
       try {
         setIsLoading(true)
-        
+
         // Start performance measurement
         i18nPerformanceMonitor.startMeasurement(`language-init-${language}`, {
           language,
           source: 'initialization'
         })
-        
-        // Load translations for current language first
+
+        // Load translations for current language from single file
         const startTime = performance.now()
         await translationService.loadTranslations(language)
-        
-        // Also preload default language if different
-        if (language !== DEFAULT_LANGUAGE) {
-          await translationService.loadTranslations(DEFAULT_LANGUAGE)
-        }
-        
+
         const loadTime = performance.now() - startTime
-        
+
         // Record loading metrics
         i18nPerformanceMonitor.recordLoadingMetrics({
           language,
           loadTime,
           cacheHit: await translationService.isLanguageLoaded(language),
-          chunkCount: language !== DEFAULT_LANGUAGE ? 2 : 1,
+          chunkCount: 1, // Single file now
           totalSize: 0, // Would need to calculate actual size
           source: 'memory'
         })
-        
+
         // Track language selection analytics
         analytics.trackLanguageSelection(language, 'browser')
         analytics.trackTranslationLoaded(language, loadTime)
-        
+
         // End performance measurement
         i18nPerformanceMonitor.endMeasurement(`language-init-${language}`)
-        
+
       } catch (error) {
         console.error('Language initialization failed:', error)
         analytics.trackTranslationError(language, 'initialization_failed', error instanceof Error ? error.message : 'Unknown error')
@@ -193,7 +177,7 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   // Handle language changes with URL navigation and performance monitoring
   const setLanguage = async (newLanguage: string) => {
     if (newLanguage === language) return
-    
+
     // Check enablement against local registry to align with available translation files
     const isCodeEnabledLocally = getEnabledLanguages().some(l => l.code === newLanguage)
     if (!isCodeEnabledLocally) {
@@ -201,29 +185,29 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
       analytics.trackTranslationError(newLanguage, 'language_not_enabled', 'Language disabled in local registry')
       return
     }
-    
+
     try {
       // Check cache before toggling loading state for instant UX
       const wasLoaded = await translationService.isLanguageLoaded(newLanguage)
       if (!wasLoaded) {
         setIsLoading(true)
       }
-      
+
       // Start performance measurement for language switching
       i18nPerformanceMonitor.startMeasurement(`language-switch-${newLanguage}`, {
         fromLanguage: language,
         toLanguage: newLanguage,
         source: 'user-action'
       })
-      
+
       // Save user preference
       LanguageDetectionService.setUserPreferredLanguage(newLanguage)
-      
+
       // Load translations for new language with performance tracking
       const startTime = performance.now()
       await translationService.loadTranslations(newLanguage)
       const loadTime = performance.now() - startTime
-      
+
       // Record loading metrics
       i18nPerformanceMonitor.recordLoadingMetrics({
         language: newLanguage,
@@ -233,27 +217,27 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
         totalSize: 0, // Would need to calculate actual size
         source: wasLoaded ? 'memory' : 'network'
       })
-      
+
       // Track language switch analytics
       analytics.trackLanguageSwitch(newLanguage, language)
       analytics.trackTranslationLoaded(newLanguage, loadTime)
-      
+
       // Announce language change to screen readers
       announceLanguageChange(language, newLanguage)
-      
+
       // Update local state immediately so t() reflects new language
       setLanguageState(newLanguage)
 
       // Navigate to new language URL
       const cleanPathname = removeLocaleFromPathname(pathname)
       const newPath = addLocaleToPathname(cleanPathname, newLanguage)
-      
+
       // Use router.push for client-side navigation
       router.push(newPath)
-      
+
       // End performance measurement
       i18nPerformanceMonitor.endMeasurement(`language-switch-${newLanguage}`)
-      
+
       // Update state will happen via useEffect when pathname changes
     } catch (error) {
       console.error(`Failed to switch to language ${newLanguage}:`, error)
@@ -268,19 +252,19 @@ export function LanguageProvider({ children, initialLanguage }: LanguageProvider
   const announceLanguageChange = (fromLanguage: string, toLanguage: string) => {
     const fromLang = getLanguageByCode(fromLanguage)
     const toLang = getLanguageByCode(toLanguage)
-    
+
     // Create announcement in both languages for better accessibility
     const announcement = `Language changed from ${fromLang?.name || fromLanguage} to ${toLang?.name || toLanguage}. ${t('accessibility.languageChanged', { interpolation: { language: toLang?.name || toLanguage } })}`
-    
+
     // Create a live region for screen reader announcements
     const liveRegion = document.createElement('div')
     liveRegion.setAttribute('aria-live', 'polite')
     liveRegion.setAttribute('aria-atomic', 'true')
     liveRegion.setAttribute('class', 'sr-only')
     liveRegion.textContent = announcement
-    
+
     document.body.appendChild(liveRegion)
-    
+
     // Remove the announcement after screen readers have processed it
     setTimeout(() => {
       document.body.removeChild(liveRegion)

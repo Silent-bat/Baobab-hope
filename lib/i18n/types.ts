@@ -44,6 +44,7 @@ export interface TranslationOptions {
   count?: number
   context?: string
   interpolation?: Record<string, string | number>
+  returnKeyIfNotFound?: boolean
 }
 
 export interface TranslationData {

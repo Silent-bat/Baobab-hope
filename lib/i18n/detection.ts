@@ -1,12 +1,12 @@
 // Language detection service with browser and geolocation detection
 
 import { LanguageDetectionResult } from './types'
-import { isLanguageSupported, getLanguageFallback, DEFAULT_LANGUAGE, buildFallbackChain, getHighestPriorityLanguage } from './languages'
+import { isLanguageSupported, DEFAULT_LANGUAGE } from './languages'
 
 export class LanguageDetectionService {
   private static readonly STORAGE_KEY = 'baobab-hope-language'
   private static readonly GEOLOCATION_TIMEOUT = 5000
-  
+
   // Language to country mapping for geolocation-based detection
   private static readonly COUNTRY_LANGUAGE_MAP: Record<string, string> = {
     // Major countries and their primary languages
@@ -74,14 +74,14 @@ export class LanguageDetectionService {
     try {
       // Get browser languages in order of preference
       const browserLanguages = navigator.languages || [navigator.language]
-      
+
       // Parse language preferences with quality values
       const parsedLanguages = this.parseBrowserLanguages(browserLanguages)
-      
+
       for (const { language: browserLang, quality } of parsedLanguages) {
         // Extract language code (e.g., 'en-US' -> 'en')
         const langCode = browserLang.split('-')[0].toLowerCase()
-        
+
         if (isLanguageSupported(langCode)) {
           return {
             language: langCode,
@@ -90,7 +90,7 @@ export class LanguageDetectionService {
           }
         }
       }
-      
+
       // If no supported language found, return fallback
       return {
         language: DEFAULT_LANGUAGE,
@@ -148,10 +148,10 @@ export class LanguageDetectionService {
           try {
             const { latitude, longitude } = position.coords
             const countryCode = await this.getCountryFromCoordinates(latitude, longitude)
-            
+
             if (countryCode && this.COUNTRY_LANGUAGE_MAP[countryCode]) {
               const detectedLang = this.COUNTRY_LANGUAGE_MAP[countryCode]
-              
+
               if (isLanguageSupported(detectedLang)) {
                 resolve({
                   language: detectedLang,
@@ -161,7 +161,7 @@ export class LanguageDetectionService {
                 return
               }
             }
-            
+
             resolve({
               language: DEFAULT_LANGUAGE,
               confidence: 0.2,
@@ -202,7 +202,7 @@ export class LanguageDetectionService {
     if (typeof window === 'undefined') {
       return null
     }
-    
+
     try {
       const stored = localStorage.getItem(this.STORAGE_KEY)
       if (stored && isLanguageSupported(stored)) {
@@ -226,7 +226,7 @@ export class LanguageDetectionService {
     if (typeof window === 'undefined') {
       return
     }
-    
+
     try {
       if (isLanguageSupported(language)) {
         localStorage.setItem(this.STORAGE_KEY, language)
@@ -241,12 +241,13 @@ export class LanguageDetectionService {
    */
   static getSupportedLanguage(requestedLanguage: string): string {
     const langCode = requestedLanguage.split('-')[0].toLowerCase()
-    
+
     if (isLanguageSupported(langCode)) {
       return langCode
     }
-    
-    return getLanguageFallback(langCode)
+
+    // Only support en/fr, so fallback to default
+    return DEFAULT_LANGUAGE
   }
 
   /**
@@ -275,18 +276,13 @@ export class LanguageDetectionService {
 
     // 4. Find the best detection result
     const bestResult = this.getBestDetectionResult(detectionResults)
-    
-    // 5. Apply fallback chain logic if needed
-    if (bestResult.confidence < 0.5) {
-      const fallbackChain = buildFallbackChain(bestResult.language)
-      const supportedLanguage = fallbackChain.find(lang => isLanguageSupported(lang))
-      
-      if (supportedLanguage && supportedLanguage !== bestResult.language) {
-        return {
-          language: supportedLanguage,
-          confidence: Math.max(0.3, bestResult.confidence * 0.8),
-          source: 'fallback'
-        }
+
+    // 5. If not supported, fallback to default
+    if (!isLanguageSupported(bestResult.language)) {
+      return {
+        language: DEFAULT_LANGUAGE,
+        confidence: 0.3,
+        source: 'fallback'
       }
     }
 
@@ -333,7 +329,7 @@ export class LanguageDetectionService {
       // - OpenStreetMap Nominatim
       // - MaxMind GeoIP
       // - IP-based geolocation as fallback
-      
+
       // For now, return null to use fallback detection
       return null
     } catch (error) {
@@ -350,7 +346,7 @@ export class LanguageDetectionService {
     if (typeof window === 'undefined') {
       return
     }
-    
+
     try {
       localStorage.removeItem(this.STORAGE_KEY)
     } catch (error) {
@@ -376,29 +372,16 @@ export class LanguageDetectionService {
       results.push(browserDetection)
     }
 
-    // Add fallback languages for each detected language
-    const allLanguages = new Set<string>()
-    results.forEach(result => {
-      const fallbackChain = buildFallbackChain(result.language)
-      fallbackChain.forEach(lang => allLanguages.add(lang))
-    })
+    // With only en/fr support, add default as fallback if not already present
+    if (!results.some(r => r.language === DEFAULT_LANGUAGE)) {
+      results.push({
+        language: DEFAULT_LANGUAGE,
+        confidence: 0.3,
+        source: 'fallback'
+      })
+    }
 
-    // Convert to results with appropriate confidence
-    const finalResults: LanguageDetectionResult[] = []
-    Array.from(allLanguages).forEach((lang, index) => {
-      const existingResult = results.find(r => r.language === lang)
-      if (existingResult) {
-        finalResults.push(existingResult)
-      } else {
-        finalResults.push({
-          language: lang,
-          confidence: Math.max(0.1, 0.5 - (index * 0.1)),
-          source: 'fallback'
-        })
-      }
-    })
-
-    return finalResults.sort((a, b) => b.confidence - a.confidence)
+    return results.sort((a, b) => b.confidence - a.confidence)
   }
 
   /**
@@ -407,11 +390,11 @@ export class LanguageDetectionService {
   static shouldSuggestLanguageSwitch(currentLanguage: string): { suggest: boolean; recommendedLanguage?: string; reason?: string } {
     try {
       const browserDetection = this.detectBrowserLanguage()
-      
+
       // Suggest switch if browser language has high confidence and differs from current
-      if (browserDetection.confidence > 0.8 && 
-          browserDetection.language !== currentLanguage && 
-          isLanguageSupported(browserDetection.language)) {
+      if (browserDetection.confidence > 0.8 &&
+        browserDetection.language !== currentLanguage &&
+        isLanguageSupported(browserDetection.language)) {
         return {
           suggest: true,
           recommendedLanguage: browserDetection.language,
@@ -440,7 +423,7 @@ export class LanguageDetectionService {
     const supportedBrowserLanguages = browserLanguages
       .map(lang => lang.split('-')[0].toLowerCase())
       .filter(lang => isLanguageSupported(lang))
-    
+
     const detection = this.detectBrowserLanguage()
 
     return {

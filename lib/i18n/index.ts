@@ -16,11 +16,11 @@ export {
   SUPPORTED_LANGUAGES,
   getLanguageByCode,
   getEnabledLanguages,
-  getRTLLanguages,
-  getLanguagesByRegion,
-  getSupportedLanguageCodes,
+  getAllLanguages,
+  getSupportedLanguages,
   isLanguageSupported,
-  getLanguageFallback,
+  getLanguageDirection,
+  getLanguageName,
   DEFAULT_LANGUAGE,
   FALLBACK_LANGUAGE
 } from './languages'
@@ -29,7 +29,7 @@ export {
 export { LanguageDetectionService } from './detection'
 
 // Translation service
-export { TranslationService, translationService } from './translation-service'
+export { translationService } from './translation-service'
 
 // Cultural formatting
 export { CulturalFormattingService } from './cultural-formatting'
@@ -47,12 +47,8 @@ export function parseTranslationKey(fullKey: string): { namespace: string; key: 
 }
 
 export function isRTLLanguage(languageCode: string): boolean {
-  const rtlLanguages = ['ar', 'he', 'fa', 'ur', 'yi', 'ji', 'iw', 'ku', 'ps']
-  return rtlLanguages.includes(languageCode)
-}
-
-export function getLanguageDirection(languageCode: string): 'ltr' | 'rtl' {
-  return isRTLLanguage(languageCode) ? 'rtl' : 'ltr'
+  // Arabic is RTL, others are LTR
+  return languageCode === 'ar'
 }
 
 export function normalizeLanguageCode(code: string): string {
