@@ -1516,7 +1516,8 @@
         "placeholder": "your.email@example.com",
         "subscribe": "Subscribe",
         "stay": "Stay Informed"
-      }
+      },
+      "readMore": "Read More"
     },
     "information": {
       "title": "Information Hub",
@@ -1913,27 +1914,27 @@
   },
   "fr": {
     "project": {
-      "back": "Back to Projects",
-      "custom": "Custom Amount",
-      "donate": "Donate Now",
-      "duration": "Duration",
-      "funding": "Funding Goal",
-      "goal": "Goal",
+      "back": "Retour aux Projets",
+      "custom": "Montant Personnalisé",
+      "donate": "Faire un Don",
+      "duration": "Durée",
+      "funding": "Objectif de Financement",
+      "goal": "Objectif",
       "impact": "Impact",
-      "location": "Location",
-      "monthly": "Monthly",
-      "progress": "Progress",
-      "raised": "Raised",
-      "share": "Share",
-      "story": "Story",
+      "location": "Emplacement",
+      "monthly": "Mensuel",
+      "progress": "Progrès",
+      "raised": "Collecté",
+      "share": "Partager",
+      "story": "Histoire",
       "support": {
-        "title": "Support This Project"
+        "title": "Soutenir ce Projet"
       },
-      "updates": "Updates",
-      "amount": "Amount",
-      "beneficiaries": "Beneficiaries",
-      "achievements": "Achievements",
-      "impactInfo": "Impact Information",
+      "updates": "Mises à jour",
+      "amount": "Montant",
+      "beneficiaries": "Bénéficiaires",
+      "achievements": "Réalisations",
+      "impactInfo": "Informations sur l'Impact",
       "startDate": "Date de Début",
       "endDate": "Date de Fin",
       "status": "Statut",
@@ -1960,8 +1961,8 @@
       }
     },
     "projects": {
-      "title": "Our Actions",
-      "subtitle": "Discover the transformative initiatives creating lasting change in communities worldwide.",
+      "title": "Nos Actions",
+      "subtitle": "Découvrez les initiatives transformatrices créant un changement durable dans les communautés du monde entier.",
       "all": "Tous les Projets",
       "active": "Projets Actifs",
       "completed": "Projets Terminés",
@@ -2007,36 +2008,36 @@
         "averageSuccess": "Taux de Réussite"
       },
       "cta": {
-        "title": "Join Our Mission",
-        "subtitle": "Every contribution makes a difference",
+        "title": "Rejoignez Notre Mission",
+        "subtitle": "Chaque contribution fait la différence",
         "button": "Soumettre une Proposition de Projet",
-        "support": "Support Our Work",
-        "involved": "Get Involved"
+        "support": "Soutenir Notre Travail",
+        "involved": "Participer"
       },
       "education": {
-        "title": "Education & Literacy",
-        "description": "Building educational foundations that empower communities to thrive and grow sustainably."
+        "title": "Éducation et Alphabétisation",
+        "description": "Construire des fondations éducatives qui permettent aux communautés de prospérer et de croître durablement."
       },
       "environment": {
-        "title": "Environmental Conservation",
-        "description": "Protecting and restoring ecosystems while teaching sustainable practices to local communities."
+        "title": "Conservation Environnementale",
+        "description": "Protéger et restaurer les écosystèmes tout en enseignant des pratiques durables aux communautés locales."
       },
       "healthcare": {
-        "title": "Community Health",
-        "description": "Providing essential healthcare services and health education to underserved communities."
+        "title": "Santé Communautaire",
+        "description": "Fournir des services de santé essentiels et une éducation sanitaire aux communautés mal desservies."
       },
       "water": {
-        "title": "Clean Water Access",
-        "description": "Building sustainable water systems and teaching water conservation practices."
+        "title": "Accès à l'Eau Potable",
+        "description": "Construire des systèmes d'eau durables et enseigner les pratiques de conservation de l'eau."
       },
-      "view": "View Details",
-      "learn": "Learn More",
-      "explore": "Explore Project",
+      "view": "Voir les Détails",
+      "learn": "En Savoir Plus",
+      "explore": "Explorer le Projet",
       "impact": {
-        "title": "Our Impact",
-        "subtitle": "See the difference we're making together"
+        "title": "Notre Impact",
+        "subtitle": "Voyez la différence que nous faisons ensemble"
       },
-      "support": "Support Our Work"
+      "support": "Soutenir Notre Travail"
     },
     "campaigns": {
       "title": "Nos Campagnes",
@@ -2233,7 +2234,7 @@
       "menu": "Menu",
       "close": "Fermer",
       "open": "Ouvrir",
-      "learnMore": "Learn More",
+      "learnMore": "En Savoir Plus",
       "getStarted": "Commencer",
       "joinUs": "Rejoignez-Nous",
       "contactUs": "Contactez-Nous",
@@ -2241,7 +2242,7 @@
       "subscribe": "S'Abonner",
       "thankYou": "Merci",
       "success": {
-        "rate": "Success Rate"
+        "rate": "Taux de Réussite"
       },
       "apply": "Postuler",
       "submit": "Soumettre",
@@ -2251,15 +2252,15 @@
       "required": "Requis",
       "yes": "Oui",
       "no": "Non",
-      "started": "Started",
-      "ongoing": "Ongoing",
+      "started": "Démarré",
+      "ongoing": "En Cours",
       "people": {
-        "reached": "People Reached"
+        "reached": "Personnes Touchées"
       },
       "active": {
-        "projects": "Active Projects"
+        "projects": "Projets Actifs"
       },
-      "countries": "Countries",
+      "countries": "Pays",
       "successRate": "Taux de Réussite",
       "donate": "Faire un Don",
       "volunteer": "Bénévolat",
@@ -2281,7 +2282,7 @@
       "finish": "Terminer",
       "complete": "Compléter",
       "send": "Envoyer",
-      "email": "Email",
+      "email": "E-mail",
       "phone": "Téléphone",
       "address": "Adresse",
       "name": "Nom",
@@ -2319,147 +2320,147 @@
     ],
     "totalKeys": 750,
     "contact": {
-      "title": "Contact Us",
-      "subtitle": "Get in touch with us. We'd love to hear from you.",
+      "title": "Nous Contacter",
+      "subtitle": "Prenez contact avec nous. Nous serions ravis de vous entendre.",
       "form": {
-        "title": "Send us a Message",
-        "name": "Full Name",
-        "email": "Email Address",
+        "title": "Envoyez-nous un Message",
+        "name": "Nom Complet",
+        "email": "Adresse E-mail",
         "phone": {
-          "label": "Phone Number",
-          "placeholder": "Your phone number (optional)",
-          "error": "Please enter a valid phone number"
+          "label": "Numéro de Téléphone",
+          "placeholder": "Votre numéro de téléphone (optionnel)",
+          "error": "Veuillez entrer un numéro de téléphone valide"
         },
-        "subject": "Subject",
+        "subject": "Sujet",
         "message": "Message",
-        "send": "Send Message",
-        "sending": "Sending...",
-        "success": "Thank you! Your message has been sent successfully.",
-        "error": "Sorry, there was an error sending your message. Please try again."
+        "send": "Envoyer le Message",
+        "sending": "Envoi en cours...",
+        "success": "Merci ! Votre message a été envoyé avec succès.",
+        "error": "Désolé, une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer."
       },
       "info": {
-        "title": "Contact Information",
+        "title": "Informations de Contact",
         "email": {
-          "title": "Email",
+          "title": "E-mail",
           "value": "info@baobabhope.ch"
         },
         "phone": {
-          "title": "Phone",
+          "title": "Téléphone",
           "value": "+1 (555) 123-4567"
         },
         "address": {
-          "title": "Address",
-          "value": "123 Hope Street, City, State 12345"
+          "title": "Adresse",
+          "value": "123 Rue de l'Espoir, Ville, État 12345"
         },
         "hours": {
-          "title": "Office Hours",
-          "monday": "Monday - Friday: 9:00 AM - 6:00 PM",
-          "saturday": "Saturday: 10:00 AM - 4:00 PM",
-          "sunday": "Sunday: Closed"
+          "title": "Heures d'Ouverture",
+          "monday": "Lundi - Vendredi : 9h00 - 18h00",
+          "saturday": "Samedi : 10h00 - 16h00",
+          "sunday": "Dimanche : Fermé"
         }
       },
       "hero": {
-        "subtitle": "We're here to help and answer any questions you might have"
+        "subtitle": "Nous sommes là pour vous aider et répondre à toutes vos questions"
       },
       "help": {
-        "title": "How Can We Help?",
+        "title": "Comment Pouvons-Nous Vous Aider ?",
         "volunteer": {
-          "title": "Become a Volunteer",
-          "description": "Join our community of volunteers making a difference",
-          "button": "Volunteer Now"
+          "title": "Devenez Bénévole",
+          "description": "Rejoignez notre communauté de bénévoles qui font la différence",
+          "button": "Devenez Bénévole Maintenant"
         },
         "partner": {
-          "title": "Partnership Opportunities",
-          "description": "Explore ways to partner with us for greater impact",
-          "button": "Get Started"
+          "title": "Opportunités de Partenariat",
+          "description": "Explorez les moyens de vous associer à nous pour un plus grand impact",
+          "button": "Commencer"
         }
       }
     },
     "donation": {
-      "title": "Make a Donation",
-      "subtitle": "Your support creates lasting change",
+      "title": "Faire un Don",
+      "subtitle": "Votre soutien crée un changement durable",
       "form": {
         "amount": {
-          "label": "Donation Amount",
-          "placeholder": "Enter custom amount",
-          "error": "Please enter a valid amount",
-          "minimum": "Minimum donation is $5",
+          "label": "Montant du Don",
+          "placeholder": "Entrez un montant personnalisé",
+          "error": "Veuillez entrer un montant valide",
+          "minimum": "Le don minimum est de 5$",
           "currency": "$"
         },
         "frequency": {
-          "label": "Donation Frequency",
-          "oneTime": "One-time",
-          "monthly": "Monthly",
-          "quarterly": "Quarterly",
-          "annually": "Annually"
+          "label": "Fréquence du Don",
+          "oneTime": "Ponctuel",
+          "monthly": "Mensuel",
+          "quarterly": "Trimestriel",
+          "annually": "Annuel"
         },
         "personalInfo": {
-          "title": "Personal Information",
+          "title": "Informations Personnelles",
           "firstName": {
-            "label": "First Name",
-            "placeholder": "Your first name",
-            "error": "Please enter your first name"
+            "label": "Prénom",
+            "placeholder": "Votre prénom",
+            "error": "Veuillez entrer votre prénom"
           },
           "lastName": {
-            "label": "Last Name",
-            "placeholder": "Your last name",
-            "error": "Please enter your last name"
+            "label": "Nom de Famille",
+            "placeholder": "Votre nom de famille",
+            "error": "Veuillez entrer votre nom de famille"
           },
           "email": {
-            "label": "Email Address",
-            "placeholder": "your.email@example.com",
-            "error": "Please enter a valid email address"
+            "label": "Adresse E-mail",
+            "placeholder": "votre.email@exemple.com",
+            "error": "Veuillez entrer une adresse e-mail valide"
           },
           "phone": {
-            "label": "Phone Number (Optional)",
-            "placeholder": "Your phone number",
-            "error": "Please enter a valid phone number"
+            "label": "Numéro de Téléphone (Optionnel)",
+            "placeholder": "Votre numéro de téléphone",
+            "error": "Veuillez entrer un numéro de téléphone valide"
           }
         },
         "billingAddress": {
-          "title": "Billing Address",
+          "title": "Adresse de Facturation",
           "address": {
-            "label": "Street Address",
-            "placeholder": "123 Main Street",
-            "error": "Please enter your address"
+            "label": "Adresse",
+            "placeholder": "123 Rue Principale",
+            "error": "Veuillez entrer votre adresse"
           },
           "city": {
-            "label": "City",
-            "placeholder": "Your city",
-            "error": "Please enter your city"
+            "label": "Ville",
+            "placeholder": "Votre ville",
+            "error": "Veuillez entrer votre ville"
           },
           "state": {
-            "label": "State/Province",
-            "placeholder": "Your state",
-            "error": "Please enter your state"
+            "label": "État/Province",
+            "placeholder": "Votre état",
+            "error": "Veuillez entrer votre état"
           },
           "zip": {
-            "label": "ZIP/Postal Code",
+            "label": "Code Postal",
             "placeholder": "12345",
-            "error": "Please enter your ZIP code"
+            "error": "Veuillez entrer votre code postal"
           },
           "country": {
-            "label": "Country",
-            "placeholder": "Select country",
-            "error": "Please select your country"
+            "label": "Pays",
+            "placeholder": "Sélectionnez le pays",
+            "error": "Veuillez sélectionner votre pays"
           }
         },
         "payment": {
-          "title": "Payment Information",
+          "title": "Informations de Paiement",
           "method": {
-            "label": "Payment Method",
-            "creditCard": "Credit Card",
+            "label": "Méthode de Paiement",
+            "creditCard": "Carte de Crédit",
             "paypal": "PayPal",
-            "bankTransfer": "Bank Transfer"
+            "bankTransfer": "Virement Bancaire"
           },
           "cardNumber": {
-            "label": "Card Number",
+            "label": "Numéro de Carte",
             "placeholder": "1234 5678 9012 3456",
-            "error": "Please enter a valid card number"
+            "error": "Veuillez entrer un numéro de carte valide"
           },
           "expiryDate": {
-            "label": "Expiry Date",
-            "placeholder": "MM/YY",
+            "label": "Date d'Expiration",
+            "placeholder": "MM/AA",
             "error": "Please enter a valid expiry date"
           },
           "cvv": {
@@ -2468,13 +2469,13 @@
             "error": "Please enter a valid CVV"
           },
           "cardName": {
-            "label": "Name on Card",
+            "label": "Nom sur la Carte",
             "placeholder": "Full name as on card",
             "error": "Please enter the name on the card"
           }
         },
         "preferences": {
-          "title": "Preferences",
+          "title": "Préférences",
           "anonymous": "Make this donation anonymous",
           "newsletter": "Subscribe to our newsletter",
           "updates": "Receive updates about projects I support",
@@ -2482,10 +2483,10 @@
         },
         "dedication": {
           "title": "Dedication (Optional)",
-          "inHonor": "In honor of",
-          "inMemory": "In memory of",
+          "inHonor": "En l'honneur de",
+          "inMemory": "En mémoire de",
           "honoree": {
-            "label": "Honoree Name",
+            "label": "Nom de la Personne Honorée",
             "placeholder": "Person being honored"
           },
           "notify": {
@@ -2494,94 +2495,94 @@
             "notifyAddress": "Notification address"
           }
         },
-        "submit": "Complete Donation",
-        "submitting": "Processing...",
-        "success": "Thank you for your generous donation!",
+        "submit": "Finaliser le Don",
+        "submitting": "Traitement...",
+        "success": "Merci pour votre généreuse donation !",
         "error": "There was an error processing your donation. Please try again."
       }
     },
     "volunteer": {
-      "title": "Volunteer Application",
+      "title": "Candidature Bénévole",
       "subtitle": "Join our community of changemakers",
       "form": {
         "personalInfo": {
-          "title": "Personal Information",
+          "title": "Informations Personnelles",
           "firstName": {
-            "label": "First Name",
-            "placeholder": "Your first name",
-            "error": "Please enter your first name"
+            "label": "Prénom",
+            "placeholder": "Votre prénom",
+            "error": "Veuillez entrer votre prénom"
           },
           "lastName": {
-            "label": "Last Name",
-            "placeholder": "Your last name",
-            "error": "Please enter your last name"
+            "label": "Nom de Famille",
+            "placeholder": "Votre nom de famille",
+            "error": "Veuillez entrer votre nom de famille"
           },
           "email": {
-            "label": "Email Address",
-            "placeholder": "your.email@example.com",
-            "error": "Please enter a valid email address"
+            "label": "Adresse E-mail",
+            "placeholder": "votre.email@exemple.com",
+            "error": "Veuillez entrer une adresse e-mail valide"
           },
           "phone": {
-            "label": "Phone Number",
-            "placeholder": "Your phone number",
-            "error": "Please enter a valid phone number"
+            "label": "Numéro de Téléphone",
+            "placeholder": "Votre numéro de téléphone",
+            "error": "Veuillez entrer un numéro de téléphone valide"
           },
           "dateOfBirth": {
-            "label": "Date of Birth",
+            "label": "Date de Naissance",
             "placeholder": "MM/DD/YYYY",
-            "error": "Please enter your date of birth"
+            "error": "Veuillez entrer votre date de naissance"
           },
           "address": {
-            "label": "Address",
+            "label": "Adresse",
             "placeholder": "Your full address",
-            "error": "Please enter your address"
+            "error": "Veuillez entrer votre adresse"
           }
         },
         "availability": {
-          "title": "Availability",
+          "title": "Disponibilité",
           "timeCommitment": {
-            "label": "Time Commitment",
+            "label": "Engagement en Temps",
             "option1": "1-5 hours per week",
             "option2": "6-10 hours per week",
             "option3": "11-20 hours per week",
             "option4": "20+ hours per week"
           },
           "duration": {
-            "label": "Duration",
+            "label": "Durée",
             "shortTerm": "Short-term (1-3 months)",
             "mediumTerm": "Medium-term (3-6 months)",
             "longTerm": "Long-term (6+ months)",
-            "ongoing": "Ongoing"
+            "ongoing": "En Cours"
           },
           "schedule": {
-            "label": "Preferred Schedule",
-            "weekdays": "Weekdays",
-            "weekends": "Weekends",
-            "evenings": "Evenings",
+            "label": "Horaire Préféré",
+            "weekdays": "Jours de Semaine",
+            "weekends": "Fins de Semaine",
+            "evenings": "Soirées",
             "flexible": "Flexible"
           }
         },
         "interests": {
-          "title": "Areas of Interest",
-          "education": "Education & Literacy",
-          "healthcare": "Healthcare",
-          "environment": "Environmental Conservation",
+          "title": "Domaines d'Intérêt",
+          "education": "Éducation et Alphabétisation",
+          "healthcare": "Santé",
+          "environment": "Conservation Environnementale",
           "water": "Clean Water Projects",
           "agriculture": "Agriculture",
-          "technology": "Technology",
-          "fundraising": "Fundraising",
+          "technology": "Technologie",
+          "fundraising": "Collecte de Fonds",
           "administration": "Administration",
           "marketing": "Marketing & Communications",
-          "translation": "Translation"
+          "translation": "Traduction"
         },
         "skills": {
           "title": "Skills & Experience",
           "skillsList": {
-            "label": "Relevant Skills",
+            "label": "Compétences Pertinentes",
             "placeholder": "List your relevant skills and experience"
           },
           "languages": {
-            "label": "Languages Spoken",
+            "label": "Langues Parlées",
             "placeholder": "List languages and proficiency level"
           },
           "educationBackground": {
@@ -2590,7 +2591,7 @@
           },
           "volunteerExperience": {
             "label": "Volunteer Experience",
-            "placeholder": "Previous volunteer experience"
+            "placeholder": "Expérience bénévole précédente"
           }
         },
         "motivation": {
@@ -2601,7 +2602,7 @@
             "error": "Please tell us why you want to volunteer"
           },
           "goals": {
-            "label": "What do you hope to achieve?",
+            "label": "Qu'espérez-vous accomplir ?",
             "placeholder": "Your personal goals for volunteering"
           }
         },
@@ -2611,36 +2612,36 @@
             "name": "Reference 1 Name",
             "email": "Reference 1 Email",
             "phone": "Reference 1 Phone",
-            "relationship": "Relationship"
+            "relationship": "Relation"
           },
           "reference2": {
             "name": "Reference 2 Name",
             "email": "Reference 2 Email",
             "phone": "Reference 2 Phone",
-            "relationship": "Relationship"
+            "relationship": "Relation"
           }
         },
         "agreements": {
-          "title": "Agreements",
-          "terms": "I agree to the terms and conditions",
+          "title": "Accords",
+          "terms": "J'accepte les termes et conditions",
           "backgroundCheck": "I consent to a background check if required",
           "commitment": "I understand the time commitment involved",
           "training": "I am willing to complete required training"
         },
-        "submit": "Submit Application",
-        "submitting": "Submitting...",
+        "submit": "Soumettre la Candidature",
+        "submitting": "Soumission...",
         "success": "Thank you for your application! We'll be in touch soon.",
         "error": "There was an error submitting your application. Please try again."
       }
     },
     "newsletter": {
-      "title": "Newsletter Subscription",
-      "subtitle": "Stay updated with our latest news and impact stories",
+      "title": "Abonnement à la Newsletter",
+      "subtitle": "Restez informé de nos dernières nouvelles et histoires d'impact",
       "form": {
         "email": {
-          "label": "Email Address",
-          "placeholder": "your.email@example.com",
-          "error": "Please enter a valid email address"
+          "label": "Adresse E-mail",
+          "placeholder": "votre.email@exemple.com",
+          "error": "Veuillez entrer une adresse e-mail valide"
         },
         "preferences": {
           "title": "Subscription Preferences",
@@ -2651,7 +2652,7 @@
             "quarterly": "Quarterly reports"
           },
           "topics": {
-            "label": "Topics of Interest",
+            "label": "Sujets d'Intérêt",
             "projects": "Project updates",
             "stories": "Impact stories",
             "events": "Events & campaigns",
@@ -2659,8 +2660,8 @@
             "news": "Organization news"
           }
         },
-        "submit": "Subscribe",
-        "submitting": "Subscribing...",
+        "submit": "S'abonner",
+        "submitting": "Abonnement...",
         "success": "Thank you for subscribing to our newsletter!",
         "error": "There was an error subscribing. Please try again.",
         "alreadySubscribed": "You're already subscribed with this email address."
@@ -2668,35 +2669,35 @@
       "success": "Thank you for subscribing!",
       "error": "Something went wrong. Please try again.",
       "alreadySubscribed": "You're already subscribed!",
-      "invalidEmail": "Please enter a valid email address"
+      "invalidEmail": "Veuillez entrer une adresse e-mail valide"
     },
     "partnership": {
-      "title": "Partnership Inquiry",
+      "title": "Demande de Partenariat",
       "subtitle": "Let's work together to create greater impact",
       "form": {
         "organizationInfo": {
-          "title": "Organization Information",
+          "title": "Informations sur l'Organisation",
           "name": {
-            "label": "Organization Name",
+            "label": "Nom de l'Organisation",
             "placeholder": "Your organization name",
-            "error": "Please enter your organization name"
+            "error": "Veuillez entrer le nom de votre organisation"
           },
           "type": {
-            "label": "Organization Type",
+            "label": "Type d'Organisation",
             "corporation": "Corporation",
             "nonprofit": "Non-profit",
-            "government": "Government",
+            "government": "Gouvernement",
             "academic": "Academic Institution",
-            "foundation": "Foundation",
-            "other": "Other"
+            "foundation": "Fondation",
+            "other": "Autre"
           },
           "website": {
-            "label": "Website",
-            "placeholder": "https://your-website.com",
-            "error": "Please enter a valid website URL"
+            "label": "Site Web",
+            "placeholder": "https://votre-site-web.com",
+            "error": "Veuillez entrer une URL de site web valide"
           },
           "size": {
-            "label": "Organization Size",
+            "label": "Taille de l'Organisation",
             "small": "Small (1-50 employees)",
             "medium": "Medium (51-200 employees)",
             "large": "Large (201-1000 employees)",
@@ -2704,57 +2705,57 @@
           }
         },
         "contactInfo": {
-          "title": "Contact Information",
+          "title": "Informations de Contact",
           "contactName": {
-            "label": "Contact Person",
+            "label": "Personne de Contact",
             "placeholder": "Your full name",
-            "error": "Please enter the contact person's name"
+            "error": "Veuillez entrer le nom de la personne de contact"
           },
           "jobTitle": {
-            "label": "Job Title",
+            "label": "Titre du Poste",
             "placeholder": "Your job title",
-            "error": "Please enter your job title"
+            "error": "Veuillez entrer votre titre de poste"
           },
           "email": {
-            "label": "Email Address",
-            "placeholder": "your.email@organization.com",
-            "error": "Please enter a valid email address"
+            "label": "Adresse E-mail",
+            "placeholder": "votre.email@organisation.com",
+            "error": "Veuillez entrer une adresse e-mail valide"
           },
           "phone": {
-            "label": "Phone Number",
-            "placeholder": "Your phone number",
-            "error": "Please enter a valid phone number"
+            "label": "Numéro de Téléphone",
+            "placeholder": "Votre numéro de téléphone",
+            "error": "Veuillez entrer un numéro de téléphone valide"
           }
         },
         "partnership": {
-          "title": "Partnership Details",
+          "title": "Détails du Partenariat",
           "partnershipType": {
-            "label": "Partnership Type",
-            "financial": "Financial Support",
-            "inkind": "In-kind Donation",
-            "volunteer": "Employee Volunteering",
-            "strategic": "Strategic Partnership",
-            "event": "Event Partnership",
-            "other": "Other"
+            "label": "Type de Partenariat",
+            "financial": "Soutien Financier",
+            "inkind": "Don en Nature",
+            "volunteer": "Bénévolat d'Employés",
+            "strategic": "Partenariat Stratégique",
+            "event": "Partenariat d'Événement",
+            "other": "Autre"
           },
           "goals": {
-            "label": "Partnership Goals",
+            "label": "Objectifs du Partenariat",
             "placeholder": "What do you hope to achieve through this partnership?",
             "error": "Please describe your partnership goals"
           },
           "budget": {
             "label": "Estimated Budget/Value",
-            "under10k": "Under $10,000",
-            "range10k50k": "$10,000 - $50,000",
-            "range50k100k": "$50,000 - $100,000",
-            "over100k": "Over $100,000",
+            "under10k": "Moins de 10 000$",
+            "range10k50k": "10 000$ - 50 000$",
+            "range50k100k": "50 000$ - 100 000$",
+            "over100k": "Plus de 100 000$",
             "tbd": "To be determined"
           },
           "timeline": {
             "label": "Preferred Timeline",
-            "immediate": "Immediate",
-            "oneToThreeMonths": "1-3 months",
-            "threeToSixMonths": "3-6 months",
+            "immediate": "Immédiat",
+            "oneToThreeMonths": "1-3 mois",
+            "threeToSixMonths": "3-6 mois",
             "sixPlusMonths": "6+ months"
           },
           "description": {
@@ -2763,47 +2764,47 @@
             "error": "Please provide additional details"
           }
         },
-        "submit": "Submit Inquiry",
-        "submitting": "Submitting...",
+        "submit": "Soumettre la Demande",
+        "submitting": "Soumission...",
         "success": "Thank you for your partnership inquiry! We'll be in touch soon.",
         "error": "There was an error submitting your inquiry. Please try again."
       }
     },
     "validation": {
-      "required": "This field is required",
-      "email": "Please enter a valid email address",
-      "phone": "Please enter a valid phone number",
+      "required": "Ce champ est obligatoire",
+      "email": "Veuillez entrer une adresse e-mail valide",
+      "phone": "Veuillez entrer un numéro de téléphone valide",
       "url": "Please enter a valid URL",
       "minLength": "Must be at least {{min}} characters",
       "maxLength": "Must be no more than {{max}} characters",
       "pattern": "Invalid format",
-      "numeric": "Please enter a number",
+      "numeric": "Veuillez entrer un nombre",
       "positive": "Must be a positive number",
       "integer": "Must be a whole number"
     },
     "actions": {
-      "required": "Required field",
-      "optional": "Optional",
+      "required": "Champ obligatoire",
+      "optional": "Optionnel",
       "select": "Please select...",
       "selectAll": "Select all",
-      "clear": "Clear",
-      "next": "Next",
-      "previous": "Previous",
-      "finish": "Finish",
-      "save": "Save",
-      "cancel": "Cancel",
-      "edit": "Edit",
-      "delete": "Delete",
-      "confirm": "Confirm",
-      "yes": "Yes",
-      "no": "No",
-      "loading": "Loading...",
+      "clear": "Effacer",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "finish": "Terminer",
+      "save": "Enregistrer",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "confirm": "Confirmer",
+      "yes": "Oui",
+      "no": "Non",
+      "loading": "Chargement...",
       "saving": "Saving...",
-      "submitting": "Submitting...",
-      "processing": "Processing...",
+      "submitting": "Soumission...",
+      "processing": "Traitement...",
       "success": "Success!",
       "error": "Error occurred",
-      "tryAgain": "Try again"
+      "tryAgain": "Réessayer"
     },
     "name": "French",
     "nativeName": "Français",
@@ -2876,73 +2877,73 @@
       "canonical": "https://baobabhope.org"
     },
     "analytics": {
-      "pageView": "Page viewed",
-      "event": "Event tracked",
-      "goal": "Goal achieved",
-      "conversion": "Conversion tracked"
+      "pageView": "Page vue",
+      "event": "Événement suivi",
+      "goal": "Objectif atteint",
+      "conversion": "Conversion suivie"
     },
     "cookies": {
-      "title": "Cookie Policy",
+      "title": "Politique des Cookies",
       "message": "We use cookies to enhance your experience on our website. By continuing to browse, you agree to our use of cookies.",
-      "accept": "Accept All",
+      "accept": "Accepter Tout",
       "decline": "Decline",
-      "customize": "Customize",
-      "necessary": "Necessary Cookies",
-      "analytics": "Analytics Cookies",
-      "marketing": "Marketing Cookies",
-      "preferences": "Preference Cookies",
-      "learnMore": "Learn More"
+      "customize": "Personnaliser",
+      "necessary": "Cookies Nécessaires",
+      "analytics": "Cookies Analytiques",
+      "marketing": "Cookies de Marketing",
+      "preferences": "Cookies de Préférence",
+      "learnMore": "En Savoir Plus"
     },
     "privacy": {
-      "title": "Privacy Policy",
-      "lastUpdated": "Last updated",
-      "dataCollection": "Data Collection",
-      "dataUse": "How We Use Data",
-      "dataSharing": "Data Sharing",
-      "security": "Data Security",
-      "rights": "Your Rights",
-      "contact": "Contact Us About Privacy"
+      "title": "Politique de Confidentialité",
+      "lastUpdated": "Dernière mise à jour",
+      "dataCollection": "Collecte de Données",
+      "dataUse": "Comment Nous Utilisons les Données",
+      "dataSharing": "Partage des Données",
+      "security": "Sécurité des Données",
+      "rights": "Vos Droits",
+      "contact": "Contactez-Nous Concernant la Confidentialité"
     },
     "terms": {
-      "title": "Terms of Service",
-      "lastUpdated": "Last updated",
-      "acceptance": "Acceptance of Terms",
-      "services": "Description of Services",
-      "userResponsibilities": "User Responsibilities",
-      "limitations": "Limitations of Liability",
-      "termination": "Termination",
-      "changes": "Changes to Terms"
+      "title": "Conditions d'Utilisation",
+      "lastUpdated": "Dernière mise à jour",
+      "acceptance": "Acceptation des Conditions",
+      "services": "Description des Services",
+      "userResponsibilities": "Responsabilités de l'Utilisateur",
+      "limitations": "Limitations de Responsabilité",
+      "termination": "Résiliation",
+      "changes": "Modifications des Conditions"
     },
     "social": {
-      "share": "Share",
-      "facebook": "Share on Facebook",
-      "twitter": "Share on Twitter",
-      "linkedin": "Share on LinkedIn",
-      "instagram": "Follow on Instagram",
-      "youtube": "Watch on YouTube",
-      "email": "Share via Email",
-      "copy": "Copy Link",
-      "copied": "Link Copied!",
+      "share": "Partager",
+      "facebook": "Partager sur Facebook",
+      "twitter": "Partager sur Twitter",
+      "linkedin": "Partager sur LinkedIn",
+      "instagram": "Suivre sur Instagram",
+      "youtube": "Regarder sur YouTube",
+      "email": "Partager par E-mail",
+      "copy": "Copier le Lien",
+      "copied": "Lien Copié !",
       "follow": "Follow Us"
     },
     "media": {
       "images": {
-        "loading": "Loading image...",
-        "error": "Failed to load image",
-        "alt": "Image description",
+        "loading": "Chargement de l'image...",
+        "error": "Échec du chargement de l'image",
+        "alt": "Description de l'image",
         "gallery": "Photo Gallery",
-        "thumbnail": "Thumbnail",
-        "fullSize": "View Full Size",
-        "download": "Download Image"
+        "thumbnail": "Miniature",
+        "fullSize": "Voir en Taille Réelle",
+        "download": "Télécharger l'Image"
       },
       "video": {
-        "loading": "Loading video...",
-        "error": "Failed to load video",
-        "play": "Play Video",
-        "pause": "Pause Video",
-        "mute": "Mute",
-        "unmute": "Unmute",
-        "fullscreen": "Fullscreen",
+        "loading": "Chargement de la vidéo...",
+        "error": "Échec du chargement de la vidéo",
+        "play": "Lire la Vidéo",
+        "pause": "Pause Vidéo",
+        "mute": "Muet",
+        "unmute": "Activer le Son",
+        "fullscreen": "Plein Écran",
         "captions": "Captions"
       },
       "audio": {
@@ -2950,8 +2951,8 @@
         "error": "Failed to load audio",
         "play": "Play Audio",
         "pause": "Pause Audio",
-        "mute": "Mute",
-        "unmute": "Unmute"
+        "mute": "Muet",
+        "unmute": "Activer le Son"
       }
     },
     "maps": {
@@ -2966,14 +2967,14 @@
       },
       "markers": {
         "office": "Our Office",
-        "project": "Project Location",
+        "project": "Emplacement du Projet",
         "event": "Event Location"
       }
     },
     "calendar": {
-      "today": "Today",
-      "tomorrow": "Tomorrow",
-      "yesterday": "Yesterday",
+      "today": "Aujourd'hui",
+      "tomorrow": "Demain",
+      "yesterday": "Hier",
       "thisWeek": "This Week",
       "nextWeek": "Next Week",
       "thisMonth": "This Month",
@@ -2991,38 +2992,38 @@
         "january": "January",
         "february": "February",
         "march": "March",
-        "april": "April",
+        "april": "Avril",
         "may": "May",
         "june": "June",
         "july": "July",
-        "august": "August",
-        "september": "September",
+        "august": "Août",
+        "september": "Septembre",
         "october": "October",
-        "november": "November",
+        "november": "Novembre",
         "december": "December"
       }
     },
     "notifications": {
       "success": "Success!",
       "error": "Error occurred",
-      "warning": "Warning",
+      "warning": "Avertissement",
       "info": "Information",
       "dismiss": "Dismiss",
-      "close": "Close",
+      "close": "Fermer",
       "undo": "Undo",
-      "retry": "Retry"
+      "retry": "Réessayer"
     },
     "loading": {
-      "default": "Loading...",
+      "default": "Chargement...",
       "slow": "This is taking longer than expected...",
       "error": "Loading failed",
-      "retry": "Retry",
+      "retry": "Réessayer",
       "offline": "You appear to be offline"
     },
     "offline": {
       "title": "You're offline",
       "message": "Please check your internet connection and try again.",
-      "retry": "Retry",
+      "retry": "Réessayer",
       "cache": "Some content may be available from cache"
     },
     "maintenance": {
@@ -3033,9 +3034,9 @@
     "languages": {
       "en": "English",
       "fr": "Français",
-      "es": "Español",
-      "de": "Deutsch",
-      "it": "Italiano",
+      "es": "Espagnol",
+      "de": "Allemand",
+      "it": "Italien",
       "pt": "Português",
       "nl": "Nederlands",
       "sv": "Svenska",
@@ -3043,16 +3044,16 @@
       "no": "Norsk",
       "pl": "Polski",
       "ru": "Русский",
-      "zh": "中文",
-      "ja": "日本語",
-      "ko": "한국어",
+      "zh": "Chinois",
+      "ja": "Japonais",
+      "ko": "Coréen",
       "hi": "हिंदी",
       "bn": "বাংলা",
       "tr": "Türkçe",
       "ar": "العربية",
-      "ur": "اردو",
-      "he": "עברית",
-      "fa": "فارسی"
+      "ur": "Ourdou",
+      "he": "Hébreu",
+      "fa": "Persan"
     },
     "currency": {
       "symbol": "$",
@@ -3076,86 +3077,86 @@
       }
     },
     "time": {
-      "ago": "ago",
+      "ago": "il y a",
       "in": "in",
-      "now": "now",
-      "today": "today",
-      "tomorrow": "tomorrow",
-      "yesterday": "yesterday",
-      "second": "second",
-      "seconds": "seconds",
+      "now": "maintenant",
+      "today": "aujourd'hui",
+      "tomorrow": "demain",
+      "yesterday": "hier",
+      "second": "seconde",
+      "seconds": "secondes",
       "minute": "minute",
       "minutes": "minutes",
-      "hour": "hour",
-      "hours": "hours",
-      "day": "day",
-      "days": "days",
-      "week": "week",
-      "weeks": "weeks",
-      "month": "month",
-      "months": "months",
-      "year": "year",
-      "years": "years"
+      "hour": "heure",
+      "hours": "heures",
+      "day": "jour",
+      "days": "jours",
+      "week": "semaine",
+      "weeks": "semaines",
+      "month": "mois",
+      "months": "mois",
+      "year": "année",
+      "years": "années"
     },
     "pagination": {
-      "first": "First",
-      "last": "Last",
-      "next": "Next",
-      "previous": "Previous",
+      "first": "Premier",
+      "last": "Dernier",
+      "next": "Suivant",
+      "previous": "Précédent",
       "page": "Page",
-      "of": "of",
-      "showing": "Showing",
-      "to": "to",
-      "results": "results",
+      "of": "de",
+      "showing": "Affichage",
+      "to": "à",
+      "results": "résultats",
       "noResults": "No results found",
-      "perPage": "per page"
+      "perPage": "par page"
     },
     "filters": {
-      "filter": "Filter",
-      "filters": "Filters",
+      "filter": "Filtre",
+      "filters": "Filtres",
       "clear": "Clear Filters",
-      "apply": "Apply Filters",
-      "search": "Search",
-      "sort": "Sort",
+      "apply": "Appliquer les Filtres",
+      "search": "Rechercher",
+      "sort": "Trier",
       "sortBy": "Sort by",
-      "ascending": "Ascending",
-      "descending": "Descending",
+      "ascending": "Croissant",
+      "descending": "Décroissant",
       "all": "All",
       "none": "None",
-      "selected": "selected"
+      "selected": "sélectionné"
     },
     "fileUpload": {
-      "select": "Select File",
-      "drop": "Drop files here",
+      "select": "Sélectionner un Fichier",
+      "drop": "Déposez les fichiers ici",
       "uploading": "Uploading...",
-      "success": "Upload successful",
-      "error": "Upload failed",
-      "retry": "Retry Upload",
-      "remove": "Remove File",
-      "maxSize": "Maximum file size",
-      "allowedTypes": "Allowed file types",
-      "tooLarge": "File too large",
-      "invalidType": "Invalid file type"
+      "success": "Téléversement réussi",
+      "error": "Échec du téléversement",
+      "retry": "Réessayer le Téléversement",
+      "remove": "Supprimer le Fichier",
+      "maxSize": "Taille maximale de fichier",
+      "allowedTypes": "Types de fichiers autorisés",
+      "tooLarge": "Fichier trop volumineux",
+      "invalidType": "Type de fichier invalide"
     },
     "modal": {
-      "close": "Close",
-      "cancel": "Cancel",
-      "confirm": "Confirm",
-      "save": "Save",
-      "delete": "Delete",
-      "yes": "Yes",
-      "no": "No",
+      "close": "Fermer",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "save": "Enregistrer",
+      "delete": "Supprimer",
+      "yes": "Oui",
+      "no": "Non",
       "ok": "OK"
     },
     "tooltip": {
       "more": "More information",
-      "help": "Help",
-      "close": "Close",
+      "help": "Aide",
+      "close": "Fermer",
       "copy": "Copy to clipboard",
-      "edit": "Edit",
-      "delete": "Delete",
-      "share": "Share",
-      "print": "Print"
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "share": "Partager",
+      "print": "Imprimer"
     },
     "nav": {
       "home": "Accueil",
@@ -3175,11 +3176,11 @@
         "title": "Information",
         "agenda": "Agenda",
         "advertising": "Advertising",
-        "resources": "Resources",
+        "resources": "Ressources",
         "press": "Press",
         "podcast": "Podcast",
         "analysis": "Analysis",
-        "faq": "FAQ"
+        "faq": "Questions Fréquentes"
       },
       "informationTitle": "Information",
       "act": {
@@ -3211,7 +3212,7 @@
       },
       "email": "info@baobabhope.ch",
       "phone": "+1 (555) 123-4567",
-      "address": "123 Hope Street, City, State 12345",
+      "address": "123 Rue de l'Espoir, Ville, État 12345",
       "rights": "Tous droits réservés."
     },
     "home": {
@@ -3287,7 +3288,7 @@
     },
     "environment": {
       "title": "Protecting Our Planet",
-      "subtitle": "Environmental Conservation",
+      "subtitle": "Conservation Environnementale",
       "description": "Implementing sustainable practices and conservation efforts to preserve ecosystems for future generations while empowering local communities.",
       "cta": "Learn About Our Impact"
     },
@@ -3300,12 +3301,12 @@
     "about": {
       "title": "About BAOBAB HOPE",
       "hero": {
-        "badge": "Our Story",
+        "badge": "Notre Histoire",
         "subtitle": "Like the mighty baobab tree, we believe in deep roots, strong growth, and lasting impact."
       },
       "mission": {
         "badge": "Our Purpose",
-        "title": "Our Mission",
+        "title": "Notre Mission",
         "text": "To nurture sustainable growth in communities through education, empowerment, and environmental stewardship, creating lasting positive change that spans generations.",
         "description": "Since our founding in 2020, we have been committed to creating sustainable solutions that address the root causes of poverty, inequality, and environmental degradation."
       },
@@ -3315,7 +3316,7 @@
         "subtitle": "Our core values guide every decision we make and every action we take in service of our mission.",
         "growth": "Sustainable Growth",
         "community": "Community First",
-        "transparency": "Transparency",
+        "transparency": "Transparence",
         "empowerment": "Empowerment",
         "growthDescription": "We believe in nurturing long-term, sustainable solutions that grow stronger over time, just like the baobab tree.",
         "communityDescription": "Communities are at the heart of everything we do. We listen, learn, and work together to create meaningful change.",
@@ -3327,7 +3328,7 @@
         "title": "Growing Together Since 2020",
         "subtitle": "From humble beginnings to global impact, see how BAOBAB HOPE has grown and evolved.",
         "milestone1": {
-          "event": "Foundation",
+          "event": "Fondation",
           "description": "Started with a vision to create sustainable change"
         },
         "milestone2": {
@@ -3351,9 +3352,9 @@
         "title": "Our Growing Impact",
         "subtitle": "Numbers that tell the story of lives transformed and communities empowered.",
         "livesTransformed": "Lives Transformed",
-        "activeProjects": "Active Projects",
+        "activeProjects": "Projets Actifs",
         "countriesReached": "Countries Reached",
-        "volunteers": "Volunteers"
+        "volunteers": "Bénévoles"
       },
       "team": {
         "badge": "Meet Our Team",
@@ -3376,7 +3377,7 @@
         }
       },
       "history": {
-        "title": "Our History",
+        "title": "Notre Histoire",
         "subtitle": "The journey of BAOBAB HOPE from a small idea to a global movement",
         "founding": {
           "title": "The Beginning of Hope",
@@ -3397,73 +3398,74 @@
       }
     },
     "blog": {
-      "title": "Latest News",
+      "title": "Dernières Nouvelles",
       "subtitle": "Stay updated with our latest impact stories and community news",
-      "author": "Author",
+      "author": "Auteur",
       "back": "Back to Blog",
       "featured": "Featured",
       "read": {
         "full": "Read Full Article",
-        "more": "Read More",
+        "more": "Lire la Suite",
         "time": "min read"
       },
-      "related": "Related Articles",
+      "related": "Articles Connexes",
       "share": {
         "title": "Share this article",
-        "copy": "Copy Link",
-        "facebook": "Share on Facebook",
-        "twitter": "Share on Twitter"
+        "copy": "Copier le Lien",
+        "facebook": "Partager sur Facebook",
+        "twitter": "Partager sur Twitter"
       },
       "support": {
-        "title": "Support Our Work",
+        "title": "Soutenir Notre Travail",
         "subtitle": "Help us continue making a difference",
-        "donate": "Donate Now"
+        "donate": "Faire un Don"
       },
-      "tags": "Tags",
+      "tags": "Étiquettes",
       "newsletter": {
         "title": "Stay Updated",
         "subtitle": "Get the latest stories and updates",
         "email": "Enter your email",
         "get": "Get Updates",
-        "placeholder": "your.email@example.com",
-        "subscribe": "Subscribe",
+        "placeholder": "votre.email@exemple.com",
+        "subscribe": "S'abonner",
         "stay": "Stay Informed"
-      }
+      },
+      "readMore": "Lire la suite"
     },
     "information": {
       "title": "Information Hub",
       "subtitle": "Access resources, news, and insights about our work and impact",
       "featured": "Featured Content",
       "readFull": "Read Full Article",
-      "readMore": "Read More",
+      "readMore": "Lire la Suite",
       "newsletter": {
         "title": "Stay Informed",
         "subtitle": "Get the latest updates and insights",
         "placeholder": "Enter your email",
-        "subscribe": "Subscribe"
+        "subscribe": "S'abonner"
       }
     },
     "donate": {
-      "title": "Make a Donation",
+      "title": "Faire un Don",
       "subtitle": "Your support helps us create lasting change in communities worldwide",
       "hero": {
         "subtitle": "Every donation, no matter the size, makes a real difference"
       },
-      "amount": "Choose Amount",
-      "custom": "Custom Amount",
+      "amount": "Choisissez un Montant",
+      "custom": "Montant Personnalisé",
       "customPlaceholder": "Enter amount",
       "monthly": "Make this a monthly donation",
       "form": {
-        "firstName": "First Name",
-        "lastName": "Last Name",
-        "paymentMethod": "Payment Method",
-        "creditCard": "Credit Card"
+        "firstName": "Prénom",
+        "lastName": "Nom de Famille",
+        "paymentMethod": "Méthode de Paiement",
+        "creditCard": "Carte de Crédit"
       },
-      "submit": "Complete Donation",
+      "submit": "Finaliser le Don",
       "secure": "Secure donation powered by Stripe",
       "impact": {
-        "25": "$25",
-        "50": "$50",
+        "25": "25$",
+        "50": "50$",
         "100": "$100",
         "250": "$250",
         "title": "Your Impact",
@@ -3497,7 +3499,7 @@
       }
     },
     "search": {
-      "title": "Search Results",
+      "title": "Résultats de Recherche",
       "subtitle": "Find what you're looking for",
       "placeholder": "Search our website...",
       "noResults": "No results found",
@@ -3521,15 +3523,15 @@
         "subtitle": "Something went wrong on our end",
         "description": "We're experiencing technical difficulties. Please try again later."
       },
-      "title": "Something went wrong",
+      "title": "Quelque chose s'est mal passé",
       "subtitle": "We're sorry for the inconvenience",
       "goHome": "Go Home",
       "tryAgain": "Try Again",
       "reportIssue": "Report Issue"
     },
     "hardcodedStrings": {
-      "donateNow": "Donate Now",
-      "becomeMember": "Become a Volunteer",
+      "donateNow": "Faire un Don",
+      "becomeMember": "Devenez Bénévole",
       "learnAboutMissions": "Learn About Our Missions",
       "viewHealthProjects": "View Health Projects"
     },
@@ -5340,7 +5342,8 @@
         "placeholder": "ihre.email@beispiel.de",
         "subscribe": "Abonnieren",
         "stay": "Bleiben Sie informiert"
-      }
+      },
+      "readMore": "Mehr lesen"
     },
     "information": {
       "title": "Informationszentrum",
@@ -7252,7 +7255,8 @@
         "placeholder": "tu.email@ejemplo.com",
         "subscribe": "Suscribirse",
         "stay": "Mantente Informado"
-      }
+      },
+      "readMore": "Leer más"
     },
     "information": {
       "title": "Centro de Información",
@@ -9164,7 +9168,8 @@
         "placeholder": "tua.email@esempio.it",
         "subscribe": "Iscriviti",
         "stay": "Rimani Informato"
-      }
+      },
+      "readMore": "Leggi di più"
     },
     "information": {
       "title": "Hub Informazioni",
@@ -11076,7 +11081,8 @@
         "placeholder": "بريدك@مثال.com",
         "subscribe": "اشترك",
         "stay": "ابق على اطلاع"
-      }
+      },
+      "readMore": "اقرأ المزيد"
     },
     "information": {
       "title": "مركز المعلومات",
